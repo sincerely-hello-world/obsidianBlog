@@ -9,13 +9,13 @@
             "label": "Auto Git Commit and Push",
             "type": "shell",
             "linux": {
-                "command": "git add . && git commit -m \"Auto saved by vscode: $(date +%F) Auto-commit\" && git push origin main"
+                "command": "git add . && git commit -m \"Auto saved by vscode: $(date \"+%F %H:%M:%S\") Auto-commit\" && git push origin main"
             },
             "osx": {
-                "command": "git add . && git commit -m \"Auto saved by vscode: $(date +%F) Auto-commit\" && git push origin main"
+                "command": "git add . && git commit -m \"Auto saved by vscode: $(date \"+%F %H:%M:%S\") Auto-commit\" && git push origin main"
             },
             "windows": {
-                "command": "git add . && git commit -m \"Auto saved by vscode: $(Get-Date -Format 'yyyy-MM-dd') Auto-commit\" && git push origin main"
+                "command": "git add . && git commit -m 'Auto saved by vscode: $(Get-Date -Format \"yyyy-MM-dd HH:mm:ss\") Auto-commit' && git push origin main"
             },
             "problemMatcher": [],
             "group": {
