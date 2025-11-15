@@ -150,13 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "pages/contents.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of contents"
+              "title": "Outline"
             }
           }
         ]
@@ -174,26 +173,28 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ff956bd88238d377",
+  "active": "33821e412aba6d28",
   "lastOpenFiles": [
-    "Logseq/custom.css",
     "pages/contents.md",
+    "Logseq/journals/2025_11_15.md",
+    "Logseq/logseq/custom.css",
+    "Logseq/pages/contents.md",
+    "Logseq/pages",
+    "Logseq/logseq/config.edn",
+    "Logseq/journals",
+    "Logseq/logseq",
+    "Logseq/custom.css",
     "pages",
     "Logseq/config.edn",
     "journals",
     "Logseq",
     "journals/2025_11_15.md",
     "mds/开始.md",
-    "logseq/srs-of-matrix.edn",
-    "whiteboards/69187a40-da80-4467-bdb6-b8115311f43f.edn",
-    "mds",
-    "whiteboards/691879c9-9084-4516-b7d0-529831c85422.edn",
-    "whiteboards",
     "README.md",
-    "logseq/custom.css",
     "README.md.md"
   ]
 }
