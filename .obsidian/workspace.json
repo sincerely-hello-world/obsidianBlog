@@ -179,6 +179,11 @@
   },
   "active": "ff956bd88238d377",
   "lastOpenFiles": [
+    "Logseq/custom.css",
+    "pages/contents.md",
+    "pages",
+    "Logseq/config.edn",
+    "journals",
     "Logseq",
     "journals/2025_11_15.md",
     "mds/开始.md",
@@ -189,11 +194,6 @@
     "whiteboards",
     "README.md",
     "logseq/custom.css",
-    "pages/contents.md",
-    "pages",
-    "logseq/config.edn",
-    "journals",
-    "logseq",
     "README.md.md"
   ]
 }
