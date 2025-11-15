@@ -420,4 +420,4 @@
  ;;      ;use Percent-encoding for other invalid characters
  :file/name-format :triple-lowbar
  :graph/settings {:journal? true}
- :editor/preferred-pasting-file? false}
+ :editor/preferred-pasting-file? true}
