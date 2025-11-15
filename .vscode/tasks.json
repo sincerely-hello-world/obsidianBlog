@@ -15,7 +15,7 @@
                 "command": "git add . && git commit -m \"Auto saved by vscode: $(date \"+%F %H:%M:%S\") Auto-commit\" && git push origin main"
             },
             "windows": {
-                "command": "git add . && git commit -m 'Auto saved by vscode: $(Get-Date -Format \"yyyy-MM-dd HH:mm:ss\") Auto-commit' && git push origin main"
+                "command": "git add . && git commit -m \"Auto saved by vscode: $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') Auto-commit\" && git push origin main"
             },
             "problemMatcher": [],
             "group": {
