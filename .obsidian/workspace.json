@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b4aafa3ae4194a81",
+        "id": "afe54a583d722f02",
         "type": "tabs",
         "children": [
           {
-            "id": "33821e412aba6d28",
+            "id": "99ab6c08dbcb9bd0",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -157,13 +157,23 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
+          },
+          {
+            "id": "746f34fa4a284441",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -177,8 +187,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ff956bd88238d377",
+  "active": "99ab6c08dbcb9bd0",
   "lastOpenFiles": [
+    "mds/开始.md",
     "Logseq/logseq/bak/logseq/config/2025-11-15T14_07_12.416Z.Desktop.edn",
     "Logseq/logseq/bak/logseq/config/2025-11-15T14_07_09.892Z.Desktop.edn",
     "Logseq/logseq/bak/logseq/config/2025-11-15T14_07_07.956Z.Desktop.edn",
@@ -192,9 +203,7 @@
     "Logseq/pages",
     "Logseq/logseq/config.edn",
     "Logseq/journals",
-    "Logseq/logseq",
     "journals/2025_11_15.md",
-    "mds/开始.md",
     "README.md",
     "README.md.md"
   ]
