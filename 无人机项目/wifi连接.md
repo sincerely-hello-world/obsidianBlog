@@ -3,6 +3,14 @@
 SSID:	408_luyouqi
 passwd: 408408408 
 ```
+### 香橙派 ssh
+```shell
+Host 备注
+  User root
+  HostName ipaddr
+  # 
+```
+
 
 WIFI设置[linux nmcli](https://www.xyan666.com/posts/1165531937/)
 
