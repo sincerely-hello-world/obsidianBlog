@@ -1,3 +1,5 @@
+## 
+
 WIFI设置[linux nmcli](https://www.xyan666.com/posts/1165531937/)
 
 #### 查看当前可用 wifi
@@ -6,9 +8,11 @@ $ nmcli dev wifi list
 ```
 #### 连接 wifi
 
-|   |
-|---|
-|$ sudo nmcli dev wifi connect xxx password xxx|
+|                                                     |
+| --------------------------------------------------- |
+| $ sudo nmcli dev wifi connect wifiname password xxx |
+|                                                     |
+|                                                     |
 
 #### 管理网络
 
