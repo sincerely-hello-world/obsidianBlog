@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mds/无人机ROS项目.md",
+                "file": "无人机ROS项目.md",
                 "mode": "source",
                 "source": false
               },
@@ -191,11 +191,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "99ab6c08dbcb9bd0",
+  "active": "ff956bd88238d377",
   "lastOpenFiles": [
-    "mds/openclash 软路由.md",
-    "mds/无人机ROS项目.md",
+    "my",
+    "Untitled",
+    "my/openclash 软路由.md",
     "README.md",
+    "无人机ROS项目.md",
     "Logseq/logseq/bak/logseq/config/2025-11-15T14_07_12.416Z.Desktop.edn",
     "Logseq/logseq/bak/logseq/config/2025-11-15T14_07_09.892Z.Desktop.edn",
     "Logseq/logseq/bak/logseq/config/2025-11-15T14_07_07.956Z.Desktop.edn",
@@ -208,7 +210,6 @@
     "Logseq/pages/contents.md",
     "Logseq/pages",
     "Logseq/logseq/config.edn",
-    "Logseq/journals",
     "journals/2025_11_15.md",
     "README.md.md"
   ]
