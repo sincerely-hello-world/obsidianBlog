@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mds/openclash 软路由.md",
+                "file": "mds/开始.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "openclash 软路由"
+              "title": "开始"
             }
           }
         ]
@@ -193,8 +193,8 @@
   },
   "active": "99ab6c08dbcb9bd0",
   "lastOpenFiles": [
-    "mds/开始.md",
     "mds/openclash 软路由.md",
+    "mds/开始.md",
     "README.md",
     "Logseq/logseq/bak/logseq/config/2025-11-15T14_07_12.416Z.Desktop.edn",
     "Logseq/logseq/bak/logseq/config/2025-11-15T14_07_09.892Z.Desktop.edn",
