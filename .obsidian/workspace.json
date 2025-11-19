@@ -48,9 +48,21 @@
               "icon": "lucide-file",
               "title": "锂电池充电管理"
             }
+          },
+          {
+            "id": "82ae6fbcc47805be",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Pasted image 20251119230629.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20251119230629"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -220,11 +232,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "018d4e14e63e8f5e",
+  "active": "82ae6fbcc47805be",
   "lastOpenFiles": [
+    "无人机项目/锂电池充电管理.md",
     "Pasted image 20251119230629.png",
     "Untitled.md",
-    "无人机项目/锂电池充电管理.md",
     "无人机项目/无人机ROS项目.md",
     "无人机项目/wifi连接.md",
     "my",
