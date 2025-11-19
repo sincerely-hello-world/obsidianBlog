@@ -11,7 +11,7 @@
 
 ## 地面站 香橙派
 
-/home/orangepi/yhc/src
+/home/orangepi/yhc/
 
 
 ## 飞控代码
