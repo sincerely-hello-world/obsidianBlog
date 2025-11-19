@@ -1,4 +1,8 @@
-## 
+### 408教室 wifi
+```shell
+SSID:	408_luyouqi
+passwd: 408408408 
+```
 
 WIFI设置[linux nmcli](https://www.xyan666.com/posts/1165531937/)
 
