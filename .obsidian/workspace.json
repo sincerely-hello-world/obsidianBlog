@@ -29,7 +29,17 @@
               "state": {
                 "file": "无人机项目/linux基本操作/文件清理.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
               "title": "文件清理"
@@ -169,13 +179,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/鱼香ROS.md",
+                "file": "无人机项目/linux基本操作/文件清理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 鱼香ROS"
+              "title": "Outline of 文件清理"
             }
           },
           {
@@ -189,7 +199,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -207,7 +217,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "746f34fa4a284441",
+  "active": "5b4f0c8649ed1d33",
   "lastOpenFiles": [
     "无人机项目/ROS基本操作/ros2的环境变量.md",
     "无人机项目/linux基本操作/文件清理.md",
