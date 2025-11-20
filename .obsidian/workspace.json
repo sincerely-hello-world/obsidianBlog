@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/linux基本操作/文件清理.md",
+                "file": "无人机项目/ROS基本操作/topic.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -42,7 +42,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "文件清理"
+              "title": "topic"
             }
           }
         ],
@@ -179,13 +179,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/linux基本操作/文件清理.md",
+                "file": "无人机项目/ROS基本操作/topic.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 文件清理"
+              "title": "Outline of topic"
             }
           },
           {
@@ -217,10 +217,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5b4f0c8649ed1d33",
+  "active": "4e7e7362c3a0a638",
   "lastOpenFiles": [
-    "无人机项目/ROS基本操作/ros2的环境变量.md",
+    "无人机项目/ROS基本操作/assets/topic/file-20251120213409536.png",
+    "无人机项目/ROS基本操作/assets/topic",
+    "无人机项目/ROS基本操作/assets",
     "无人机项目/linux基本操作/文件清理.md",
+    "无人机项目/ROS基本操作/topic.md",
+    "无人机项目/ROS基本操作/ros2的环境变量.md",
     "无人机项目/ROS基本操作/ROS安装.md",
     "无人机项目/ROS基本操作/鱼香ROS.md",
     "无人机项目/ROS基本操作/系统镜像.md",
@@ -243,8 +247,6 @@
     "无人机项目/硬件模块/assets/锂电池充电1/file-20251120211414900.png",
     "无人机项目/assets/锂电池充电",
     "无人机项目/硬件模块/assets/锂电池充电1/file-20251120211414889.png",
-    "无人机项目/assets/锂电池充电管理",
-    "无人机项目/assets",
     "my/openclash 软路由.md",
     "pages/contents.md",
     "Logseq/journals/2025_11_15.md",
