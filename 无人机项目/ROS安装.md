@@ -14,12 +14,13 @@
 ```bash
 printenv | grep -i ROS
 
-%% ROS_VERSION=2
+输出为：
+ROS_VERSION=2
 ROS_PYTHON_VERSION=3
 AMENT_PREFIX_PATH=/opt/ros/humble
 PYTHONPATH=/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages
 LD_LIBRARY_PATH=/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib
 ROS_LOCALHOST_ONLY=0
 PATH=/opt/ros/humble/bin:/root/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-ROS_DISTRO=humble %%
+ROS_DISTRO=humble 
 ```
