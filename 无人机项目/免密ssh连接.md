@@ -25,9 +25,14 @@ chmod 600 ./.ssh/authorized_keys
 ---
 orange_local.pub 公钥，
 + 放目标服务器 ~/.ssh/orange_local.pub
-cat ~/orange_local.pub >> ~/.ssh/authorized_keys
++ cat ~/orange_local.pub >> ~/.ssh/authorized_keys
 ```
 ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCsoZceN0uL16pPGhsinCco0VgehFhJzxa9KdSZCMPvhDi0z+QJpsfNZTlPPyhpAkZEY//udieukBUseDXUF1sPVv4G3qfB5dwrz3MP83irmfys4ljyD4c/5RvnIWey4Dg+7DkI7IRNTnuJLuMcj1kbtJObq5Tk/1zfL9i0Kmr0mbJhHYuVtZeIGOqGsFiD1cmByeVebeo9I49v+KAA3H6KvHwNlBYVbZ+Dr8Rg5uMoUEFO5CHYpExIE4K7koDaZX9aLU/JO2M9Z2t+cpCYVHI9i5hs3POhHObsmASdJiYGCC9RiBAvMVKlnOGLQ8djcfE+a0WEGk/uSNun/xYqBtFVnlfJsAC72TWpnE4waGC6iYtyn99zjMsnWv5svQaXP0jJkD+lAHJe4e7p6fcOpzcRsKsnQC1rmC5XkrXmBMX53XkGejpD8BxOgQTW6/wd/W8ZRhVs2l/f4tRJJ+Y/0oSWW8hDsogA9QiAz3F3lr12lZkcByZ7whD8ybWzFiGrAwHbEcwE/+7r9EhoJIyas8NFvf6ps3qRa3nMnrZKjina3k33wHuFPeqcqiUXWfAcluOHqu/3R3zof+23a57NCjaXLPeO1XIcX6ACC6+yT4iUAMquKNEiiGpG+fkE8yL6Qz1oItGQtyXjBxJn08BeZ+zoh+7dUn+lqySpfWGtZvTzFQ== since@dawn
 ```
 
+
 orange_local   私钥 放本地
+vsc的ssh config
+```
+
+```
