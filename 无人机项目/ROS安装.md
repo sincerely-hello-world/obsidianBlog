@@ -8,5 +8,4 @@
 
 
 ---
-这里参考  Ubuntu22.04 安装 [ROS 2 Humble](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Configuring-ROS2-Environment.html)  ， 使用yi'xia安装很顺利
-
+这里参考  Ubuntu22.04 安装 [ROS 2 Humble](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Configuring-ROS2-Environment.html)  ， 使用一下镜像源，安装很顺利：[系统镜像](系统镜像.md)
