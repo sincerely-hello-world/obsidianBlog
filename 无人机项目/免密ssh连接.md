@@ -11,6 +11,10 @@ ssh-keygen -t rsa -b 4096 -f C:\Users\since\.ssh\orangepi_local
 5. - 执行`service sshd restart`或者`sudo service sshd restart`重启`sshd`服务（如果服务器版本过高可能会要求使用`systemctl restart sshd`）
 6. 同时，由于ssh不希望`home`目录以及`~/.ssh`目录对组有写权限，所以需要对目录进行权限更改。同时，ssh对于authorized_keys也有权限需求。
 
+```
+chmod 700 ./.ssh 
+chmod 600 ./.ssh/authorized_keys
+```
   
 
 作者：维生素C  
