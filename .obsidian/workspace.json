@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/ROS基本操作/topic.md",
+                "file": "无人机项目/linux基本操作/查看系统版本.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -42,7 +42,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "topic"
+              "title": "查看系统版本"
             }
           }
         ],
@@ -179,13 +179,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/ROS基本操作/topic.md",
+                "file": "无人机项目/linux基本操作/查看系统版本.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of topic"
+              "title": "Outline of 查看系统版本"
             }
           },
           {
@@ -219,21 +219,22 @@
   },
   "active": "4e7e7362c3a0a638",
   "lastOpenFiles": [
+    "无人机项目/linux基本操作/免密ssh连接.md",
+    "无人机项目/linux基本操作/查看系统版本.md",
+    "无人机项目/linux基本操作/文件清理.md",
+    "无人机项目/ROS基本操作/topic.md",
     "无人机项目/ROS基本操作/assets/topic/file-20251120213409536.png",
     "无人机项目/ROS基本操作/assets/topic",
     "无人机项目/ROS基本操作/assets",
-    "无人机项目/linux基本操作/文件清理.md",
-    "无人机项目/ROS基本操作/topic.md",
     "无人机项目/ROS基本操作/ros2的环境变量.md",
     "无人机项目/ROS基本操作/ROS安装.md",
     "无人机项目/ROS基本操作/鱼香ROS.md",
     "无人机项目/ROS基本操作/系统镜像.md",
-    "无人机项目/linux基本操作/免密ssh连接.md",
     "无人机项目/硬件模块/assets/锂电池充电1",
     "无人机项目/硬件模块/assets",
     "无人机项目/硬件模块",
     "无人机项目/linux基本操作",
-    "无人机项目/硬件模块/网络连接.md",
+    "无人机项目/linux基本操作/网络连接.md",
     "无人机项目/无人机ROS项目.md",
     "无人机项目/ROS基本操作",
     "无人机项目/硬件模块/定位模块.md",
