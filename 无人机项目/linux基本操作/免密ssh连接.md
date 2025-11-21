@@ -33,6 +33,9 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCsoZceN0uL16pPGhsinCco0VgehFhJzxa9KdSZCMPv
 
 
 orange_local   私钥 放本地
+```
+
+```
  + vsc的ssh config
 ```
 Host orange_local
