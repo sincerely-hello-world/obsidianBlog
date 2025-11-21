@@ -23,7 +23,7 @@ chmod 600 ./.ssh/authorized_keys
 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
 
 ---
-## `orange_local.pub 公钥，
+## `orange_local.pub` 公钥 放“开发板/服务器” `~/.ssh/orange_local.pub`
 + 放目标服务器 ~/.ssh/orange_local.pub
 + cat ~/orange_local.pub >> ~/.ssh/authorized_keys
 + 执行`service sshd restart`或者`sudo service sshd restart`或者`systemctl restart sshd`重启`sshd`服务
@@ -32,7 +32,7 @@ ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQCsoZceN0uL16pPGhsinCco0VgehFhJzxa9KdSZCMPv
 ```
 
 
-## `orange_local`   私钥 放本地
+## `orange_local` 私钥 放本地 `C:\Users\since\.ssh\orangepi_local`
 ```
 -----BEGIN OPENSSH PRIVATE KEY-----
 b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAACFwAAAAdzc2gtcn
