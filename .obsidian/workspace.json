@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/ROS基本操作/ROS使用.md",
+                "file": "无人机项目/ROS基本操作/ros使用/飞行站代码.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ROS使用"
+              "title": "飞行站代码"
             }
           }
         ]
@@ -112,12 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "无人机项目/ROS基本操作/ROS使用.md",
+                "file": "无人机项目/ROS基本操作/ros使用/飞行站代码.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from ROS使用"
+              "title": "Outgoing links from 飞行站代码"
             }
           },
           {
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/ROS基本操作/ROS使用.md",
+                "file": "无人机项目/ROS基本操作/ros使用/飞行站代码.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ROS使用"
+              "title": "Outline of 飞行站代码"
             }
           },
           {
@@ -195,8 +195,9 @@
   },
   "active": "657eaccfc775e339",
   "lastOpenFiles": [
+    "无人机项目/ROS基本操作/ros使用",
     "无人机项目/ROS基本操作/ROS安装.md",
-    "无人机项目/ROS基本操作/ROS使用.md",
+    "无人机项目/ROS基本操作/ros使用/飞行站代码.md",
     "无人机项目/ROS基本操作/workspace.md",
     "无人机项目/ROS基本操作/topic.md",
     "无人机项目/ROS基本操作/ros2的环境变量.md",
