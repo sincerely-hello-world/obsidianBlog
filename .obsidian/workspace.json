@@ -20,33 +20,8 @@
               "icon": "lucide-file",
               "title": "ROS安装"
             }
-          },
-          {
-            "id": "4e7e7362c3a0a638",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "无人机项目/硬件模块/锂电池.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "锂电池"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -103,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 307.5
   },
   "right": {
     "id": "3cad077738c9ddd4",
@@ -137,11 +112,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "无人机项目/ROS基本操作/ROS安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from ROS安装"
             }
           },
           {
@@ -179,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/硬件模块/锂电池.md",
+                "file": "无人机项目/ROS基本操作/ROS安装.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 锂电池"
+              "title": "Outline of ROS安装"
             }
           },
           {
@@ -217,8 +193,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4e7e7362c3a0a638",
+  "active": "657eaccfc775e339",
   "lastOpenFiles": [
+    "无人机项目/硬件模块/assets/锂电池/file-20251121155835439.pdf",
+    "无人机项目/硬件模块/锂电池.md",
     "无人机项目/硬件模块/assets/锂电池/file-20251121155114169.jpg",
     "无人机项目/硬件模块/assets/锂电池/file-20251121155102488.jpg",
     "无人机项目/硬件模块/assets/锂电池/file-20251121155044179.png",
@@ -248,8 +226,6 @@
     "README.md",
     "Pasted image 20251119230629.png",
     "Untitled.base",
-    "无人机项目/硬件模块/锂电池.md",
-    "无人机项目/assets/锂电池充电1",
     "无人机项目/硬件模块/assets/锂电池/file-20251121154810793.png",
     "无人机项目/硬件模块/assets/锂电池/file-20251121154810791.png",
     "my/openclash 软路由.md",
