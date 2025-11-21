@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/linux基本操作/查看系统版本.md",
+                "file": "无人机项目/硬件模块/锂电池.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -42,7 +42,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "查看系统版本"
+              "title": "锂电池"
             }
           }
         ],
@@ -179,13 +179,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/linux基本操作/查看系统版本.md",
+                "file": "无人机项目/硬件模块/锂电池.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 查看系统版本"
+              "title": "Outline of 锂电池"
             }
           },
           {
@@ -219,8 +219,9 @@
   },
   "active": "4e7e7362c3a0a638",
   "lastOpenFiles": [
-    "无人机项目/linux基本操作/免密ssh连接.md",
+    "无人机项目/硬件模块/assets/锂电池",
     "无人机项目/linux基本操作/查看系统版本.md",
+    "无人机项目/linux基本操作/免密ssh连接.md",
     "无人机项目/linux基本操作/文件清理.md",
     "无人机项目/ROS基本操作/topic.md",
     "无人机项目/ROS基本操作/assets/topic/file-20251120213409536.png",
@@ -243,11 +244,11 @@
     "README.md",
     "Pasted image 20251119230629.png",
     "Untitled.base",
-    "无人机项目/硬件模块/锂电池充电1.md",
+    "无人机项目/硬件模块/锂电池.md",
     "无人机项目/assets/锂电池充电1",
-    "无人机项目/硬件模块/assets/锂电池充电1/file-20251120211414900.png",
+    "无人机项目/硬件模块/assets/锂电池/file-20251121154810793.png",
     "无人机项目/assets/锂电池充电",
-    "无人机项目/硬件模块/assets/锂电池充电1/file-20251120211414889.png",
+    "无人机项目/硬件模块/assets/锂电池/file-20251121154810791.png",
     "my/openclash 软路由.md",
     "pages/contents.md",
     "Logseq/journals/2025_11_15.md",
