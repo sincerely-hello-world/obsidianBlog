@@ -1,5 +1,5 @@
 
-  ## 查看状态 `sudo systemctl status  nxserver.service` 
+## 查看状态 `sudo systemctl status  nxserver.service` 
 - `Loaded` 行中的 `enabled` 表示该服务已设置为开机自启。
 - `Active` 表示当前是否正在运行。
   ```bash
@@ -19,5 +19,7 @@ nxserver.service - NoMachine Server daemon
              ├─25897 /usr/NX/bin/nxrunner.bin --monitor --pid 1966
              ├─26341 /usr/NX/bin/nxserver.bin -c /etc/NX/nxserver --login -H 21
              └─26450 /usr/NX/bin/nxcodec.bin
-
   ```
+
+## 设置开机启动项 `sudo systemctl enable nxserver`
+
