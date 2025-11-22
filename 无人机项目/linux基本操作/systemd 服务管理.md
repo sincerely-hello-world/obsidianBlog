@@ -12,11 +12,8 @@ systemctl list-units --type=service：列出当前系统上所有的服务单元
 
 ## 编写开机启动服务
 
-
-1. sudo nano /etc/systemd/system/mystartup.service
-2. 编写
- 
-```
+ sudo vi **/etc/systemd/system**/mystartup.service
+```service
 [Unit]
 Description=My Custom Startup Script
 After=network.target
