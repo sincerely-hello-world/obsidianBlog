@@ -1,10 +1,12 @@
 
-  查看状态 sudo  systemctl  status *** 666
+  ## 查看状态 `sudo systemctl status  nxserver.service` 
+- `Loaded` 行中的 `enabled` 表示该服务已设置为开机自启。
+- `Active` 表示当前是否正在运行。
   ```bash
 sudo systemctl status  nxserver.service 
 
 nxserver.service - NoMachine Server daemon
-     Loaded: loaded (/lib/systemd/system/nxserver.service; enabled; vendor preset: enabled) # 
+     Loaded: loaded (/lib/systemd/system/nxserver.service; enabled; vendor preset: enabled) # 显示为loaded 表示开机自启
      Active: active (running) since Sat 2025-11-22 19:20:06 CST; 1h 9min ago
    Main PID: 25781 (nxserver.bin)
       Tasks: 131 (limit: 9041)
