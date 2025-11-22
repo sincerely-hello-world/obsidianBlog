@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/linux基本操作/systemd 服务管理.md",
+                "file": "无人机项目/linux基本操作/修改镜像：.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "systemd 服务管理"
+              "title": "修改镜像："
             }
           }
         ]
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/linux基本操作/systemd 服务管理.md",
+                "file": "无人机项目/linux基本操作/修改镜像：.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of systemd 服务管理"
+              "title": "Outline of 修改镜像："
             }
           },
           {
@@ -196,12 +196,12 @@
   },
   "active": "657eaccfc775e339",
   "lastOpenFiles": [
+    "无人机项目/linux基本操作/systemd 服务管理.md",
+    "无人机项目/linux基本操作/修改镜像：.md",
     "无人机项目/linux基本操作/WiFi连接.md",
     "无人机项目/linux基本操作/查看系统版本.md",
     "无人机项目/linux基本操作/免密ssh连接.md",
     "无人机项目/ROS基本操作/ros使用/飞行站代码.md",
-    "无人机项目/linux基本操作/systemd 服务管理.md",
-    "无人机项目/linux基本操作/Untitled.md",
     "无人机项目/ROS基本操作/ROS安装.md",
     "无人机项目/ROS基本操作/ros2 基本使用.md",
     "无人机项目/ROS基本操作/workspace.md",
