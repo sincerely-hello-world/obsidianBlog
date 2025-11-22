@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/ROS基本操作/ros使用/飞行站代码.md",
+                "file": "无人机项目/linux基本操作/systemd 服务管理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "飞行站代码"
+              "title": "systemd 服务管理"
             }
           }
         ]
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/ROS基本操作/ros使用/飞行站代码.md",
+                "file": "无人机项目/linux基本操作/systemd 服务管理.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 飞行站代码"
+              "title": "Outline of systemd 服务管理"
             }
           },
           {
@@ -196,11 +196,13 @@
   },
   "active": "657eaccfc775e339",
   "lastOpenFiles": [
-    "无人机项目/linux基本操作/systemd 服务管理.md",
     "无人机项目/linux基本操作/WiFi连接.md",
+    "无人机项目/linux基本操作/查看系统版本.md",
+    "无人机项目/linux基本操作/免密ssh连接.md",
+    "无人机项目/ROS基本操作/ros使用/飞行站代码.md",
+    "无人机项目/linux基本操作/systemd 服务管理.md",
     "无人机项目/linux基本操作/Untitled.md",
     "无人机项目/ROS基本操作/ROS安装.md",
-    "无人机项目/ROS基本操作/ros使用/飞行站代码.md",
     "无人机项目/ROS基本操作/ros2 基本使用.md",
     "无人机项目/ROS基本操作/workspace.md",
     "无人机项目/ROS基本操作/topic.md",
@@ -209,8 +211,6 @@
     "无人机项目/linux基本操作/权限管理.md",
     "无人机项目/无人机ROS项目.md",
     "无人机项目/linux基本操作/文件清理.md",
-    "无人机项目/linux基本操作/查看系统版本.md",
-    "无人机项目/linux基本操作/免密ssh连接.md",
     "无人机项目/硬件模块/锂电池.md",
     "无人机项目/硬件模块/定位模块.md",
     "无人机项目/硬件模块/assets/锂电池/Q6 nano锂电池充电器-说明书.pdf",
