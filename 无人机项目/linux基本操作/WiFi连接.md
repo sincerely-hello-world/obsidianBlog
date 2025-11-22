@@ -18,12 +18,11 @@ Host 备注
 ```
 
 ##  nmcli
-
-WIFI设置[linux nmcli](https://www.xyan666.com/posts/1165531937/)
+> [linux nmcli](https://www.xyan666.com/posts/1165531937/)
 
  查看当前可用 wifi
 ```shell
-$ nmcli dev wifi list
+nmcli dev wifi list
 ```
 连接 wifi
 ```
@@ -31,7 +30,9 @@ sudo nmcli dev wifi connect wifiname password xxx
 ```
 
 查看网络
+```
 nmcli con show
+```
 
 关闭某连接
 ```
