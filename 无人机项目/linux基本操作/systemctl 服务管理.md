@@ -1,4 +1,10 @@
+## 编写开机启动服务
 
+1. sudo nano /etc/systemd/system/mystartup.service
+2. 编写
+```
+[Unit] Description=My Custom Startup Script After=network.target [Service] Type=simple User=yourusername # 替换为你的用户名 WorkingDirectory=/home/yourusername ExecStart=/bin/bash /home/yourusername/myscript.sh Restart=on-failure RestartSec=10 [Install] WantedBy=multi-user.target
+```
 ## 查看状态 `sudo systemctl status  nxserver.service` 
 - `Loaded` 行中的 `enabled` 表示该服务已设置为开机自启。
 - `Active` 表示当前是否正在运行。
@@ -21,6 +27,6 @@ nxserver.service - NoMachine Server daemon
              └─26450 /usr/NX/bin/nxcodec.bin
   ```
 + 查看指定的开机启动项 systemctl list-unit-files | grep nx
-+ 
+
 ## 设置开机启动项 `sudo systemctl enable nxserver`
 

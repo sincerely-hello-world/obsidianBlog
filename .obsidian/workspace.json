@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/ROS基本操作/systemctl.md",
+                "file": "无人机项目/linux基本操作/systemctl 服务管理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "systemctl"
+              "title": "systemctl 服务管理"
             }
           }
         ]
@@ -155,13 +155,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/ROS基本操作/systemctl.md",
+                "file": "无人机项目/linux基本操作/systemctl 服务管理.md",
                 "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of systemctl"
+              "title": "Outline of systemctl 服务管理"
             }
           },
           {
@@ -193,10 +193,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5b4f0c8649ed1d33",
+  "active": "657eaccfc775e339",
   "lastOpenFiles": [
     "无人机项目/ROS基本操作/ros使用/飞行站代码.md",
-    "无人机项目/ROS基本操作/systemctl.md",
+    "无人机项目/linux基本操作/systemctl 服务管理.md",
     "无人机项目/ROS基本操作/ros2 基本使用.md",
     "无人机项目/ROS基本操作/ROS安装.md",
     "无人机项目/ROS基本操作/workspace.md",
