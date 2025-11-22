@@ -18,7 +18,6 @@ Host 备注
 ```
 
 ##  nmcli
-#wifi
 
 WIFI设置[linux nmcli](https://www.xyan666.com/posts/1165531937/)
 
@@ -49,5 +48,8 @@ nmcli connection modify xxx connection.autoconnect-priority 20
 
 优先级默认为 0，正数优先级高，负数低
 
-#### 查看优先级
+查看优先级
+```
+nmcli connection show xxx|grep priority
+```
  
