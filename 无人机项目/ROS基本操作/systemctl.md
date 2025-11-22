@@ -20,6 +20,7 @@ nxserver.service - NoMachine Server daemon
              ├─26341 /usr/NX/bin/nxserver.bin -c /etc/NX/nxserver --login -H 21
              └─26450 /usr/NX/bin/nxcodec.bin
   ```
-
++ 查看指定的开机启动项 systemctl list-unit-files | grep nx
++ 
 ## 设置开机启动项 `sudo systemctl enable nxserver`
 
