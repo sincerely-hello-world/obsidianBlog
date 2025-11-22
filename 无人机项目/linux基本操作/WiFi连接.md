@@ -1,14 +1,15 @@
-### 专用wifi
+## WiFi配置
+ 专用wifi
 ```
 SSID:  tplink408
 密码： 12345678
 ```
-### 408教室 wifi
+408教室 wifi
 ```shell
 SSID:	408_luyouqi
 passwd: 408408408 
 ```
-### 香橙派 ssh
+ 香橙派 ssh
 ```shell
 Host 备注
   User root
@@ -16,22 +17,25 @@ Host 备注
   # password orangepi
 ```
 
-## linux wifi
+##  nmcli
 #wifi
 
 WIFI设置[linux nmcli](https://www.xyan666.com/posts/1165531937/)
 
-#### 查看当前可用 wifi
+ 查看当前可用 wifi
 ```shell
 $ nmcli dev wifi list
 ```
-#### 连接 wifi
+连接 wifi
+```
+```
+sudo nmcli dev wifi connect wifiname password xxx
 
-|                                                     |
-| --------------------------------------------------- |
-| $ sudo nmcli dev wifi connect wifiname password xxx |
-|                                                     |
-|                                                     |
+|     |
+| --- |
+|     |
+|     |
+|     |
 
 #### 管理网络
 
