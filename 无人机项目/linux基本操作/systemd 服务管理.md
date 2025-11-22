@@ -12,7 +12,7 @@ systemctl list-units --type=service：列出当前系统上所有的服务单元
 
 ## 编写开机启动服务
 
- sudo vi **/etc/systemd/system**/mystartup.service
+ sudo vi  /etc/systemd/system/my-my-my.service
 ```service
 [Unit]
 Description=My Custom Startup Script
