@@ -28,26 +28,17 @@ $ nmcli dev wifi list
 ```
 连接 wifi
 ```
-```
 sudo nmcli dev wifi connect wifiname password xxx
+```
 
-|     |
-| --- |
-|     |
-|     |
-|     |
+查看网络
+nmcli con show
 
-#### 管理网络
+关闭某连接
 
-|   |
-|---|
-|$ nmcli con show|
-
-#### 关闭某连接
-
-|   |
-|---|
-|$ nmcli con down xxx|
+|                      |
+| -------------------- |
+| $ nmcli con down xxx |
 
 #### 启动某连接
 
