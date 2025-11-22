@@ -1,4 +1,17 @@
+```BASH
+systemctl start servicename：启动一个服务。
+systemctl stop servicename：停止一个服务。
+systemctl restart servicename：重启一个服务。
+
+systemctl enable servicename：设置一个服务为开机自启动。
+systemctl disable servicename：禁用一个服务的开机自启动。
+
+systemctl status servicename：查看一个服务的状态。
+systemctl list-units --type=service：列出当前系统上所有的服务单元。
+```
+
 ## 编写开机启动服务
+
 
 1. sudo nano /etc/systemd/system/mystartup.service
 2. 编写
@@ -40,15 +53,9 @@ nxserver.service - NoMachine Server daemon
              ├─25897 /usr/NX/bin/nxrunner.bin --monitor --pid 1966
              ├─26341 /usr/NX/bin/nxserver.bin -c /etc/NX/nxserver --login -H 21
              └─26450 /usr/NX/bin/nxcodec.bin
-  ```
-+```text
-systemctl start servicename：启动一个服务。
-systemctl stop servicename：停止一个服务。
-systemctl restart servicename：重启一个服务。
-systemctl enable servicename：设置一个服务为开机自启动。
-systemctl disable servicename：禁用一个服务的开机自启动。
-systemctl status servicename：查看一个服务的状态。
-systemctl list-units --type=service：列出当前系统上所有的服务单元。
+```
+
+
 
 
 ## 设置开机启动项 `sudo systemctl enable nxserver`
