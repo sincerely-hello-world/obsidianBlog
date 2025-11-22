@@ -13,20 +13,19 @@ systemctl list-units --type=service：列出当前系统上所有的服务单元
 ## 编写开机启动服务
 
  sudo vi  /etc/systemd/system/my-my-my.service
-```service
-[Unit]
-Description=My Custom Startup Script
-After=network.target
 
-[Service]
-Type=simple
-User=yourusername          # 替换为你的用户名
-WorkingDirectory=/home/yourusername
-ExecStart=/bin/bash /home/yourusername/myscript.sh
-Restart=on-failure
-RestartSec=10
+```bash
+[Unit]  
+Description=My Custom Service  
+After=network.target  
 
-[Install]
+[Service]  
+Type=simple  
+ExecStart=/path/to/your/script.sh  
+Restart=always  
+User=username  
+
+[Install]  
 WantedBy=multi-user.target
 ```
 
