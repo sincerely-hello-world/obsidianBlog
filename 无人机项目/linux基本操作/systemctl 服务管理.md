@@ -2,9 +2,24 @@
 
 1. sudo nano /etc/systemd/system/mystartup.service
 2. 编写
+ 
 ```
-[Unit] Description=My Custom Startup Script After=network.target [Service] Type=simple User=yourusername # 替换为你的用户名 WorkingDirectory=/home/yourusername ExecStart=/bin/bash /home/yourusername/myscript.sh Restart=on-failure RestartSec=10 [Install] WantedBy=multi-user.target
+[Unit]
+Description=My Custom Startup Script
+After=network.target
+
+[Service]
+Type=simple
+User=yourusername          # 替换为你的用户名
+WorkingDirectory=/home/yourusername
+ExecStart=/bin/bash /home/yourusername/myscript.sh
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
 ```
+
 ## 查看状态 `sudo systemctl status  nxserver.service` 
 - `Loaded` 行中的 `enabled` 表示该服务已设置为开机自启。
 - `Active` 表示当前是否正在运行。
