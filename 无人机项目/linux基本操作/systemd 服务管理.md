@@ -12,6 +12,7 @@ systemctl list-units --type=service：列出当前系统上所有的服务单元
 
 ## 编写开机启动服务
 
+
  sudo vi  /etc/systemd/system/my-my-my.service
 
 ```bash
