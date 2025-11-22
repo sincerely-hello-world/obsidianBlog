@@ -41,7 +41,15 @@ nxserver.service - NoMachine Server daemon
              ├─26341 /usr/NX/bin/nxserver.bin -c /etc/NX/nxserver --login -H 21
              └─26450 /usr/NX/bin/nxcodec.bin
   ```
-+ 查看指定的开机启动项 systemctl list-unit-files | grep nx
++```text
+systemctl start servicename：启动一个服务。
+systemctl stop servicename：停止一个服务。
+systemctl restart servicename：重启一个服务。
+systemctl enable servicename：设置一个服务为开机自启动。
+systemctl disable servicename：禁用一个服务的开机自启动。
+systemctl status servicename：查看一个服务的状态。
+systemctl list-units --type=service：列出当前系统上所有的服务单元。
+
 
 ## 设置开机启动项 `sudo systemctl enable nxserver`
 
