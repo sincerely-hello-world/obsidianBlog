@@ -1,5 +1,5 @@
 ```
-ros2 node list  # 
+ros2 node list  # 查看所有节点
 ```
 
 ![](assets/节点node/file-20251124142518675.png)
