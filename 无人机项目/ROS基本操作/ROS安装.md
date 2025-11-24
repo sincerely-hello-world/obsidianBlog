@@ -27,6 +27,10 @@ ROS_DISTRO=humble
 **ubuntu20.04 仅支持 foxy 等版本， 还是和原机器一样，安装foxy版本吧：**
 1. 先改镜像源
 ```
+sudo vi /etc/apt/list
+```
+
+```
 # 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
 deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse
 # deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse
