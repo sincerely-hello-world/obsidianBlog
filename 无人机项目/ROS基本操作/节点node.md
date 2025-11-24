@@ -1,3 +1,7 @@
+```
+ros2 node list  # 
+```
+
 ![](assets/节点node/file-20251124142518675.png)
 
 ```python
