@@ -28,6 +28,8 @@ nmcli dev wifi list
 ```
 sudo nmcli dev wifi connect wifiname password xxx
 ```
+sudo nmcli dev wifi connect tplink408 password 1234678
+ 
 
 查看网络
 ```
