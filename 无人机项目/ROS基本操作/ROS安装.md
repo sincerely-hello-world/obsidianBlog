@@ -4,9 +4,6 @@
 + [ ] Ubuntu20.04 安装 [ROS 2 Galactic](https://docs.ros.org/en/galactic/Releases.html)（EOF不再有维护） 
 + [ ] Ubuntu20.04 安装 [ROS 2 Foxy](https://docs.ros.org/en/foxy/Releases.html)（EOF不再有维护） （目前 王俊豪组无人机，使用ros2 Foxy版本）
 ~~不建议再使用ros1     
-
-
-
 ---
 这里参考  Ubuntu22.04 安装 [ROS 2 Humble](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Configuring-ROS2-Environment.html)  ， 使用一下镜像源，安装很顺利：[系统镜像](系统镜像.md)
 
@@ -24,3 +21,6 @@ ROS_LOCALHOST_ONLY=0
 PATH=/opt/ros/humble/bin:/root/.vscode-server/cli/servers/Stable-e3a5acfb517a443235981655413d566533107e92/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
 ROS_DISTRO=humble 
 ```
+
+---
+ubuntu20.04 仅支持 foxy 等版本， 还是和原机器一样，安装foxy版本吧：
