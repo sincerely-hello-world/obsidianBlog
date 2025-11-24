@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/ROS基本操作/Untitled.md",
+                "file": "无人机项目/ROS基本操作/功能包.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "功能包"
             }
           }
         ]
@@ -196,8 +196,10 @@
   },
   "active": "9dee43c324564b5b",
   "lastOpenFiles": [
-    "无人机项目/ROS基本操作/node.md",
-    "无人机项目/ROS基本操作/Untitled.md",
+    "无人机项目/ROS基本操作/节点node.md",
+    "无人机项目/ROS基本操作/assets/节点node",
+    "无人机项目/ROS基本操作/功能包.md",
+    "无人机项目/ROS基本操作/assets/node节点",
     "无人机项目/ROS基本操作/ros2 基本使用.md",
     "无人机项目/ROS基本操作/assets/node",
     "无人机项目/ROS基本操作/Foxy ROS2安装.md",
@@ -223,13 +225,11 @@
     "无人机项目/硬件模块/assets/锂电池/file-20251121155044179.png",
     "无人机项目/硬件模块/assets/锂电池/file-20251121155000098.jpg",
     "无人机项目/硬件模块/assets/锂电池",
-    "无人机项目/ROS基本操作/assets/node/file-20251124141657013.png",
+    "无人机项目/ROS基本操作/assets/节点node/file-20251124142518675.png",
     "无人机项目/ROS基本操作/assets/topic",
     "无人机项目/ROS基本操作/assets",
     "无人机项目/硬件模块/assets/锂电池充电1",
     "无人机项目/硬件模块/assets",
-    "无人机项目/硬件模块",
-    "无人机项目/linux基本操作",
     "Logseq/pages/contents.md",
     "Untitled.md",
     "README.md",
@@ -238,7 +238,6 @@
     "无人机项目/硬件模块/assets/锂电池/file-20251121154810791.png",
     "my/openclash 软路由.md",
     "pages/contents.md",
-    "Logseq/journals/2025_11_15.md",
-    "journals/2025_11_15.md"
+    "Logseq/journals/2025_11_15.md"
   ]
 }

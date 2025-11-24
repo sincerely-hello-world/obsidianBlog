@@ -1,4 +1,4 @@
-![](assets/node/file-20251124141657013.png)
+![](assets/节点node/file-20251124142518675.png)
 
 ```python
 import rclpy
