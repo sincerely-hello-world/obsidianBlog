@@ -23,8 +23,9 @@ ROS_DISTRO=humble
 ```
 
 ---
-ubuntu20.04 仅支持 foxy 等版本， 还是和原机器一样，安装foxy版本吧：
-1.先改镜像源
+# ubuntu20.04 安装 foxy Ros2
+**ubuntu20.04 仅支持 foxy 等版本， 还是和原机器一样，安装foxy版本吧：**
+1. 先改镜像源
 ```
 # 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
 deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse
@@ -41,9 +42,11 @@ deb http://security.ubuntu.com/ubuntu/ focal-security main restricted universe m
 # deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse
 # # deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse
 ```
-2.[参考这篇帖子，手动更新一下 密钥和ros软件](https://fishros.org.cn/forum/topic/4595/%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99404?_=1763952804957)，因为鱼香肉丝安装出现了相同的404 ip not found错误！
+2. [参考这篇帖子，手动更新一下 密钥和ros软件](https://fishros.org.cn/forum/topic/4595/%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99404?_=1763952804957)，因为鱼香肉丝安装出现了相同的404 ip not found错误！
 ```
 sudo apt install curl gnupg2 -y curl -s https://gitee.com/ohhuo/rosdistro/raw/master/ros.asc | sudo apt-key add -
 
 sudo sh -c 'echo "deb [arch=$(dpkg --print-architecture)] http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" > /etc/apt/sources.list.d/ros2-latest.list'
 ```
+
+3. 然后,接着官方文档：
