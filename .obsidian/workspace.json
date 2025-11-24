@@ -196,6 +196,7 @@
   },
   "active": "9dee43c324564b5b",
   "lastOpenFiles": [
+    "Untitled.base",
     "无人机项目/功能介绍/飞行端 orangepi系统.md",
     "无人机项目/起飞流程.md",
     "无人机项目/功能介绍/无人机ROS项目总览.md",
@@ -240,7 +241,6 @@
     "无人机项目/ROS基本操作/assets/节点node",
     "无人机项目/ROS基本操作/assets/node节点",
     "无人机项目/ROS基本操作/assets/node",
-    "无人机项目/linux基本操作/查看系统版本.md",
     "无人机项目/ROS基本操作/ros使用"
   ]
 }
