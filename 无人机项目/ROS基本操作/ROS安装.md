@@ -41,4 +41,9 @@ deb http://security.ubuntu.com/ubuntu/ focal-security main restricted universe m
 # deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse
 # # deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse
 ```
-2.[参考这篇帖子，手动更新一下 密钥和ros软件](https://fishros.org.cn/forum/topic/4595/%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99404?_=1763952804957)，因为鱼香肉丝安装出现了相同的错了！
+2.[参考这篇帖子，手动更新一下 密钥和ros软件](https://fishros.org.cn/forum/topic/4595/%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99404?_=1763952804957)，因为鱼香肉丝安装出现了相同的404 ip not found错误！
+```
+sudo apt install curl gnupg2 -y curl -s https://gitee.com/ohhuo/rosdistro/raw/master/ros.asc | sudo apt-key add -
+
+sudo sh -c 'echo "deb [arch=$(dpkg --print-architecture)] http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" > /etc/apt/sources.list.d/ros2-latest.list'
+```
