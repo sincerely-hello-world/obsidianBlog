@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/ROS基本操作/系统镜像.md",
+                "file": "无人机项目/ROS基本操作/ROS安装.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "系统镜像"
+              "title": "ROS安装"
             }
           }
         ]
@@ -196,9 +196,10 @@
   },
   "active": "657eaccfc775e339",
   "lastOpenFiles": [
+    "无人机项目/ROS基本操作/ros2 基本使用.md",
+    "无人机项目/ROS基本操作/系统镜像.md",
     "无人机项目/linux基本操作/systemd 服务管理.md",
     "无人机项目/linux基本操作/修改镜像：.md",
-    "无人机项目/ROS基本操作/ros2 基本使用.md",
     "无人机项目/ROS基本操作/ROS安装.md",
     "无人机项目/linux基本操作/WiFi连接.md",
     "无人机项目/linux基本操作/查看系统版本.md",
@@ -222,7 +223,6 @@
     "无人机项目/ROS基本操作/assets/topic/file-20251120213409536.png",
     "无人机项目/ROS基本操作/assets/topic",
     "无人机项目/ROS基本操作/assets",
-    "无人机项目/ROS基本操作/系统镜像.md",
     "无人机项目/硬件模块/assets/锂电池充电1",
     "无人机项目/硬件模块/assets",
     "无人机项目/硬件模块",
