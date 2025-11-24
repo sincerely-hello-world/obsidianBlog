@@ -5,11 +5,6 @@
 ## 无人机 香橙派代码位置
 /home/orangepi/Desktop/UAV_CAR__Test
 
- t265调试
-
- 
-
-
 
 ## 地面站 香橙派
 

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/功能介绍/飞行端orangepi  开机自启.md",
+                "file": "无人机项目/功能介绍/无人机ROS项目总览.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "飞行端orangepi  开机自启"
+              "title": "无人机ROS项目总览"
             }
           }
         ]
@@ -194,12 +194,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9dee43c324564b5b",
+  "active": "ff956bd88238d377",
   "lastOpenFiles": [
+    "无人机项目/功能介绍/飞行端orangepi  开机自启.md",
+    "无人机项目/功能介绍/无人机ROS项目总览.md",
     "无人机项目/功能介绍/飞行端 orangepi系统.md",
     "无人机项目/linux基本操作/WiFi连接.md",
-    "无人机项目/功能介绍/飞行端orangepi  开机自启.md",
-    "无人机项目/功能介绍/无人机ROS项目.md",
     "无人机项目/硬件组件/飞行端 orangepi.md",
     "无人机项目/功能介绍/飞控板.md",
     "无人机项目/功能介绍/定位模块.md",
