@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "83baede23003cab1",
+        "id": "a1bf8ed3af852ee7",
         "type": "tabs",
         "children": [
           {
-            "id": "657eaccfc775e339",
+            "id": "9dee43c324564b5b",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -194,13 +194,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "657eaccfc775e339",
+  "active": "9dee43c324564b5b",
   "lastOpenFiles": [
+    "().md",
+    "无人机项目/ROS基本操作/ROS安装.md",
     "无人机项目/ROS基本操作/ros2 基本使用.md",
     "无人机项目/ROS基本操作/系统镜像.md",
     "无人机项目/linux基本操作/systemd 服务管理.md",
     "无人机项目/linux基本操作/修改镜像：.md",
-    "无人机项目/ROS基本操作/ROS安装.md",
     "无人机项目/linux基本操作/WiFi连接.md",
     "无人机项目/linux基本操作/查看系统版本.md",
     "无人机项目/linux基本操作/免密ssh连接.md",
