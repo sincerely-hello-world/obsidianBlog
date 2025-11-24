@@ -1,4 +1,5 @@
-
+> 使用ubuntu20.04 focal版本 默认的 python3 = python3.8开发
+> 依赖    rknnlite  
 
 | orange pi 串口号 |     |     | 飞控板 串口号 |     |
 | ------------- | --- | --- | ------- | --- |
