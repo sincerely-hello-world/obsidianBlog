@@ -9,7 +9,7 @@
 echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc
 ```
 
-每次打开bash，让他自动化source ros2的se
+每次打开bash，让他自动化source ros2的setup.bash文件
 ```
 # >> 表示追加写入， > 表示覆盖写入（千万别覆盖写入）
 echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
