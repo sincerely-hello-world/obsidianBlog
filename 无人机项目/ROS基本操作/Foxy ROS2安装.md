@@ -27,7 +27,7 @@ sudo vi /etc/apt/sources.list
 # 然后 复制 粘贴下面的镜像源配置， 写入到文件内容中
 # 然后 :wq 回车 退出
 ```
-+ 要复制的镜像源配置：Ubuntu20.04(Focal) Foxy ROS2安装
++ 要复制的镜像源配置：Ubuntu20.04(Focal 镜像源， 一定要认准版本号， 一般后面都有 focal字段标识，jin'gong)
 ```
 # 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
 deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse
