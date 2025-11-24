@@ -18,8 +18,12 @@
 
 ```
 ├──src     # Workplace工作区顶层目录， 下面有四个不同的 ros2包
-	├── uav_car               # 
++
+	├── uav_car               # 总的服务初始化包 顶层
+	
 	├── uav_car_interfaces    # 纯粹的数据类型定义包 .msg .srv
+	
 	├── uav_car_launch        # 总启动脚本， 位于.\launch\uav_car_drone.launch.py
+	
 	└── uav_car_unit          # 模块初始化包  基类
 ```
