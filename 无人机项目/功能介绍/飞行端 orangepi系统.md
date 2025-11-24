@@ -18,8 +18,8 @@
 
 ```
 ├──src     # Workplace工作区顶层目录
-	├── uav_car               # 
-	├── uav_car_interfaces    # colcon build 构建后文件（部署时，调用这个）
+	├── uav_car               # 纯粹的数据类型定义
+	├── uav_car_interfaces    # 超过一百参与的
 	├── uav_car_launch        # colcon build 构建日志
 	└── uav_car_unit          # 纯粹的初始化模块
 ```
