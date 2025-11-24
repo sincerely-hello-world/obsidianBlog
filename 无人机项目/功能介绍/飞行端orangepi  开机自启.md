@@ -56,3 +56,6 @@ source /home/orangepi/Desktop/UAV_CAR__Test/UAV_CAR/install/setup.bash
 
 ros2 launch uav_car_launch uav_car_drone.launch.py
 ```
+
+
+dd if=/dev/mmc
