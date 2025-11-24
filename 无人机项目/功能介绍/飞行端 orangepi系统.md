@@ -1,6 +1,5 @@
 > 使用ubuntu20.04 focal版本 默认的 python3 = python3.8开发
 > 依赖    rknnlite  ros2foxy
-> 
 
 +  激光笔复位，初始化成功
 + 机头方向 舵机所在位置
