@@ -6,7 +6,8 @@
 + [x] Ubuntu20.04 安装 [ROS 2 Galactic](https://docs.ros.org/en/galactic/Releases.html)（EOF不再有维护） 
 + [ ] Ubuntu20.04 安装 [ROS 2 Foxy](https://docs.ros.org/en/foxy/Releases.html)（EOF不再有维护） （目前 王俊豪组无人机，使用ros2 Foxy版本,  使用该版本复刻）
 
-+ Ubuntu22.04 安装 [ROS 2 Humble](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Configuring-ROS2-Environment.html)  ， 安装前记得改镜像源，安装很顺利：[系统镜像](系统镜像.md)
++ Ubuntu22.04 安装 [ROS 2 Humble](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Configuring-ROS2-Environment.html)  ， 安装前记得改镜像源，安装很顺利：[ubuntu22.04系统镜像源](../linux基本操作/ubuntu22.04系统镜像源.md)
++ 
 
  
 ---
@@ -27,7 +28,7 @@ sudo vi /etc/apt/sources.list
 # 然后 复制 粘贴下面的镜像源配置， 写入到文件内容中
 # 然后 :wq 回车 退出
 ```
-+ 要复制的镜像源配置：Ubuntu20.04(Focal 镜像源， 一定要认准版本号， 一般后面都有 focal字段标识，jin'gong)
++ 要复制的镜像源配置：Ubuntu20.04(Focal 镜像源， 一定要认准版本号， 一般后面都有 focal字段标识，仅供该版本号ubutnu使用！)
 ```
 # 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
 deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse
