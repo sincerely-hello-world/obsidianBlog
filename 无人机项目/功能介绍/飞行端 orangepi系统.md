@@ -20,6 +20,6 @@
 ├──src     # Workplace工作区顶层目录， 下面有四个不同的 ros2包
 	├── uav_car               # 
 	├── uav_car_interfaces    # 纯粹的数据类型定义 .msg .srv
-	├── uav_car_launch        # 
+	├── uav_car_launch        # 纯粹的启动脚本， 位于.\launch\uav_car_drone.launch.py
 	└── uav_car_unit          # 纯粹的初始化模块包！
 ```
