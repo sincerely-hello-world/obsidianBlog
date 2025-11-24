@@ -37,9 +37,10 @@ sudo cp /etc/apt/sources.list /etc/apt/sources.list.backup
 sudo vi /etc/apt/sources.list 
 
 # 然后 按 dG 回车，删除全部内容
-# 然后 复制 粘贴下面的镜像源配置， xie'ru'd
+# 然后 复制 粘贴下面的镜像源配置， 写入到文件内容中
+# 然后 :wq 回车 退出
 ```
-
++ 要复制的镜像源配置：
 ```
 # 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
 deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse
@@ -72,5 +73,5 @@ sudo apt install ros-foxy-desktop python3-argcomplete
 sudo apt install ros-foxy-ros-base python3-argcomplete
 
 # 如果要构建 ROS 包或进行其他开发，还应安装开发工具：
-
+sudo apt install ros-dev-tools # 
 ```
