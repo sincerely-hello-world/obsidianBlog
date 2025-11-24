@@ -74,6 +74,8 @@ sudo apt install ros-dev-tools # 可选不必须， 但必选，因为用的pyth
 printenv | grep -i ROS
 ```
 
+---
+
 + source命令用于在当前Shell环境中执行脚本，
 + export命令用于将变量设置为环境变量，使其在当前Shell及其子进程中可用。
 
@@ -90,3 +92,4 @@ echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc
 echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc
 ```
 
+---
