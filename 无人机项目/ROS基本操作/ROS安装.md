@@ -35,7 +35,9 @@ sudo cp /etc/apt/sources.list /etc/apt/sources.list.backup
 
 # 修改镜像源
 sudo vi /etc/apt/sources.list 
-ddddddddddddddd
+
+# 然后 按 dG 回车，删除全部内容
+# 然后 复制 粘贴下面的镜像源配置， xie'ru'd
 ```
 
 ```
