@@ -52,6 +52,7 @@ deb http://security.ubuntu.com/ubuntu/ focal-security main restricted universe m
 sudo apt install curl gnupg2 -y curl -s https://gitee.com/ohhuo/rosdistro/raw/master/ros.asc | sudo apt-key add -
 
 sudo sh -c 'echo "deb [arch=$(dpkg --print-architecture)] http://packages.ros.org/ros2/ubuntu $(lsb_release -cs) main" > /etc/apt/sources.list.d/ros2-latest.list'
+sudo apt update
 ```
 
 3. 然后,接着[ros2 foxy官方文档](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#install-ros-2-packages): ## [Install ROS 2 packages](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#id4)[](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#install-ros-2-packages "Link to this heading")这一步， 直接安装就是。
