@@ -25,7 +25,8 @@ ROS_DISTRO=humble
 ---
 # ubuntu20.04 安装 foxy Ros2
 **ubuntu20.04 仅支持 foxy 等版本， 还是和原机器一样，安装foxy版本吧：**
-1. 先改镜像源
+1. 先改镜像源， 手动或者按照 鱼香ros自动 改也行。
+
 ```
 # 看一下镜像源：
 sudo cat /etc/apt/sources.list
@@ -33,7 +34,8 @@ sudo cat /etc/apt/sources.list
 sudo cp /etc/apt/sources.list /etc/apt/sources.list.backup
 
 # 修改镜像源
-sudo cp /etc/apt/sources.list /etc/apt/sources.list.backup
+sudo vi /etc/apt/sources.list 
+ddddddddddddddd
 ```
 
 ```
