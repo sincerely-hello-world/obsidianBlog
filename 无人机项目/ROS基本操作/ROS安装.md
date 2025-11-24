@@ -27,7 +27,13 @@ ROS_DISTRO=humble
 **ubuntu20.04 仅支持 foxy 等版本， 还是和原机器一样，安装foxy版本吧：**
 1. 先改镜像源
 ```
-sudo vi /etc/apt/list
+# 看一下镜像源：
+sudo cat /etc/apt/sources.list
+# 备份一下？ 
+sudo cp /etc/apt/sources.list /etc/apt/sources.list.backup
+
+# 修改镜像源
+sudo cp /etc/apt/sources.list /etc/apt/sources.list.backup
 ```
 
 ```
