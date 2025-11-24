@@ -2,7 +2,7 @@
 ros2 node list  # 查看所有节点
 ```
 
-![](assets/节点node/file-20251124142518675.png)
+![](assets/节点node/file-20251124162509570.png)
 
 ```python
 import rclpy
