@@ -66,7 +66,8 @@ sudo apt install ros-foxy-desktop python3-argcomplete
 sudo apt install ros-foxy-ros-base python3-argcomplete
 
 # 如果要构建 ROS 包或进行其他开发，还应安装开发工具：
-sudo apt install ros-dev-tools # 可选不必须， 但必选，因为用的python版本，需要用到colcon构建工具```
+sudo apt install ros-dev-tools # 可选不必须， 但必选，因为用的python版本，需要用到colcon构建工具
+```
 
 4. 最后 查看ros版本： printenv | grep -i ROS
 ```
