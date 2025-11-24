@@ -39,7 +39,6 @@ bash /home/orangepi/Desktop/UAV_CAR__Test/config/uav_car.sh
 orangepi@orangepiWJH:~/Desktop/UAV_CAR__Test/UAV_CAR/src$ cat /home/orangepi/Desktop/UAV_CAR__Test/config/uav_car.sh
 
 #! /bin/bash
-
 export ROS_LOG_DIR=/home/orangepi/Desktop/UAV_CAR__Test/run_log
 
 source /opt/ros/foxy/setup.sh
@@ -53,7 +52,6 @@ source /home/orangepi/Desktop/UAV_CAR__Test/UAV_CAR/install/setup.bash
 
 # cd /dev
 # sudo chmod 777 gpiochip0
-
 ros2 launch uav_car_launch uav_car_drone.launch.py
 ```
 
