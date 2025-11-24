@@ -51,6 +51,9 @@ sudo sh -c 'echo "deb [arch=$(dpkg --print-architecture)] http://packages.ros.or
 
 3. 然后,接着[ros2 foxy官方文档](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#install-ros-2-packages): ## [Install ROS 2 packages](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#id4)[](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#install-ros-2-packages "Link to this heading")这一步， 
 ```
-# 安装桌面版 有GUi，比较笨重
+# 安装桌面版 有GUi，比较笨重，调试用
 sudo apt install ros-foxy-desktop python3-argcomplete
+
+# 安装cli版 无GUI，轻量化 部署用
+sudo apt install ros-foxy-ros-base python3-argcomplete
 ```
