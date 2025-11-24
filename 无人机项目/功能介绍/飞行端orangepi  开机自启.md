@@ -7,7 +7,7 @@ cd ~/Desktop/UAV_CAR__Test/UAV_CAR/src/uav_car_launch/launch
 + _source_ 在当前 Shell 中执行脚本文件，而不启动新的子 Shell。
 
 开机启动方案
-```
+```bash
 cat /etc/systemd/system/uav_car.service
 
 [Unit]
@@ -24,10 +24,9 @@ RemainAfterExit=yes
  
 [Install]
 WantedBy=multi-user.target
-
 ```
 
-```
+```bash
 cat /etc/uav_car.local
 
 #!/bin/sh -e 
@@ -36,7 +35,7 @@ cat /etc/uav_car.local
 bash /home/orangepi/Desktop/UAV_CAR__Test/config/uav_car.sh
 ```
 
-```
+```bash
 orangepi@orangepiWJH:~/Desktop/UAV_CAR__Test/UAV_CAR/src$ cat /home/orangepi/Desktop/UAV_CAR__Test/config/uav_car.sh
 
 #! /bin/bash
