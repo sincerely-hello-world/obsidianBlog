@@ -58,4 +58,4 @@ ros2 launch uav_car_launch uav_car_drone.launch.py
 ```
 
 
-dd if=/dev/mmc
+dd if=/dev/mmcblk1 .dev/sda bs=4M
