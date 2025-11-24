@@ -1,4 +1,6 @@
-建议参考 香橙派5B用户手册， 使用
+
+**Ubuntu20.04(Focal) Foxy ROS2安装**
+建议参考 香橙派5B用户手册:
 
 + [ ] Ubuntu22.04 安装 [ROS 2 Humble](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Configuring-ROS2-Environment.html)  (LTS长期支持到 2027)
 + [ ] Ubuntu20.04 安装 [ROS 2 Galactic](https://docs.ros.org/en/galactic/Releases.html)（EOF不再有维护） 
@@ -25,8 +27,8 @@ ROS_DISTRO=humble
 ---
 # ubuntu20.04 安装 foxy Ros2
 **ubuntu20.04 仅支持 foxy 等版本， 还是和原机器一样，安装foxy版本吧：**
-1. 先改镜像源， 手动或者按照 鱼香ros自动 改也行。
 
+1. 先改镜像源， 手动或者按照 鱼香ros自动 改也行。
 ```
 # 看一下镜像源：
 sudo cat /etc/apt/sources.list
@@ -40,7 +42,7 @@ sudo vi /etc/apt/sources.list
 # 然后 复制 粘贴下面的镜像源配置， 写入到文件内容中
 # 然后 :wq 回车 退出
 ```
-+ 要复制的镜像源配置：
++ 要复制的镜像源配置：Ubuntu20.04(Focal) Foxy ROS2安装
 ```
 # 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
 deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal main restricted universe multiverse
@@ -57,6 +59,7 @@ deb http://security.ubuntu.com/ubuntu/ focal-security main restricted universe m
 # deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse
 # # deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ focal-proposed main restricted universe multiverse
 ```
+
 2. [参考这篇帖子，手动更新一下 密钥和ros软件](https://fishros.org.cn/forum/topic/4595/%E4%B8%80%E9%94%AE%E5%AE%89%E8%A3%85%E6%8A%A5%E9%94%99404?_=1763952804957)，因为鱼香肉丝安装出现了相同的404 ip not found错误！
 ```
 sudo apt install curl gnupg2 -y curl -s https://gitee.com/ohhuo/rosdistro/raw/master/ros.asc | sudo apt-key add -
