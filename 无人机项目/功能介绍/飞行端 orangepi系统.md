@@ -21,5 +21,5 @@
 	├── uav_car               # 
 	├── uav_car_interfaces    # 纯粹的数据类型定义包 .msg .srv
 	├── uav_car_launch        # 总启动脚本， 位于.\launch\uav_car_drone.launch.py
-	└── uav_car_unit          # orangepi本身的硬件初始化包 
+	└── uav_car_unit          # 模块初始化包  基类
 ```
