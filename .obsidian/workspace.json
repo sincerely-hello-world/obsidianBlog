@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/ROS基本操作/ros2 基本使用.md",
+                "file": "无人机项目/linux基本操作/systemd 服务管理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ros2 基本使用"
+              "title": "systemd 服务管理"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "noma",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -196,8 +197,8 @@
   },
   "active": "9dee43c324564b5b",
   "lastOpenFiles": [
-    "无人机项目/ROS基本操作/Foxy ROS2安装.md",
     "无人机项目/ROS基本操作/ros2 基本使用.md",
+    "无人机项目/ROS基本操作/Foxy ROS2安装.md",
     "无人机项目/linux基本操作/ubuntu22.04系统镜像源.md",
     "无人机项目/linux基本操作/修改镜像：.md",
     "().md",
