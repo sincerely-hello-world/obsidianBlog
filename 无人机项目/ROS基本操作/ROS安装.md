@@ -56,4 +56,7 @@ sudo apt install ros-foxy-desktop python3-argcomplete
 
 # 安装cli版 无GUI，轻量化 部署用
 sudo apt install ros-foxy-ros-base python3-argcomplete
+
+# 如果要构建 ROS 包或进行其他开发，还应安装开发工具：
+
 ```
