@@ -7,9 +7,9 @@
 echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc
 ```
 
-
-如果你以后建了自己的 colcon 工作空间，还可以再加一行
+持久化 bash的source
 ```
+# >> 表示追加写入， > 表示覆盖写入（千万别覆盖写入）
 echo "source ~/ros2_ws/install/setup.bash" >> ~/.bashrc
 ```
 
