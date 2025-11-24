@@ -3,6 +3,9 @@ systemctl list-units --type=service：列出当前系统上所有的服务单元
 
 systemctl start servicename：启动一个服务。
 systemctl stop servicename：停止一个服务。
+
+systemctl stop uav_car.service
+
 systemctl restart servicename：重启一个服务。
 
 systemctl enable servicename：设置一个服务为开机自启动。
