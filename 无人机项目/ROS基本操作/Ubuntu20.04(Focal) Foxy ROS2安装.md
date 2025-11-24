@@ -6,14 +6,9 @@
 + [x] Ubuntu20.04 安装 [ROS 2 Galactic](https://docs.ros.org/en/galactic/Releases.html)（EOF不再有维护） 
 + [ ] Ubuntu20.04 安装 [ROS 2 Foxy](https://docs.ros.org/en/foxy/Releases.html)（EOF不再有维护） （目前 王俊豪组无人机，使用ros2 Foxy版本,  使用该版本复刻）
 
----
-这里参考  Ubuntu22.04 安装 [ROS 2 Humble](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Configuring-ROS2-Environment.html)  ， 使用一下镜像源，安装很顺利：[系统镜像](系统镜像.md)
+Ubuntu22.04 安装 [ROS 2 Humble](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Configuring-ROS2-Environment.html)  ， 使用一下镜像源，安装很顺利：[系统镜像](系统镜像.md)
 
- + 查看ros版本： printenv | grep -i ROS
-```
-printenv | grep -i ROS
-```
-
+ 
 ---
 # ubuntu20.04 安装 foxy Ros2
 **ubuntu20.04 仅支持 foxy 等版本， 还是和原机器一样，安装foxy版本吧：**
@@ -69,3 +64,7 @@ sudo apt install ros-foxy-ros-base python3-argcomplete
 sudo apt install ros-dev-tools # 可选不必须
 ```
 
+4. 最后 查看ros版本： printenv | grep -i ROS
+```
+printenv | grep -i ROS
+```
