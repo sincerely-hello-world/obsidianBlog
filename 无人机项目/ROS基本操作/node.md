@@ -10,8 +10,8 @@ def main():
 	node.get_logger().info('你好 Python 节点!')
 	rclpy.spin(node)
 	rclpy.shutdown()
-if_name__==__main_":
-mair
+if_name__==__main__":
+	main()
 ```
 
 ```
