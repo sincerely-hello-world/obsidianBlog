@@ -21,5 +21,5 @@
 	├── uav_car               # 
 	├── uav_car_interfaces    # colcon build 构建后文件（部署时，调用这个）
 	├── uav_car_launch        # colcon build 构建日志
-	└── uav_car_unit          # 存放源码  
+	└── uav_car_unit          # 纯粹的初始化模块
 ```
