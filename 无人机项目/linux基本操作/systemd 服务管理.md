@@ -20,7 +20,7 @@ systemctl status servicename：查看一个服务的状态。
 - `Active` 表示当前是否正在运行。
 
 + `/lib/systemd/system/` 软件/通用程序的自启服务
-+ /etc
++ `/etc/systemd/system/` 用户/ 自定义脚本启动服务
 ## 编写开机启动服务
 
  sudo vi  /etc/systemd/system/my-my-my.service
