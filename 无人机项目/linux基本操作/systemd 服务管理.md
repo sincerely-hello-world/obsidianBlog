@@ -4,7 +4,7 @@ systemctl list-units --type=service：列出当前系统上所有的服务单元
 systemctl start servicename：启动一个服务。
 systemctl stop servicename：停止一个服务。
 
-systemctl stop uav_car.service
+# systemctl stop uav_car.service
 
 systemctl restart servicename：重启一个服务。
 
@@ -13,8 +13,10 @@ systemctl disable servicename：禁用一个服务的开机自启动。
 
 systemctl status servicename：查看一个服务的状态。
 # sudo systemctl status  nxserver.service
-#`Loaded` 行中的 `enabled` 表示该服务已设置为开机自启。
+# `Loaded` 行中的 `enabled` 表示该服务已设置为开机自启。
 # `Active` 表示当前是否正在运行。
+# `/lib/systemd/system/` 软件/通用程序的自启服务
+# `/etc/systemd/system/` 用户/ 自定义脚本启动服务
 ```
 - `Loaded` 行中的 `enabled` 表示该服务已设置为开机自启。
 - `Active` 表示当前是否正在运行。
