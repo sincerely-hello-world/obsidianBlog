@@ -23,7 +23,9 @@ systemctl status servicename：查看一个服务的状态。
 + `/etc/systemd/system/` 用户/ 自定义脚本启动服务
 ## 编写开机启动服务
 
- sudo vi  /etc/systemd/system/my-my-my.service
+```
+ sudo vi  /etc/systemd/system/用户服务名.service
+```
 
 ```bash
 [Unit]  
