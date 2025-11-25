@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/起飞流程.md",
+                "file": "无人机项目/linux基本操作/systemd 服务管理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "起飞流程"
+              "title": "systemd 服务管理"
             }
           }
         ]
@@ -196,8 +196,8 @@
   },
   "active": "9dee43c324564b5b",
   "lastOpenFiles": [
-    "无人机项目/主要任务/熟悉流程.md",
     "无人机项目/起飞流程.md",
+    "无人机项目/主要任务/熟悉流程.md",
     "无人机项目/主要任务",
     "无人机项目/供电系统.md",
     "Untitled.base",
