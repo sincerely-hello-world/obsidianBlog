@@ -19,7 +19,7 @@ systemctl status servicename：查看一个服务的状态。
 - `Loaded` 行中的 `enabled` 表示该服务已设置为开机自启。
 - `Active` 表示当前是否正在运行。
 
-+ /lib/systemd/system/
+/lib/systemd/system/`
 ## 编写开机启动服务
 
  sudo vi  /etc/systemd/system/my-my-my.service
