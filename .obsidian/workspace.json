@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/硬件组件/地面端.md",
+                "file": "无人机项目/硬件组件/硬件分工.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "地面端"
+              "title": "硬件分工"
             }
           }
         ]
@@ -197,7 +197,7 @@
   "active": "9dee43c324564b5b",
   "lastOpenFiles": [
     "无人机项目/硬件组件/锂电池.md",
-    "无人机项目/硬件组件/地面端.md",
+    "无人机项目/硬件组件/硬件分工.md",
     "无人机项目/硬件组件/定位模块.md",
     "无人机项目/硬件组件/飞行端 orangepi.md",
     "无人机项目/主要任务/地面端程序迁移.md",
