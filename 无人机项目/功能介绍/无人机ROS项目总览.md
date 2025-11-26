@@ -7,7 +7,7 @@
 
 
 ## 地面站 香橙派
-
+/home/orangepi/yhc/
 /home/orangepi/Desktop/yhc/
 
 
