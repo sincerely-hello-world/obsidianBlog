@@ -1,6 +1,6 @@
 ## 新建功能包
 ```bash
-ros2 pkg create my_pkg  --build-type ament_python
+ros2 pkg create my_pkg  --build-type ament_python --node-name my_node 
 ros2 pkg create <包名name> --build-type ament_python
 ros2 pkg create <包名name> --build-type ament_python --node-name my_node 
 ```
@@ -11,6 +11,7 @@ ros2 pkg create test_pkgname --build-type ament_python --node-name my_node_name
 ./my_pkg/
 ├── my_pkg 
 │   └── __init__.py
+│   └── my_node.py # 节点名字
 ├── package.xml  # 依赖项配置， 类似于CMakeList
 ├── resource
 │   └── my_pkg
