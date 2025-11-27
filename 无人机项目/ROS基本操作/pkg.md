@@ -22,6 +22,7 @@ ros2 pkg create test_pkgname --build-type ament_python --node-name my_node_name
 ## 构建某个包
 ``` bash
 colcon build --packages-select <pkg_name>
+colcon build --packages-select test_pkgname
 ```
 
 
