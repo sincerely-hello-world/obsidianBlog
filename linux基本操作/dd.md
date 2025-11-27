@@ -19,7 +19,7 @@ zram1        254:1    0  200M  0 disk /var/log
 
 ```
 dd if=/dev/mmcblk1 of=/dev/sda bs=4M
-sudo dd if=/dev/mmcblk1 of=/dev/sda bs=4M status=progress oflag=sync
+sudo dd if=/dev/mmcblk1 of=/dev/sda bs=4M status=progress  
 
 输出如下：
 ```bash
