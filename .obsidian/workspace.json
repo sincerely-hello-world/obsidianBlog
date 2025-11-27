@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "起飞流程"
             }
+          },
+          {
+            "id": "83e1a2b4494d9802",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -194,7 +207,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9dee43c324564b5b",
+  "active": "83e1a2b4494d9802",
   "lastOpenFiles": [
     "无人机项目/ROS基本操作/ros使用/功能包pkg.md",
     "无人机项目/起飞流程.md",
