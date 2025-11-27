@@ -28,6 +28,7 @@ colcon build --packages-select <pkg_name>
 ---
 # 各个文件功能
 ## setup.py
+包内的 节点启动配置
 ```python
 from setuptools import setup
 
@@ -59,6 +60,7 @@ setup(
 ```
 
 ## package.xml
+包管理
 ```xml
 <?xml version="1.0"?>
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
