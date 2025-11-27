@@ -1,6 +1,7 @@
 ## 新建功能包
-```
-ros2 pkg create my_pkg --build-type ament_python
+```bash
+ros2 pkg create my_pkg  --build-type ament_python
+ros2 pkg create <>  --build-type ament_python
 ```
 ## 包的目录结构：
 ```bash
