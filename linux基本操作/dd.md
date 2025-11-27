@@ -2,7 +2,23 @@
 ---
 dd --help
 lsblk
-dd if=
+```
+orangepi@orangepi5b:~$ lsblk
+NAME         MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda            8:0    1 29.7G  0 disk
+mmcblk0      179:0    0 58.2G  0 disk
+├─mmcblk0p1  179:1    0    1G  0 part
+└─mmcblk0p2  179:2    0 56.6G  0 part
+mmcblk0boot0 179:32   0    4M  1 disk
+mmcblk0boot1 179:64   0    4M  1 disk
+mmcblk1      179:96   0 29.7G  0 disk
+├─mmcblk1p1  179:97   0    1G  0 part /boot
+└─mmcblk1p2  179:98   0 28.4G  0 part /
+zram0        254:0    0  3.8G  0 disk [SWAP]
+zram1        254:1    0  200M  0 disk /var/log
+
+```
+dd if=mmcblk1 of=
 
 输出如下：
 ```bash
