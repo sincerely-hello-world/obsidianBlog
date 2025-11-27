@@ -25,12 +25,14 @@
             "id": "83e1a2b4494d9802",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.10.6"
+                "file": "无人机项目/ROS基本操作/ros使用/Foxy ROS2安装.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.6"
+              "icon": "lucide-file",
+              "title": "Foxy ROS2安装"
             }
           }
         ],
@@ -86,8 +88,19 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "746f34fa4a284441",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -168,23 +181,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/linux基本操作/修改镜像：.md",
+                "file": "无人机项目/ROS基本操作/ros使用/Foxy ROS2安装.md",
                 "followCursor": true,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 修改镜像："
-            }
-          },
-          {
-            "id": "746f34fa4a284441",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "title": "Outline of Foxy ROS2安装"
             }
           }
         ],
@@ -192,8 +195,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 431.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,7 +209,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "83e1a2b4494d9802",
+  "active": "746f34fa4a284441",
   "lastOpenFiles": [
     "无人机项目/ROS基本操作/ros使用/功能包pkg.md",
     "无人机项目/起飞流程.md",
