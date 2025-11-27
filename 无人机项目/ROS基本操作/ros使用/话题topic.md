@@ -1,20 +1,20 @@
-```
+```bash
 
 ros2 topic info /novel # 查看节点信息
 
-输出类似： ros2 topic info  /novel  
-Type: example_interfaces/msg/String
-Publisher count: 1
-Subscription count: 0 
+# 输出类似： 
+# >> ros2 topic info  /novel  
+# Type: example_interfaces/msg/String
+# Publisher count: 1
+# Subscription count: 0 
 ---
 
-ros2 topic echo /chatter std_msgs/msg/String # 这表示：请订阅 `/chatter` 话题，并按照 `std_msgs/msg/String` 这种格式来解析收到的数据。
+ros2 topic echo /chatter std_msgs/msg/String 
 
+# 这表示：请订阅 `/chatter` 话题，并按照 `std_msgs/msg/String` 这种格式来解析收到的数据。
 # 但在大多数情况下，只写话题名就够了：
 ros2 topic echo /chatter
-
-
-# ros2 topic
+---
 ```
 
 
