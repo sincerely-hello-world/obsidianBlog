@@ -38,7 +38,8 @@ ros2 pkg create my_pkg --build-type ament_python
 
   <depend>rclpy</depend>   在package字段，添加依赖项，一般为包名
   <export>
-    <build_type>ament_python</build_type>
+    <build_type>ament_python</build_type>   
+    对应参数 ros2 pkg create my_pkg --build-type ament_python 
   </export>
 </package>
 
