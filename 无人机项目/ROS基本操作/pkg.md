@@ -15,6 +15,14 @@ ros2 pkg create <包名name>  --build-type ament_python
 ├── setup.py     # 主要的启动配置
 └── test         # 测试模组， 自动产生，一般无用
 ```
+## 构建某个包
+``` bash
+colcon build --packages-select <pkg_name>
+```
+
+
+---
+# 各个文件功能
 ## setup.py
 ```python
 from setuptools import setup
