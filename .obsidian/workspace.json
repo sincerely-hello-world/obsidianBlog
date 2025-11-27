@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/ROS基本操作/标准化输出.md",
+                "file": "无人机项目/ROS基本操作/pkg.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "标准化输出"
+              "title": "pkg"
             }
           }
         ]
@@ -95,13 +95,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/ROS基本操作/标准化输出.md",
+                "file": "无人机项目/ROS基本操作/pkg.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 标准化输出"
+              "title": "Outline of pkg"
             }
           },
           {
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "无人机项目/ROS基本操作/标准化输出.md",
+                "file": "无人机项目/ROS基本操作/pkg.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 标准化输出"
+              "title": "Backlinks for pkg"
             }
           },
           {
@@ -143,12 +143,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "无人机项目/ROS基本操作/标准化输出.md",
+                "file": "无人机项目/ROS基本操作/pkg.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 标准化输出"
+              "title": "Outgoing links from pkg"
             }
           },
           {
@@ -195,10 +195,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5b4f0c8649ed1d33",
+  "active": "353783692860f9f8",
   "lastOpenFiles": [
-    "linux基本操作/权限管理.md",
     "无人机项目/ROS基本操作/标准化输出.md",
+    "无人机项目/ROS基本操作/pkg.md",
+    "linux基本操作/权限管理.md",
     "linux基本操作/修改镜像.md",
     "linux基本操作/snap.md",
     "linux基本操作/免密ssh连接.md",
@@ -228,7 +229,6 @@
     "无人机项目/功能介绍/飞行端/飞行端 orangepi系统.md",
     "无人机项目/功能介绍/飞行端/定位模块.md",
     "无人机项目/功能介绍/地面端",
-    "无人机项目/功能介绍/飞控板/飞控板.md",
     "无人机项目/功能介绍/飞控板",
     "无人机项目/功能介绍/飞行端",
     "无人机项目/主要任务",
