@@ -21,7 +21,7 @@ ros2 pkg create my_pkg --build-type ament_python
 ```python
 from setuptools import setup
 
-package_name = 'my_pkg' # zi'dong'h
+package_name = 'my_pkg' # 自动化匹配 顶层目录名./my_pkg/
 
 setup(
     name=package_name,
