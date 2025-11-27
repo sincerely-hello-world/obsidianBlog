@@ -88,19 +88,9 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
-          },
-          {
-            "id": "746f34fa4a284441",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -114,6 +104,21 @@
         "id": "7a2de948961bbe66",
         "type": "tabs",
         "children": [
+          {
+            "id": "5b4f0c8649ed1d33",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "无人机项目/ROS基本操作/ros使用/Foxy ROS2安装.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Foxy ROS2安装"
+            }
+          },
           {
             "id": "de03816fd6d11258",
             "type": "leaf",
@@ -174,28 +179,12 @@
               "icon": "lucide-archive",
               "title": "All properties"
             }
-          },
-          {
-            "id": "5b4f0c8649ed1d33",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "无人机项目/ROS基本操作/ros使用/Foxy ROS2安装.md",
-                "followCursor": true,
-                "showSearch": true,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Foxy ROS2安装"
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 431.5
+    "width": 313.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -209,7 +198,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "746f34fa4a284441",
+  "active": "5b4f0c8649ed1d33",
   "lastOpenFiles": [
     "无人机项目/ROS基本操作/ros使用/功能包pkg.md",
     "无人机项目/起飞流程.md",
