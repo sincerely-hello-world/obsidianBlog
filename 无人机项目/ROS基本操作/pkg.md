@@ -1,8 +1,8 @@
-## 功能包创建
+## 新建功能包
 ```
 ros2 pkg create my_pkg --build-type ament_python
 ```
-## 新建功能包的目录结构：
+## 包的目录结构：
 ```bash
 ./my_pkg/
 ├── my_pkg 
@@ -18,7 +18,34 @@ ros2 pkg create my_pkg --build-type ament_python
     └── test_pep257.py
 ```
 ## setup.py
+```python
+from setuptools import setup
 
+package_name = 'my_pkg' # zi'dong'h
+
+setup(
+    name=package_name,
+    version='0.0.0',
+    packages=[package_name],
+    data_files=[
+        ('share/ament_index/resource_index/packages',
+            ['resource/' + package_name]),
+        ('share/' + package_name, ['package.xml']),
+    ],
+    install_requires=['setuptools'],
+    zip_safe=True,
+    maintainer='focal',
+    maintainer_email='focal@todo.todo',
+    description='TODO: Package description',
+    license='TODO: License declaration',
+    tests_require=['pytest'],
+    entry_points={
+        'console_scripts': [
+        ],
+    },
+)
+
+```
 
 ## package.xml
 ```xml
@@ -42,5 +69,4 @@ ros2 pkg create my_pkg --build-type ament_python
     对应参数 ros2 pkg create my_pkg --build-type ament_python 
   </export>
 </package>
-
 ```
