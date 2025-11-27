@@ -212,6 +212,7 @@
   },
   "active": "95e0c59b52292eae",
   "lastOpenFiles": [
+    "无人机项目/ROS基本操作/标准化输出.md",
     "无人机项目/ROS基本操作/包&工作空间.md",
     "无人机项目/ROS基本操作/workplace.md",
     "无人机项目/ROS基本操作/pkg.md",
@@ -219,7 +220,6 @@
     "无人机项目/ROS基本操作/ros使用/话题topic.md",
     "无人机项目/ROS基本操作/ros使用/节点node.md",
     "无人机项目/ROS基本操作/ros使用/Foxy ROS2安装.md",
-    "无人机项目/ROS基本操作/标准化输出.md",
     "linux基本操作/权限管理.md",
     "linux基本操作/修改镜像.md",
     "linux基本操作/snap.md",
