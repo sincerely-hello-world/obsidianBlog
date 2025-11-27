@@ -1,8 +1,11 @@
 ## 新建功能包
 ```bash
 ros2 pkg create my_pkg  --build-type ament_python
-ros2 pkg create <包名name>  --build-type ament_python
+ros2 pkg create <包名name> --build-type ament_python
+ros2 pkg create <包名name> --build-type ament_python --node-name my_node 
 ```
+
+ros2 pkg create test_pkgname --build-type ament_python --node-name my_node_name
 ## 包的目录结构：
 ```bash
 ./my_pkg/
