@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/ROS基本操作/pkg.md",
+                "file": "无人机项目/ROS基本操作/ros使用/Foxy ROS2安装.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "pkg"
+              "title": "Foxy ROS2安装"
             }
           }
         ]
@@ -95,13 +95,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/ROS基本操作/pkg.md",
+                "file": "无人机项目/ROS基本操作/ros使用/Foxy ROS2安装.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of pkg"
+              "title": "Outline of Foxy ROS2安装"
             }
           },
           {
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "无人机项目/ROS基本操作/pkg.md",
+                "file": "无人机项目/ROS基本操作/ros使用/Foxy ROS2安装.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +120,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for pkg"
+              "title": "Backlinks for Foxy ROS2安装"
             }
           },
           {
@@ -143,12 +143,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "无人机项目/ROS基本操作/pkg.md",
+                "file": "无人机项目/ROS基本操作/ros使用/Foxy ROS2安装.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from pkg"
+              "title": "Outgoing links from Foxy ROS2安装"
             }
           },
           {
@@ -197,8 +197,8 @@
   },
   "active": "353783692860f9f8",
   "lastOpenFiles": [
-    "无人机项目/ROS基本操作/workplace.md",
     "无人机项目/ROS基本操作/pkg.md",
+    "无人机项目/ROS基本操作/workplace.md",
     "无人机项目/ROS基本操作/标准化输出.md",
     "linux基本操作/权限管理.md",
     "linux基本操作/修改镜像.md",
