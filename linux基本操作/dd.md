@@ -18,7 +18,7 @@ zram0        254:0    0  3.8G  0 disk [SWAP]
 zram1        254:1    0  200M  0 disk /var/log
 
 ```
-dd if=mmcblk1 of=
+dd if=mmcblk1 of=/dev/sda bs=4M
 
 输出如下：
 ```bash
