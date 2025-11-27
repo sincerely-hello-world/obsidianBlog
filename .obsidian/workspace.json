@@ -120,6 +120,18 @@
             }
           },
           {
+            "id": "86a5f2241b419306",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "pinned": true,
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
             "id": "de03816fd6d11258",
             "type": "leaf",
             "state": {
@@ -136,18 +148,6 @@
               },
               "icon": "links-coming-in",
               "title": "Backlinks for 多线程 回调实例"
-            }
-          },
-          {
-            "id": "86a5f2241b419306",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "pinned": true,
-              "icon": "git-pull-request",
-              "title": "Source Control"
             }
           },
           {
@@ -194,7 +194,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
