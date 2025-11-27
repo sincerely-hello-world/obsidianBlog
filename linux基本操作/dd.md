@@ -20,11 +20,13 @@ zram1        254:1    0  200M  0 disk /var/log
 ```
 dd if=/dev/mmcblk1 of=/dev/sda bs=4M
 sudo dd if=/dev/mmcblk1 of=/dev/sda bs=4M status=progress oflag=sync
+
 + [ ] 确定 /dev/mmcblk1 是orangepi自身的SD卡a, 是配置好的系统盘；
 + [ ] 确定 /dev/sda          是SD卡b，要将数据备份到b。
 + [ ] 同时，为了显示进度， status=progress；
-+ [ ] 为了确保传输更准确，oflag=sync。
-输出如下：
++ [ ] 为了确保传输更准确，oflag=sync； （但是会变慢许多）
++ [ ] 32G拷贝历时45分钟
+
 ```bash
 # dd --help
 Usage: dd [OPERAND]...
