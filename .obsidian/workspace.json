@@ -191,8 +191,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -210,7 +209,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "95e0c59b52292eae",
+  "active": "5b4f0c8649ed1d33",
   "lastOpenFiles": [
     "无人机项目/ROS基本操作/2.pkg.md",
     "无人机项目/ROS基本操作/1.workplace.md",
