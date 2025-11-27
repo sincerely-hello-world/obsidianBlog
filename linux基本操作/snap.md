@@ -7,7 +7,8 @@ sudo snap install snap-store-proxy
 sudo snap install snap-store-proxy-client
 ```
 
-安装vsc
+安装vsc 、tree
 ```bash
 sudo snap install --classic code
+sudo snap install tree
 ```

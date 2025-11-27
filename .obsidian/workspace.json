@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux基本操作/dd.md",
+                "file": "linux基本操作/snap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "dd"
+              "title": "snap"
             }
           }
         ],
@@ -110,13 +110,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux基本操作/dd.md",
+                "file": "linux基本操作/snap.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of dd"
+              "title": "Outline of snap"
             }
           },
           {
@@ -213,8 +213,9 @@
   },
   "active": "95e0c59b52292eae",
   "lastOpenFiles": [
+    "linux基本操作/镜像源修改.md",
+    "linux基本操作/整盘拷贝dd.md",
     "无人机项目/ROS基本操作/2.pkg.md",
-    "linux基本操作/dd.md",
     "无人机项目/ROS基本操作/多线程 回调实例.md",
     "无人机项目/ROS基本操作/1.workplace.md",
     "无人机项目/ROS基本操作/0. 标准化输出.md",
@@ -224,7 +225,6 @@
     "无人机项目/ROS基本操作/ros使用/节点node.md",
     "无人机项目/ROS基本操作/ros使用/Foxy ROS2安装.md",
     "linux基本操作/权限管理.md",
-    "linux基本操作/修改镜像.md",
     "linux基本操作/snap.md",
     "linux基本操作/免密ssh连接.md",
     "linux基本操作/文件清理.md",
