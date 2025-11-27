@@ -7,13 +7,13 @@ workspace_folder/
           CMakeLists.txt
           include/cpp_package_1/
           package.xml
-          src/
+          src/          # 源码文件
 
       py_package_1/
           package.xml
           resource/py_package_1
           setup.cfg
           setup.py
-          py_package_1/
+          py_package_1/  # 源码文件
       ...
 ```
