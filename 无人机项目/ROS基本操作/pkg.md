@@ -13,10 +13,7 @@ ros2 pkg create <包名name>  --build-type ament_python
 │   └── my_pkg
 ├── setup.cfg
 ├── setup.py     # 主要的启动配置
-└── test
-    ├── test_copyright.py
-    ├── test_flake8.py
-    └── test_pep257.py
+└── test         # 测试模组， 自动产生，一般无用
 ```
 ## setup.py
 ```python
