@@ -1,7 +1,9 @@
 ```
 ros2 topic echo topic名字
+
+ros2 topic echo /publisher1 std_msgs/msg/String # 这表示：请订阅 `/chatter` 话题，并按照 `std_msgs/msg/String` 这种格式来解析收到的数据。
 ```
-一般使用 ros2 topic echo 
+
 
 ```bash
 ros2 topic echo --help
