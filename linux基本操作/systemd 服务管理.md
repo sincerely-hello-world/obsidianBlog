@@ -1,6 +1,6 @@
 ```BASH
 systemctl list-units --type=service：列出当前系统上所有的服务单元。
-
+# systemctl list-units --type=service | grep uav
 systemctl start servicename：启动一个服务。
 systemctl stop servicename：停止一个服务。
 
