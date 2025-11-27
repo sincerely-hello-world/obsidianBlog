@@ -5,7 +5,8 @@
 
 让我们选择
 + 目录名为`workspace_folder`，表示`开发工作空间`：
-+ s'r
++ 在`workspace_folder/src` 创建自己的 `软件包`
+> 一个最佳实践是将工作空间中的任何包放置在``src``目录中。
 ```
 workspace_folder/
     src/
