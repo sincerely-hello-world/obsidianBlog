@@ -110,6 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "无人机项目/ROS基本操作/标准化输出.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +120,21 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for 标准化输出"
+            }
+          },
+          {
+            "id": "fc7ebd5bb19e0c99",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
             }
           },
           {
@@ -128,12 +143,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "无人机项目/ROS基本操作/ros使用/飞行站代码.md",
+                "file": "无人机项目/ROS基本操作/标准化输出.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 飞行站代码"
+              "title": "Outgoing links from 标准化输出"
             }
           },
           {
@@ -152,20 +167,17 @@
             }
           },
           {
-            "id": "fc7ebd5bb19e0c99",
+            "id": "86a5f2241b419306",
             "type": "leaf",
             "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "All properties"
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -183,7 +195,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "353783692860f9f8",
+  "active": "5b4f0c8649ed1d33",
   "lastOpenFiles": [
     "linux基本操作/权限管理.md",
     "无人机项目/ROS基本操作/标准化输出.md",
