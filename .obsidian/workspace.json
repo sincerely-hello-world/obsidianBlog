@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux基本操作/WiFi连接.md",
+                "file": "linux基本操作/systemd 服务管理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WiFi连接"
+              "title": "systemd 服务管理"
             }
           }
         ],
@@ -214,6 +214,7 @@
   },
   "active": "95e0c59b52292eae",
   "lastOpenFiles": [
+    "linux基本操作/WiFi连接.md",
     "linux基本操作/systemd 服务管理.md",
     "无人机项目/飞控板/板卡信息.md",
     "linux基本操作/整盘拷贝dd.md",
@@ -236,7 +237,6 @@
     "linux基本操作/文件清理.md",
     "linux基本操作/ubuntu22.04系统镜像源.md",
     "linux基本操作/查看系统版本.md",
-    "linux基本操作/WiFi连接.md",
     "Logseq/journals/2025_11_15.md",
     "Untitled.canvas",
     "Untitled.base",
