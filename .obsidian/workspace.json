@@ -95,13 +95,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux基本操作/systemd 服务管理.md",
+                "file": "无人机项目/功能介绍/飞控板/飞控板.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of systemd 服务管理"
+              "title": "Outline of 飞控板"
             }
           },
           {
@@ -182,8 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5,
-    "collapsed": true
+    "width": 313.5
   },
   "left-ribbon": {
     "hiddenItems": {
