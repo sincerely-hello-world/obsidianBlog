@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/飞控板/激活的飞控-板卡信息.md",
+                "file": "无人机项目/功能介绍/飞控板/飞控板.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "激活的飞控-板卡信息"
+              "title": "飞控板"
             }
           }
         ]
@@ -95,13 +95,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/飞控板/激活的飞控-板卡信息.md",
+                "file": "无人机项目/功能介绍/飞控板/飞控板.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 激活的飞控-板卡信息"
+              "title": "Outline of 飞控板"
             }
           },
           {
@@ -182,8 +182,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,8 +196,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ff956bd88238d377",
+  "active": "353783692860f9f8",
   "lastOpenFiles": [
+    "无人机项目/功能介绍/地面端/地面端控制器 yhc.md",
+    "无人机项目/飞控板/激活的飞控-板卡信息.md",
     "无人机项目/功能介绍/飞控板/飞控板.md",
     "无人机项目/起飞流程.md",
     "无人机项目/功能介绍/飞控板/assets/飞控板/file-20251129184842671.png",
@@ -210,12 +211,10 @@
     "linux基本操作/systemd 服务管理.md",
     "linux基本操作/ubuntu22.04系统镜像源.md",
     "wifi优先级  飞控端.md",
-    "无人机项目/功能介绍/地面端/地面端控制器 yhc.md",
     "linux基本操作/整盘拷贝dd.md",
     "linux基本操作/snap.md",
     "无人机项目/ROS基本操作/2.pkg.md",
     "linux基本操作/WiFi连接.md",
-    "无人机项目/飞控板/激活的飞控-板卡信息.md",
     "无人机项目/飞控板",
     "无人机项目/ROS基本操作/ros使用/话题topic.md",
     "无人机项目/ROS基本操作/Untitled.md",
