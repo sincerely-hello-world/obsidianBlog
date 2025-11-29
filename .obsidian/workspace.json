@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "wifi优先级  飞控端.md",
+                "file": "linux基本操作/systemd 服务管理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "wifi优先级  飞控端"
+              "title": "systemd 服务管理"
             }
           }
         ]
@@ -199,14 +199,14 @@
   },
   "active": "353783692860f9f8",
   "lastOpenFiles": [
-    "无人机项目/功能介绍/飞控板/飞控板.md",
+    "linux基本操作/ubuntu22.04系统镜像源.md",
     "wifi优先级  飞控端.md",
+    "无人机项目/功能介绍/飞控板/飞控板.md",
     "无人机项目/功能介绍/地面端/地面端控制器 yhc.md",
     "无人机项目/起飞流程.md",
     "linux基本操作/整盘拷贝dd.md",
     "linux基本操作/snap.md",
     "linux基本操作/systemd 服务管理.md",
-    "linux基本操作/ubuntu22.04系统镜像源.md",
     "无人机项目/ROS基本操作/2.pkg.md",
     "linux基本操作/WiFi连接.md",
     "无人机项目/飞控板/板卡信息.md",
