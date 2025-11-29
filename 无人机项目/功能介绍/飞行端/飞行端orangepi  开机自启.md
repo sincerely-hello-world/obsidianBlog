@@ -1,3 +1,10 @@
+
+systemctl list-units --type=service | grep uav
+
+systemctl stop uav_car.service
+systemctl start uav_car.service 
+systemctl restart uav_car.service 
+
 ```
 su orangepi
 cd ~/Desktop/UAV_CAR__Test/UAV_CAR/src/uav_car_launch/launch

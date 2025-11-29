@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux基本操作/systemd 服务管理.md",
+                "file": "无人机项目/功能介绍/飞行端/飞行端orangepi  开机自启.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "systemd 服务管理"
+              "title": "飞行端orangepi  开机自启"
             }
           }
         ]
@@ -199,6 +199,8 @@
   },
   "active": "353783692860f9f8",
   "lastOpenFiles": [
+    "无人机项目/功能介绍/飞行端/飞行端 orangepi系统.md",
+    "linux基本操作/systemd 服务管理.md",
     "linux基本操作/ubuntu22.04系统镜像源.md",
     "wifi优先级  飞控端.md",
     "无人机项目/功能介绍/飞控板/飞控板.md",
@@ -206,7 +208,6 @@
     "无人机项目/起飞流程.md",
     "linux基本操作/整盘拷贝dd.md",
     "linux基本操作/snap.md",
-    "linux基本操作/systemd 服务管理.md",
     "无人机项目/ROS基本操作/2.pkg.md",
     "linux基本操作/WiFi连接.md",
     "无人机项目/飞控板/板卡信息.md",
@@ -225,7 +226,6 @@
     "linux基本操作/权限管理.md",
     "linux基本操作/免密ssh连接.md",
     "linux基本操作/文件清理.md",
-    "linux基本操作/查看系统版本.md",
     "Untitled.canvas",
     "Untitled.base",
     "Untitled 1.canvas",
