@@ -178,7 +178,8 @@
               "title": "Tags"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -196,7 +197,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "353783692860f9f8",
+  "active": "86a5f2241b419306",
   "lastOpenFiles": [
     "无人机项目/功能介绍/飞控板/assets/接线说明/file-20251130143754615.png",
     "无人机项目/功能介绍/飞控板/assets/接线说明/file-20251130143629635.png",
