@@ -40,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "dd",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -74,7 +74,8 @@
               "title": "Files"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -198,10 +199,11 @@
   },
   "active": "353783692860f9f8",
   "lastOpenFiles": [
+    "无人机项目/功能介绍/飞行端/整盘拷贝.md",
+    "linux基本操作/整盘拷贝dd.md",
     "无人机项目/功能介绍/飞行端/飞行端orangepi  开机自启.md",
     "无人机项目/功能介绍/飞行端/飞行端 orangepi系统.md",
     "无人机项目/功能介绍/飞行端/定位模块.md",
-    "无人机项目/功能介绍/飞行端/Untitled.md",
     "无人机项目/功能介绍/飞控板/飞控板主函数.md",
     "无人机项目/功能介绍/飞控板/接线说明.md",
     "无人机项目/功能介绍/飞控板/激活的飞控-板卡信息.md",
@@ -221,7 +223,6 @@
     "无人机项目/功能介绍/飞控板/assets/飞控板主函数/file-20251129201117645.png",
     "无人机项目/功能介绍/飞控板/assets/飞控板",
     "无人机项目/功能介绍/飞控板/assets",
-    "linux基本操作/整盘拷贝dd.md",
     "linux基本操作/snap.md",
     "无人机项目/ROS基本操作/2.pkg.md",
     "linux基本操作/WiFi连接.md",
