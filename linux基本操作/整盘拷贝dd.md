@@ -105,3 +105,5 @@ Full documentation at: <https://www.gnu.org/software/coreutils/dd>
 or available locally via: info '(coreutils) dd invocation'
 ```
 ---
+
+dd if=/dev/mmcblk1 /dev/sda bs=4M status=progress
