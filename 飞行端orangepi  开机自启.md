@@ -10,6 +10,8 @@ su orangepi
 cd ~/Desktop/UAV_CAR__Test/UAV_CAR/src/uav_car_launch/launch
 ```
 
+## 说明
+
 + _export_ 将变量声明为环境变量，使其在当前 Shell 及其子进程中可用。
 + _source_ 在当前 Shell 中执行脚本文件，而不启动新的子 Shell。
 
