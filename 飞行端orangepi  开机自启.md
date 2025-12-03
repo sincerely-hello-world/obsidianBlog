@@ -1,4 +1,6 @@
 
+./start
+
 systemctl list-units --type=service | grep uav
 
 systemctl stop uav_car.service
@@ -15,7 +17,7 @@ cd ~/Desktop/UAV_CAR__Test/UAV_CAR/src/uav_car_launch/launch
 + _export_ 将变量声明为环境变量，使其在当前 Shell 及其子进程中可用。
 + _source_ 在当前 Shell 中执行脚本文件，而不启动新的子 Shell。
 
-开机启动方案
+## 开机启动方案（原版）
 ```bash
 cat /etc/systemd/system/uav_car.service
 
@@ -46,27 +48,7 @@ bash /home/orangepi/Desktop/UAV_CAR__Test/config/uav_car.sh
 ```
 ---
 
-```bash
-orangepi@orangepiWJH:~/Desktop/UAV_CAR__Test/UAV_CAR/src$ cat /home/orangepi/Desktop/UAV_CAR__Test/config/uav_car.sh
-
-#! /bin/bash
-export ROS_LOG_DIR=/home/orangepi/Desktop/UAV_CAR__Test/run_log
-
-source /opt/ros/foxy/setup.sh
-
-export LD_PRELOAD=/usr/local/lib/python3.8/dist-packages/torch.libs/libgomp-d22c30c5.so.1.0.0
-
-source /home/orangepi/Desktop/UAV_CAR__Test/UAV_CAR/install/setup.bash 
-
-# gpio mode 2 out
-# gpio write 2 0
-
-# cd /dev
-# sudo chmod 777 gpiochip0
-ros2 launch uav_car_launch uav_car_drone.launch.py
-```
----
-
+## 自定义开机自启
 ```bash
 cat /etc/systemd/system/uav_car.service
 
