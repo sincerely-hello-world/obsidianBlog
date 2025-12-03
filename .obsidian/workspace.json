@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "飞行端orangepi  开机自启.md",
+                "file": "调试.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "飞行端orangepi  开机自启"
+              "title": "调试"
             }
           }
         ]
@@ -199,16 +199,16 @@
   },
   "active": "353783692860f9f8",
   "lastOpenFiles": [
+    "起飞操作：.md",
+    "飞行端orangepi  开机自启.md",
     "wifi优先级  飞控端.md",
     "调试.md",
     "assets/调试/file-20251203145527521.png",
     "assets/调试/file-20251203141622423.png",
     "assets/调试",
     "assets",
-    "起飞操作：.md",
     "2025-11-27.md",
     "README.md",
-    "飞行端orangepi  开机自启.md",
     "无人机项目/功能介绍/飞行端/飞行端 orangepi系统.md",
     "linux基本操作/systemd 服务管理.md",
     "无人机项目/功能介绍/飞控板/接线说明.md",
