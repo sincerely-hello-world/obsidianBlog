@@ -74,7 +74,7 @@ Description=UAV Car ROS2 Service
 [Service]
 Type=forking
 ExecStartPre=/bin/sleep 3 
-ExecStart=/etc/uav_car.local start 
+ExecStart=/bin/bash /home/orangepi/Desktop/UAV_CAR__Test/config/uav_car.sh
 TimeoutSec=0 
 StandardOutput=tty 
 RemainAfterExit=yes 
