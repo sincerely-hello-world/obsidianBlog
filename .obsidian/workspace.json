@@ -197,13 +197,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ff956bd88238d377",
+  "active": "353783692860f9f8",
   "lastOpenFiles": [
-    "无人机项目/功能介绍/飞行端/飞行端 orangepi系统.md",
-    "linux基本操作/systemd 服务管理.md",
-    "飞行端orangepi  开机自启.md",
     "服务关停.md",
     "起飞操作：.md",
+    "README.md",
+    "wifi优先级  飞控端.md",
+    "飞行端orangepi  开机自启.md",
+    "无人机项目/功能介绍/飞行端/飞行端 orangepi系统.md",
+    "linux基本操作/systemd 服务管理.md",
     "无人机项目/功能介绍/飞控板/接线说明.md",
     "无人机项目/功能介绍/飞控板/激活的飞控-板卡信息.md",
     "无人机项目/功能介绍/飞控板/飞控板主函数.md",
@@ -211,8 +213,6 @@
     "无人机项目/功能介绍/飞行端/整盘拷贝.md",
     "linux基本操作/整盘拷贝dd.md",
     "无人机项目/功能介绍/飞行端/定位模块.md",
-    "README.md",
-    "wifi优先级  飞控端.md",
     "无人机项目/功能介绍/飞控板/assets/接线说明/file-20251130143754615.png",
     "无人机项目/功能介绍/飞控板/assets/接线说明/file-20251130143629635.png",
     "无人机项目/功能介绍/飞控板/assets/接线说明",
