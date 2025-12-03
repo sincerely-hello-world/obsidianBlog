@@ -1,5 +1,5 @@
 
-./start
+./start_uav.sh
 
 systemctl list-units --type=service | grep uav
 
