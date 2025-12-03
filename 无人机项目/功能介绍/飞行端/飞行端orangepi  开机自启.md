@@ -63,5 +63,24 @@ source /home/orangepi/Desktop/UAV_CAR__Test/UAV_CAR/install/setup.bash
 # sudo chmod 777 gpiochip0
 ros2 launch uav_car_launch uav_car_drone.launch.py
 ```
+---
 
+```bash
+cat /etc/systemd/system/uav_car.service
+
+[Unit]
+Description=/etc/uav_car.local Compatibility 
+ConditionPathExists=/etc/uav_car.local
+
+[Service]
+Type=forking
+ExecStartPre=/bin/sleep 3 
+ExecStart=/etc/uav_car.local start 
+TimeoutSec=0 
+StandardOutput=tty 
+RemainAfterExit=yes 
+ 
+[Install]
+WantedBy=multi-user.target
+```
 
