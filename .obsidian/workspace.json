@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/功能介绍/飞行端/飞行端orangepi  开机自启.md",
+                "file": "飞行端orangepi  开机自启.md",
                 "mode": "source",
                 "source": false
               },
@@ -197,11 +197,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "353783692860f9f8",
+  "active": "ff956bd88238d377",
   "lastOpenFiles": [
     "无人机项目/功能介绍/飞行端/飞行端 orangepi系统.md",
     "linux基本操作/systemd 服务管理.md",
-    "无人机项目/功能介绍/飞行端/飞行端orangepi  开机自启.md",
+    "飞行端orangepi  开机自启.md",
     "服务关停.md",
     "起飞操作：.md",
     "无人机项目/功能介绍/飞控板/接线说明.md",
