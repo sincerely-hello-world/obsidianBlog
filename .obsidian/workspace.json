@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "调试.md",
+                "file": "linux基本操作/查看系统版本.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "调试"
+              "title": "查看系统版本"
             }
           }
         ]
@@ -197,13 +197,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "353783692860f9f8",
+  "active": "ff956bd88238d377",
   "lastOpenFiles": [
+    "Untitled",
+    "linux基本操作/免密ssh连接.md",
+    "linux基本操作/整盘拷贝dd.md",
+    "linux基本操作/snap.md",
+    "linux基本操作/systemd 服务管理.md",
+    "linux基本操作/ubuntu22.04系统镜像源.md",
+    "linux基本操作/WiFi连接.md",
+    "调试.md",
     "assets/调试/file-20251203160818551.png",
     "起飞操作：.md",
     "飞行端orangepi  开机自启.md",
     "wifi优先级  飞控端.md",
-    "调试.md",
     "assets/调试/file-20251203145527521.png",
     "assets/调试/file-20251203141622423.png",
     "assets/调试",
@@ -211,41 +218,33 @@
     "2025-11-27.md",
     "README.md",
     "无人机项目/功能介绍/飞行端/飞行端 orangepi系统.md",
-    "linux基本操作/systemd 服务管理.md",
     "无人机项目/功能介绍/飞控板/接线说明.md",
     "无人机项目/功能介绍/飞控板/激活的飞控-板卡信息.md",
     "无人机项目/功能介绍/飞控板/飞控板主函数.md",
     "无人机项目/功能介绍/地面端/地面端控制器 yhc.md",
     "无人机项目/功能介绍/飞行端/整盘拷贝.md",
-    "linux基本操作/整盘拷贝dd.md",
     "无人机项目/功能介绍/飞行端/定位模块.md",
     "无人机项目/功能介绍/飞控板/assets/接线说明/file-20251130143754615.png",
     "无人机项目/功能介绍/飞控板/assets/接线说明/file-20251130143629635.png",
     "无人机项目/功能介绍/飞控板/assets/接线说明",
     "无人机项目/功能介绍/无人机ROS项目总览.md",
     "无人机项目/功能介绍/硬件分工.md",
-    "linux基本操作/ubuntu22.04系统镜像源.md",
     "无人机项目/功能介绍/飞控板/assets/飞控板主函数",
     "无人机项目/起飞流程.md",
     "无人机项目/功能介绍/飞控板/assets/飞控板主函数/file-20251129201117645.png",
     "无人机项目/功能介绍/飞控板/assets/飞控板",
     "无人机项目/功能介绍/飞控板/assets",
-    "linux基本操作/snap.md",
     "无人机项目/ROS基本操作/2.pkg.md",
-    "linux基本操作/WiFi连接.md",
     "无人机项目/飞控板",
     "无人机项目/ROS基本操作/ros使用/话题topic.md",
     "无人机项目/ROS基本操作/Untitled.md",
-    "无人机项目/ROS基本操作/1.workplace.md",
     "Untitled.canvas",
     "Untitled.base",
     "Untitled 1.canvas",
     "无人机项目/功能介绍/assets/锂电池",
-    "无人机项目/功能介绍/assets",
     "无人机项目/功能介绍/assets/锂电池/file-20251121155114169.jpg",
     "无人机项目/功能介绍/assets/锂电池/file-20251121155102488.jpg",
     "无人机项目/功能介绍/assets/锂电池/file-20251121155044179.png",
-    "无人机项目/功能介绍/assets/锂电池/file-20251121154810793.png",
-    "无人机项目/功能介绍/assets/锂电池/file-20251121155000098.jpg"
+    "无人机项目/功能介绍/assets/锂电池/file-20251121154810793.png"
   ]
 }
