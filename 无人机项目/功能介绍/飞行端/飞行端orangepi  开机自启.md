@@ -69,14 +69,7 @@ ros2 launch uav_car_launch uav_car_drone.launch.py
 cat /etc/systemd/system/uav_car.service
 
 [Unit]
-Description=/etc/uav_car.local Compatibility 
-ConditionPathExists=/etc/uav_car.local
-
-
-[Unit]
 Description=UAV Car ROS2 Service
-After=multi-user.target network.target
-
 
 [Service]
 Type=forking
