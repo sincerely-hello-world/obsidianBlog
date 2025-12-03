@@ -72,6 +72,12 @@ cat /etc/systemd/system/uav_car.service
 Description=/etc/uav_car.local Compatibility 
 ConditionPathExists=/etc/uav_car.local
 
+
+[Unit]
+Description=UAV Car ROS2 Service
+After=multi-user.target network.target
+
+
 [Service]
 Type=forking
 ExecStartPre=/bin/sleep 3 
