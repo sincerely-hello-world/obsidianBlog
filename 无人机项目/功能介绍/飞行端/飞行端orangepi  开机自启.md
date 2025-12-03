@@ -32,6 +32,7 @@ RemainAfterExit=yes
 [Install]
 WantedBy=multi-user.target
 ```
+---
 
 ```bash
 cat /etc/uav_car.local
@@ -41,6 +42,7 @@ cat /etc/uav_car.local
 # uav_car.local
 bash /home/orangepi/Desktop/UAV_CAR__Test/config/uav_car.sh
 ```
+---
 
 ```bash
 orangepi@orangepiWJH:~/Desktop/UAV_CAR__Test/UAV_CAR/src$ cat /home/orangepi/Desktop/UAV_CAR__Test/config/uav_car.sh
