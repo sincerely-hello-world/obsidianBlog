@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux基本操作/nmcli.md",
+                "file": "无人机项目/调试.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "nmcli"
+              "title": "调试"
             }
           }
         ]
@@ -199,8 +199,8 @@
   },
   "active": "353783692860f9f8",
   "lastOpenFiles": [
-    "无人机项目/wifi优先级  飞控端.md",
     "linux基本操作/nmcli.md",
+    "无人机项目/wifi优先级  飞控端.md",
     "无人机项目/起飞操作：.md",
     "无人机项目/飞行端orangepi  开机自启.md",
     "无人机项目/调试.md",
