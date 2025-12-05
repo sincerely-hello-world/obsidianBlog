@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux基本操作/WiFi连接.md",
+                "file": "linux基本操作/nmcli.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "WiFi连接"
+              "title": "nmcli"
             }
           }
         ]
@@ -220,7 +220,7 @@
     "linux基本操作/snap.md",
     "linux基本操作/systemd 服务管理.md",
     "linux基本操作/ubuntu22.04系统镜像源.md",
-    "linux基本操作/WiFi连接.md",
+    "linux基本操作/nmcli.md",
     "无人机项目/assets/调试/file-20251205143236075.png",
     "无人机项目/assets/调试/file-20251205143236076.png",
     "无人机项目/assets/调试/file-20251205143236077.png",
