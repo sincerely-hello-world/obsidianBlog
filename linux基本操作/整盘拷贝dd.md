@@ -1,3 +1,7 @@
+
+```
+lsb_release -a
+```
 ## dd clone TF/SD card
 ---
 dd --help
