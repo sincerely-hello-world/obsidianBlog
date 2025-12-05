@@ -80,6 +80,7 @@ nmcli connection modify wifiname connection.autoconnect-priority 10
 # 优先级默认为 0，正数优先级高，负数低
 
 nmcli connection modify DAWN connection.autoconnect-priority 10
+nmcli connection modify DAWN connection.autoconnect yes
 ```
 
 查看优先级
