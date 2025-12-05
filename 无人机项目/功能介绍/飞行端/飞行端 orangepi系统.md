@@ -37,10 +37,10 @@ UWB串口解析需要改
 
 ```
 ├──src     # Workplace工作区顶层目录， 下面有四个不同的 ros2包
-	├── uav_car               # 总的服务初始化包 顶层 逻辑层
+	├── uav_car               # 总的服务初始化包 顶层 逻辑层---
 	├── uav_car_interfaces    # 纯粹的数据类型定义包 .msg .srv
 	├── uav_car_launch        # 启动脚本， 开机启动项，位于.\launch\uav_car_drone.launch.py
-	└── uav_car_unit          # 模块初始化包  基类
+	└── uav_car_unit          # 模块功能包， 被uav_car调用
 ```
 
 
