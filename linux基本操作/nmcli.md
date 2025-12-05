@@ -76,8 +76,10 @@ nmcli con up wifiname
 ```
 设置连接优先级
 ```
-nmcli connection modify wifiname connection.autoconnect-priority 20
+nmcli connection modify wifiname connection.autoconnect-priority 10
 # 优先级默认为 0，正数优先级高，负数低
+
+nmcli connection modify DAWN connection.autoconnect-priority 10
 ```
 
 查看优先级
