@@ -11,12 +11,14 @@
             "id": "353783692860f9f8",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "无人机项目/RKNN/01_Rockchip_RKNPU_Quick_Start_RKNN_SDK_V2.3.2_CN.pdf"
+                "file": "无人机项目/ROS基本操作/Untitled.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "01_Rockchip_RKNPU_Quick_Start_RKNN_SDK_V2.3.2_CN"
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
         ]
@@ -77,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 298.5
   },
   "right": {
     "id": "3cad077738c9ddd4",
@@ -195,11 +197,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "353783692860f9f8",
+  "active": "ff956bd88238d377",
   "lastOpenFiles": [
+    "无人机项目/RKNN/01_Rockchip_RKNPU_Quick_Start_RKNN_SDK_V2.3.2_CN.pdf",
     "linux基本操作/查看系统版本.md",
     "无人机项目/RKNN/02_Rockchip_RKNPU_User_Guide_RKNN_SDK_V2.3.2_CN.pdf",
-    "无人机项目/RKNN/01_Rockchip_RKNPU_Quick_Start_RKNN_SDK_V2.3.2_CN.pdf",
     "无人机项目/RKNN",
     "linux基本操作/免密ssh连接.md",
     "linux基本操作/整盘拷贝dd.md",
@@ -238,7 +240,6 @@
     "无人机项目/ROS基本操作/2.pkg.md",
     "无人机项目/飞控板",
     "无人机项目/ROS基本操作/ros使用/话题topic.md",
-    "无人机项目/ROS基本操作/Untitled.md",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "无人机项目/功能介绍/assets/锂电池/file-20251121155114169.jpg",
