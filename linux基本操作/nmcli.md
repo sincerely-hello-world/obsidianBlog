@@ -81,6 +81,8 @@ nmcli connection modify wifiname connection.autoconnect-priority 10
 
 nmcli connection modify DAWN connection.autoconnect-priority 10
 nmcli connection modify DAWN connection.autoconnect yes
+nmcli connection show DAWN |grep priority
+nmcli connection show DAWN |grep autoconnect
 ```
 
 查看优先级
