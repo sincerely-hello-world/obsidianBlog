@@ -67,3 +67,15 @@ and the attributes from one single parent device.
 
     KERNEL=="gpiochip0"
     SUBSYSTEM=="gpio"
+
+# 修改权限
+```
+orangepi@orangepi5b:/etc/udev/rules.d$ sudo cat  ./99-rockchip-permissions.rules 
+ACTION=="remove", GOTO="permissions_end"
+
+..............
+
+SUBSYSTEM=="gpio", KERNEL=="gpiochip*", MODE="0660", GROUP="gpio"
+
+LABEL="permissions_end"
+```
