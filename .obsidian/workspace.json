@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "udev.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "udev"
+              "title": "Untitled"
             }
           },
           {
@@ -122,13 +122,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "udev.md",
+                "file": "Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of udev"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -225,13 +225,14 @@
   },
   "active": "04117477ddc89d25",
   "lastOpenFiles": [
+    "udev.md",
+    "Untitled.md",
     "README.md",
     "硬件接线.md",
     "Foxy ROS2安装.md",
     "迁移调试.md",
     "无人机项目/飞行端orangepi  开机自启.md",
     "起飞操作：.md",
-    "udev.md",
     "assets/迁移调试/file-20251208205544504.png",
     "assets/迁移调试",
     "无人机项目/功能介绍/硬件分工.md",
@@ -258,7 +259,6 @@
     "linux基本操作/ubuntu22.04系统镜像源.md",
     "无人机项目/assets/调试",
     "无人机项目/assets",
-    "无人机项目/功能介绍/飞行端/定位模块.md",
     "RKNN/01_Rockchip_RKNPU_Quick_Start_RKNN_SDK_V2.3.2_CN.pdf",
     "RKNN",
     "assets/硬件接线/file-20251208201110517.png",
