@@ -19,7 +19,7 @@ sudo apt-get install -y python3-numpy   # numpy
 # pip3 install -y rknn_toolkit_lite2-x.y.z-cp38-cp38-linux_aarch64.whl
 ```
 
-git clone -b galactic https://github.com/ros-perception/vision_opencv.git
+git clone -b foxy https://github.com/ros-perception/vision_opencv.git
 
 
 其他
