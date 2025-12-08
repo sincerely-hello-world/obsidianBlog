@@ -3,11 +3,11 @@
 ```
 
 sudo apt install python3-pip  -y
-sudo pip3 install --user --upgrade rknn-toolkit-lite2 -y
 
 # 功能模块
-sudo pip3 install serial pyrealsense2 -y # 串口
-sudo pip
+sudo pip3 install --user --upgrade rknn-toolkit-lite2 -y # rknn-lite 
+sudo pip3 install serial pyrealsense2 -y # 串口通信
+sudo pip3 install pyrealsense2  # t265 传感器模块
 sudo apt-get install -y python3-opencv  # opencv
 sudo apt-get install -y python3-numpy   # numpy
 
