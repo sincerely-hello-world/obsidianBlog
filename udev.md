@@ -76,6 +76,8 @@ ACTION=="remove", GOTO="permissions_end"
 ..............
 
 SUBSYSTEM=="gpio", KERNEL=="gpiochip*", MODE="0660", GROUP="gpio"
+SUBSYSTEM=="pwm", KERNEL=="pwm*", MODE="0660", GROUP="gpio"
+
 
 LABEL="permissions_end"
 ```
