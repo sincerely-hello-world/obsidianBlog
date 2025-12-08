@@ -19,3 +19,34 @@ git clone https://github.com/airockchip/rknn-toolkit2.git --depth 1
 # 下载 RKNN Model Zoo 仓库
 git clone https://github.com/airockchip/rknn_model_zoo.git --depth 1
 ```
+
+
+---
+# 项目迁移
+启动脚本：
+```
+#!/bin/bash
+
+source /opt/ros/foxy/setup.sh
+
+# 获取当前脚本所在目录的绝对路径（处理软链接等情况更健壮）
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+echo 'current dir is: '$SCRIPT_DIR
+
+# 获取上一层目录并赋值给一个变量
+PARENT_DIR=$(dirname "$SCRIPT_DIR") ## parent dir
+echo 'PARENT_DIR is: '$PARENT_DIR
+ 
+ROS_LOG_DIR=$PARENT_DIR/run_log
+echo 'ROS_LOG_DIR dir is: '$ROS_LOG_DIR
+export ROS_LOG_DIR=$PARENT_DIR/run_log
+
+
+STEUP_path=$PARENT_DIR/UAV_CAR/install/setup.bash 
+echo 'STEUP_path is:'$STEUP_path
+source $STEUP_path
+
+ros2 launch uav_car_launch uav_car_drone.launch.py
+
+ 
+```
