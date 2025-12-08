@@ -6,10 +6,11 @@ sudo apt install python3-pip  -y
 sudo pip3 install --user --upgrade rknn-toolkit-lite2 -y
 
 # 功能模块
-sudo pip3 install serial    # 串口
+sudo pip3 install serial pyrealsense2 -y # 串口
+sudo pip
+sudo apt-get install -y python3-opencv  # opencv
+sudo apt-get install -y python3-numpy   # numpy
 
-sudo apt-get install -y python3-opencv  # 独立模块 numpy opencv
-sudo apt-get install -y python3-numpy
 pip3 install -y rknn_toolkit_lite2-x.y.z-cp38-cp38-linux_aarch64.whl
 ```
 
