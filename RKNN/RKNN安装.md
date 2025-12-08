@@ -1,13 +1,12 @@
 [参考文章：](https://wiki.smarttopic.cn/docs/RK3588/TB-RK3588X0/rknn/rknn-install/#%E5%AE%89%E8%A3%85-rknn-toolkit2-%E7%8E%AF%E5%A2%83)https://wiki.smarttopic.cn/docs/RK3588/TB-RK3588X0/rknn/rknn-install/#%E5%AE%89%E8%A3%85-rknn-toolkit2-%E7%8E%AF%E5%A2%83
 
+## 模块包
 ```bash
 sudo apt install python3-pip  -y
  
 # sudo pip3 remove rospkg
 # sudo pip3 remove catkin-tools
-
-sudo pip3 install --user --upgrade rknn-toolkit-lite2 -y # rknn-lite 图像推理
-sudo pip3 uninstall   rknn-toolkit-lite2 -y # rknn-lite 图像推理
+ 
 
 sudo pip3 install python-periphery # GPIO驱动库
 sudo pip3 install pyserial # 串口通信
@@ -24,7 +23,7 @@ sudo apt-get install -y python3-numpy   # numpy
 import cv2
 from cv_bridge import CvBridge
 ```
-wget  
+ 
 
 
 git clone -b foxy https://github.com/ros-perception/vision_opencv.git
@@ -47,6 +46,12 @@ ttyS1
 ttyS3
 ttyS4
 ttyS9
+```
+
+## RKNN
+```
+sudo pip3 uninstall   rknn-toolkit-lite2 -y # rknn-lite 图像推理
+
 ```
 其他
 ```
