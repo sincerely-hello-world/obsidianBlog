@@ -39,12 +39,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "迁移调试.md",
+                "file": "udev.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "迁移调试"
+              "title": "udev"
             }
           },
           {
@@ -135,13 +135,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "迁移调试.md",
+                "file": "udev.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 迁移调试"
+              "title": "Outline of udev"
             }
           },
           {
@@ -238,8 +238,9 @@
   },
   "active": "04117477ddc89d25",
   "lastOpenFiles": [
-    "硬件接线.md",
     "迁移调试.md",
+    "udev.md",
+    "硬件接线.md",
     "assets/迁移调试/file-20251208205544504.png",
     "assets/迁移调试",
     "无人机项目/功能介绍/硬件分工.md",
