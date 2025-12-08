@@ -6,6 +6,7 @@ sudo apt install python3-pip  -y
 
 # 功能模块
 sudo pip3 install --user --upgrade rknn-toolkit-lite2 -y # rknn-lite 图像推理
+sudo pip3 install periphery
 sudo pip3 install serial pyrealsense2 -y # 串口通信
 sudo pip3 install pyrealsense2  # t265 传感器模块
 sudo apt-get install -y python3-opencv  # opencv
