@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "periphery",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,8 +87,7 @@
               "title": "Files"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -210,7 +209,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2fb1c0c97903959f",
+  "active": "88205e601b2ed97a",
   "lastOpenFiles": [
     "RKNN/02_Rockchip_RKNPU_User_Guide_RKNN_SDK_V2.3.2_CN.pdf",
     "RKNN/RKNN安装.md",
