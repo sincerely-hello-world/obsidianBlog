@@ -15,12 +15,14 @@ sudo pip3 install pyrealsense2  # t265 传感器模块
 
 # opencv模块  cv_bridge模块！
 sudo apt-get install -y ros-foxy-cv-bridge # cv-bridge
-sudo apt-get install -y python3-opencv  # opencv
+# 会被上述依赖，自动安装，不需要特意指定 sudo apt-get install -y python3-opencv  # opencv
 sudo apt-get install -y python3-numpy   # numpy
 # pip3 install -y rknn_toolkit_lite2-x.y.z-cp38-cp38-linux_aarch64.whl
 ```
+
 import cv2
 from cv_bridge import CvBridge
+
 
 git clone -b foxy https://github.com/ros-perception/vision_opencv.git
 sudo apt install libboost-python-dev -y
