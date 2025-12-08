@@ -24,7 +24,7 @@ sudo apt-get install -y python3-numpy   # numpy
 import cv2
 from cv_bridge import CvBridge
 ```
-wget https://github.com/rockchip-linux/rknpu2/blob/master/runtime/RK3588/Linux/librknn_api/aarch64/librknnrt.so
+wget  
 
 
 git clone -b foxy https://github.com/ros-perception/vision_opencv.git
