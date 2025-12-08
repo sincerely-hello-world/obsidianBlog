@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "udev.md",
+                "file": "迁移调试.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "udev"
+              "title": "迁移调试"
             }
           },
           {
@@ -108,13 +108,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "udev.md",
+                "file": "迁移调试.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of udev"
+              "title": "Outline of 迁移调试"
             }
           },
           {
@@ -211,21 +211,21 @@
   },
   "active": "04117477ddc89d25",
   "lastOpenFiles": [
+    "起飞操作：.md",
     "迁移调试.md",
+    "README.md",
+    "udev.md",
+    "Foxy ROS2安装.md",
     "无人机项目/飞行端orangepi  开机自启.md",
     "硬件接线.md",
-    "udev.md",
     "assets/迁移调试/file-20251208205544504.png",
     "assets/迁移调试",
     "无人机项目/功能介绍/硬件分工.md",
-    "起飞操作：.md",
     "无人机项目/功能介绍/整盘拷贝.md",
     "无人机项目/飞行端 orangepi介绍.md",
     "assets/硬件接线",
     "assets",
     "无人机项目/assets/硬件接线",
-    "README.md",
-    "Foxy ROS2安装.md",
     "Foxy.md",
     "linux基本操作/systemd 服务管理.md",
     "RKNN/02_Rockchip_RKNPU_User_Guide_RKNN_SDK_V2.3.2_CN.pdf",
