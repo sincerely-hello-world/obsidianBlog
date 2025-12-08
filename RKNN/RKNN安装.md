@@ -1,18 +1,17 @@
 [参考文章：](https://wiki.smarttopic.cn/docs/RK3588/TB-RK3588X0/rknn/rknn-install/#%E5%AE%89%E8%A3%85-rknn-toolkit2-%E7%8E%AF%E5%A2%83)https://wiki.smarttopic.cn/docs/RK3588/TB-RK3588X0/rknn/rknn-install/#%E5%AE%89%E8%A3%85-rknn-toolkit2-%E7%8E%AF%E5%A2%83
 
-```
+```bash
 
 sudo apt install python3-pip  -y
 
 # 功能模块
 sudo pip3 install --user --upgrade rknn-toolkit-lite2 -y # rknn-lite 图像推理
 sudo pip3 install python-periphery # GPIO驱动库
-sudo pip3 install serial pyrealsense2 -y # 串口通信
+sudo pip3 install serial  -y # 串口通信
 sudo pip3 install pyrealsense2  # t265 传感器模块
 sudo apt-get install -y python3-opencv  # opencv
 sudo apt-get install -y python3-numpy   # numpy
-
-pip3 install -y rknn_toolkit_lite2-x.y.z-cp38-cp38-linux_aarch64.whl
+# pip3 install -y rknn_toolkit_lite2-x.y.z-cp38-cp38-linux_aarch64.whl
 ```
 
 
