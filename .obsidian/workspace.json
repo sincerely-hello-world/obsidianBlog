@@ -11,12 +11,14 @@
             "id": "353783692860f9f8",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "RKNN/02_Rockchip_RKNPU_User_Guide_RKNN_SDK_V2.3.2_CN.pdf"
+                "file": "ROS基本操作/Foxy ROS2安装.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "02_Rockchip_RKNPU_User_Guide_RKNN_SDK_V2.3.2_CN"
+              "icon": "lucide-file",
+              "title": "Foxy ROS2安装"
             }
           },
           {
@@ -223,9 +225,9 @@
   },
   "active": "b770e04fb29ba9ea",
   "lastOpenFiles": [
+    "ROS基本操作/Foxy ROS2安装.md",
     "RKNN/02_Rockchip_RKNPU_User_Guide_RKNN_SDK_V2.3.2_CN.pdf",
     "RKNN/RKNN安装.md",
-    "ROS基本操作/ros使用/Foxy ROS2安装.md",
     "无人机项目/wifi优先级  飞控端.md",
     "ROS基本操作/0. 标准化输出.md",
     "ROS基本操作/1.workplace.md",
