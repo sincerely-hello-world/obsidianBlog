@@ -5,6 +5,10 @@
 sudo apt install python3-pip  -y
 
 # 功能模块
+```bash
+pip3 install rospkg
+pip3 install catkin-tools
+```
 sudo pip3 install --user --upgrade rknn-toolkit-lite2 -y # rknn-lite 图像推理
 sudo pip3 install python-periphery # GPIO驱动库
 sudo pip3 install serial  -y # 串口通信
