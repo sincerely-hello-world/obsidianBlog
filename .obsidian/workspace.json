@@ -225,8 +225,10 @@
   },
   "active": "b770e04fb29ba9ea",
   "lastOpenFiles": [
+    "README.md",
     "Foxy ROS2安装.md",
     "迁移调试.md",
+    "Foxy.md",
     "无人机项目/飞行端orangepi  开机自启.md",
     "linux基本操作/systemd 服务管理.md",
     "RKNN/02_Rockchip_RKNPU_User_Guide_RKNN_SDK_V2.3.2_CN.pdf",
@@ -235,7 +237,6 @@
     "ROS基本操作/1.workplace.md",
     "ROS基本操作/2.pkg.md",
     "ROS基本操作/多线程 回调实例.md",
-    "README.md",
     "linux基本操作/权限管理.md",
     "linux基本操作/整盘拷贝dd.md",
     "linux基本操作/查看系统版本.md",
