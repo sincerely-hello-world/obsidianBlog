@@ -35,7 +35,8 @@
               "title": "飞行端orangepi  开机自启"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,13 +109,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "迁移调试.md",
+                "file": "无人机项目/飞行端orangepi  开机自启.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 迁移调试"
+              "title": "Outline of 飞行端orangepi  开机自启"
             }
           },
           {
@@ -209,10 +210,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "04117477ddc89d25",
+  "active": "3469909082761315",
   "lastOpenFiles": [
-    "起飞操作：.md",
     "迁移调试.md",
+    "起飞操作：.md",
     "README.md",
     "udev.md",
     "Foxy ROS2安装.md",
