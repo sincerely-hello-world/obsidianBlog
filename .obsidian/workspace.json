@@ -48,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -223,11 +223,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2fb1c0c97903959f",
+  "active": "b770e04fb29ba9ea",
   "lastOpenFiles": [
+    "RKNN/02_Rockchip_RKNPU_User_Guide_RKNN_SDK_V2.3.2_CN.pdf",
     "RKNN/RKNN安装.md",
     "ROS基本操作/Foxy ROS2安装.md",
-    "RKNN/02_Rockchip_RKNPU_User_Guide_RKNN_SDK_V2.3.2_CN.pdf",
     "无人机项目/wifi优先级  飞控端.md",
     "ROS基本操作/0. 标准化输出.md",
     "ROS基本操作/1.workplace.md",
