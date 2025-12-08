@@ -3,6 +3,8 @@
 ```
 
 sudo apt install python3-pip -y
+pip3 install --user --upgrade rknn-toolkit-lite2 -y
+
 
 cd ~/Desktop
 # 新建 Projects 文件夹
