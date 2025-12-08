@@ -2,10 +2,11 @@
 
 ```
 
-sudo apt install python3-pip -y
+sudo apt install python3-pip  -y
 sudo pip3 install --user --upgrade rknn-toolkit-lite2 -y
 
-
+# 功能模块
+sudo pip3 install serial    # 串口
 
 sudo apt-get install -y python3-opencv  # 独立模块 numpy opencv
 sudo apt-get install -y python3-numpy
