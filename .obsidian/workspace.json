@@ -34,9 +34,22 @@
               "icon": "lucide-file",
               "title": "飞行端orangepi  开机自启"
             }
+          },
+          {
+            "id": "e763ec7b1f9320e6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "硬件接线.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "硬件接线"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,13 +122,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/飞行端orangepi  开机自启.md",
+                "file": "迁移调试.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 飞行端orangepi  开机自启"
+              "title": "Outline of 迁移调试"
             }
           },
           {
@@ -210,15 +223,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3469909082761315",
+  "active": "04117477ddc89d25",
   "lastOpenFiles": [
+    "无人机项目/飞行端orangepi  开机自启.md",
+    "硬件接线.md",
     "迁移调试.md",
     "起飞操作：.md",
     "README.md",
     "udev.md",
     "Foxy ROS2安装.md",
-    "无人机项目/飞行端orangepi  开机自启.md",
-    "硬件接线.md",
     "assets/迁移调试/file-20251208205544504.png",
     "assets/迁移调试",
     "无人机项目/功能介绍/硬件分工.md",
