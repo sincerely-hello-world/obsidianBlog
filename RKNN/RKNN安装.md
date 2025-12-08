@@ -20,7 +20,7 @@ sudo apt-get install -y python3-numpy   # numpy
 ```
 
 git clone -b foxy https://github.com/ros-perception/vision_opencv.git
-
+sudo apt install libboost-python-dev -y
 
 其他
 ```
