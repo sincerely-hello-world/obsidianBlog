@@ -61,13 +61,13 @@ sudo apt update
 3. 然后,接着[ros2 foxy官方文档](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#install-ros-2-packages): ## [Install ROS 2 packages](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#id4)[](https://docs.ros.org/en/foxy/Installation/Ubuntu-Install-Debians.html#install-ros-2-packages "Link to this heading")这一步， 直接安装就是。
 ```
 # 安装桌面版 有GUi，比较笨重，调试用
-sudo apt install ros-foxy-desktop python3-argcomplete
+sudo apt install ros-foxy-desktop python3-argcomplete -y
 
 # 安装cli版 无GUI，轻量化 部署用
-sudo apt install ros-foxy-ros-base python3-argcomplete
+sudo apt install ros-foxy-ros-base python3-argcomplete -y
 
 # 如果要构建 ROS 包或进行其他开发，还应安装开发工具：
-sudo apt install ros-dev-tools # 可选不必须， 但必选，因为用的python版本，需要用到colcon构建工具
+sudo apt install ros-dev-tools -y # 可选不必须， 但必选，因为用的python版本，需要用到colcon构建工具
 ```
 
 4. 最后 查看ros版本： printenv | grep -i ROS
