@@ -6,8 +6,8 @@ sudo apt install python3-pip  -y
 
 # 功能模块
 
-sudo pip3 install rospkg
-sudo pip3 install catkin-tools
+sudo pip3 remove rospkg
+sudo pip3 remove catkin-tools
 
 sudo pip3 install --user --upgrade rknn-toolkit-lite2 -y # rknn-lite 图像推理
 sudo pip3 install python-periphery # GPIO驱动库
