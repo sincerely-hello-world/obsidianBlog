@@ -18,6 +18,11 @@ sudo apt-get install -y python3-numpy   # numpy
 # pip3 install -y rknn_toolkit_lite2-x.y.z-cp38-cp38-linux_aarch64.whl
 ```
 
+其他
+```
+echo 'export PATH=/home/orangepi/.local/bin:$PATH' >>~/.bashrc
+source ~/.bashrc
+```
 
 ---
 # 项目迁移
