@@ -8,7 +8,7 @@ sudo apt install python3-pip  -y
 
 sudo pip3 install --user --upgrade rknn-toolkit-lite2 -y # rknn-lite 图像推理
 sudo pip3 install python-periphery # GPIO驱动库
-sudo pip3 install serial  -y # 串口通信
+sudo pip3 install pyserial # 串口通信
 sudo pip3 install pyrealsense2  # t265 传感器模块
 
 # opencv模块  cv_bridge模块！
