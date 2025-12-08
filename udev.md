@@ -69,6 +69,8 @@ and the attributes from one single parent device.
     SUBSYSTEM=="gpio"
 
 # 修改权限
+
+主要是操作
 ```
 orangepi@orangepi5b:/etc/udev/rules.d$ sudo cat  ./99-rockchip-permissions.rules 
 ACTION=="remove", GOTO="permissions_end"
@@ -80,4 +82,14 @@ SUBSYSTEM=="pwm", KERNEL=="pwm*", MODE="0660", GROUP="gpio"
 
 
 LABEL="permissions_end"
+```
+修改之后：
+```
+orangepi@orangepi5b:/etc/udev/rules.d$ ls -l /dev/gpiochip*
+crw-rw---- 1 root gpio 254, 0 Dec  8 22:32 /dev/gpiochip0
+crw-rw---- 1 root gpio 254, 1 Dec  8 22:32 /dev/gpiochip1
+crw-rw---- 1 root gpio 254, 2 Dec  8 22:32 /dev/gpiochip2
+crw-rw---- 1 root gpio 254, 3 Dec  8 22:32 /dev/gpiochip3
+crw-rw---- 1 root gpio 254, 4 Dec  8 22:32 /dev/gpiochip4
+crw-rw---- 1 root gpio 254, 5 Dec  8 22:32 /dev/gpiochip5
 ```
