@@ -50,7 +50,7 @@ ttyS9
 
 ## RKNN
 ```
-sudo pip3 uninstall   rknn-toolkit-lite2 -y # rknn-lite 图像推理
+sudo pip3 install   rknn-toolkit-lite2 -y # rknn-lite 图像推理
 
 ```
 其他
