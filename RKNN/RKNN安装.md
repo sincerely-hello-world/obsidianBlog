@@ -20,8 +20,13 @@ sudo apt-get install -y python3-numpy   # numpy
 
 其他
 ```
-echo 'export PATH=/home/orangepi/.local/bin:$PATH' >>~/.bashrc
+echo 'export PATH=/home/orangepi/.local/bin:$PATH' >> ~/.bashrc
 source ~/.bashrc
+
+echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc # 只需执行一次，以后所有新终端都自动有 ROS 2 环境
+# >> 表示追加写入， > 表示覆盖写入（千万别覆盖写入）
+
+source  ~/.bashrc
 ```
 
 ---

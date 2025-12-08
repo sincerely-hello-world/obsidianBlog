@@ -48,12 +48,25 @@
         "type": "tabs",
         "children": [
           {
+            "id": "ff956bd88238d377",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
             "id": "88205e601b2ed97a",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "periphery",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,19 +85,6 @@
               "state": {},
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
-            }
-          },
-          {
-            "id": "ff956bd88238d377",
-            "type": "leaf",
-            "state": {
-              "type": "file-explorer",
-              "state": {
-                "sortOrder": "alphabetical",
-                "autoReveal": false
-              },
-              "icon": "lucide-folder-closed",
-              "title": "Files"
             }
           }
         ]
@@ -209,11 +209,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "88205e601b2ed97a",
+  "active": "ff956bd88238d377",
   "lastOpenFiles": [
+    "ROS基本操作/ros使用/Foxy ROS2安装.md",
     "RKNN/02_Rockchip_RKNPU_User_Guide_RKNN_SDK_V2.3.2_CN.pdf",
     "RKNN/RKNN安装.md",
-    "ROS基本操作/ros使用/Foxy ROS2安装.md",
     "无人机项目/wifi优先级  飞控端.md",
     "ROS基本操作/0. 标准化输出.md",
     "ROS基本操作/1.workplace.md",
