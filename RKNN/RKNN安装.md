@@ -33,7 +33,12 @@ sudo apt install libboost-python-dev -y
 
 ## 开启/使能 开发板uart1 2 3 4 口
 
-
+```
+# 1. 编辑 orangepiEnv.txt
+sudo vim /boot/orangepiEnv.txt
+# 田家庵
+overlays=uart0-m2 uart1-m1 uart3-m0 uart4-m0
+```
 其他
 ```
 # 添加pip3安装的一些包，到环境变量，解决warning
