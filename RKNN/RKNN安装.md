@@ -3,21 +3,12 @@
 ```
 
 sudo apt install python3-pip -y
-pip3 install --user --upgrade rknn-toolkit-lite2 -y
+sudo pip3 install --user --upgrade rknn-toolkit-lite2 -y
 
 
-cd ~/Desktop
-# 新建 Projects 文件夹
-mkdir rknn_projects
 
-# 进入该目录
-cd rknn_projects
-
-# 下载 RKNN-Toolkit2 仓库
-git clone https://github.com/airockchip/rknn-toolkit2.git --depth 1
-
-# 下载 RKNN Model Zoo 仓库
-git clone https://github.com/airockchip/rknn_model_zoo.git --depth 1
+sudo apt-get install -y python3-opencv  # 独立模块 numpy 
+sudo apt-get install -y python3-numpy
 ```
 
 
