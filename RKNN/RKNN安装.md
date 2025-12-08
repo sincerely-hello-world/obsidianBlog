@@ -30,6 +30,9 @@ wget https://github.com/rockchip-linux/rknpu2/blob/master/runtime/RK3588/Linux/l
 git clone -b foxy https://github.com/ros-perception/vision_opencv.git
 sudo apt install libboost-python-dev -y
 
+
+## 
+
 其他
 ```
 # 添加pip3安装的一些包，到环境变量，解决warning
