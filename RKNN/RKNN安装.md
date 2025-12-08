@@ -9,6 +9,7 @@ sudo pip3 install --user --upgrade rknn-toolkit-lite2 -y
 
 sudo apt-get install -y python3-opencv  # 独立模块 numpy opencv
 sudo apt-get install -y python3-numpy
+pip3 install -y rknn_toolkit_lite2-x.y.z-cp38-cp38-linux_aarch64.whl
 ```
 
 
