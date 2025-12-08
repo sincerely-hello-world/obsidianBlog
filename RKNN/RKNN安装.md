@@ -31,7 +31,8 @@ git clone -b foxy https://github.com/ros-perception/vision_opencv.git
 sudo apt install libboost-python-dev -y
 
 
-## 
+## 开启/使能 开发板uart1 2 3 4 口
+
 
 其他
 ```
