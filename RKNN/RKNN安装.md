@@ -1,7 +1,6 @@
 [参考文章：](https://wiki.smarttopic.cn/docs/RK3588/TB-RK3588X0/rknn/rknn-install/#%E5%AE%89%E8%A3%85-rknn-toolkit2-%E7%8E%AF%E5%A2%83)https://wiki.smarttopic.cn/docs/RK3588/TB-RK3588X0/rknn/rknn-install/#%E5%AE%89%E8%A3%85-rknn-toolkit2-%E7%8E%AF%E5%A2%83
 
 ```bash
-
 sudo apt install python3-pip  -y
  
 # sudo pip3 remove rospkg
@@ -12,7 +11,6 @@ sudo pip3 install python-periphery # GPIO驱动库
 sudo pip3 install serial  -y # 串口通信
 sudo pip3 install pyrealsense2  # t265 传感器模块
 
-
 # opencv模块  cv_bridge模块！
 sudo apt-get install -y ros-foxy-cv-bridge # cv-bridge
 # 会被上述依赖，自动安装，不需要特意指定 sudo apt-get install -y python3-opencv  # opencv
@@ -20,8 +18,10 @@ sudo apt-get install -y python3-numpy   # numpy
 # pip3 install -y rknn_toolkit_lite2-x.y.z-cp38-cp38-linux_aarch64.whl
 ```
 
+```python
 import cv2
 from cv_bridge import CvBridge
+```
 
 
 git clone -b foxy https://github.com/ros-perception/vision_opencv.git
