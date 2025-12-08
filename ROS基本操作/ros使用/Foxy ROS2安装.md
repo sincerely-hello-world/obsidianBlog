@@ -85,6 +85,7 @@ printenv | grep -i ROS
 # echo "source /opt/ros/ros的版本名字/setup.bash" >> ~/.bashrc
 # foxy版 ros2就是
 echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc
+source 
 ```
 
 每次打开bash，让他自动化source ros2的setup.bash文件
