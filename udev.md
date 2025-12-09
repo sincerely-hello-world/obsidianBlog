@@ -121,8 +121,11 @@ sudo vi 99-rockchip-permissions.rules
 # --- 新增：GPIO 和 PWM 权限 ---
 # GPIO (for /dev/gpio*  libgpiod / python-periphery)
 KERNEL=="gpiochip*", SUBSYSTEM=="gpio", MODE="0660", GROUP="gpio"
+KERNEL=="pwmchip*", SUBSYSTEM=="pwm", MODE="0660", GROUP="pwm"
 # --- --- --- 新增结束 --- --- ---
 
+
+# for /sys/class/
 SUBSYSTEM=="gpio*", PROGRAM="/bin/sh -c 'chown -R root:gpio /sys/class/gpio && chmod -R ug+rw  /sys/class/gpio'"
 
 SUBSYSTEM=="pwm*", PROGRAM="/bin/sh -c 'chown -R root:pwm /sys/class/pwm && chmod -R ug+rw  /sys/class/pwm'"
