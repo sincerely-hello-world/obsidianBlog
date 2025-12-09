@@ -70,29 +70,6 @@ and the attributes from one single parent device.
 
 # 修改权限
 
-主要是操作
-```
-orangepi@orangepi5b:/etc/udev/rules.d$ sudo cat  ./99-rockchip-permissions.rules 
-ACTION=="remove", GOTO="permissions_end"
-
-..............
-
-SUBSYSTEM=="gpio", KERNEL=="gpiochip*", MODE="0660", GROUP="gpio"
-SUBSYSTEM=="pwm", KERNEL=="pwm*", MODE="0660", GROUP="gpio"
-
-
-LABEL="permissions_end"
-```
-修改之后：
-```
-orangepi@orangepi5b:/etc/udev/rules.d$ ls -l /dev/gpiochip*
-crw-rw---- 1 root gpio 254, 0 Dec  8 22:32 /dev/gpiochip0
-crw-rw---- 1 root gpio 254, 1 Dec  8 22:32 /dev/gpiochip1
-crw-rw---- 1 root gpio 254, 2 Dec  8 22:32 /dev/gpiochip2
-crw-rw---- 1 root gpio 254, 3 Dec  8 22:32 /dev/gpiochip3
-crw-rw---- 1 root gpio 254, 4 Dec  8 22:32 /dev/gpiochip4
-crw-rw---- 1 root gpio 254, 5 Dec  8 22:32 /dev/gpiochip5
-```
 
 
 + 所属目录 /etc/udev/rules.d 的99号规则
@@ -105,7 +82,6 @@ sudo groupadd pwm
 sudo usermod -aG gpio,pwm $USER
 ```
 
-需要：
 - [ ] 修改 /sys/class/pwm/ gpio/ 的 所有权
 
 chown -R root:gpio /sys/class/gpio && chmod -R ug+rw  /sys/class/gpio
@@ -131,5 +107,16 @@ SUBSYSTEM=="gpio*", PROGRAM="/bin/sh -c 'chown -R root:gpio /sys/class/gpio && c
 SUBSYSTEM=="pwm*", PROGRAM="/bin/sh -c 'chown -R root:pwm /sys/class/pwm && chmod -R ug+rw  /sys/class/pwm'"
 ```
 
+
+修改之后：
+```bash
+orangepi@orangepi5b:/etc/udev/rules.d$ ls -l /dev/gpiochip*
+crw-rw---- 1 root gpio 254, 0 Dec  8 22:32 /dev/gpiochip0
+crw-rw---- 1 root gpio 254, 1 Dec  8 22:32 /dev/gpiochip1
+crw-rw---- 1 root gpio 254, 2 Dec  8 22:32 /dev/gpiochip2
+crw-rw---- 1 root gpio 254, 3 Dec  8 22:32 /dev/gpiochip3
+crw-rw---- 1 root gpio 254, 4 Dec  8 22:32 /dev/gpiochip4
+crw-rw---- 1 root gpio 254, 5 Dec  8 22:32 /dev/gpiochip5
+```
 
 
