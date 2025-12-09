@@ -88,8 +88,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -210,7 +209,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e763ec7b1f9320e6",
+  "active": "ff956bd88238d377",
   "lastOpenFiles": [
     "话题节点梳理.pdf",
     "无人机项目/assets/飞控板子/file-20251209160121594.png",
