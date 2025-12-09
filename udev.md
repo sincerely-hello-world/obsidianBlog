@@ -1,3 +1,5 @@
+
+q'r
 ## udevadm info 
 ```bash
 udevadm info --path=/sys/class/pwm/pwmchip1 --attribute-walk
