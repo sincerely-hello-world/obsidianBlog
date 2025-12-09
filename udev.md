@@ -74,10 +74,11 @@ and the attributes from one single parent device.
 + [Access **GPIO** (/**sys/class/gpio**) as non-root](https://stackoverflow.com/questions/30938991/access-gpio-sys-class-gpio-as-non-root)
 + https://www.runoob.com/linux/linux-comm-chmod.html
 
-```
+```bash
 sudo groupadd gpio
 sudo groupadd pwm
 sudo usermod -aG gpio,pwm $USER
+groups $USER 
 ```
 
 - [ ] 修改 /sys/class/pwm/ gpio/ 的 所有权
