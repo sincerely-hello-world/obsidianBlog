@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#重置状态",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -210,8 +210,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "88205e601b2ed97a",
+  "active": "e763ec7b1f9320e6",
   "lastOpenFiles": [
+    "话题节点梳理.pdf",
     "无人机项目/assets/飞控板子/file-20251209160121594.png",
     "无人机项目/assets/飞控板子/file-20251209160118391.png",
     "无人机项目/assets/飞控板子/file-20251209155626706.png",
@@ -258,7 +259,6 @@
     "无人机项目/功能介绍/飞控板/assets/接线说明/file-20251130143629635.png",
     "无人机项目/功能介绍/飞控板/assets/飞控板主函数/file-20251129201117645.png",
     "Untitled.canvas",
-    "Untitled 1.canvas",
-    "无人机项目/功能介绍/assets/锂电池/file-20251121155114169.jpg"
+    "Untitled 1.canvas"
   ]
 }
