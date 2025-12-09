@@ -101,9 +101,9 @@ KERNEL=="pwmchip*", SUBSYSTEM=="pwm", MODE="0660", GROUP="pwm"
 
 
 # for /sys/class/pwm
-SUBSYSTEM=="gpio", PROGRAM="/bin/sh -c 'chown -R root:gpio /sys/class/gpio && chmod -R ug+rw  /sys/class/gpio'"
+KERNEL=="gpiochip*", SUBSYSTEM=="gpio", PROGRAM="/bin/sh -c 'chown -R root:gpio /sys/class/gpio && chmod -R ug+rw  /sys/class/gpio'"
 
-SUBSYSTEM=="pwm", PROGRAM="/bin/sh -c 'chown -R root:pwm /sys/class/pwm && chmod -R ug+rw  /sys/class/pwm'"
+KERNEL=="pwmchip*", SUBSYSTEM=="pwm", PROGRAM="/bin/sh -c 'chown -R root:pwm /sys/class/pwm && chmod -R ug+rw  /sys/class/pwm'"
 ```
 
 
