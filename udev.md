@@ -82,7 +82,9 @@ sudo usermod -aG gpio,pwm $USER
 
 - [ ] 修改 /sys/class/pwm/ gpio/ 的 所有权
 
-chown -R root:gpio /sys/class/gpio && chmod -R ug+rw  /sys/class/gpio
+注意检查：/sys/device/virtual/gpio
+
+chown -R root:gpio /sys/class/gpio && chmod -R ug+rw  /sys/class/gpio 
 
 chown -R root:pwm /sys/class/pwm  &&  chmod -R ug+rw  /sys/class/pwm
 
