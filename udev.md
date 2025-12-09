@@ -1,5 +1,11 @@
 
-q'r
+qr
+满秩
+范数
+广义逆
+不变因子
+
+
 ## udevadm info 
 ```bash
 udevadm info --path=/sys/class/pwm/pwmchip1 --attribute-walk
