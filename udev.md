@@ -95,7 +95,7 @@ sudo vi 99-rockchip-permissions.rules 一般是99-* ， 表示用户最后自定
 ```bash
 # --- 新增：GPIO 和 PWM 权限 ---
 # GPIO (for /dev/gpio*  libgpiod / python-periphery)
-KERNEL=="gpiochip*", SUBSYSTEM=="gpio", MODE="0660", GROUP="gpio"
+KERNEL=="gpiochip[0-4]*", SUBSYSTEM=="gpio", MODE="0660", GROUP="gpio"
 KERNEL=="pwmchip*", SUBSYSTEM=="pwm", MODE="0660", GROUP="pwm"
 # --- --- --- 新增结束 --- --- ---
 
