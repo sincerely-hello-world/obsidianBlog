@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,13 +123,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "udev.md",
+                "file": "硬件接线.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of udev"
+              "title": "Outline of 硬件接线"
             }
           },
           {
@@ -224,10 +224,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6459bef73afc9ab3",
+  "active": "e763ec7b1f9320e6",
   "lastOpenFiles": [
-    "硬件接线.md",
     "udev.md",
+    "硬件接线.md",
     "迁移调试.md",
     "修改所属权.md",
     "无人机项目/飞行端orangepi  开机自启.md",
