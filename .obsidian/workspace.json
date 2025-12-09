@@ -20,6 +20,20 @@
               "icon": "lucide-file",
               "title": "飞控板子"
             }
+          },
+          {
+            "id": "180849034a8c28b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "硬件接线.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "硬件接线"
+            }
           }
         ]
       }
@@ -197,16 +211,16 @@
   },
   "active": "e763ec7b1f9320e6",
   "lastOpenFiles": [
+    "硬件接线.md",
+    "无人机项目/飞控板子.md",
     "udev.md",
     "迁移调试.md",
-    "无人机项目/飞控板子.md",
     "无人机项目/wifi优先级  飞控端.md",
     "无人机项目/飞行端 orangepi介绍.md",
     "无人机项目/功能介绍/整盘拷贝.md",
     "无人机项目/功能介绍/硬件分工.md",
     "无人机项目/功能介绍/锂电池.md",
     "无人机项目/功能介绍/地面端控制器 yhc.md",
-    "硬件接线.md",
     "修改所属权.md",
     "无人机项目/飞行端orangepi  开机自启.md",
     "README.md",
