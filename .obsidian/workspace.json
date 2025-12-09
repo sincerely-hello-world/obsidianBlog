@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#重置状态",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -209,7 +210,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e763ec7b1f9320e6",
+  "active": "88205e601b2ed97a",
   "lastOpenFiles": [
     "无人机项目/assets/飞控板子/file-20251209160121594.png",
     "无人机项目/assets/飞控板子/file-20251209160118391.png",
