@@ -113,17 +113,16 @@ chown -R root:gpio /sys/class/gpio && chmod -R ug+rw  /sys/class/gpio
 chown -R root:pwm /sys/class/pwm  &&  chmod -R ug+rw  /sys/class/pwm
 
 - [ ] 修改udev规则
-sudo vi /etc/udev/rules.d/99-*.rule
+修改用户组规则
+cd /etc/udev/rules.d/
+一般是99-* ， 表示用户最后自定义的规则，最后进行的规则变动
+sudo vi 99-rockchip-permissions.rules
 ```bash
-# Source - https://stackoverflow.com/a/30940526
-# Posted by larsks, modified by community. See post 'Timeline' for change history
-# Retrieved 2025-12-09, License - CC BY-SA 3.0
+# --- 新增：GPIO 和 PWM 权限 ---
+# GPIO (for /dev/gpio*  libgpiod / python-periphery)
+KERNEL=="gpiochip*", SUBSYSTEM=="gpio", MODE="0660", GROUP="gpio"
+# --- --- --- 新增结束 --- --- ---
 
-SUBSYSTEM=="gpio*", PROGRAM="/bin/sh -c 'chown -R root:gpio /sys/class/gpio && chmod -R 770 /sys/class/gpio; chown -R root:gpio /sys/devices/virtual/gpio && chmod -R 770 /sys/devices/virtual/gpio'"
-
-```
-
-```bash
 SUBSYSTEM=="gpio*", PROGRAM="/bin/sh -c 'chown -R root:gpio /sys/class/gpio && chmod -R ug+rw  /sys/class/gpio'"
 
 SUBSYSTEM=="pwm*", PROGRAM="/bin/sh -c 'chown -R root:pwm /sys/class/pwm && chmod -R ug+rw  /sys/class/pwm'"
