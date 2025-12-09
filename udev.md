@@ -117,5 +117,7 @@ crw-rw---- 1 root gpio 254, 3 Dec  8 22:32 /dev/gpiochip3
 crw-rw---- 1 root gpio 254, 4 Dec  8 22:32 /dev/gpiochip4
 crw-rw---- 1 root gpio 254, 5 Dec  8 22:32 /dev/gpiochip5
 ```
+**重载规则:** 使新规则生效：
+- sudo udevadm control --reload-rules
 
 
