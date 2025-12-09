@@ -70,8 +70,6 @@ and the attributes from one single parent device.
 
 # 修改权限
 
-
-
 + 所属目录 /etc/udev/rules.d 的99号规则
 + [Access **GPIO** (/**sys/class/gpio**) as non-root](https://stackoverflow.com/questions/30938991/access-gpio-sys-class-gpio-as-non-root)
 + https://www.runoob.com/linux/linux-comm-chmod.html
@@ -89,10 +87,9 @@ chown -R root:gpio /sys/class/gpio && chmod -R ug+rw  /sys/class/gpio
 chown -R root:pwm /sys/class/pwm  &&  chmod -R ug+rw  /sys/class/pwm
 
 - [ ] 修改udev规则
-修改用户组规则
+
 cd /etc/udev/rules.d/
-一般是99-* ， 表示用户最后自定义的规则，最后进行的规则变动
-sudo vi 99-rockchip-permissions.rules
+sudo vi 99-rockchip-permissions.rules 一般是99-* ， 表示用户最后自定义的规则，最后进行的规则变动
 ```bash
 # --- 新增：GPIO 和 PWM 权限 ---
 # GPIO (for /dev/gpio*  libgpiod / python-periphery)
