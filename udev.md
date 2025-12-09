@@ -93,3 +93,41 @@ crw-rw---- 1 root gpio 254, 3 Dec  8 22:32 /dev/gpiochip3
 crw-rw---- 1 root gpio 254, 4 Dec  8 22:32 /dev/gpiochip4
 crw-rw---- 1 root gpio 254, 5 Dec  8 22:32 /dev/gpiochip5
 ```
+
+
++ 所属目录 /etc/udev/rules.d 的99号规则
++ [Access **GPIO** (/**sys/class/gpio**) as non-root](https://stackoverflow.com/questions/30938991/access-gpio-sys-class-gpio-as-non-root)
++ https://www.runoob.com/linux/linux-comm-chmod.html
+
+```
+sudo groupadd gpio
+sudo groupadd pwm
+sudo usermod -aG gpio,pwm $USER
+```
+
+需要：
+- [ ] 修改 /sys/class/pwm/ gpio/ 的 所有权
+
+chown -R root:gpio /sys/class/gpio && chmod -R ug+rw  /sys/class/gpio
+
+chown -R root:pwm /sys/class/pwm  &&  chmod -R ug+rw  /sys/class/pwm
+
+- [ ] 修改udev规则
+sudo vi /etc/udev/rules.d/99-*.rule
+```bash
+# Source - https://stackoverflow.com/a/30940526
+# Posted by larsks, modified by community. See post 'Timeline' for change history
+# Retrieved 2025-12-09, License - CC BY-SA 3.0
+
+SUBSYSTEM=="gpio*", PROGRAM="/bin/sh -c 'chown -R root:gpio /sys/class/gpio && chmod -R 770 /sys/class/gpio; chown -R root:gpio /sys/devices/virtual/gpio && chmod -R 770 /sys/devices/virtual/gpio'"
+
+```
+
+```bash
+SUBSYSTEM=="gpio*", PROGRAM="/bin/sh -c 'chown -R root:gpio /sys/class/gpio && chmod -R ug+rw  /sys/class/gpio'"
+
+SUBSYSTEM=="pwm*", PROGRAM="/bin/sh -c 'chown -R root:pwm /sys/class/pwm && chmod -R ug+rw  /sys/class/pwm'"
+```
+
+
+
