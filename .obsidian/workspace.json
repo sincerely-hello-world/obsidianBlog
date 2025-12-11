@@ -11,14 +11,12 @@
             "id": "e763ec7b1f9320e6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "udev.md",
-                "mode": "source",
-                "source": false
+                "file": "RKNN/01_Rockchip_RKNPU_Quick_Start_RKNN_SDK_V2.3.2_CN.pdf"
               },
-              "icon": "lucide-file",
-              "title": "udev"
+              "icon": "lucide-file-text",
+              "title": "01_Rockchip_RKNPU_Quick_Start_RKNN_SDK_V2.3.2_CN"
             }
           },
           {
@@ -108,13 +106,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "udev.md",
+                "file": "RKNN/01_Rockchip_RKNPU_Quick_Start_RKNN_SDK_V2.3.2_CN.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of udev"
+              "title": "Outline of 01_Rockchip_RKNPU_Quick_Start_RKNN_SDK_V2.3.2_CN"
             }
           },
           {
@@ -211,6 +209,7 @@
   },
   "active": "e763ec7b1f9320e6",
   "lastOpenFiles": [
+    "udev.md",
     "无人机项目/飞控板子.md",
     "话题节点梳理.pdf",
     "无人机项目/assets/飞控板子/file-20251209160121594.png",
@@ -219,7 +218,6 @@
     "无人机项目/assets/飞控板子",
     "无人机项目/assets",
     "硬件接线.md",
-    "udev.md",
     "迁移调试.md",
     "无人机项目/wifi优先级  飞控端.md",
     "无人机项目/飞行端 orangepi介绍.md",
