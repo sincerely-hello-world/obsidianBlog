@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "硬件接线.md",
+                "file": "Untitled.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "硬件接线"
+              "title": "Untitled"
             }
           },
           {
@@ -108,13 +108,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "硬件接线.md",
+                "file": "Untitled.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 硬件接线"
+              "title": "Outline of Untitled"
             }
           },
           {
@@ -211,6 +211,8 @@
   },
   "active": "e763ec7b1f9320e6",
   "lastOpenFiles": [
+    "硬件接线.md",
+    "Untitled.md",
     "ROS基本操作/2.pkg.md",
     "ROS基本操作/1.workplace.md",
     "RKNN/01_Rockchip_RKNPU_Quick_Start_RKNN_SDK_V2.3.2_CN.pdf",
@@ -222,7 +224,6 @@
     "无人机项目/assets/飞控板子/file-20251209155626706.png",
     "无人机项目/assets/飞控板子",
     "无人机项目/assets",
-    "硬件接线.md",
     "迁移调试.md",
     "无人机项目/wifi优先级  飞控端.md",
     "无人机项目/飞行端 orangepi介绍.md",
