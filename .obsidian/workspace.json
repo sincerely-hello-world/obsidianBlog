@@ -11,12 +11,14 @@
             "id": "e763ec7b1f9320e6",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "RKNN/01_Rockchip_RKNPU_Quick_Start_RKNN_SDK_V2.3.2_CN.pdf"
+                "file": "ROS基本操作/1.workplace.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "01_Rockchip_RKNPU_Quick_Start_RKNN_SDK_V2.3.2_CN"
+              "icon": "lucide-file",
+              "title": "1.workplace"
             }
           },
           {
@@ -106,13 +108,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "RKNN/01_Rockchip_RKNPU_Quick_Start_RKNN_SDK_V2.3.2_CN.pdf",
+                "file": "ROS基本操作/1.workplace.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 01_Rockchip_RKNPU_Quick_Start_RKNN_SDK_V2.3.2_CN"
+              "title": "Outline of 1.workplace"
             }
           },
           {
@@ -209,6 +211,7 @@
   },
   "active": "e763ec7b1f9320e6",
   "lastOpenFiles": [
+    "RKNN/01_Rockchip_RKNPU_Quick_Start_RKNN_SDK_V2.3.2_CN.pdf",
     "udev.md",
     "无人机项目/飞控板子.md",
     "话题节点梳理.pdf",
@@ -247,7 +250,6 @@
     "linux基本操作/查看系统版本.md",
     "linux基本操作/镜像源修改.md",
     "无人机项目/assets/调试",
-    "RKNN/01_Rockchip_RKNPU_Quick_Start_RKNN_SDK_V2.3.2_CN.pdf",
     "assets/硬件接线/file-20251208201110517.png",
     "assets/硬件接线/file-20251208201110518.png",
     "assets/硬件接线/file-20251208201110521.png",
