@@ -64,3 +64,7 @@ image processor
  self.get_logger().info('Captured an image')
 
 unit carmera
+self.get_logger().info('pub image success')
+
+uart_sener
+self.get_logger().info(f"request to send:{msg.data}")
