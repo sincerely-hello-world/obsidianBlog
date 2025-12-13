@@ -62,3 +62,5 @@ self.get_logger().info(f"laser pos_z:({self.now_z})")
 
 image processor
  self.get_logger().info('Captured an image')
+
+unit carmera
