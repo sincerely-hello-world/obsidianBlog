@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ROS基本操作/2.pkg.md",
+                "file": "硬件接线.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.pkg"
+              "title": "硬件接线"
             }
           },
           {
@@ -108,13 +108,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ROS基本操作/2.pkg.md",
+                "file": "硬件接线.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2.pkg"
+              "title": "Outline of 硬件接线"
             }
           },
           {
@@ -211,6 +211,7 @@
   },
   "active": "e763ec7b1f9320e6",
   "lastOpenFiles": [
+    "ROS基本操作/2.pkg.md",
     "ROS基本操作/1.workplace.md",
     "RKNN/01_Rockchip_RKNPU_Quick_Start_RKNN_SDK_V2.3.2_CN.pdf",
     "udev.md",
@@ -243,7 +244,6 @@
     "linux基本操作/systemd 服务管理.md",
     "RKNN/02_Rockchip_RKNPU_User_Guide_RKNN_SDK_V2.3.2_CN.pdf",
     "ROS基本操作/0. 标准化输出.md",
-    "ROS基本操作/2.pkg.md",
     "ROS基本操作/多线程 回调实例.md",
     "linux基本操作/权限管理.md",
     "linux基本操作/整盘拷贝dd.md",
