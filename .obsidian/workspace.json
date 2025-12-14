@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/2.飞行端 orangepi介绍.md",
+                "file": "无人机项目/2. 串口对接-全局逻辑.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2.飞行端 orangepi介绍"
+              "title": "2. 串口对接-全局逻辑"
             }
           },
           {
@@ -123,13 +123,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/2.飞行端 orangepi介绍.md",
+                "file": "无人机项目/2. 串口对接-全局逻辑.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2.飞行端 orangepi介绍"
+              "title": "Outline of 2. 串口对接-全局逻辑"
             }
           },
           {
@@ -227,7 +227,7 @@
   "active": "ff956bd88238d377",
   "lastOpenFiles": [
     "无人机项目/飞行端orangepi  开机自启.md",
-    "无人机项目/2.飞行端 orangepi介绍.md",
+    "无人机项目/2. 串口对接-全局逻辑.md",
     "无人机项目/0.硬件接线.md",
     "无人机项目/飞行站-迁移调试.md",
     "无人机项目/0.接线说明.md",
