@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/2. 串口对接-全局逻辑.md",
+                "file": "无人机项目/0.硬件接线.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. 串口对接-全局逻辑"
+              "title": "0.硬件接线"
             }
           },
           {
@@ -123,13 +123,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/2. 串口对接-全局逻辑.md",
+                "file": "无人机项目/0.硬件接线.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2. 串口对接-全局逻辑"
+              "title": "Outline of 0.硬件接线"
             }
           },
           {
@@ -224,17 +224,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ff956bd88238d377",
+  "active": "5df4079b69e347e9",
   "lastOpenFiles": [
-    "无人机项目/飞行端orangepi  开机自启.md",
-    "无人机项目/2. 串口对接-全局逻辑.md",
-    "无人机项目/0.硬件接线.md",
-    "无人机项目/飞行站-迁移调试.md",
     "无人机项目/0.接线说明.md",
+    "无人机项目/0.硬件接线.md",
+    "无人机项目/0.话题概览.md",
+    "无人机项目/0. wifi优先级  飞控端.md",
+    "无人机项目/3.飞行站-迁移调试.md",
+    "无人机项目/assets/3.飞行站-迁移调试",
+    "无人机项目/2. 串口对接-全局逻辑.md",
+    "无人机项目/3.飞行端orangepi  开机自启.md",
     "无人机项目/1.起飞操作.md",
     "无人机项目/函数/地图划分.md",
     "无人机项目/函数",
-    "无人机项目/0.话题概览.md",
     "无人机项目/assets/0.接线说明",
     "无人机项目/assets/0.话题概览",
     "无人机项目/assets/0.飞控板子",
@@ -248,12 +250,10 @@
     "无人机项目/飞控板/激活的飞控-板卡信息.md",
     "无人机项目/assets/接线说明",
     "log.md",
-    "无人机项目/wifi优先级  飞控端.md",
     "无人机项目/Untitled 1.md",
     "无人机项目/Foxy ROS2安装.md",
     "无人机项目/assets/飞行站-迁移调试",
-    "无人机项目/话题节点梳理.pdf",
-    "无人机项目/assets/迁移调试",
+    "无人机项目/2. 话题节点梳理.pdf",
     "udev.md",
     "README.md",
     "ROS基本操作/2.pkg.md",
@@ -262,10 +262,9 @@
     "无人机项目/assets/0.话题概览/file-20251214220334639.png",
     "无人机项目/assets/0.话题概览/file-20251214220334638.png",
     "修改所属权.md",
-    "无人机项目/assets/飞行站-迁移调试/file-20251214214930071.png",
+    "无人机项目/assets/3.飞行站-迁移调试/file-20251214222029581.png",
     "Foxy.md",
     "linux基本操作/systemd 服务管理.md",
-    "ROS基本操作/0. 标准化输出.md",
     "无人机项目/assets/0.硬件接线/file-20251214220257979.png",
     "无人机项目/assets/0.硬件接线/file-20251214220257980.png",
     "无人机项目/assets/0.硬件接线/file-20251214220257982.png",
