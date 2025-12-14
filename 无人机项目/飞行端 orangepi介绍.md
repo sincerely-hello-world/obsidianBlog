@@ -19,6 +19,10 @@ UWB串口解析需要改
 
 
 
+## 串口
++ take off ： 52空格，  navigator  uart3发
++ fly path list: ....           navigator  uart4发
++ xyz 传感器数据：        t265          uart3发
 
 | orange pi 串口号 |     |     | 飞控板 串口号 |     |
 | ------------- | --- | --- | ------- | --- |
