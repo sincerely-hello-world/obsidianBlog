@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/0.硬件接线.md",
+                "file": "无人机项目/起飞操作.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0.硬件接线"
+              "title": "起飞操作"
             }
           }
         ],
@@ -109,13 +109,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/0.硬件接线.md",
+                "file": "无人机项目/起飞操作.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 0.硬件接线"
+              "title": "Outline of 起飞操作"
             }
           },
           {
@@ -212,11 +212,11 @@
   },
   "active": "97a53fd04a4bd843",
   "lastOpenFiles": [
+    "无人机项目/0.硬件接线.md",
     "无人机项目/0.话题概览.md",
     "无人机项目/0.接线说明.md",
     "无人机项目/assets/0.接线说明",
     "无人机项目/assets/0.话题概览",
-    "无人机项目/0.硬件接线.md",
     "无人机项目/assets/0.飞控板子",
     "无人机项目/assets/0.硬件接线",
     "无人机项目/起飞操作.md",
