@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/起飞操作.md",
+                "file": "无人机项目/飞行端 orangepi介绍.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "起飞操作"
+              "title": "飞行端 orangepi介绍"
             }
           }
         ],
@@ -109,13 +109,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/起飞操作.md",
+                "file": "无人机项目/飞行端 orangepi介绍.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 起飞操作"
+              "title": "Outline of 飞行端 orangepi介绍"
             }
           },
           {
@@ -212,8 +212,8 @@
   },
   "active": "97a53fd04a4bd843",
   "lastOpenFiles": [
+    "无人机项目/1.起飞操作.md",
     "无人机项目/函数/地图划分.md",
-    "无人机项目/起飞操作.md",
     "无人机项目/函数",
     "无人机项目/0.硬件接线.md",
     "无人机项目/0.话题概览.md",
