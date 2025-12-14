@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/飞控板/飞控板主函数.md",
+                "file": "无人机项目/2. 串口对接-全局逻辑.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "飞控板主函数"
+              "title": "2. 串口对接-全局逻辑"
             }
           },
           {
@@ -123,13 +123,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/飞控板/飞控板主函数.md",
+                "file": "无人机项目/2. 串口对接-全局逻辑.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 飞控板主函数"
+              "title": "Outline of 2. 串口对接-全局逻辑"
             }
           },
           {
@@ -227,6 +227,8 @@
   },
   "active": "5df4079b69e347e9",
   "lastOpenFiles": [
+    "无人机项目/2. 话题节点梳理.pdf",
+    "无人机项目/飞控板/飞控板主函数.md",
     "无人机项目/0.硬件接线.md",
     "无人机项目/0.接线说明.md",
     "无人机项目/0.话题概览.md",
@@ -247,14 +249,12 @@
     "无人机项目/功能介绍/地面端控制器 yhc.md",
     "linux基本操作/整盘拷贝.md",
     "无人机项目/assets/锂电池",
-    "无人机项目/飞控板/飞控板主函数.md",
     "无人机项目/飞控板/激活的飞控-板卡信息.md",
     "无人机项目/assets/接线说明",
     "log.md",
     "无人机项目/Untitled 1.md",
     "无人机项目/Foxy ROS2安装.md",
     "无人机项目/assets/飞行站-迁移调试",
-    "无人机项目/2. 话题节点梳理.pdf",
     "udev.md",
     "README.md",
     "ROS基本操作/2.pkg.md",
