@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/功能介绍/地面端控制器 yhc.md",
+                "file": "log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "地面端控制器 yhc"
+              "title": "log"
             }
           },
           {
@@ -27,30 +27,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/Foxy ROS2安装.md",
+                "file": "无人机项目/飞控板子.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Foxy ROS2安装"
-            }
-          },
-          {
-            "id": "56f1d3ef12bc0d94",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "无人机项目/功能介绍/飞控板/激活的飞控-板卡信息.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "激活的飞控-板卡信息"
+              "title": "飞控板子"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,13 +109,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/功能介绍/飞控板/激活的飞控-板卡信息.md",
+                "file": "无人机项目/飞控板子.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 激活的飞控-板卡信息"
+              "title": "Outline of 飞控板子"
             }
           },
           {
@@ -224,25 +210,32 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "56f1d3ef12bc0d94",
+  "active": "97a53fd04a4bd843",
   "lastOpenFiles": [
-    "无人机项目/功能介绍/飞控板/飞控板主函数.md",
+    "无人机项目/0.硬件接线.md",
+    "无人机项目/assets/0.硬件接线",
+    "无人机项目/起飞操作.md",
+    "无人机项目/锂电池.md",
+    "无人机项目/功能介绍/硬件分工.md",
+    "无人机项目/功能介绍/地面端控制器 yhc.md",
+    "无人机项目/飞行站-迁移调试.md",
+    "无人机项目/飞行端orangepi  开机自启.md",
+    "无人机项目/飞行端 orangepi介绍.md",
+    "无人机项目/飞控板子.md",
+    "linux基本操作/整盘拷贝.md",
+    "无人机项目/assets/锂电池",
+    "无人机项目/飞控板/飞控板主函数.md",
+    "无人机项目/飞控板/激活的飞控-板卡信息.md",
     "无人机项目/接线说明.md",
     "无人机项目/assets/接线说明",
     "log.md",
-    "无人机项目/飞控板子.md",
-    "无人机项目/硬件接线.md",
     "无人机项目/wifi优先级  飞控端.md",
-    "无人机项目/功能介绍/硬件分工.md",
     "无人机项目/Untitled 1.md",
     "无人机项目/Foxy ROS2安装.md",
-    "无人机项目/起飞操作.md",
-    "无人机项目/飞行站-迁移调试.md",
     "无人机项目/assets/飞行站-迁移调试",
     "无人机项目/话题节点梳理.pdf",
     "无人机项目/assets/迁移调试",
     "无人机项目/assets/硬件接线",
-    "无人机项目/功能介绍/地面端控制器 yhc.md",
     "udev.md",
     "README.md",
     "ROS基本操作/2.pkg.md",
@@ -253,24 +246,17 @@
     "无人机项目/assets/飞控板子/file-20251209155626706.png",
     "无人机项目/assets/飞控板子",
     "无人机项目/assets",
-    "无人机项目/飞行端 orangepi介绍.md",
-    "无人机项目/功能介绍/整盘拷贝.md",
-    "无人机项目/功能介绍/锂电池.md",
     "修改所属权.md",
-    "无人机项目/飞行端orangepi  开机自启.md",
     "无人机项目/assets/飞行站-迁移调试/file-20251214214930071.png",
-    "assets/迁移调试",
-    "assets/硬件接线",
     "Foxy.md",
     "linux基本操作/systemd 服务管理.md",
     "ROS基本操作/0. 标准化输出.md",
-    "ROS基本操作/多线程 回调实例.md",
-    "无人机项目/assets/硬件接线/file-20251214214722731.png",
-    "无人机项目/assets/硬件接线/file-20251214214722727.png",
-    "无人机项目/assets/硬件接线/file-20251214214722725.png",
+    "无人机项目/assets/0.硬件接线/file-20251214220257979.png",
+    "无人机项目/assets/0.硬件接线/file-20251214220257980.png",
+    "无人机项目/assets/0.硬件接线/file-20251214220257982.png",
     "无人机项目/assets/接线说明/file-20251214220151520.png",
     "无人机项目/assets/接线说明/file-20251214220151515.png",
-    "无人机项目/功能介绍/飞控板/assets/飞控板主函数/file-20251129201117645.png",
+    "无人机项目/飞控板/assets/飞控板主函数/file-20251129201117645.png",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
