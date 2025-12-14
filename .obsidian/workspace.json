@@ -22,7 +22,7 @@
             }
           },
           {
-            "id": "97a53fd04a4bd843",
+            "id": "5df4079b69e347e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,21 +36,21 @@
             }
           },
           {
-            "id": "5df4079b69e347e9",
+            "id": "1ee55e04e2bd179e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/飞行端 orangepi介绍.md",
+                "file": "无人机项目/0.硬件接线.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "飞行端 orangepi介绍"
+              "title": "0.硬件接线"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -226,10 +226,10 @@
   },
   "active": "5df4079b69e347e9",
   "lastOpenFiles": [
-    "无人机项目/飞行端orangepi  开机自启.md",
-    "无人机项目/飞行站-迁移调试.md",
     "无人机项目/0.硬件接线.md",
     "无人机项目/飞行端 orangepi介绍.md",
+    "无人机项目/飞行端orangepi  开机自启.md",
+    "无人机项目/飞行站-迁移调试.md",
     "无人机项目/0.接线说明.md",
     "无人机项目/1.起飞操作.md",
     "无人机项目/函数/地图划分.md",
