@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/飞控板子.md",
+                "file": "无人机项目/0.硬件接线.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "飞控板子"
+              "title": "0.硬件接线"
             }
           }
         ],
@@ -109,13 +109,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/飞控板子.md",
+                "file": "无人机项目/0.硬件接线.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 飞控板子"
+              "title": "Outline of 0.硬件接线"
             }
           },
           {
@@ -212,7 +212,12 @@
   },
   "active": "97a53fd04a4bd843",
   "lastOpenFiles": [
+    "无人机项目/0.话题概览.md",
+    "无人机项目/0.接线说明.md",
+    "无人机项目/assets/0.接线说明",
+    "无人机项目/assets/0.话题概览",
     "无人机项目/0.硬件接线.md",
+    "无人机项目/assets/0.飞控板子",
     "无人机项目/assets/0.硬件接线",
     "无人机项目/起飞操作.md",
     "无人机项目/锂电池.md",
@@ -221,12 +226,10 @@
     "无人机项目/飞行站-迁移调试.md",
     "无人机项目/飞行端orangepi  开机自启.md",
     "无人机项目/飞行端 orangepi介绍.md",
-    "无人机项目/飞控板子.md",
     "linux基本操作/整盘拷贝.md",
     "无人机项目/assets/锂电池",
     "无人机项目/飞控板/飞控板主函数.md",
     "无人机项目/飞控板/激活的飞控-板卡信息.md",
-    "无人机项目/接线说明.md",
     "无人机项目/assets/接线说明",
     "log.md",
     "无人机项目/wifi优先级  飞控端.md",
@@ -240,12 +243,9 @@
     "README.md",
     "ROS基本操作/2.pkg.md",
     "ROS基本操作/1.workplace.md",
-    "RKNN/01_Rockchip_RKNPU_Quick_Start_RKNN_SDK_V2.3.2_CN.pdf",
-    "无人机项目/assets/飞控板子/file-20251209160121594.png",
-    "无人机项目/assets/飞控板子/file-20251209160118391.png",
-    "无人机项目/assets/飞控板子/file-20251209155626706.png",
-    "无人机项目/assets/飞控板子",
-    "无人机项目/assets",
+    "无人机项目/assets/0.话题概览/file-20251214220334640.png",
+    "无人机项目/assets/0.话题概览/file-20251214220334639.png",
+    "无人机项目/assets/0.话题概览/file-20251214220334638.png",
     "修改所属权.md",
     "无人机项目/assets/飞行站-迁移调试/file-20251214214930071.png",
     "Foxy.md",
@@ -254,8 +254,8 @@
     "无人机项目/assets/0.硬件接线/file-20251214220257979.png",
     "无人机项目/assets/0.硬件接线/file-20251214220257980.png",
     "无人机项目/assets/0.硬件接线/file-20251214220257982.png",
-    "无人机项目/assets/接线说明/file-20251214220151520.png",
-    "无人机项目/assets/接线说明/file-20251214220151515.png",
+    "无人机项目/assets/0.接线说明/file-20251214220341384.png",
+    "无人机项目/assets/0.接线说明/file-20251214220341386.png",
     "无人机项目/飞控板/assets/飞控板主函数/file-20251129201117645.png",
     "Untitled.canvas",
     "Untitled 1.canvas"
