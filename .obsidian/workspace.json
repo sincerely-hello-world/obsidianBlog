@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "log.md",
+                "file": "无人机项目/0.硬件接线.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "log"
+              "title": "0.硬件接线"
             }
           },
           {
@@ -227,6 +227,8 @@
   },
   "active": "5df4079b69e347e9",
   "lastOpenFiles": [
+    "无人机项目/1.起飞操作.md",
+    "log.md",
     "无人机项目/3.飞行站-迁移调试.md",
     "无人机项目/0.硬件接线.md",
     "无人机项目/assets/0.硬件接线/file-20251215165228834.png",
@@ -241,7 +243,6 @@
     "无人机项目/0. wifi优先级  飞控端.md",
     "无人机项目/assets/3.飞行站-迁移调试",
     "无人机项目/3.飞行端orangepi  开机自启.md",
-    "无人机项目/1.起飞操作.md",
     "无人机项目/函数/地图划分.md",
     "无人机项目/函数",
     "无人机项目/assets/0.接线说明",
@@ -255,7 +256,6 @@
     "无人机项目/assets/锂电池",
     "无人机项目/飞控板/激活的飞控-板卡信息.md",
     "无人机项目/assets/接线说明",
-    "log.md",
     "无人机项目/Untitled 1.md",
     "无人机项目/Foxy ROS2安装.md",
     "无人机项目/assets/飞行站-迁移调试",
