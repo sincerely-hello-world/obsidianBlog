@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/0.硬件接线.md",
+                "file": "矩形飞行.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0.硬件接线"
+              "title": "矩形飞行"
             }
           },
           {
@@ -227,10 +227,11 @@
   },
   "active": "5df4079b69e347e9",
   "lastOpenFiles": [
+    "无人机项目/0.硬件接线.md",
+    "矩形飞行.md",
     "无人机项目/1.起飞操作.md",
     "log.md",
     "无人机项目/3.飞行站-迁移调试.md",
-    "无人机项目/0.硬件接线.md",
     "无人机项目/assets/0.硬件接线/file-20251215165228834.png",
     "无人机项目/assets/0.硬件接线/file-20251215165158823.png",
     "无人机项目/assets/0.硬件接线/file-20251215165059628.png",
