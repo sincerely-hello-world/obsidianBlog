@@ -80,17 +80,9 @@
 [image_processor-5] [INFO] [1765633584.052549153] [image_processor]: Captured an image
 [t265-3] [INFO] [1765633584.081782614] [t265]: laser pos_z:(0.0)
 
-```
 
 
-t265 
-self.get_logger().info(f"laser pos_z:({self.now_z})")
+| 原版飞机 |     |     |
+| ---- | --- | --- |
+|      |     |     |
 
-image processor
- self.get_logger().info('Captured an image')
-
-unit carmera
-self.get_logger().info('pub image success')
-
-uart_sener
-self.get_logger().info(f"request to send:{msg.data}")

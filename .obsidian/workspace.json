@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/0.硬件接线.md",
+                "file": "log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0.硬件接线"
+              "title": "log"
             }
           }
         ],
@@ -227,9 +227,9 @@
   },
   "active": "1ee55e04e2bd179e",
   "lastOpenFiles": [
+    "无人机项目/0.硬件接线.md",
     "无人机项目/2. 串口对接-全局逻辑.md",
     "无人机项目/1.起飞操作.md",
-    "无人机项目/0.硬件接线.md",
     "矩形飞行.md",
     "assets/矩形飞行/file-20251217173703079.png",
     "assets/矩形飞行/file-20251217162848634.png",
