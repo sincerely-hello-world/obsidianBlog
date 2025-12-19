@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -239,15 +239,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e22ed4baf7cc4282",
+  "active": "5df4079b69e347e9",
   "lastOpenFiles": [
+    "log2025.12.17.md",
+    "无人机项目/2. 串口对接-全局逻辑.md",
     "无人机项目/2. 话题节点梳理.pdf",
     "无人机项目/3.飞行端orangepi  开机自启.md",
     "无人机项目/3.飞行站-迁移调试.md",
     "矩形飞行.md",
     "无人机项目/0.硬件接线.md",
-    "log2025.12.17.md",
-    "无人机项目/2. 串口对接-全局逻辑.md",
     "无人机项目/1.起飞操作.md",
     "assets/矩形飞行/file-20251217173703079.png",
     "assets/矩形飞行/file-20251217162848634.png",
