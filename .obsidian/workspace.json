@@ -22,31 +22,17 @@
             }
           },
           {
-            "id": "5df4079b69e347e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "无人机项目/3.飞行站-迁移调试.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "3.飞行站-迁移调试"
-            }
-          },
-          {
             "id": "1ee55e04e2bd179e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "log2025.12.17.md",
+                "file": "矩形飞行.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "log2025.12.17"
+              "title": "矩形飞行"
             }
           },
           {
@@ -239,18 +225,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ff956bd88238d377",
+  "active": "1ee55e04e2bd179e",
   "lastOpenFiles": [
+    "log2025.12.17.md",
+    "Untitled.md",
+    "无人机项目/3.飞行站-迁移调试.md",
     "无人机项目/Foxy ROS2安装.md",
     "ROS基本操作/0. 标准化输出.md",
     "ROS基本操作/1.workplace.md",
     "ROS基本操作/多线程 回调实例.md",
     "矩形飞行.md",
-    "log2025.12.17.md",
     "无人机项目/2. 串口对接-全局逻辑.md",
     "无人机项目/2. 话题节点梳理.pdf",
     "无人机项目/3.飞行端orangepi  开机自启.md",
-    "无人机项目/3.飞行站-迁移调试.md",
     "无人机项目/0.硬件接线.md",
     "无人机项目/1.起飞操作.md",
     "assets/矩形飞行/file-20251217173703079.png",
@@ -285,7 +272,6 @@
     "无人机项目/assets/0.话题概览/file-20251214220334640.png",
     "无人机项目/assets/0.话题概览/file-20251214220334639.png",
     "无人机项目/assets/0.话题概览/file-20251214220334638.png",
-    "修改所属权.md",
     "无人机项目/assets/3.飞行站-迁移调试/file-20251214222029581.png",
     "Untitled.canvas",
     "Untitled 1.canvas"
