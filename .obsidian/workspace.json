@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "添加服务.md",
+                "file": "偏函数-函数复用助手.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "添加服务"
+              "title": "偏函数-函数复用助手"
             }
           },
           {
@@ -165,13 +165,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "添加服务.md",
+                "file": "偏函数-函数复用助手.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 添加服务"
+              "title": "Outline of 偏函数-函数复用助手"
             }
           },
           {
@@ -268,8 +268,8 @@
   },
   "active": "a5f99b9da42c252e",
   "lastOpenFiles": [
-    "偏函数-函数复用助手.md",
     "添加服务.md",
+    "偏函数-函数复用助手.md",
     "code/矩形飞行.md",
     "code/低通滤波加减速.md",
     "无人机项目/3.飞行站-迁移调试.md",
