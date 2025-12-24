@@ -48,9 +48,23 @@
               "icon": "lucide-file",
               "title": "udev用户权限"
             }
+          },
+          {
+            "id": "1251a6784546c8fb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "无人机项目/3.飞行站-迁移调试.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "3.飞行站-迁移调试"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -103,8 +117,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -124,13 +137,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/udev用户权限.md",
+                "file": "无人机项目/3.飞行站-迁移调试.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of udev用户权限"
+              "title": "Outline of 3.飞行站-迁移调试"
             }
           },
           {
@@ -225,14 +238,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4d929a5feb5ccb4f",
+  "active": "1251a6784546c8fb",
   "lastOpenFiles": [
+    "无人机项目/udev用户权限.md",
     "无人机项目/3.飞行站-迁移调试.md",
     "无人机项目/3.飞行端orangepi  开机自启.md",
     "无人机项目/2. 串口对接-全局逻辑.md",
     "无人机项目/2. 话题节点梳理.pdf",
     "code/m37.c PID v1.0.md",
-    "无人机项目/udev用户权限.md",
     "code/assets/矩形飞行",
     "code/assets",
     "Untitled.md",
