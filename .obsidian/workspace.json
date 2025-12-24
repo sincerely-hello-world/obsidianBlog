@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -151,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "code/低通滤波加减速.md",
+                "file": "无人机项目/3.飞行站-迁移调试.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 低通滤波加减速"
+              "title": "Outline of 3.飞行站-迁移调试"
             }
           },
           {
@@ -252,8 +252,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "354bc34eaded820e",
+  "active": "1251a6784546c8fb",
   "lastOpenFiles": [
+    "code/低通滤波加减速.md",
     "无人机项目/3.飞行站-迁移调试.md",
     "无人机项目/udev用户权限.md",
     "无人机项目/3.飞行端orangepi  开机自启.md",
@@ -263,7 +264,6 @@
     "code/assets/矩形飞行",
     "code/assets",
     "Untitled.md",
-    "code/低通滤波加减速.md",
     "code",
     "code/矩形飞行.md",
     "code/m37.c 2025.12.22.-2200.md",
