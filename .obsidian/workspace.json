@@ -49,8 +49,7 @@
               "title": "4. 添加服务"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,13 +122,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/4. 添加服务.md",
+                "file": "无人机项目/2. 串口对接-全局逻辑.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 4. 添加服务"
+              "title": "Outline of 2. 串口对接-全局逻辑"
             }
           },
           {
@@ -224,11 +223,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1b61f5d97d76a436",
+  "active": "06dda4d67299859d",
   "lastOpenFiles": [
+    "无人机项目/4. 添加服务.md",
     "无人机项目/3.飞行站-迁移调试.md",
     "无人机项目/2. 串口对接-全局逻辑.md",
-    "无人机项目/4. 添加服务.md",
     "无人机项目/assets/4. 添加服务",
     "无人机项目/assets/添加服务",
     "linux基本操作/nmcli.md",
