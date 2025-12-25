@@ -15,7 +15,7 @@ sudo apt purge nomachine
 dpkg -l | grep nomachine
  
 ```
-
+systemctl list-units --type=service | grep nx
 ## 安装 
 ```
 wget https://web9001.nomachine.com/download/9.3/Arm/nomachine_9.3.7_1_arm64.deb
