@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/2. 串口对接-全局逻辑.md",
+                "file": "linux基本操作/systemd 服务管理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. 串口对接-全局逻辑"
+              "title": "systemd 服务管理"
             }
           },
           {
@@ -122,13 +122,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/2. 串口对接-全局逻辑.md",
+                "file": "linux基本操作/systemd 服务管理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2. 串口对接-全局逻辑"
+              "title": "Outline of systemd 服务管理"
             }
           },
           {
@@ -225,9 +225,9 @@
   },
   "active": "06dda4d67299859d",
   "lastOpenFiles": [
+    "无人机项目/2. 串口对接-全局逻辑.md",
     "无人机项目/4. 添加服务.md",
     "无人机项目/3.飞行站-迁移调试.md",
-    "无人机项目/2. 串口对接-全局逻辑.md",
     "无人机项目/assets/4. 添加服务",
     "无人机项目/assets/添加服务",
     "linux基本操作/nmcli.md",
