@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux基本操作/systemd 服务管理.md",
+                "file": "nomachine卸载.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "systemd 服务管理"
+              "title": "nomachine卸载"
             }
           },
           {
@@ -122,13 +122,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux基本操作/systemd 服务管理.md",
+                "file": "nomachine卸载.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of systemd 服务管理"
+              "title": "Outline of nomachine卸载"
             }
           },
           {
@@ -225,6 +225,8 @@
   },
   "active": "06dda4d67299859d",
   "lastOpenFiles": [
+    "linux基本操作/systemd 服务管理.md",
+    "nomachine卸载.md",
     "无人机项目/2. 串口对接-全局逻辑.md",
     "无人机项目/4. 添加服务.md",
     "无人机项目/3.飞行站-迁移调试.md",
@@ -266,7 +268,6 @@
     "无人机项目/函数/地图划分.md",
     "无人机项目/锂电池.md",
     "无人机项目/功能介绍/硬件分工.md",
-    "无人机项目/功能介绍/地面端控制器 yhc.md",
     "无人机项目/assets/0.话题概览/file-20251214220334640.png",
     "无人机项目/assets/0.话题概览/file-20251214220334639.png",
     "无人机项目/assets/0.话题概览/file-20251214220334638.png",
