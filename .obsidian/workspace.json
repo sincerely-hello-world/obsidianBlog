@@ -36,35 +36,21 @@
             }
           },
           {
-            "id": "4dd2fb73a311b1f9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "添加服务.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "添加服务"
-            }
-          },
-          {
             "id": "1b61f5d97d76a436",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "添加服务.md",
+                "file": "无人机项目/4. 添加服务.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "添加服务"
+              "title": "4. 添加服务"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -117,8 +103,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -138,13 +123,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "添加服务.md",
+                "file": "无人机项目/4. 添加服务.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 添加服务"
+              "title": "Outline of 4. 添加服务"
             }
           },
           {
@@ -241,15 +226,17 @@
   },
   "active": "1b61f5d97d76a436",
   "lastOpenFiles": [
-    "linux基本操作/nmcli.md",
     "无人机项目/3.飞行站-迁移调试.md",
+    "无人机项目/2. 串口对接-全局逻辑.md",
+    "无人机项目/4. 添加服务.md",
+    "无人机项目/assets/4. 添加服务",
+    "无人机项目/assets/添加服务",
+    "linux基本操作/nmcli.md",
     "code/低通滤波加减速.md",
-    "添加服务.md",
-    "assets/添加服务/file-20251224230635351.png",
+    "无人机项目/assets/4. 添加服务/file-20251225162003502.png",
     "assets/添加服务",
     "assets",
     "无人机项目/udev用户权限.md",
-    "无人机项目/2. 串口对接-全局逻辑.md",
     "偏函数-函数复用助手.md",
     "无人机项目/0.硬件接线.md",
     "code/m37.c 2025.12.22.-2200.md",
@@ -278,12 +265,9 @@
     "无人机项目/0. wifi优先级  飞控端.md",
     "无人机项目/assets/3.飞行站-迁移调试",
     "无人机项目/函数/地图划分.md",
-    "无人机项目/函数",
-    "无人机项目/assets/0.接线说明",
     "无人机项目/锂电池.md",
     "无人机项目/功能介绍/硬件分工.md",
     "无人机项目/功能介绍/地面端控制器 yhc.md",
-    "linux基本操作/整盘拷贝.md",
     "无人机项目/assets/0.话题概览/file-20251214220334640.png",
     "无人机项目/assets/0.话题概览/file-20251214220334639.png",
     "无人机项目/assets/0.话题概览/file-20251214220334638.png",
