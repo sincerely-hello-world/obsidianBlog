@@ -1,4 +1,6 @@
 
+
+
 ```
 lsb_release -a
 ```
@@ -109,5 +111,10 @@ Full documentation at: <https://www.gnu.org/software/coreutils/dd>
 or available locally via: info '(coreutils) dd invocation'
 ```
 ---
+## shao'lu'yo
 
 dd if=/dev/mmcblk1 /dev/sda bs=4M status=progress
+
+```
+sudo dd if=/dev/mmcblk1 of=/dev/sda bs=4M status=progress # oflag=sync
+```
