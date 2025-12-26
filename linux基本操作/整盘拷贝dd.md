@@ -1,13 +1,7 @@
 
+## 查看 系统磁盘
 
 
-```
-lsb_release -a
-```
-## dd clone TF/SD card
----
-dd --help
-lsblk
 ```
 orangepi@orangepi5b:~$ lsblk
 NAME         MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
@@ -33,6 +27,18 @@ sudo dd if=/dev/mmcblk1 of=/dev/sda bs=4M status=progress oflag=sync
 + [ ] 为了确保传输更准确，oflag=sync； （但是会变慢许多）
 + [ ] 32G拷贝历时45分钟
 
+---
+## 拷贝用 cmd
+
+dd if=/dev/mmcblk1 /dev/sda bs=4M status=progress
+
+```
+sudo dd if=/dev/mmcblk1 of=/dev/sda bs=4M status=progress # oflag=sync
+```
+
+
+
+## dd --help
 ```bash
 # dd --help
 Usage: dd [OPERAND]...
@@ -109,12 +115,5 @@ Options are:
 GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
 Full documentation at: <https://www.gnu.org/software/coreutils/dd>
 or available locally via: info '(coreutils) dd invocation'
-```
----
-## shao'lu'yo
 
-dd if=/dev/mmcblk1 /dev/sda bs=4M status=progress
-
-```
-sudo dd if=/dev/mmcblk1 of=/dev/sda bs=4M status=progress # oflag=sync
 ```
