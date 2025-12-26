@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nomachine卸载.md",
+                "file": "无人机项目/udev用户权限.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "nomachine卸载"
+              "title": "udev用户权限"
             }
           },
           {
@@ -106,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 298.5
+    "width": 480.5
   },
   "right": {
     "id": "3cad077738c9ddd4",
@@ -122,13 +122,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "nomachine卸载.md",
+                "file": "无人机项目/udev用户权限.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of nomachine卸载"
+              "title": "Outline of udev用户权限"
             }
           },
           {
@@ -225,8 +225,8 @@
   },
   "active": "06dda4d67299859d",
   "lastOpenFiles": [
-    "linux基本操作/systemd 服务管理.md",
     "nomachine卸载.md",
+    "linux基本操作/systemd 服务管理.md",
     "无人机项目/2. 串口对接-全局逻辑.md",
     "无人机项目/4. 添加服务.md",
     "无人机项目/3.飞行站-迁移调试.md",
