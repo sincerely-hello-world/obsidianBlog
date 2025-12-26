@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux基本操作/整盘拷贝dd.md",
+                "file": "无人机项目/Foxy ROS2安装.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "整盘拷贝dd"
+              "title": "Foxy ROS2安装"
             }
           },
           {
@@ -122,13 +122,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux基本操作/整盘拷贝dd.md",
+                "file": "无人机项目/Foxy ROS2安装.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 整盘拷贝dd"
+              "title": "Outline of Foxy ROS2安装"
             }
           },
           {
@@ -225,8 +225,8 @@
   },
   "active": "06dda4d67299859d",
   "lastOpenFiles": [
-    "linux基本操作/整盘拷贝.md",
     "linux基本操作/整盘拷贝dd.md",
+    "linux基本操作/整盘拷贝.md",
     "linux基本操作/权限管理.md",
     "linux基本操作/免密ssh连接.md",
     "linux基本操作/镜像源修改.md",

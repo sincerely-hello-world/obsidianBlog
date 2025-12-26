@@ -1,4 +1,6 @@
-
+```
+lsb_release -a
+```
 <mark> 测试</mark>
 
 **Ubuntu20.04(Focal) Foxy ROS2安装**
