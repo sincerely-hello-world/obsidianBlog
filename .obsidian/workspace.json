@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/Foxy ROS2安装.md",
+                "file": "ROS2 串口接收.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Foxy ROS2安装"
+              "title": "ROS2 串口接收"
             }
           },
           {
@@ -122,13 +122,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/Foxy ROS2安装.md",
+                "file": "ROS2 串口接收.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Foxy ROS2安装"
+              "title": "Outline of ROS2 串口接收"
             }
           },
           {
@@ -225,6 +225,8 @@
   },
   "active": "06dda4d67299859d",
   "lastOpenFiles": [
+    "无人机项目/Foxy ROS2安装.md",
+    "ROS2 串口接收.md",
     "linux基本操作/整盘拷贝dd.md",
     "linux基本操作/整盘拷贝.md",
     "linux基本操作/权限管理.md",
@@ -254,7 +256,6 @@
     "code/assets/矩形飞行",
     "code/assets",
     "code",
-    "无人机项目/Foxy ROS2安装.md",
     "ROS基本操作/0. 标准化输出.md",
     "ROS基本操作/1.workplace.md",
     "ROS基本操作/多线程 回调实例.md",
