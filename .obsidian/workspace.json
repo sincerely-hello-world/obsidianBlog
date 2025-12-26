@@ -11,14 +11,12 @@
             "id": "06dda4d67299859d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "无人机项目/udev用户权限.md",
-                "mode": "source",
-                "source": false
+                "file": "无人机项目/2. 话题节点梳理.pdf"
               },
-              "icon": "lucide-file",
-              "title": "udev用户权限"
+              "icon": "lucide-file-text",
+              "title": "2. 话题节点梳理"
             }
           },
           {
@@ -106,7 +104,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 480.5
+    "width": 311.5
   },
   "right": {
     "id": "3cad077738c9ddd4",
@@ -122,13 +120,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/udev用户权限.md",
+                "file": "无人机项目/2. 话题节点梳理.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of udev用户权限"
+              "title": "Outline of 2. 话题节点梳理"
             }
           },
           {
@@ -225,26 +223,32 @@
   },
   "active": "06dda4d67299859d",
   "lastOpenFiles": [
+    "无人机项目/2. 串口对接-全局逻辑.md",
+    "无人机项目/2. 话题节点梳理.pdf",
+    "code/低通滤波加减速.md",
+    "code/矩形飞行.md",
+    "code/m37.c 2025.12.22.-2200.md",
+    "code/m37.c PID v1.0.md",
+    "linux基本操作/镜像源修改.md",
+    "linux基本操作/免密ssh连接.md",
+    "linux基本操作/权限管理.md",
+    "linux基本操作/整盘拷贝.md",
+    "linux基本操作/整盘拷贝dd.md",
+    "linux基本操作/nmcli.md",
+    "linux基本操作/snap.md",
+    "无人机项目/udev用户权限.md",
     "nomachine卸载.md",
     "linux基本操作/systemd 服务管理.md",
-    "无人机项目/2. 串口对接-全局逻辑.md",
     "无人机项目/4. 添加服务.md",
     "无人机项目/3.飞行站-迁移调试.md",
     "无人机项目/assets/4. 添加服务",
     "无人机项目/assets/添加服务",
-    "linux基本操作/nmcli.md",
-    "code/低通滤波加减速.md",
     "无人机项目/assets/4. 添加服务/file-20251225162003502.png",
     "assets/添加服务",
     "assets",
-    "无人机项目/udev用户权限.md",
     "偏函数-函数复用助手.md",
     "无人机项目/0.硬件接线.md",
-    "code/m37.c 2025.12.22.-2200.md",
-    "code/矩形飞行.md",
     "无人机项目/3.飞行端orangepi  开机自启.md",
-    "无人机项目/2. 话题节点梳理.pdf",
-    "code/m37.c PID v1.0.md",
     "code/assets/矩形飞行",
     "code/assets",
     "code",
@@ -260,14 +264,7 @@
     "无人机项目/assets/0.硬件接线/file-20251215165158823.png",
     "无人机项目/assets/0.硬件接线/file-20251215165059628.png",
     "无人机项目/assets/0.硬件接线/file-20251215164936952.png",
-    "无人机项目/飞控板/飞控板主函数.md",
-    "无人机项目/0.接线说明.md",
-    "无人机项目/0.话题概览.md",
-    "无人机项目/0. wifi优先级  飞控端.md",
     "无人机项目/assets/3.飞行站-迁移调试",
-    "无人机项目/函数/地图划分.md",
-    "无人机项目/锂电池.md",
-    "无人机项目/功能介绍/硬件分工.md",
     "无人机项目/assets/0.话题概览/file-20251214220334640.png",
     "无人机项目/assets/0.话题概览/file-20251214220334639.png",
     "无人机项目/assets/0.话题概览/file-20251214220334638.png",
