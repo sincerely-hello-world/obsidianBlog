@@ -21,7 +21,7 @@ systemctl list-units --type=service | grep nx
 wget https://web9001.nomachine.com/download/9.3/Arm/nomachine_9.3.7_1_arm64.deb
  
 sudo dpkg -i nomachine_9.3.7_1_arm64.deb
- 
+
 ```
 
 日志：
