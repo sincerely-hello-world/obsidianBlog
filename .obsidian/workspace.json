@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "code/m37.c 2025.12.22.-2200.md",
+                "file": "无人机项目/2. 串口对接-全局逻辑.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "m37.c 2025.12.22.-2200"
+              "title": "2. 串口对接-全局逻辑"
             }
           },
           {
@@ -122,13 +122,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "code/m37.c 2025.12.22.-2200.md",
+                "file": "无人机项目/2. 串口对接-全局逻辑.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of m37.c 2025.12.22.-2200"
+              "title": "Outline of 2. 串口对接-全局逻辑"
             }
           },
           {
@@ -225,6 +225,11 @@
   },
   "active": "06dda4d67299859d",
   "lastOpenFiles": [
+    "无人机项目/3.飞行端orangepi  开机自启.md",
+    "无人机项目/2. 话题节点梳理.pdf",
+    "code/m37.c 2025.12.22.-2200.md",
+    "无人机项目/3.飞行站-迁移调试.md",
+    "无人机项目/4. 添加服务.md",
     "code/矩形飞行.md",
     "code/低通滤波加减速.md",
     "linux基本操作/整盘拷贝.md",
@@ -232,18 +237,13 @@
     "linux基本操作/权限管理.md",
     "linux基本操作/免密ssh连接.md",
     "linux基本操作/镜像源修改.md",
-    "无人机项目/2. 话题节点梳理.pdf",
     "无人机项目/2. 串口对接-全局逻辑.md",
     "无人机项目/0.硬件接线.md",
     "无人机项目/0.话题概览.md",
     "无人机项目/1.起飞操作.md",
-    "无人机项目/3.飞行站-迁移调试.md",
-    "无人机项目/3.飞行端orangepi  开机自启.md",
     "linux基本操作/systemd 服务管理.md",
-    "无人机项目/4. 添加服务.md",
     "ROS2 串口接收.md",
     "无人机项目/Foxy ROS2安装.md",
-    "code/m37.c 2025.12.22.-2200.md",
     "nomachine卸载.md",
     "偏函数-函数复用助手.md",
     "code/m37.c PID v1.0.md",
