@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux基本操作/systemd 服务管理.md",
+                "file": "无人机项目/2. 串口对接-全局逻辑.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "systemd 服务管理"
+              "title": "2. 串口对接-全局逻辑"
             }
           },
           {
@@ -122,13 +122,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux基本操作/systemd 服务管理.md",
+                "file": "无人机项目/2. 串口对接-全局逻辑.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of systemd 服务管理"
+              "title": "Outline of 2. 串口对接-全局逻辑"
             }
           },
           {
@@ -225,10 +225,11 @@
   },
   "active": "06dda4d67299859d",
   "lastOpenFiles": [
+    "无人机项目/2. 话题节点梳理.pdf",
     "无人机项目/3.飞行站-迁移调试.md",
+    "linux基本操作/systemd 服务管理.md",
     "无人机项目/4. 添加服务.md",
     "ROS2 串口接收.md",
-    "linux基本操作/systemd 服务管理.md",
     "无人机项目/Foxy ROS2安装.md",
     "linux基本操作/整盘拷贝dd.md",
     "linux基本操作/整盘拷贝.md",
@@ -240,7 +241,6 @@
     "code/低通滤波加减速.md",
     "nomachine卸载.md",
     "偏函数-函数复用助手.md",
-    "无人机项目/2. 话题节点梳理.pdf",
     "无人机项目/2. 串口对接-全局逻辑.md",
     "code/m37.c PID v1.0.md",
     "linux基本操作/nmcli.md",
@@ -259,7 +259,6 @@
     "ROS基本操作/0. 标准化输出.md",
     "ROS基本操作/1.workplace.md",
     "ROS基本操作/多线程 回调实例.md",
-    "无人机项目/1.起飞操作.md",
     "code/assets/矩形飞行/file-20251222223432946.png",
     "code/assets/矩形飞行/file-20251222223432950.png",
     "assets/矩形飞行",
