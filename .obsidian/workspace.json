@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ROS2 串口接收.md",
+                "file": "linux基本操作/systemd 服务管理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ROS2 串口接收"
+              "title": "systemd 服务管理"
             }
           },
           {
@@ -122,13 +122,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ROS2 串口接收.md",
+                "file": "linux基本操作/systemd 服务管理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ROS2 串口接收"
+              "title": "Outline of systemd 服务管理"
             }
           },
           {
@@ -225,8 +225,8 @@
   },
   "active": "06dda4d67299859d",
   "lastOpenFiles": [
-    "无人机项目/Foxy ROS2安装.md",
     "ROS2 串口接收.md",
+    "无人机项目/Foxy ROS2安装.md",
     "linux基本操作/整盘拷贝dd.md",
     "linux基本操作/整盘拷贝.md",
     "linux基本操作/权限管理.md",
