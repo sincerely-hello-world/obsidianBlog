@@ -56,7 +56,7 @@
               "type": "markdown",
               "state": {
                 "file": "无人机项目/0.硬件接线.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -241,6 +241,7 @@
   },
   "active": "846098abf4108aa4",
   "lastOpenFiles": [
+    "无人机项目/assets/0.硬件接线/file-20251230194028057.png",
     "2025.12.30飞控.md",
     "无人机项目/4. 添加服务.md",
     "无人机项目/3.飞行站-迁移调试.md",
@@ -275,7 +276,6 @@
     "code/assets/矩形飞行",
     "code/assets",
     "code",
-    "ROS基本操作/0. 标准化输出.md",
     "code/assets/矩形飞行/file-20251222223432946.png",
     "code/assets/矩形飞行/file-20251222223432950.png",
     "assets/矩形飞行",
