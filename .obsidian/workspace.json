@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/0.硬件接线.md",
+                "file": "无人机项目/0.话题概览.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0.硬件接线"
+              "title": "0.话题概览"
             }
           }
         ],
@@ -241,6 +241,8 @@
   },
   "active": "846098abf4108aa4",
   "lastOpenFiles": [
+    "无人机项目/0.硬件接线.md",
+    "无人机项目/0.话题概览.md",
     "无人机项目/assets/0.硬件接线/file-20251230202616559.png",
     "无人机项目/assets/0.硬件接线/file-20251230195815033.png",
     "无人机项目/assets/0.硬件接线/file-20251230194028057.png",
@@ -258,8 +260,6 @@
     "linux基本操作/权限管理.md",
     "linux基本操作/免密ssh连接.md",
     "linux基本操作/镜像源修改.md",
-    "无人机项目/0.硬件接线.md",
-    "无人机项目/0.话题概览.md",
     "无人机项目/1.起飞操作.md",
     "linux基本操作/systemd 服务管理.md",
     "ROS2 串口接收.md",
@@ -286,7 +286,6 @@
     "无人机项目/assets/0.硬件接线/file-20251215165059628.png",
     "无人机项目/assets/0.硬件接线/file-20251215164936952.png",
     "无人机项目/assets/3.飞行站-迁移调试",
-    "无人机项目/assets/0.话题概览/file-20251214220334640.png",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
