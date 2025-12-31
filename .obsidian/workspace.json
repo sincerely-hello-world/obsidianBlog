@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "code/矩形飞行.md",
+                "file": "无人机项目/3.飞行站-迁移调试.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "矩形飞行"
+              "title": "3.飞行站-迁移调试"
             }
           }
         ],
@@ -96,7 +96,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "添加",
+                "query": "用户组",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,7 +117,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -241,8 +242,8 @@
   },
   "active": "846098abf4108aa4",
   "lastOpenFiles": [
-    "code/之前的控制.md",
     "code/矩形飞行.md",
+    "code/之前的控制.md",
     "code/m37.c 2025.12.22.-2200.md",
     "code/低通滤波加减速.md",
     "无人机项目/4. 添加服务.md",
