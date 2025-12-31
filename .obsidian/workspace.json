@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/3.飞行站-迁移调试.md",
+                "file": "无人机项目/3. 安装t265驱动.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.飞行站-迁移调试"
+              "title": "3. 安装t265驱动"
             }
           }
         ],
@@ -239,14 +239,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ff956bd88238d377",
+  "active": "846098abf4108aa4",
   "lastOpenFiles": [
+    "无人机项目/3.飞行站-迁移调试.md",
+    "无人机项目/3. 安装t265驱动.md",
     "code/矩形飞行.md",
     "code/之前的控制.md",
     "code/m37.c 2025.12.22.-2200.md",
     "code/低通滤波加减速.md",
     "无人机项目/4. 添加服务.md",
-    "无人机项目/3.飞行站-迁移调试.md",
     "无人机项目/0.硬件接线.md",
     "无人机项目/assets/0.硬件接线/file-20251230215915930.png",
     "无人机项目/0.话题概览.md",
@@ -271,7 +272,6 @@
     "code/m37.c PID v1.0.md",
     "linux基本操作/nmcli.md",
     "linux基本操作/snap.md",
-    "无人机项目/udev用户权限.md",
     "无人机项目/assets/4. 添加服务",
     "无人机项目/assets/添加服务",
     "无人机项目/assets/4. 添加服务/file-20251225162003502.png",
