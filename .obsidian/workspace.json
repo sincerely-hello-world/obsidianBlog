@@ -117,8 +117,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -240,7 +239,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "846098abf4108aa4",
+  "active": "ff956bd88238d377",
   "lastOpenFiles": [
     "code/矩形飞行.md",
     "code/之前的控制.md",
