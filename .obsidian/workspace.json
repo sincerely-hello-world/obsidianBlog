@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/3. 安装t265驱动.md",
+                "file": "无人机项目/3.飞行站-迁移调试.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. 安装t265驱动"
+              "title": "3.飞行站-迁移调试"
             }
           }
         ],
@@ -151,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/2. 串口对接-全局逻辑.md",
+                "file": "无人机项目/3.飞行站-迁移调试.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 2. 串口对接-全局逻辑"
+              "title": "Outline of 3.飞行站-迁移调试"
             }
           },
           {
@@ -238,8 +238,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -255,8 +254,8 @@
   },
   "active": "843d0bc9b8cfa991",
   "lastOpenFiles": [
-    "无人机项目/Foxy ROS2安装.md",
     "无人机项目/3. 安装t265驱动.md",
+    "无人机项目/Foxy ROS2安装.md",
     "无人机项目/assets/3. 安装t265驱动/file-20251231182135069.png",
     "无人机项目/assets/3. 安装t265驱动/file-20251231182046362.png",
     "无人机项目/assets/3. 安装t265驱动",
