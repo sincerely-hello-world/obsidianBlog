@@ -110,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "用户组",
+                "query": "https://github.com/airockchip/rknn-toolkit2/blob/master/rknpu2/runtime/Linux/librknn_api/aarch64/",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -131,7 +131,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -252,7 +253,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "843d0bc9b8cfa991",
+  "active": "88205e601b2ed97a",
   "lastOpenFiles": [
     "无人机项目/3. 安装t265驱动.md",
     "无人机项目/Foxy ROS2安装.md",
