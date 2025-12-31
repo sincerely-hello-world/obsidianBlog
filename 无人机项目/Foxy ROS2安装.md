@@ -79,6 +79,8 @@ echo "source /opt/ros/foxy/setup.bash" >> ~/.bashrc # 只需执行一次，以�
 
 source  ~/.bashrc
 printenv | grep -i ROS
+
+
 ```
 
 ---

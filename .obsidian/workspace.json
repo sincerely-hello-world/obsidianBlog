@@ -55,6 +55,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "无人机项目/Foxy ROS2安装.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Foxy ROS2安装"
+            }
+          },
+          {
+            "id": "843d0bc9b8cfa991",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "无人机项目/3. 安装t265驱动.md",
                 "mode": "source",
                 "source": false
@@ -64,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -239,13 +253,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "846098abf4108aa4",
+  "active": "843d0bc9b8cfa991",
   "lastOpenFiles": [
+    "无人机项目/Foxy ROS2安装.md",
+    "无人机项目/3. 安装t265驱动.md",
     "无人机项目/assets/3. 安装t265驱动/file-20251231182135069.png",
     "无人机项目/assets/3. 安装t265驱动/file-20251231182046362.png",
     "无人机项目/assets/3. 安装t265驱动",
     "无人机项目/3.飞行站-迁移调试.md",
-    "无人机项目/3. 安装t265驱动.md",
     "code/矩形飞行.md",
     "code/之前的控制.md",
     "code/m37.c 2025.12.22.-2200.md",
@@ -269,7 +284,6 @@
     "无人机项目/1.起飞操作.md",
     "linux基本操作/systemd 服务管理.md",
     "ROS2 串口接收.md",
-    "无人机项目/Foxy ROS2安装.md",
     "nomachine卸载.md",
     "偏函数-函数复用助手.md",
     "code/m37.c PID v1.0.md",
@@ -286,7 +300,6 @@
     "code/assets/矩形飞行/file-20251222223432950.png",
     "assets/矩形飞行",
     "无人机项目/assets/0.硬件接线/file-20251215165228834.png",
-    "无人机项目/assets/0.硬件接线/file-20251215165158823.png",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
