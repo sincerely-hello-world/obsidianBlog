@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/3.飞行端orangepi  开机自启.md",
+                "file": "无人机项目/3.飞行端orangepi-开机自启.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.飞行端orangepi  开机自启"
+              "title": "3.飞行端orangepi-开机自启"
             }
           },
           {
@@ -123,13 +123,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/3.飞行端orangepi  开机自启.md",
+                "file": "无人机项目/3.飞行端orangepi-开机自启.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3.飞行端orangepi  开机自启"
+              "title": "Outline of 3.飞行端orangepi-开机自启"
             }
           },
           {
@@ -224,17 +224,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3c8595773415ed8b",
+  "active": "ff956bd88238d377",
   "lastOpenFiles": [
-    "无人机项目/3. 安装t265驱动.md",
-    "无人机项目/3.飞行端orangepi  开机自启.md",
+    "无人机项目/assets/3. 飞行端orangepi-安装t265驱动",
+    "无人机项目/3. 飞行端orangepi-安装t265驱动.md",
+    "无人机项目/3.飞行端orangepi-开机自启.md",
     "linux基本操作/systemd 服务管理.md",
     "Untitled.md",
     "无人机项目/3.飞行站-迁移调试.md",
     "无人机项目/udev用户权限.md",
     "无人机项目/Foxy ROS2安装.md",
-    "无人机项目/assets/3. 安装t265驱动/file-20251231182135069.png",
-    "无人机项目/assets/3. 安装t265驱动/file-20251231182046362.png",
+    "无人机项目/assets/3. 飞行端orangepi-安装t265驱动/file-20260104134836667.png",
+    "无人机项目/assets/3. 飞行端orangepi-安装t265驱动/file-20260104134836670.png",
     "无人机项目/assets/3. 安装t265驱动",
     "code/矩形飞行.md",
     "code/之前的控制.md",
@@ -259,7 +260,6 @@
     "ROS2 串口接收.md",
     "nomachine卸载.md",
     "偏函数-函数复用助手.md",
-    "code/m37.c PID v1.0.md",
     "无人机项目/assets/4. 添加服务",
     "无人机项目/assets/添加服务",
     "无人机项目/assets/4. 添加服务/file-20251225162003502.png",
