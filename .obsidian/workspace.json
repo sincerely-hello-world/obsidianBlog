@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/3. 飞行端orangepi-安装t265驱动.md",
+                "file": "无人机项目/3.飞行端orangepi-开机自启.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3. 飞行端orangepi-安装t265驱动"
+              "title": "3.飞行端orangepi-开机自启"
             }
           },
           {
@@ -123,13 +123,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/3. 飞行端orangepi-安装t265驱动.md",
+                "file": "无人机项目/3.飞行端orangepi-开机自启.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3. 飞行端orangepi-安装t265驱动"
+              "title": "Outline of 3.飞行端orangepi-开机自启"
             }
           },
           {
@@ -226,9 +226,9 @@
   },
   "active": "3c8595773415ed8b",
   "lastOpenFiles": [
+    "无人机项目/3. 飞行端orangepi-安装t265驱动.md",
     "无人机项目/3.飞行端orangepi-开机自启.md",
     "无人机项目/assets/3. 飞行端orangepi-安装t265驱动",
-    "无人机项目/3. 飞行端orangepi-安装t265驱动.md",
     "linux基本操作/systemd 服务管理.md",
     "Untitled.md",
     "无人机项目/3.飞行站-迁移调试.md",
