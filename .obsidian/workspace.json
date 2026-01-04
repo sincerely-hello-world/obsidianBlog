@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/Foxy ROS2安装.md",
+                "file": "无人机项目/3.飞行站-迁移调试.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Foxy ROS2安装"
+              "title": "3.飞行站-迁移调试"
             }
           },
           {
@@ -151,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/Foxy ROS2安装.md",
+                "file": "无人机项目/3.飞行站-迁移调试.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Foxy ROS2安装"
+              "title": "Outline of 3.飞行站-迁移调试"
             }
           },
           {
@@ -254,14 +254,14 @@
   },
   "active": "7e9e887d09bc4af6",
   "lastOpenFiles": [
-    "无人机项目/3.飞行站-迁移调试.md",
     "无人机项目/3.飞行端orangepi-开机自启设置.md",
+    "无人机项目/Foxy ROS2安装.md",
+    "无人机项目/udev用户权限.md",
+    "无人机项目/3.飞行站-迁移调试.md",
     "无人机项目/3. 飞行端orangepi-安装t265驱动.md",
     "无人机项目/assets/3. 飞行端orangepi-安装t265驱动",
     "linux基本操作/systemd 服务管理.md",
     "Untitled.md",
-    "无人机项目/udev用户权限.md",
-    "无人机项目/Foxy ROS2安装.md",
     "无人机项目/assets/3. 飞行端orangepi-安装t265驱动/file-20260104134836667.png",
     "无人机项目/assets/3. 飞行端orangepi-安装t265驱动/file-20260104134836670.png",
     "无人机项目/assets/3. 安装t265驱动",
