@@ -27,7 +27,7 @@ and the attributes from one single parent device.
     DRIVERS==""
 ```
 
-
+ 
 ```bash
 orangepi@orangepi5b:~/Desktop/UAV_CAR__Test$ udevadm info --path=/sys/class/gpio/gpio35  --attribute-walk
 
