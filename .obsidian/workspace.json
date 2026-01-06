@@ -50,7 +50,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,13 +123,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/udev用户权限.md",
+                "file": "无人机项目/3.飞行端orangepi-外设使能.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of udev用户权限"
+              "title": "Outline of 3.飞行端orangepi-外设使能"
             }
           },
           {
@@ -224,10 +224,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7857e1ee99d6b05d",
+  "active": "d7cec00811c87ded",
   "lastOpenFiles": [
-    "无人机项目/3.飞行端orangepi-外设使能.md",
     "无人机项目/udev用户权限.md",
+    "无人机项目/3.飞行端orangepi-外设使能.md",
     "无人机项目/3. 飞行端orangepi-安装t265驱动.md",
     "linux基本操作/snap.md",
     "无人机项目/3.飞行端orangepi-开机自启设置.md",

@@ -71,11 +71,6 @@ and the attributes from one single parent device.
 
 ```
 
-    KERNEL=="pwmchip1"
-    SUBSYSTEM=="pwm"
-
-    KERNEL=="gpiochip0"
-    SUBSYSTEM=="gpio"
 
 # 修改权限
 
