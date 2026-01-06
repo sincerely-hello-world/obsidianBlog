@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "QT绘图报错.md",
+                "file": "无人机项目/3.飞行端orangepi-开机自启设置.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "QT绘图报错"
+              "title": "3.飞行端orangepi-开机自启设置"
             }
           },
           {
@@ -193,13 +193,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "QT绘图报错.md",
+                "file": "无人机项目/3.飞行端orangepi-开机自启设置.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of QT绘图报错"
+              "title": "Outline of 3.飞行端orangepi-开机自启设置"
             }
           },
           {
@@ -296,10 +296,19 @@
   },
   "active": "3585e8e1fa872757",
   "lastOpenFiles": [
+    "无人机项目/3.飞行端orangepi-外设使能.md",
+    "无人机项目/3.飞行站-迁移调试.md",
+    "无人机项目/4. 添加服务.md",
+    "my/openclash 软路由.md",
+    "linux基本操作/snap.md",
+    "linux基本操作/nmcli.md",
     "linux基本操作/整盘拷贝dd.md",
+    "linux基本操作/整盘拷贝.md",
+    "linux基本操作/权限管理.md",
+    "linux基本操作/免密ssh连接.md",
+    "linux基本操作/镜像源修改.md",
     "QT绘图报错.md",
     "linux rootfs定制.md",
-    "无人机项目/3.飞行端orangepi-外设使能.md",
     "无人机项目/3.飞行端orangepi-开机自启设置.md",
     "无人机项目/3. 飞行端orangepi-安装t265驱动.md",
     "无人机项目/2. 话题节点梳理.pdf",
@@ -307,8 +316,6 @@
     "无人机项目/1.起飞操作.md",
     "无人机项目/0.硬件接线.md",
     "无人机项目/调试舵机.md",
-    "无人机项目/4. 添加服务.md",
-    "无人机项目/3.飞行站-迁移调试.md",
     "无人机项目/0.话题概览.md",
     "无人机项目/Foxy ROS2安装.md",
     "无人机项目/udev用户权限.md",
@@ -320,17 +327,10 @@
     "code/矩形飞行.md",
     "code/之前的控制.md",
     "code/m37.c 2025.12.22.-2200.md",
-    "code/低通滤波加减速.md",
     "无人机项目/assets/0.硬件接线/file-20251230215915930.png",
     "无人机项目/assets/0.硬件接线/file-20251230202616559.png",
     "无人机项目/assets/0.硬件接线/file-20251230195815033.png",
     "无人机项目/assets/0.硬件接线/file-20251230194028057.png",
-    "2025.12.30飞控.md",
-    "linux基本操作/整盘拷贝.md",
-    "linux基本操作/权限管理.md",
-    "linux基本操作/免密ssh连接.md",
-    "linux基本操作/镜像源修改.md",
-    "ROS2 串口接收.md",
     "无人机项目/assets/4. 添加服务",
     "无人机项目/assets/添加服务",
     "无人机项目/assets/4. 添加服务/file-20251225162003502.png",
