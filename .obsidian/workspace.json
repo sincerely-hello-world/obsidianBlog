@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/4. 添加服务.md",
+                "file": "无人机项目/3.飞行端orangepi-开机自启设置.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "4. 添加服务"
+              "title": "3.飞行端orangepi-开机自启设置"
             }
           },
           {
@@ -83,12 +83,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/3.飞行端orangepi-开机自启设置.md",
+                "file": "linux基本操作/snap.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.飞行端orangepi-开机自启设置"
+              "title": "snap"
             }
           },
           {
@@ -120,7 +120,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -294,13 +294,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3585e8e1fa872757",
+  "active": "bee90792e46b604f",
   "lastOpenFiles": [
     "无人机项目/3.飞行端orangepi-外设使能.md",
-    "无人机项目/3.飞行站-迁移调试.md",
     "无人机项目/4. 添加服务.md",
-    "my/openclash 软路由.md",
     "linux基本操作/snap.md",
+    "无人机项目/3.飞行端orangepi-开机自启设置.md",
+    "无人机项目/3.飞行站-迁移调试.md",
+    "my/openclash 软路由.md",
     "linux基本操作/nmcli.md",
     "linux基本操作/整盘拷贝dd.md",
     "linux基本操作/整盘拷贝.md",
@@ -309,7 +310,6 @@
     "linux基本操作/镜像源修改.md",
     "QT绘图报错.md",
     "linux rootfs定制.md",
-    "无人机项目/3.飞行端orangepi-开机自启设置.md",
     "无人机项目/3. 飞行端orangepi-安装t265驱动.md",
     "无人机项目/2. 话题节点梳理.pdf",
     "无人机项目/2. 串口对接-全局逻辑.md",
