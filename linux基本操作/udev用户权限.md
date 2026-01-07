@@ -198,18 +198,16 @@ udevadm info --attribute-walk --path=/sys/class/pwm/pwmchip1
     DRIVERS==""
 ---
 但是！ pwm的%p 定位有些许不同！
-orangepi@orangepi5b:/sys/class/pwm/pwmchip1$ echo 0  > unexport
-orangepi@orangepi5b:/sys/class/pwm/pwmchip1$ echo 0  > export
+orangepi@orangepi5b:~$ echo 35 > /sys/class/gpio/export
 orangepi@orangepi5b:~$ echo 35 > /sys/class/gpio/unexport
----
-orangepi@orangepi5b:/etc/udev/rules.d$ sudo udevadm monitor        
-monitor will print the received events for:
-UDEV - the event which udev sends out after rule processing
-KERNEL - the kernel uevent
-
+-
 UDEV  [9786.070546] remove   /devices/platform/pinctrl/fec20000.gpio/gpiochip1/gpio/gpio35 (gpio)
 KERNEL[9794.054738] add      /devices/platform/pinctrl/fec20000.gpio/gpiochip1/gpio/gpio35 (gpio)
-
+---
+---
+orangepi@orangepi5b:/sys/class/pwm/pwmchip1$ echo 0  > export
+orangepi@orangepi5b:/sys/class/pwm/pwmchip1$ echo 0  > unexport
+-
 KERNEL[10394.252728] change   /devices/platform/fd8b0030.pwm/pwm/pwmchip1 (pwm)
 UDEV  [10394.273277] change   /devices/platform/fd8b0030.pwm/pwm/pwmchip1 (pwm)
 ---
