@@ -61,7 +61,7 @@ found, all possible attributes in the udev rules key format.
 A rule to match, can be composed by the attributes of the device
 and the attributes from one single parent device.
 
-  looking at device '/devices/platform/fd8b0030.pwm/pwm/pwmchip1/pwm0':
+  looking at device '/devices/platform/fd8b0030.pwm/pwm/pwmchip1/pwm0': #即为%p 参数，软链接到 
     KERNEL=="pwm0"
     SUBSYSTEM==""
     DRIVER==""
