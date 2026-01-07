@@ -1,4 +1,7 @@
 
+场景描述： https://bbs.elecfans.com/jishu_2347873_1_1.html
+udev介绍：https://www.kernel.org/pub/linux/utils/kernel/hotplug/udev/udev.html
+参考思路： [Access **GPIO** (/**sys/class/gpio**) as non-root](https://stackoverflow.com/questions/30938991/access-gpio-sys-class-gpio-as-non-root)
 udev规则目录：cd /etc/udev/rules.d/
 udev重载规则： sudo udevadm control --reload-rules && sudo udevadm trigger
 udev监视：sudo udevadm monitor  
@@ -106,8 +109,7 @@ and the attributes from one single parent device.
     DRIVERS==""
 ```
 
-https://bbs.elecfans.com/jishu_2347873_1_1.html
-https://www.kernel.org/pub/linux/utils/kernel/hotplug/udev/udev.html
+
 ### GPIO rules
 ```bash
 # 修改 /dev 下的gpio 权限和所属
@@ -123,7 +125,7 @@ SUBSYSTEMS=="gpio", KERNELS=="gpiochip*", SUBSYSTEM=="gpio", KERNEL=="gpio*", PR
 	chown root:gpio /sys%p /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value /sys%p/uevent && \
 	chmod ug+rw     /sys%p /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value /sys%p/uevent '"
 ```
-sudo udevadm control --reload-rules && sudo udevadm trigger
+ 
 ### PWM files
 pwm3-m0    pwm14-m1
  fd8b 0030   febf 0020
@@ -229,7 +231,7 @@ SUBSYSTEMS=="pwm", KERNELS=="pwmchip*", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
 # 修改权限
 
 + 所属目录 /etc/udev/rules.d 的99号规则
-+ [Access **GPIO** (/**sys/class/gpio**) as non-root](https://stackoverflow.com/questions/30938991/access-gpio-sys-class-gpio-as-non-root)
++
 + https://www.runoob.com/linux/linux-comm-chmod.html
 
 
