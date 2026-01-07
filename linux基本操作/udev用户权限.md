@@ -19,6 +19,10 @@ sudo usermod -aG gpio,pwm $USER
 groups $USER 
 ```
 ### GPIO rules
+```
+
+```
+
 ```bash
 SUBSYSTEM=="gpio", KERNEL=="gpio*", PROGRAM="/bin/sh -c '\
 	chown root:gpio /sys/class/gpio/export /sys/class/gpio/unexport && \
