@@ -29,6 +29,8 @@ SUBSYSTEM=="gpio", KERNEL=="gpio*", PROGRAM="/bin/sh -c '\
 ```
 
 ### PWM rules
+pwm3-m0  pwm14-m1
+
 ```bash
 SUBSYSTEM=="pwm", KERNEL=="gpio*", PROGRAM="/bin/sh -c '\
 	chown root:pwm /sys/class/gpio/export /sys/class/gpio/unexport && \
