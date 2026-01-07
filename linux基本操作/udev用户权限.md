@@ -1,7 +1,7 @@
 
 udev规则目录：/etc/udev/rules.d/
-
-
+udev重载规则： sudo udevadm control --reload-rules
+udev
 
 
 ## udevadm info 
