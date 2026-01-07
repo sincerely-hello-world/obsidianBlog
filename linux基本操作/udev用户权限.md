@@ -25,12 +25,11 @@ active_low  device  direction  edge  power  subsystem  uevent  value
 ```
 
 ```bash
+SUBSYSTEM=="gpio", KERNEL=="gpio*", MODE="0660", GROUP="gpio" # 修改 /dev下的gpio 权限和所属
 
-SUBSYSTEM=="gpio", KERNEL=="gpio*", MODE="0660", GROUP="gpio" # 修改 /dev下的gpio设备？
-
-SUBSYSTEM=="gpio", KERNEL=="gpiochip*", PROGRAM="/bin/sh -c '\
+SUBSYSTEM=="gpio", KERNEL=="gpiochip*", PROGRAM="/bin/sh -c '\  
 	chown root:gpio /sys/class/gpio/export /sys/class/gpio/unexport && \
-	chmod ug+rw     /sys/class/gpio/export /sys/class/gpio/unexport '" 
+	chmod ug+rw     /sys/class/gpio/export /sys/class/gpio/unexport '"  # 修改 /dev下的gpio 权限和所属
 	
 SUBSYSTEM=="gpio", KERNEL=="gpio*", PROGRAM="/bin/sh -c '\
 	chown root:gpio /sys%p/ /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value /sys%p/uevent && \
@@ -136,7 +135,7 @@ and the attributes from one single parent device.
     KERNELS=="platform"
     SUBSYSTEMS==""
     DRIVERS==""
-    
+-----------
 udevadm info --attribute-walk --name=/dev/gpiochip1
 
 Udevadm info starts with the device specified by the devpath and then
