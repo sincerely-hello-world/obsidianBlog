@@ -244,4 +244,5 @@ SUBSYSTEMS=="pwm", KERNELS=="pwmchip*", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
  
 
 
- 
+ 不需要纠结
+/sys/class/pwm/pwmchip1 下pwm0的所属权，那只是个链接， 真正的
