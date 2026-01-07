@@ -205,6 +205,8 @@ udevadm info --attribute-walk --path=/sys/class/pwm/pwmchip1
 
 ```
 
+KERNEL[10394.252728] change   /devices/platform/fd8b0030.pwm/pwm/pwmchip1 (pwm)
+UDEV  [10394.273277] change   /devices/platform/fd8b0030.pwm/pwm/pwmchip1 (pwm)
 
 # 修改权限
 
