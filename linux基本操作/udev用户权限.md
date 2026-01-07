@@ -11,7 +11,8 @@ SUBSYSTEM=="gpio", KERNEL=="gpio*", MODE="0660", GROUP="gpio" # 修改 /dev下�
 
 ```bash
 SUBSYSTEM=="gpio", KERNEL=="gpio*", PROGRAM="/bin/sh -c '\
-	chown root:gpio /sys/class/gpio/export /sys/class/gpio/unexport && \ chmod ug+rw /sys/class/gpio/export /sys/class/gpio/unexport'" 
+	chown root:gpio /sys/class/gpio/export /sys/class/gpio/unexport && \
+	chmod ug+rw /sys/class/gpio/export /sys/class/gpio/unexport'" 
 SUBSYSTEM=="gpio" KERNEL=="gpio*", PROGRAM="/bin/sh -c '\ chown root:gpio /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value && \ chmod 660 /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value'"
 ```
 ---
