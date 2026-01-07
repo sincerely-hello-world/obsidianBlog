@@ -3,14 +3,14 @@ udev规则目录：cd /etc/udev/rules.d/
 udev重载规则： sudo udevadm control --reload-rules && sudo udevadm trigger
 udev监视：sudo udevadm monitor  
 
-udevinfo查看设备信息： udevinfo -a -p /sys/block/sda 或 udevadm info --path=/sys/class/pwm/pwmchip1 --attribute-walk
+udevinfo查看设备信息： udevinfo -a  --name= --path= 
 
 echo 35 > /sys/class/gpio/unexport
  
-| 子系统 | sysfs 中的 `export` 位置 | 原因 |
-|--------|--------------------------|------|
-| GPIO | `/sys/class/gpio/export`（全局） | 所有 gpiochip 共享一个 export 接口 |
-| PWM | `/sys/class/pwm/pwmchipN/export`（每个 chip 独立） | 每个 PWM 控制器有自己的 export 文件 |
+| 子系统  | sysfs 中的 `export` 位置                         | 原因                         |
+| ---- | -------------------------------------------- | -------------------------- |
+| GPIO | `/sys/class/gpio/export`（全局）                 | 所有 gpiochip 共享一个 export 接口 |
+| PWM  | `/sys/class/pwm/pwmchipN/export`（每个 chip 独立） | 每个 PWM 控制器有自己的 export 文件   |
 
 
 
