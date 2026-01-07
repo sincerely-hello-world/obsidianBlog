@@ -11,6 +11,13 @@ echo 35 > /sys/class/gpio/unexport
 SUBSYSTEM=="gpio", KERNEL=="gpio*", MODE="0660", GROUP="gpio" # 修改 /dev下的gpio设备？
 ```
 
+### 添加并修改用户组
+```bash
+sudo groupadd gpio
+sudo groupadd pwm
+sudo usermod -aG gpio,pwm $USER
+groups $USER 
+```
 ### GPIO rules
 ```bash
 SUBSYSTEM=="gpio", KERNEL=="gpio*", PROGRAM="/bin/sh -c '\
@@ -110,12 +117,7 @@ and the attributes from one single parent device.
 + [Access **GPIO** (/**sys/class/gpio**) as non-root](https://stackoverflow.com/questions/30938991/access-gpio-sys-class-gpio-as-non-root)
 + https://www.runoob.com/linux/linux-comm-chmod.html
 
-```bash
-sudo groupadd gpio
-sudo groupadd pwm
-sudo usermod -aG gpio,pwm $USER
-groups $USER 
-```
+
 
 - [ ] 修改 /sys/class/pwm/ gpio/ 的 所有权
 
