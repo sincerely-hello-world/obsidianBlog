@@ -30,6 +30,9 @@ SUBSYSTEM=="gpio", KERNEL=="gpio*", PROGRAM="/bin/sh -c '\
 
 ### PWM rules
 pwm3-m0  pwm14-m1
+| PWM14_M1   |
+| ---------- |
+| PWM3_IR_M0 |
 
 ```bash
 SUBSYSTEM=="pwm", KERNEL=="gpio*", PROGRAM="/bin/sh -c '\

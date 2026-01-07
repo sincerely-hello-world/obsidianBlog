@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -137,13 +137,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/0.硬件接线.md",
+                "file": "linux基本操作/udev用户权限.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 0.硬件接线"
+              "title": "Outline of udev用户权限"
             }
           },
           {
@@ -238,8 +238,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2f2691e9c79c9b01",
+  "active": "3e10f586e882c78c",
   "lastOpenFiles": [
+    "无人机项目/0.硬件接线.md",
     "linux基本操作/udev用户权限.md",
     "x11 server转发.md",
     "无人机项目/3.飞行端orangepi-开机自启设置.md",
@@ -261,7 +262,6 @@
     "无人机项目/2. 话题节点梳理.pdf",
     "无人机项目/2. 串口对接-全局逻辑.md",
     "无人机项目/1.起飞操作.md",
-    "无人机项目/0.硬件接线.md",
     "无人机项目/调试舵机.md",
     "无人机项目/0.话题概览.md",
     "无人机项目/Foxy ROS2安装.md",
