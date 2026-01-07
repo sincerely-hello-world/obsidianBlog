@@ -31,13 +31,13 @@ SUBSYSTEM=="gpio", KERNEL=="gpio*", PROGRAM="/bin/sh -c '\
 ### PWM rules
 pwm3-m0    pwm14-m1
  fd8b 0030   febf 0020
-pwmchip1		  pwmchip3
+pwmchip1	pwmchip3
 
 ```bash
-SUBSYSTEMS=="pwm", KERNEL=="gpio*", PROGRAM="/bin/sh -c '\
+SUBSYSTEMS=="pwm", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
 	chown root:pwm /sys/class/gpio/export /sys/class/gpio/unexport && \
 	chmod ug+rw /sys/class/gpio/export /sys/class/gpio/unexport'" 
-SUBSYSTEMS=="pwm", KERNEL=="gpio*", PROGRAM="/bin/sh -c '\
+SUBSYSTEMS=="pwm", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
 	chown root:pwm /sys%p/ /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value /sys%p/uevent && \
 	chmod ug+rw /sys%p/ /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value /sys%p/uevent'"
 ```
