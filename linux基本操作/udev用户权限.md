@@ -11,12 +11,23 @@ echo 35 > /sys/class/gpio/unexport
 SUBSYSTEM=="gpio", KERNEL=="gpio*", MODE="0660", GROUP="gpio" # 修改 /dev下的gpio设备？
 ```
 
+### GPIO rules
 ```bash
 SUBSYSTEM=="gpio", KERNEL=="gpio*", PROGRAM="/bin/sh -c '\
 	chown root:gpio /sys/class/gpio/export /sys/class/gpio/unexport && \
 	chmod ug+rw /sys/class/gpio/export /sys/class/gpio/unexport'" 
 SUBSYSTEM=="gpio", KERNEL=="gpio*", PROGRAM="/bin/sh -c '\
 	chown root:gpio /sys%p/ /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value /sys%p/uevent && \
+	chmod ug+rw /sys%p/ /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value /sys%p/uevent'"
+```
+
+### PWM rules
+```bash
+SUBSYSTEM=="pwm", KERNEL=="gpio*", PROGRAM="/bin/sh -c '\
+	chown root:pwm /sys/class/gpio/export /sys/class/gpio/unexport && \
+	chmod ug+rw /sys/class/gpio/export /sys/class/gpio/unexport'" 
+SUBSYSTEM=="pwm", KERNEL=="gpio*", PROGRAM="/bin/sh -c '\
+	chown root:pwm /sys%p/ /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value /sys%p/uevent && \
 	chmod ug+rw /sys%p/ /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value /sys%p/uevent'"
 ```
 ---
