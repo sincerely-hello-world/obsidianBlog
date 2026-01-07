@@ -227,6 +227,8 @@ SUBSYSTEM=="pwm", KERNEL=="pwmchip*", PROGRAM="/bin/sh -c '\
 SUBSYSTEMS=="pwm", KERNELS=="pwmchip*", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
 	chown root:pwm -R /sys%p/  && \
 	chmod ug+rw    -R /sys%p/  '"
+	
+# 如果认为写的粗糙，可以编写shell脚本实现。这里直接递归修改了， 因为 pwm的%p只是定位到了 /devices/platform/fd8b0030.pwm/pwm/pwmchip1 这一级目录
 ```
 
  
