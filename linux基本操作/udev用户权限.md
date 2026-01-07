@@ -16,6 +16,32 @@ udevinfo查看设备信息： udevinfo -a  --path=/sys/class/gpio/gpio35  # 查�
 | GPIO | `/sys/class/gpio/export`（全局）                 | 所有 gpiochip 共享一个 export 接口    |
 | PWM  | `/sys/class/pwm/pwmchipN/export`（每个 chip 独立） | 每个 pwmchipN 控制器有自己的 export 文件 |
 
+  
+```bash
+
+pwm的%p 定位有些许不同！
+
+---
+orangepi@orangepi5b:~$ echo 35 > /sys/class/gpio/export
+orangepi@orangepi5b:~$ echo 35 > /sys/class/gpio/unexport
+-
+UDEV  [9786.070546] remove   /devices/platform/pinctrl/fec20000.gpio/gpiochip1/gpio/gpio35 (gpio)
+KERNEL[9794.054738] add      /devices/platform/pinctrl/fec20000.gpio/gpiochip1/gpio/gpio35 (gpio)
+---
+
+
+---
+orangepi@orangepi5b:/sys/class/pwm/pwmchip1$ echo 0  > export
+orangepi@orangepi5b:/sys/class/pwm/pwmchip1$ echo 0  > unexport
+-
+KERNEL[10394.252728] change   /devices/platform/fd8b0030.pwm/pwm/pwmchip1 (pwm)
+UDEV  [10394.273277] change   /devices/platform/fd8b0030.pwm/pwm/pwmchip1 (pwm)
+---
+由此可见，udev并没有精准的像 GPIO 一样，将 %p 识别为  /devices/platform/fd8b0030.pwm/pwm/pwmchip1/pwm0 (pwm)
+而是，最多将 %p 定位到 /devices/platform/fd8b0030.pwm/pwm/pwmchip1 (pwm)
+
+当然。 udev的SUBSYSTEMS=="pwm", KERNELS=="pwmchip*", KERNEL=="pwm*" 这些匹配规则仍然生效，只是pwm的 %p 和 gpio的 %p 略有不同
+```
 ---
 # 实现开机后，普通用户无需sudo即可访问pwm和gpio
 ### 添加并修改用户组
@@ -196,26 +222,9 @@ udevadm info --attribute-walk --path=/sys/class/pwm/pwmchip1
     KERNELS=="platform"
     SUBSYSTEMS==""
     DRIVERS==""
----
-但是！ pwm的%p 定位有些许不同！
-orangepi@orangepi5b:~$ echo 35 > /sys/class/gpio/export
-orangepi@orangepi5b:~$ echo 35 > /sys/class/gpio/unexport
--
-UDEV  [9786.070546] remove   /devices/platform/pinctrl/fec20000.gpio/gpiochip1/gpio/gpio35 (gpio)
-KERNEL[9794.054738] add      /devices/platform/pinctrl/fec20000.gpio/gpiochip1/gpio/gpio35 (gpio)
----
----
-orangepi@orangepi5b:/sys/class/pwm/pwmchip1$ echo 0  > export
-orangepi@orangepi5b:/sys/class/pwm/pwmchip1$ echo 0  > unexport
--
-KERNEL[10394.252728] change   /devices/platform/fd8b0030.pwm/pwm/pwmchip1 (pwm)
-UDEV  [10394.273277] change   /devices/platform/fd8b0030.pwm/pwm/pwmchip1 (pwm)
----
-由此可见，udev并没有精准的像 GPIO 一样，将 %p 识别为  /devices/platform/fd8b0030.pwm/pwm/pwmchip1/pwm0 (pwm)
-而是，最多将 %p 定位到 /devices/platform/fd8b0030.pwm/pwm/pwmchip1 (pwm)
-
-当然。 udev的SUBSYSTEMS=="pwm", KERNELS=="pwmchip*", KERNEL=="pwm*" 这些匹配规则仍然生效，只是pwm的 %p 和 gpio的 %p 略有不同
+    
 ```
+  
 
 ### PWM rules
 ```bash
