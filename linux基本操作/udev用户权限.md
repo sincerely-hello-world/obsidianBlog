@@ -130,6 +130,40 @@ and the attributes from one single parent device.
     KERNELS=="platform"
     SUBSYSTEMS==""
     DRIVERS==""
+----------------------------------------------------------
+$ udevadm info --path=/sys/class/gpio/gpiochip0 -a
+
+Udevadm info starts with the device specified by the devpath and then
+walks up the chain of parent devices. It prints for every device
+found, all possible attributes in the udev rules key format.
+A rule to match, can be composed by the attributes of the device
+and the attributes from one single parent device.
+
+  looking at device '/devices/platform/pinctrl/fd8a0000.gpio/gpio/gpiochip0':
+    KERNEL=="gpiochip0"
+    SUBSYSTEM=="gpio"
+    DRIVER==""
+    ATTR{label}=="gpio0"
+    ATTR{ngpio}=="32"
+    ATTR{base}=="0"
+
+  looking at parent device '/devices/platform/pinctrl/fd8a0000.gpio':
+    KERNELS=="fd8a0000.gpio"
+    SUBSYSTEMS=="platform"
+    DRIVERS=="rockchip-gpio"
+    ATTRS{driver_override}=="(null)"
+
+  looking at parent device '/devices/platform/pinctrl':
+    KERNELS=="pinctrl"
+    SUBSYSTEMS=="platform"
+    DRIVERS=="rockchip-pinctrl"
+    ATTRS{driver_override}=="(null)"
+
+  looking at parent device '/devices/platform':
+    KERNELS=="platform"
+    SUBSYSTEMS==""
+    DRIVERS==""
+
 
 ```
 
