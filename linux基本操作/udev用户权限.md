@@ -53,6 +53,8 @@ SUBSYSTEMS=="pwm", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
 ```
 ---
 ## udevadm info 
+
+### PWM  udevadm info
 ```bash
 udevadm info --path=/sys/class/pwm/pwmchip1/pwm0  --attribute-walk
 
@@ -90,7 +92,7 @@ and the attributes from one single parent device.
 
 ```
 
- 
+###  GPIO udevadm info
 ```bash
 $ udevadm info --path=/sys/class/gpio/gpio35  --attribute-walk
 
