@@ -202,6 +202,18 @@ udevadm info --attribute-walk --path=/sys/class/pwm/pwmchip1
     SUBSYSTEMS==""
     DRIVERS==""
 
+但是！ 
+orangepi@orangepi5b:/sys/class/pwm/pwmchip1$ echo 0  > unexport
+orangepi@orangepi5b:/sys/class/pwm/pwmchip1$ echo 0  > export
+
+
+orangepi@orangepi5b:/etc/udev/rules.d$ sudo udevadm monitor        
+monitor will print the received events for:
+UDEV - the event which udev sends out after rule processing
+KERNEL - the kernel uevent
+
+KERNEL[10394.252728] change   /devices/platform/fd8b0030.pwm/pwm/pwmchip1 (pwm)
+UDEV  [10394.273277] change   /devices/platform/fd8b0030.pwm/pwm/pwmchip1 (pwm)
 
 ```
 
