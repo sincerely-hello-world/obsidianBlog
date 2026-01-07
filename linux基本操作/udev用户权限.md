@@ -47,7 +47,7 @@ SUBSYSTEMS=="pwm", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
 	chown root:pwm /sys/class/gpio/export /sys/class/gpio/unexport && \
 	chmod ug+rw /sys/class/gpio/export /sys/class/gpio/unexport'" 
 SUBSYSTEMS=="pwm", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
-	chown root:pwm /sys%p/ /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value /sys%p/uevent && \
+	chown root:pwm /sys%p/ /sys%p/capture /sys%p/duty_cycle /sys%p/edge /sys%p/value /sys%p/uevent && \
 	chmod ug+rw /sys%p/ /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value /sys%p/uevent'"
 ```
 ---
@@ -61,7 +61,7 @@ found, all possible attributes in the udev rules key format.
 A rule to match, can be composed by the attributes of the device
 and the attributes from one single parent device.
 
-  looking at device '/devices/platform/fd8b0030.pwm/pwm/pwmchip1/pwm0': #即为%p 参数，符号链接（symbolic link）到 /sys/class/pwm/pwmchip1/pwm0
+  looking at device '/devices/platform/fd8b0030.pwm/pwm/pwmchip1/pwm0': #即为 %p 参数，没有 /sys，符号链接（symbolic link）到 /sys/class/pwm/pwmchip1/pwm0
     KERNEL=="pwm0"
     SUBSYSTEM==""
     DRIVER==""
