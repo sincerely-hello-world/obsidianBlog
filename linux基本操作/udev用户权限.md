@@ -20,7 +20,8 @@ groups $USER
 ```
 ### GPIO rules
 ```bash
-
+ls   /sys/class/gpio/gpio35
+active_low  device  direction  edge  power  subsystem  uevent  value
 ```
 
 ```bash
