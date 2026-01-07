@@ -1,7 +1,7 @@
 
 场景描述： https://bbs.elecfans.com/jishu_2347873_1_1.html
 udev介绍：https://www.kernel.org/pub/linux/utils/kernel/hotplug/udev/udev.html
-参考思路： [Access **GPIO** (/**sys/class/gpio**) as non-root](https://stackoverflow.com/questions/30938991/access-gpio-sys-class-gpio-as-non-root)
+参考思路： [1. stack flow:Access **GPIO** (/**sys/class/gpio**) as non-root](https://stackoverflow.com/questions/30938991/access-gpio-sys-class-gpio-as-non-root), [2. 博客园：udev详解](https://www.cnblogs.com/ToTigerMountain/articles/18655233)
 
 
 udev规则目录：cd /etc/udev/rules.d/
