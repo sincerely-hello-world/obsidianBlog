@@ -244,5 +244,5 @@ SUBSYSTEMS=="pwm", KERNELS=="pwmchip*", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
  
 
 
- 不需要纠结
-/sys/class/pwm/pwmchip1 下pwm0的所属权，那只是个链
+
+/sys/class/pwm/pwmchip1 下的pwm0只是软连接，所属权并不影响，只需要改变 %
