@@ -5,6 +5,8 @@ udev监视：sudo udevadm monitor
 
 udevinfo查看设备信息： udevinfo -a -p /sys/block/sda 或 udevadm info --path=/sys/class/pwm/pwmchip1 --attribute-walk
 
+echo 35 > /sys/class/gpio/unexport
+
 ```
 SUBSYSTEM=="gpio", KERNEL=="gpio*", MODE="0660", GROUP="gpio" # 修改 /dev下的gpio设备？
 ```
