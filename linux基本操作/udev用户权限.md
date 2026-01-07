@@ -25,6 +25,9 @@ active_low  device  direction  edge  power  subsystem  uevent  value
 ```
 
 ```bash
+
+SUBSYSTEM=="gpio", KERNEL=="gpio*", MODE="0660", GROUP="gpio" # 修改 /dev下的gpio设备？
+
 SUBSYSTEM=="gpio", KERNEL=="gpiochip*", PROGRAM="/bin/sh -c '\
 	chown root:gpio /sys/class/gpio/export /sys/class/gpio/unexport && \
 	chmod ug+rw     /sys/class/gpio/export /sys/class/gpio/unexport '" 
