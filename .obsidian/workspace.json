@@ -254,10 +254,11 @@
   },
   "active": "dee17fb8d6d4e6ef",
   "lastOpenFiles": [
-    "无人机项目/assets/5. orangepi 飞行站节点示意图/file-20260107203733835.png",
-    "无人机项目/assets/5. orangepi 飞行站节点示意图",
+    "无人机项目/4. 添加服务.md",
     "无人机项目/3.飞行站-迁移调试.md",
     "无人机项目/5. orangepi 飞行站节点示意图.md",
+    "无人机项目/assets/5. orangepi 飞行站节点示意图/file-20260107203733835.png",
+    "无人机项目/assets/5. orangepi 飞行站节点示意图",
     "无人机项目/3.飞行端orangepi-开机自启设置.md",
     "linux基本操作/systemd 服务管理.md",
     "linux基本操作/udev用户权限.md",
@@ -272,7 +273,6 @@
     "linux基本操作/编写 udev 规则 --- Writing udev rules.html",
     "无人机项目/3. 飞行端orangepi-安装t265驱动.md",
     "linux基本操作/snap.md",
-    "无人机项目/4. 添加服务.md",
     "my/openclash 软路由.md",
     "linux基本操作/nmcli.md",
     "QT绘图报错.md",
@@ -299,7 +299,6 @@
     "code/assets/矩形飞行",
     "code/assets/矩形飞行/file-20251222223432946.png",
     "code/assets/矩形飞行/file-20251222223432950.png",
-    "无人机项目/assets/0.硬件接线/file-20251215165228834.png",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
