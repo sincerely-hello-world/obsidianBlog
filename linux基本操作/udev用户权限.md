@@ -189,12 +189,12 @@ udevadm info --attribute-walk --path=/sys/class/pwm/pwmchip1
     KERNELS=="platform"
     SUBSYSTEMS==""
     DRIVERS==""
-
-但是！ 
+---
+但是！ pwm的%p 定位有些许不同！
 orangepi@orangepi5b:/sys/class/pwm/pwmchip1$ echo 0  > unexport
 orangepi@orangepi5b:/sys/class/pwm/pwmchip1$ echo 0  > export
 
-
+---
 orangepi@orangepi5b:/etc/udev/rules.d$ sudo udevadm monitor        
 monitor will print the received events for:
 UDEV - the event which udev sends out after rule processing
@@ -202,10 +202,11 @@ KERNEL - the kernel uevent
 
 KERNEL[10394.252728] change   /devices/platform/fd8b0030.pwm/pwm/pwmchip1 (pwm)
 UDEV  [10394.273277] change   /devices/platform/fd8b0030.pwm/pwm/pwmchip1 (pwm)
+---
 由此可见，udev并没有精准的像 GPIO 一样，将 %p 识别为  /devices/platform/fd8b0030.pwm/pwm/pwmchip1/pwm0 (pwm)
 而是，最多将 %p 定位到 /devices/platform/fd8b0030.pwm/pwm/pwmchip1 (pwm)
 
-当然。 udev的SUBSYSTEMS=="pwm", KERNELS=="pwmchip*", KERNEL=="pwm*" 这些匹配规则仍然生效，只是pwm的 %p和
+当然。 udev的SUBSYSTEMS=="pwm", KERNELS=="pwmchip*", KERNEL=="pwm*" 这些匹配规则仍然生效，只是pwm的 %p 和 gpio的 %p 略有不同
 ```
 
 ### PWM rules
@@ -221,8 +222,7 @@ SUBSYSTEMS=="pwm", KERNELS=="pwmchip*", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
 	chmod ug+rw    -R /sys%p/  '"
 ```
 
-KERNEL[10394.252728] change   /devices/platform/fd8b0030.pwm/pwm/pwmchip1 (pwm)
-UDEV  [10394.273277] change   /devices/platform/fd8b0030.pwm/pwm/pwmchip1 (pwm)
+ 
 
 # 修改权限
 
@@ -258,18 +258,5 @@ KERNEL=="gpiochip*", SUBSYSTEM=="gpio", PROGRAM="/bin/sh -c 'chown -R root:gpio 
 KERNEL=="pwmchip*", SUBSYSTEM=="pwm", PROGRAM="/bin/sh -c 'chown -R root:pwm /sys/class/pwm && chmod -R ug+rw  /sys/class/pwm'"
 ```
 
-
-修改之后：
-```bash
-orangepi@orangepi5b:/etc/udev/rules.d$ ls -l /dev/gpiochip*
-crw-rw---- 1 root gpio 254, 0 Dec  8 22:32 /dev/gpiochip0
-crw-rw---- 1 root gpio 254, 1 Dec  8 22:32 /dev/gpiochip1
-crw-rw---- 1 root gpio 254, 2 Dec  8 22:32 /dev/gpiochip2
-crw-rw---- 1 root gpio 254, 3 Dec  8 22:32 /dev/gpiochip3
-crw-rw---- 1 root gpio 254, 4 Dec  8 22:32 /dev/gpiochip4
-crw-rw---- 1 root gpio 254, 5 Dec  8 22:32 /dev/gpiochip5
-```
-**重载规则:** 使新规则生效：
-- sudo udevadm control --reload-rules
-
+ 
 
