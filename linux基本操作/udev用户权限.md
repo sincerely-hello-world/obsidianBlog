@@ -25,12 +25,13 @@ active_low  device  direction  edge  power  subsystem  uevent  value
 ```
 
 ```bash
-SUBSYSTEM=="gpio", KERNEL=="gpio*", PROGRAM="/bin/sh -c '\
+SUBSYSTEM=="gpio", KERNEL=="gpiochip*", PROGRAM="/bin/sh -c '\
 	chown root:gpio /sys/class/gpio/export /sys/class/gpio/unexport && \
-	chmod ug+rw /sys/class/gpio/export /sys/class/gpio/unexport '" 
+	chmod ug+rw     /sys/class/gpio/export /sys/class/gpio/unexport '" 
+	
 SUBSYSTEM=="gpio", KERNEL=="gpio*", PROGRAM="/bin/sh -c '\
 	chown root:gpio /sys%p/ /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value /sys%p/uevent && \
-	chmod ug+rw /sys%p/ /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value /sys%p/uevent '"
+	chmod ug+rw     /sys%p/ /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value /sys%p/uevent '"
 ```
 
 ### PWM rules
