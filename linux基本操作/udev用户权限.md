@@ -54,7 +54,7 @@ capture  duty_cycle  enable  period  polarity  power  uevent
 
 SUBSYSTEMS=="pwm", KERNEL=="pwmchip*", PROGRAM="/bin/sh -c '\
 	chown root:pwm /sys/class/pwm/pwmchip*  /sys/class/gpio/unexport && \
-	chmod ug+w    /sys/class/gpio/export   /sys/class/gpio/unexport '" 
+	chmod ug+w     /sys/class/gpio/export   /sys/class/gpio/unexport '" 
 SUBSYSTEMS=="pwm", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
 	chown root:pwm /sys%p/ /sys%p/capture /sys%p/duty_cycle /sys%p/enable /sys%p/period /sys%p/polarity /sys%p/uevent && \
 	chmod ug+rw    /sys%p/ /sys%p/capture /sys%p/duty_cycle /sys%p/enable /sys%p/period /sys%p/polarity /sys%p/uevent '"
