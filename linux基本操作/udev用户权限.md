@@ -203,6 +203,9 @@ KERNEL - the kernel uevent
 KERNEL[10394.252728] change   /devices/platform/fd8b0030.pwm/pwm/pwmchip1 (pwm)
 UDEV  [10394.273277] change   /devices/platform/fd8b0030.pwm/pwm/pwmchip1 (pwm)
 由此可见，udev并没有精准的像 GPIO 一样，将 %p 识别为  /devices/platform/fd8b0030.pwm/pwm/pwmchip1/pwm0 (pwm)
+而是，最多将 %p 定位到 /devices/platform/fd8b0030.pwm/pwm/pwmchip1 (pwm)
+
+当然。 udev的SUBSYSTEMS=="pwm", KERNELS=="pwmchip*", KERNEL=="pwm*" 这些匹配规则仍然生效，只是pwm的 %p和
 ```
 
 ### PWM rules
