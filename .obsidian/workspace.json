@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/3.飞行端orangepi-开机自启设置.md",
+                "file": "无人机项目/5. orangepi 飞行站节点示意图.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.飞行端orangepi-开机自启设置"
+              "title": "5. orangepi 飞行站节点示意图"
             }
           },
           {
@@ -151,13 +151,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/3.飞行端orangepi-开机自启设置.md",
+                "file": "无人机项目/5. orangepi 飞行站节点示意图.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3.飞行端orangepi-开机自启设置"
+              "title": "Outline of 5. orangepi 飞行站节点示意图"
             }
           },
           {
@@ -254,11 +254,13 @@
   },
   "active": "dee17fb8d6d4e6ef",
   "lastOpenFiles": [
+    "无人机项目/3.飞行站-迁移调试.md",
+    "无人机项目/5. orangepi 飞行站节点示意图.md",
+    "无人机项目/3.飞行端orangepi-开机自启设置.md",
     "linux基本操作/systemd 服务管理.md",
     "linux基本操作/udev用户权限.md",
     "无人机项目/0.硬件接线.md",
     "x11 server转发.md",
-    "无人机项目/3.飞行端orangepi-开机自启设置.md",
     "linux基本操作/整盘拷贝dd.md",
     "linux基本操作/免密ssh连接.md",
     "linux基本操作/镜像源修改.md",
@@ -269,7 +271,6 @@
     "无人机项目/3. 飞行端orangepi-安装t265驱动.md",
     "linux基本操作/snap.md",
     "无人机项目/4. 添加服务.md",
-    "无人机项目/3.飞行站-迁移调试.md",
     "my/openclash 软路由.md",
     "linux基本操作/nmcli.md",
     "QT绘图报错.md",
@@ -285,7 +286,6 @@
     "无人机项目/assets/3. 飞行端orangepi-安装t265驱动/file-20260104134836670.png",
     "无人机项目/assets/3. 安装t265驱动",
     "code/矩形飞行.md",
-    "code/之前的控制.md",
     "无人机项目/assets/0.硬件接线/file-20251230215915930.png",
     "无人机项目/assets/0.硬件接线/file-20251230202616559.png",
     "无人机项目/assets/0.硬件接线/file-20251230195815033.png",
