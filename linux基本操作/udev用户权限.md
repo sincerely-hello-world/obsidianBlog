@@ -117,11 +117,11 @@ and the attributes from one single parent device.
 SUBSYSTEMS=="platform", SUBSYSTEM=="gpio", KERNEL=="gpiochip*", MODE="0660", GROUP="gpio" 
 # https://docs.linuxkernel.org.cn/userspace-api/gpio/sysfs.html
 
-# export 归属和权限
+# export 归属和权限： 匹配的是 gpiochipN
 SUBSYSTEM=="gpio", KERNEL=="gpiochip*", PROGRAM="/bin/sh -c '\  
 	chown root:gpio /sys/class/gpio/export /sys/class/gpio/unexport && \
 	chmod ug+rw     /sys/class/gpio/export /sys/class/gpio/unexport '"  
-# gpio操作 归属和权限
+# gpio操作 归属和权限:  匹配的是 gpioN
 SUBSYSTEMS=="gpio", KERNELS=="gpiochip*", SUBSYSTEM=="gpio", KERNEL=="gpio*", PROGRAM="/bin/sh -c '\
 	chown root:gpio /sys%p /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value /sys%p/uevent && \
 	chmod ug+rw     /sys%p /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value /sys%p/uevent '"
