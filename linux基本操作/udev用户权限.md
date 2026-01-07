@@ -3,7 +3,9 @@ udev规则目录：cd /etc/udev/rules.d/
 udev重载规则： sudo udevadm control --reload-rules && sudo udevadm trigger
 udev监视：sudo udevadm monitor  
 
-udevinfo查看设备信息： udevinfo -a  --name= --path= 
+udevinfo查看设备信息： udevinfo -a  --name=/dev/tty1  # 查看符号链接
+
+udevinfo查看设备信息： udevinfo -a  --path=/sys/class/gpio/gpio
 
 echo 35 > /sys/class/gpio/unexport
  
@@ -231,32 +233,4 @@ SUBSYSTEMS=="pwm", KERNELS=="pwmchip*", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
 + https://www.runoob.com/linux/linux-comm-chmod.html
 
 
-
-- [ ] 修改 /sys/class/pwm/ gpio/ 的 所有权
-
-注意检查：/sys/device/virtual/gpio
-
-chown -R root:gpio /sys/class/gpio && chmod -R ug+rw  /sys/class/gpio 
-
-chown -R root:pwm /sys/class/pwm  &&  chmod -R ug+rw  /sys/class/pwm
-
-- [ ] 修改udev规则
-
-cd /etc/udev/rules.d/
-sudo vi 99-rockchip-permissions.rules 一般是99-* ， 表示用户最后自定义的规则，最后进行的规则变动
-```bash
-# --- 新增：GPIO 和 PWM 权限 ---
-# GPIO (for /dev/gpio*  libgpiod / python-periphery)
-KERNEL=="gpiochip[0-4]*", SUBSYSTEM=="gpio", MODE="0660", GROUP="gpio"
-KERNEL=="pwmchip*", SUBSYSTEM=="pwm", MODE="0660", GROUP="pwm"
-# --- --- --- 新增结束 --- --- ---
-
-
-# for /sys/class/pwm
-KERNEL=="gpiochip*", SUBSYSTEM=="gpio", PROGRAM="/bin/sh -c 'chown -R root:gpio /sys/class/gpio && chmod -R ug+rw  /sys/class/gpio'"
-
-KERNEL=="pwmchip*", SUBSYSTEM=="pwm", PROGRAM="/bin/sh -c 'chown -R root:pwm /sys/class/pwm && chmod -R ug+rw  /sys/class/pwm'"
-```
-
  
-
