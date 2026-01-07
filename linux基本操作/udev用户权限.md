@@ -115,11 +115,13 @@ SUBSYSTEMS=="platform", SUBSYSTEM=="gpio", KERNEL=="gpiochip*", MODE="0660", GRO
 # https://docs.linuxkernel.org.cn/userspace-api/gpio/sysfs.html
 # 6.16内核移除了 config_sysfs
 # 修改 /sys/class/gpio 下的gpio 权限和所属
+
+# export 归属和权限
 SUBSYSTEMS=="platform", SUBSYSTEM=="gpio", KERNEL=="gpiochip*", PROGRAM="/bin/sh -c '\  
 	chown root:gpio /sys/class/gpio/export /sys/class/gpio/unexport && \
 	chmod ug+rw     /sys/class/gpio/export /sys/class/gpio/unexport '"  
-	
-SUBSYSTEMS=="gpio", KERNELS=="gpiochip*", KERNEL=="gpio*", PROGRAM="/bin/sh -c '\
+# gpiocao
+SUBSYSTEMS=="gpio", KERNELS=="gpiochip*", SUBSYSTEM=="gpio", KERNEL=="gpio*", PROGRAM="/bin/sh -c '\
 	chown root:gpio /sys%p/ /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value /sys%p/uevent && \
 	chmod ug+rw     /sys%p/ /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value /sys%p/uevent '"
 ```
