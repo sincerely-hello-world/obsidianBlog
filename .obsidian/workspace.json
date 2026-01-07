@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/3.飞行端orangepi-开机自启设置.md",
+                "file": "linux基本操作/udev用户权限.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.飞行端orangepi-开机自启设置"
+              "title": "udev用户权限"
             }
           },
           {
@@ -123,13 +123,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/3.飞行端orangepi-开机自启设置.md",
+                "file": "linux基本操作/udev用户权限.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 3.飞行端orangepi-开机自启设置"
+              "title": "Outline of udev用户权限"
             }
           },
           {
@@ -226,6 +226,8 @@
   },
   "active": "d7cec00811c87ded",
   "lastOpenFiles": [
+    "x11 server转发.md",
+    "无人机项目/3.飞行端orangepi-开机自启设置.md",
     "linux基本操作/udev用户权限.md",
     "linux基本操作/整盘拷贝dd.md",
     "linux基本操作/免密ssh连接.md",
@@ -234,7 +236,6 @@
     "linux基本操作/权限管理.md",
     "linux基本操作/整盘拷贝.md",
     "linux基本操作/编写 udev 规则 --- Writing udev rules.html",
-    "无人机项目/3.飞行端orangepi-开机自启设置.md",
     "无人机项目/3. 飞行端orangepi-安装t265驱动.md",
     "linux基本操作/snap.md",
     "无人机项目/4. 添加服务.md",
