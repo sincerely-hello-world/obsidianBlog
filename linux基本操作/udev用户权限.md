@@ -31,105 +31,6 @@ ls   /sys/class/gpio/gpio35
 active_low  device  direction  edge  power  subsystem  uevent  value
 ```
 
-```bash
-# 修改 /dev 下的gpio 权限和所属
-SUBSYSTEM=="gpio", KERNEL=="gpiochip*", MODE="0660", GROUP="gpio" 
-
-# https://docs.linuxkernel.org.cn/userspace-api/gpio/sysfs.html
-# 6.16内核移除了 config_sysfs
-# 修改 /sys/class/gpio 下的gpio 权限和所属
-SUBSYSTEMS=="platform", SUBSYSTEM=="gpio", KERNEL=="gpiochip*", PROGRAM="/bin/sh -c '\  
-	chown root:gpio /sys/class/gpio/export /sys/class/gpio/unexport && \
-	chmod ug+rw     /sys/class/gpio/export /sys/class/gpio/unexport '"  
-	
-SUBSYSTEMS=="gpio", KERNELS=="gpiochip*", KERNEL=="gpio*", PROGRAM="/bin/sh -c '\
-	chown root:gpio /sys%p/ /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value /sys%p/uevent && \
-	chmod ug+rw     /sys%p/ /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value /sys%p/uevent '"
-```
-
-### PWM rules
-pwm3-m0    pwm14-m1
- fd8b 0030   febf 0020
-pwmchip1	pwmchip3
-```bash
-ls  /sys/class/pwm/pwmchip1
-device  export  npwm  power  pwm0  subsystem  uevent  unexport
-
-ls  /sys/class/pwm/pwmchip1/pwm0
-capture  duty_cycle  enable  period  polarity  power  uevent
-```
-
-```bash
-# SUBSYSTEM=="pwm", KERNEL=="pwmchip*", MODE="0660", GROUP="gpio" 
-
-SUBSYSTEMS=="platform", SUBSYSTEM=="pwm", KERNEL=="pwmchip*", PROGRAM="/bin/sh -c '\
-	chown root:pwm /sys%p/ /sys%p/export  /sys%p/unexport && \
-	chmod ug+rw    /sys%p/ /sys%p/export  /sys%p/unexport '" 
-	
-SUBSYSTEMS=="pwm", KERNELS=="pwmchip*", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
-	chown root:pwm /sys%p/ /sys%p/capture /sys%p/duty_cycle /sys%p/enable /sys%p/period /sys%p/polarity /sys%p/uevent && \
-	chmod ug+rw    /sys%p/ /sys%p/capture /sys%p/duty_cycle /sys%p/enable /sys%p/period /sys%p/polarity /sys%p/uevent '"
-```
----
-## udevadm info --path or --name -a
-
-### PWM  udevadm info
-```bash
-udevadm info --attribute-walk --path=/sys/class/pwm/pwmchip1/pwm0
-
-Udevadm info starts with the device specified by the devpath and then
-walks up the chain of parent devices. It prints for every device
-found, all possible attributes in the udev rules key format.
-A rule to match, can be composed by the attributes of the device
-and the attributes from one single parent device.
-
-  looking at device '/devices/platform/fd8b0030.pwm/pwm/pwmchip1/pwm0': #即为 %p 参数，没有 /sys，符号链接（symbolic link）到 /sys/class/pwm/pwmchip1/pwm0
-    KERNEL=="pwm0"
-    SUBSYSTEM==""
-    DRIVER==""
-    ATTR{enable}=="1"
-    ATTR{polarity}=="inversed"
-    ATTR{period}=="20000000"
-    ATTR{duty_cycle}=="18488888"
-
-  looking at parent device '/devices/platform/fd8b0030.pwm/pwm/pwmchip1':
-    KERNELS=="pwmchip1"
-    SUBSYSTEMS=="pwm"
-    DRIVERS==""
-    ATTRS{npwm}=="1"
-
-  looking at parent device '/devices/platform/fd8b0030.pwm':
-    KERNELS=="fd8b0030.pwm"
-    SUBSYSTEMS=="platform"
-    DRIVERS=="rockchip-pwm"
-    ATTRS{driver_override}=="(null)"
-
-  looking at parent device '/devices/platform':
-    KERNELS=="platform"
-    SUBSYSTEMS==""
-    DRIVERS==""
-    
-udevadm info --attribute-walk --path=/sys/class/pwm/pwmchip1
-
-  looking at device '/devices/platform/fd8b0030.pwm/pwm/pwmchip1':
-    KERNEL=="pwmchip1"
-    SUBSYSTEM=="pwm"
-    DRIVER==""
-    ATTR{npwm}=="1"
-
-  looking at parent device '/devices/platform/fd8b0030.pwm':
-    KERNELS=="fd8b0030.pwm"
-    SUBSYSTEMS=="platform"
-    DRIVERS=="rockchip-pwm"
-    ATTRS{driver_override}=="(null)"
-
-  looking at parent device '/devices/platform':
-    KERNELS=="platform"
-    SUBSYSTEMS==""
-    DRIVERS==""
-
-
-```
 
 ###  GPIO udevadm info
 ```bash
@@ -237,7 +138,106 @@ and the attributes from one single parent device.
     KERNELS=="platform"
     SUBSYSTEMS==""
     DRIVERS==""
+```
+
+
+
+```bash
+# 修改 /dev 下的gpio 权限和所属
+SUBSYSTEMS=="platform", SUBSYSTEM=="gpio", KERNEL=="gpiochip*", MODE="0660", GROUP="gpio" 
+
+# https://docs.linuxkernel.org.cn/userspace-api/gpio/sysfs.html
+# 6.16内核移除了 config_sysfs
+# 修改 /sys/class/gpio 下的gpio 权限和所属
+SUBSYSTEMS=="platform", SUBSYSTEM=="gpio", KERNEL=="gpiochip*", PROGRAM="/bin/sh -c '\  
+	chown root:gpio /sys/class/gpio/export /sys/class/gpio/unexport && \
+	chmod ug+rw     /sys/class/gpio/export /sys/class/gpio/unexport '"  
+	
+SUBSYSTEMS=="gpio", KERNELS=="gpiochip*", KERNEL=="gpio*", PROGRAM="/bin/sh -c '\
+	chown root:gpio /sys%p/ /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value /sys%p/uevent && \
+	chmod ug+rw     /sys%p/ /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value /sys%p/uevent '"
+```
+
+### PWM rules
+pwm3-m0    pwm14-m1
+ fd8b 0030   febf 0020
+pwmchip1	pwmchip3
+```bash
+ls  /sys/class/pwm/pwmchip1
+device  export  npwm  power  pwm0  subsystem  uevent  unexport
+
+ls  /sys/class/pwm/pwmchip1/pwm0
+capture  duty_cycle  enable  period  polarity  power  uevent
+```
+
+```bash
+# SUBSYSTEM=="pwm", KERNEL=="pwmchip*", MODE="0660", GROUP="gpio" 
+
+SUBSYSTEMS=="platform", SUBSYSTEM=="pwm", KERNEL=="pwmchip*", PROGRAM="/bin/sh -c '\
+	chown root:pwm /sys%p/ /sys%p/export  /sys%p/unexport && \
+	chmod ug+rw    /sys%p/ /sys%p/export  /sys%p/unexport '" 
+	
+SUBSYSTEMS=="pwm", KERNELS=="pwmchip*", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
+	chown root:pwm /sys%p/ /sys%p/capture /sys%p/duty_cycle /sys%p/enable /sys%p/period /sys%p/polarity /sys%p/uevent && \
+	chmod ug+rw    /sys%p/ /sys%p/capture /sys%p/duty_cycle /sys%p/enable /sys%p/period /sys%p/polarity /sys%p/uevent '"
+```
 ---
+## udevadm info --path or --name -a
+
+### PWM  udevadm info
+```bash
+udevadm info --attribute-walk --path=/sys/class/pwm/pwmchip1/pwm0
+
+Udevadm info starts with the device specified by the devpath and then
+walks up the chain of parent devices. It prints for every device
+found, all possible attributes in the udev rules key format.
+A rule to match, can be composed by the attributes of the device
+and the attributes from one single parent device.
+
+  looking at device '/devices/platform/fd8b0030.pwm/pwm/pwmchip1/pwm0': #即为 %p 参数，没有 /sys，符号链接（symbolic link）到 /sys/class/pwm/pwmchip1/pwm0
+    KERNEL=="pwm0"
+    SUBSYSTEM==""
+    DRIVER==""
+    ATTR{enable}=="1"
+    ATTR{polarity}=="inversed"
+    ATTR{period}=="20000000"
+    ATTR{duty_cycle}=="18488888"
+
+  looking at parent device '/devices/platform/fd8b0030.pwm/pwm/pwmchip1':
+    KERNELS=="pwmchip1"
+    SUBSYSTEMS=="pwm"
+    DRIVERS==""
+    ATTRS{npwm}=="1"
+
+  looking at parent device '/devices/platform/fd8b0030.pwm':
+    KERNELS=="fd8b0030.pwm"
+    SUBSYSTEMS=="platform"
+    DRIVERS=="rockchip-pwm"
+    ATTRS{driver_override}=="(null)"
+
+  looking at parent device '/devices/platform':
+    KERNELS=="platform"
+    SUBSYSTEMS==""
+    DRIVERS==""
+    
+udevadm info --attribute-walk --path=/sys/class/pwm/pwmchip1
+
+  looking at device '/devices/platform/fd8b0030.pwm/pwm/pwmchip1':
+    KERNEL=="pwmchip1"
+    SUBSYSTEM=="pwm"
+    DRIVER==""
+    ATTR{npwm}=="1"
+
+  looking at parent device '/devices/platform/fd8b0030.pwm':
+    KERNELS=="fd8b0030.pwm"
+    SUBSYSTEMS=="platform"
+    DRIVERS=="rockchip-pwm"
+    ATTRS{driver_override}=="(null)"
+
+  looking at parent device '/devices/platform':
+    KERNELS=="platform"
+    SUBSYSTEMS==""
+    DRIVERS==""
 
 
 ```
