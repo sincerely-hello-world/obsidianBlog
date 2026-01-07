@@ -200,7 +200,7 @@ udevadm info --attribute-walk --path=/sys/class/pwm/pwmchip1
 但是！ pwm的%p 定位有些许不同！
 orangepi@orangepi5b:/sys/class/pwm/pwmchip1$ echo 0  > unexport
 orangepi@orangepi5b:/sys/class/pwm/pwmchip1$ echo 0  > export
-
+orangepi@orangepi5b:~$ echo 35 > /sys/class/gpio/unexport
 ---
 orangepi@orangepi5b:/etc/udev/rules.d$ sudo udevadm monitor        
 monitor will print the received events for:
