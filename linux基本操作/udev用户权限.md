@@ -143,8 +143,8 @@ SUBSYSTEM=="pwm", KERNEL=="pwmchip*", PROGRAM="/bin/sh -c '\
 	chmod ug+rw    /sys%p/ /sys%p/export  /sys%p/unexport  '" 
 # pwm操作 归属和权限	
 SUBSYSTEMS=="pwm", KERNELS=="pwmchip*", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
-	chown root:pwm /sys%p/ /sys%p/capture /sys%p/duty_cycle /sys%p/enable /sys%p/period /sys%p/polarity /sys%p/uevent && \
-	chmod ug+rw -R /sys%p/ /sys%p/capture /sys%p/duty_cycle /sys%p/enable /sys%p/period /sys%p/polarity /sys%p/uevent '"
+	chown root:pwm -R /sys%p/  && \
+	chmod ug+rw    -R /sys%p/  '"
 ```
 ---
 
