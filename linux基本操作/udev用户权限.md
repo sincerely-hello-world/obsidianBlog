@@ -19,7 +19,7 @@ sudo groupadd pwm
 sudo usermod -aG gpio,pwm $USER
 groups $USER 
 ```
-### GPIO rules
+### GPIO files
 ```bash
 ls   /sys/class/gpio/
 export  gpio54     gpiochip128  gpiochip509  gpiochip96
@@ -106,6 +106,7 @@ and the attributes from one single parent device.
 
 https://bbs.elecfans.com/jishu_2347873_1_1.html
 
+### GPIO rules
 ```bash
 # 修改 /dev 下的gpio 权限和所属
 SUBSYSTEMS=="platform", SUBSYSTEM=="gpio", KERNEL=="gpiochip*", MODE="0660", GROUP="gpio" 
@@ -121,7 +122,7 @@ SUBSYSTEMS=="gpio", KERNELS=="gpiochip*", SUBSYSTEM=="gpio", KERNEL=="gpio*", PR
 	chmod ug+rw     /sys%p /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value /sys%p/uevent '"
 ```
 sudo udevadm control --reload-rules && sudo udevadm trigger
-### PWM rules
+### PWM files
 pwm3-m0    pwm14-m1
  fd8b 0030   febf 0020
 pwmchip1	pwmchip3
@@ -133,18 +134,7 @@ ls  /sys/class/pwm/pwmchip1/pwm0
 capture  duty_cycle  enable  period  polarity  power  uevent
 ```
 
-```bash
-# SUBSYSTEM=="pwm", KERNEL=="pwmchip*", MODE="0660", GROUP="pwm" 
-# export 归属和权限
-SUBSYSTEM=="pwm", KERNEL=="pwmchip*", PROGRAM="/bin/sh -c '\
-	chown root:pwm /sys%p/ /sys%p/export  /sys%p/unexport /sys%p/uevent && \
-	chmod ug+rw    /sys%p/ /sys%p/export  /sys%p/unexport /sys%p/uevent '" 
-# pwm操作 归属和权限	
-SUBSYSTEMS=="pwm", KERNELS=="pwmchip*", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
-	chown root:pwm -R /sys%p/  && \
-	chmod ug+rw    -R /sys%p/  '"
-```
----
+### PWM 
 
 ```bash
 udevadm info --attribute-walk --path=/sys/class/pwm/pwmchip1/pwm0
@@ -213,6 +203,19 @@ KERNEL - the kernel uevent
 KERNEL[10394.252728] change   /devices/platform/fd8b0030.pwm/pwm/pwmchip1 (pwm)
 UDEV  [10394.273277] change   /devices/platform/fd8b0030.pwm/pwm/pwmchip1 (pwm)
 
+```
+
+### PWM rules
+```bash
+# SUBSYSTEM=="pwm", KERNEL=="pwmchip*", MODE="0660", GROUP="pwm" 
+# export 归属和权限
+SUBSYSTEM=="pwm", KERNEL=="pwmchip*", PROGRAM="/bin/sh -c '\
+	chown root:pwm /sys%p/ /sys%p/export  /sys%p/unexport /sys%p/uevent && \
+	chmod ug+rw    /sys%p/ /sys%p/export  /sys%p/unexport /sys%p/uevent '" 
+# pwm操作 归属和权限	
+SUBSYSTEMS=="pwm", KERNELS=="pwmchip*", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
+	chown root:pwm -R /sys%p/  && \
+	chmod ug+rw    -R /sys%p/  '"
 ```
 
 KERNEL[10394.252728] change   /devices/platform/fd8b0030.pwm/pwm/pwmchip1 (pwm)
