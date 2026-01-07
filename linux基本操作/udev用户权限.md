@@ -1,6 +1,6 @@
 
 udev规则目录：cd /etc/udev/rules.d/
-udev重载规则： sudo udevadm control --reload-rules
+udev重载规则： sudo udevadm control --reload-rules && sudo udevadm trigger
 udev监视：sudo udevadm monitor  
 
 udevinfo查看设备信息： udevinfo -a -p /sys/block/sda 或 udevadm info --path=/sys/class/pwm/pwmchip1 --attribute-walk
