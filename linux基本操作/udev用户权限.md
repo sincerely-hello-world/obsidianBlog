@@ -106,7 +106,7 @@ and the attributes from one single parent device.
     DRIVERS==""
 ```
 
-
+https://bbs.elecfans.com/jishu_2347873_1_1.html
 
 ```bash
 # 修改 /dev 下的gpio 权限和所属
