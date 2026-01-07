@@ -29,7 +29,7 @@ and the attributes from one single parent device.
 
  
 ```bash
-orangepi@orangepi5b:~/Desktop/UAV_CAR__Test$ udevadm info --path=/sys/class/gpio/gpio35  --attribute-walk
+$ udevadm info --path=/sys/class/gpio/gpio35  --attribute-walk
 
 Udevadm info starts with the device specified by the devpath and then
 walks up the chain of parent devices. It prints for every device
