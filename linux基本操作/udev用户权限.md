@@ -26,7 +26,7 @@ active_low  device  direction  edge  power  subsystem  uevent  value
 
 ```bash
 # 修改 /dev 下的gpio 权限和所属
-SUBSYSTEM=="gpio", KERNEL=="gpio*", MODE="0660", GROUP="gpio" 
+SUBSYSTEM=="gpio", KERNEL=="gpiochip*", MODE="0660", GROUP="gpio" 
 
 # https://docs.linuxkernel.org.cn/userspace-api/gpio/sysfs.html
 
