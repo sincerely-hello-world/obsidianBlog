@@ -1,4 +1,9 @@
 
+udev规则目录：/etc/udev/rules.d/
+
+
+
+
 ## udevadm info 
 ```bash
 udevadm info --path=/sys/class/pwm/pwmchip1 --attribute-walk
