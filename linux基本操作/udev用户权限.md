@@ -62,7 +62,7 @@ SUBSYSTEMS=="pwm", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
 
 ### PWM  udevadm info
 ```bash
-udevadm info --path=/sys/class/pwm/pwmchip1/pwm0  --attribute-walk
+udevadm info --attribute-walk --path=/sys/class/pwm/pwmchip1/pwm0
 
 Udevadm info starts with the device specified by the devpath and then
 walks up the chain of parent devices. It prints for every device
@@ -95,6 +95,26 @@ and the attributes from one single parent device.
     KERNELS=="platform"
     SUBSYSTEMS==""
     DRIVERS==""
+    
+udevadm info --attribute-walk --path=/sys/class/pwm/pwmchip1
+
+  looking at device '/devices/platform/fd8b0030.pwm/pwm/pwmchip1':
+    KERNEL=="pwmchip1"
+    SUBSYSTEM=="pwm"
+    DRIVER==""
+    ATTR{npwm}=="1"
+
+  looking at parent device '/devices/platform/fd8b0030.pwm':
+    KERNELS=="fd8b0030.pwm"
+    SUBSYSTEMS=="platform"
+    DRIVERS=="rockchip-pwm"
+    ATTRS{driver_override}=="(null)"
+
+  looking at parent device '/devices/platform':
+    KERNELS=="platform"
+    SUBSYSTEMS==""
+    DRIVERS==""
+
 
 ```
 
