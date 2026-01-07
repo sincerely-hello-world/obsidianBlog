@@ -2,21 +2,22 @@
 场景描述： https://bbs.elecfans.com/jishu_2347873_1_1.html
 udev介绍：https://www.kernel.org/pub/linux/utils/kernel/hotplug/udev/udev.html
 参考思路： [Access **GPIO** (/**sys/class/gpio**) as non-root](https://stackoverflow.com/questions/30938991/access-gpio-sys-class-gpio-as-non-root)
+
+
 udev规则目录：cd /etc/udev/rules.d/
 udev重载规则： sudo udevadm control --reload-rules && sudo udevadm trigger
 udev监视：sudo udevadm monitor  
-
 udevinfo查看设备信息： udevinfo -a  --name=/dev/tty1  # 查看 /dev/下的
-
 udevinfo查看设备信息： udevinfo -a  --path=/sys/class/gpio/gpio35  # 查看sys 或则 /sys/device/ 下的设备
 
-echo 35 > /sys/class/gpio/unexport
  
-| 子系统  | sysfs 中的 `export` 位置                         | 原因                         |
-| ---- | -------------------------------------------- | -------------------------- |
-| GPIO | `/sys/class/gpio/export`（全局）                 | 所有 gpiochip 共享一个 export 接口 |
-| PWM  | `/sys/class/pwm/pwmchipN/export`（每个 chip 独立） | 每个 PWM 控制器有自己的 export 文件   |
+| 子系统  | sysfs 中的 `export` 位置                         | 原因                            |
+| ---- | -------------------------------------------- | ----------------------------- |
+| GPIO | `/sys/class/gpio/export`（全局）                 | 所有 gpiochip 共享一个 export 接口    |
+| PWM  | `/sys/class/pwm/pwmchipN/export`（每个 chip 独立） | 每个 pwmchipN 控制器有自己的 export 文件 |
 
+---
+# s
 ### 添加并修改用户组
 ```bash
 sudo groupadd gpio
@@ -228,11 +229,7 @@ SUBSYSTEMS=="pwm", KERNELS=="pwmchip*", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
 
  
 
-# 修改权限
-
-+ 所属目录 /etc/udev/rules.d 的99号规则
-+
-+ https://www.runoob.com/linux/linux-comm-chmod.html
+ 
 
 
  
