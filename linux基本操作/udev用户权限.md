@@ -29,8 +29,9 @@ SUBSYSTEM=="gpio", KERNEL=="gpio*", PROGRAM="/bin/sh -c '\
 ```
 
 ### PWM rules
-pwm3-m0  pwm14-m1
- fd8b0x0030 febf0020
+pwm3-m0    pwm14-m1
+ fd8b 0030   febf 0020
+pwmchip1		  pwmchip3
 
 ```bash
 SUBSYSTEM=="pwm", KERNEL=="gpio*", PROGRAM="/bin/sh -c '\
