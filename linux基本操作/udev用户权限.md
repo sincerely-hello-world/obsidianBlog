@@ -140,7 +140,7 @@ capture  duty_cycle  enable  period  polarity  power  uevent
 # export 归属和权限
 SUBSYSTEM=="pwm", KERNEL=="pwmchip*", PROGRAM="/bin/sh -c '\
 	chown root:pwm /sys%p/ /sys%p/export  /sys%p/unexport /sys%p/uevent && \
-	chmod ug+rw    /sys%p/ /sys%p/export  /sys%p/unexport  '" 
+	chmod ug+rw    /sys%p/ /sys%p/export  /sys%p/unexport /sys%p/uevent '" 
 # pwm操作 归属和权限	
 SUBSYSTEMS=="pwm", KERNELS=="pwmchip*", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
 	chown root:pwm -R /sys%p/  && \
