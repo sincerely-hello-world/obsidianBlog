@@ -46,10 +46,10 @@ capture  duty_cycle  enable  period  polarity  power  uevent
 ```bash
 SUBSYSTEMS=="pwm", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
 	chown root:pwm /sys/class/pwm/pwmchip*  /sys/class/gpio/unexport && \
-	chmod ug+rw    /sys/class/gpio/export /sys/class/gpio/unexport '" 
+	chmod ug+rw    /sys/class/gpio/export   /sys/class/gpio/unexport '" 
 SUBSYSTEMS=="pwm", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
 	chown root:pwm /sys%p/ /sys%p/capture /sys%p/duty_cycle /sys%p/enable /sys%p/period /sys%p/polarity /sys%p/uevent && \
-	chmod ug+rw /sys%p/ /sys%p/capture /sys%p/duty_cycle /sys%p/enable /sys%p/period /sys%p/polarity /sys%p/uevent '"
+	chmod ug+rw    /sys%p/ /sys%p/capture /sys%p/duty_cycle /sys%p/enable /sys%p/period /sys%p/polarity /sys%p/uevent '"
 ```
 ---
 ## udevadm info 
@@ -131,6 +131,38 @@ and the attributes from one single parent device.
     KERNELS=="platform"
     SUBSYSTEMS==""
     DRIVERS==""
+    
+udevadm info --attribute-walk --name=/dev/gpiochip1
+
+Udevadm info starts with the device specified by the devpath and then
+walks up the chain of parent devices. It prints for every device
+found, all possible attributes in the udev rules key format.
+A rule to match, can be composed by the attributes of the device
+and the attributes from one single parent device.
+
+  looking at device '/devices/platform/pinctrl/fec20000.gpio/gpiochip1':
+    KERNEL=="gpiochip1"
+    SUBSYSTEM=="gpio"
+    DRIVER==""
+    ATTR{waiting_for_supplier}=="0"
+
+  looking at parent device '/devices/platform/pinctrl/fec20000.gpio':
+    KERNELS=="fec20000.gpio"
+    SUBSYSTEMS=="platform"
+    DRIVERS=="rockchip-gpio"
+    ATTRS{driver_override}=="(null)"
+
+  looking at parent device '/devices/platform/pinctrl':
+    KERNELS=="pinctrl"
+    SUBSYSTEMS=="platform"
+    DRIVERS=="rockchip-pinctrl"
+    ATTRS{driver_override}=="(null)"
+
+  looking at parent device '/devices/platform':
+    KERNELS=="platform"
+    SUBSYSTEMS==""
+    DRIVERS==""
+
 ----------------------------------------------------------
 $ udevadm info --path=/sys/class/gpio/gpiochip0 -a
 
@@ -164,6 +196,7 @@ and the attributes from one single parent device.
     KERNELS=="platform"
     SUBSYSTEMS==""
     DRIVERS==""
+---
 
 
 ```
