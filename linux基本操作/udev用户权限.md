@@ -111,10 +111,7 @@ https://bbs.elecfans.com/jishu_2347873_1_1.html
 ```bash
 # 修改 /dev 下的gpio 权限和所属
 SUBSYSTEMS=="platform", SUBSYSTEM=="gpio", KERNEL=="gpiochip*", MODE="0660", GROUP="gpio" 
-
 # https://docs.linuxkernel.org.cn/userspace-api/gpio/sysfs.html
-# 6.16内核移除了 config_sysfs
-# 修改 /sys/class/gpio 下的gpio 权限和所属
 
 # export 归属和权限
 SUBSYSTEM=="gpio", KERNEL=="gpiochip*", PROGRAM="/bin/sh -c '\  
@@ -125,7 +122,7 @@ SUBSYSTEMS=="gpio", KERNELS=="gpiochip*", SUBSYSTEM=="gpio", KERNEL=="gpio*", PR
 	chown root:gpio /sys%p/ /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value /sys%p/uevent && \
 	chmod ug+rw     /sys%p/ /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value /sys%p/uevent '"
 ```
-
+sudo udevadm control --reload-rules && sudo udevadm trigger
 ### PWM rules
 pwm3-m0    pwm14-m1
  fd8b 0030   febf 0020
