@@ -12,8 +12,6 @@ echo 35 > /sys/class/gpio/unexport
 | GPIO | `/sys/class/gpio/export`（全局）                 | 所有 gpiochip 共享一个 export 接口 |
 | PWM  | `/sys/class/pwm/pwmchipN/export`（每个 chip 独立） | 每个 PWM 控制器有自己的 export 文件   |
 
-
-
 ### 添加并修改用户组
 ```bash
 sudo groupadd gpio
@@ -136,7 +134,7 @@ capture  duty_cycle  enable  period  polarity  power  uevent
 ```
 
 ```bash
-# SUBSYSTEM=="pwm", KERNEL=="pwmchip*", MODE="0660", GROUP="gpio" 
+# SUBSYSTEM=="pwm", KERNEL=="pwmchip*", MODE="0660", GROUP="pwm" 
 # export 归属和权限
 SUBSYSTEM=="pwm", KERNEL=="pwmchip*", PROGRAM="/bin/sh -c '\
 	chown root:pwm /sys%p/ /sys%p/export  /sys%p/unexport /sys%p/uevent && \
