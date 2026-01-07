@@ -17,7 +17,7 @@ SUBSYSTEM=="gpio", KERNEL=="gpio*", PROGRAM="/bin/sh -c '\
 	chmod ug+rw /sys/class/gpio/export /sys/class/gpio/unexport'" 
 SUBSYSTEM=="gpio", KERNEL=="gpio*", PROGRAM="/bin/sh -c '\
 	chown root:gpio /sys%p/ /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value /sys%p/uevent && \
-	chmod ug+rw /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value'"
+	chmod ug+rw /sys%p/ /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value /sys%p/uevent'"
 ```
 ---
 ## udevadm info 
