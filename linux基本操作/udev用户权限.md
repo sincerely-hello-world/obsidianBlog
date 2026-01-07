@@ -50,7 +50,9 @@ capture  duty_cycle  enable  period  polarity  power  uevent
 ```
 
 ```bash
-SUBSYSTEMS=="pwm", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
+# SUBSYSTEM=="pwm", KERNEL=="pwmchip*", MODE="0660", GROUP="gpio" 
+
+SUBSYSTEMS=="pwm", KERNEL=="pwmchip*", PROGRAM="/bin/sh -c '\
 	chown root:pwm /sys/class/pwm/pwmchip*  /sys/class/gpio/unexport && \
 	chmod ug+w    /sys/class/gpio/export   /sys/class/gpio/unexport '" 
 SUBSYSTEMS=="pwm", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
