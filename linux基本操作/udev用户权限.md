@@ -38,7 +38,7 @@ SUBSYSTEM=="gpio", KERNEL=="gpiochip*", MODE="0660", GROUP="gpio"
 # https://docs.linuxkernel.org.cn/userspace-api/gpio/sysfs.html
 # 6.16内核移除了 config_sysfs
 # 修改 /sys/class/gpio 下的gpio 权限和所属
-SUBSYSTEM=="gpio", KERNEL=="gpiochip*", PROGRAM="/bin/sh -c '\  
+SUBSYSTEM=="gpio", KERNELS=="gpiochip1",KERNEL=="gpiochip*", PROGRAM="/bin/sh -c '\  
 	chown root:gpio /sys/class/gpio/export /sys/class/gpio/unexport && \
 	chmod ug+rw     /sys/class/gpio/export /sys/class/gpio/unexport '"  
 	
@@ -62,11 +62,11 @@ capture  duty_cycle  enable  period  polarity  power  uevent
 ```bash
 # SUBSYSTEM=="pwm", KERNEL=="pwmchip*", MODE="0660", GROUP="gpio" 
 
-SUBSYSTEMS=="pwm", KERNEL=="pwmchip*", PROGRAM="/bin/sh -c '\
+SUBSYSTEM=="pwm", KERNEL=="pwmchip*", PROGRAM="/bin/sh -c '\
 	chown root:pwm /sys%p/ /sys%p/export  /sys%p/unexport && \
 	chmod ug+rw    /sys%p/ /sys%p/export  /sys%p/unexport '" 
 	
-SUBSYSTEMS=="pwm", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
+SUBSYSTEMS=="pwm", KERNELS=="pwmchip*", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
 	chown root:pwm /sys%p/ /sys%p/capture /sys%p/duty_cycle /sys%p/enable /sys%p/period /sys%p/polarity /sys%p/uevent && \
 	chmod ug+rw    /sys%p/ /sys%p/capture /sys%p/duty_cycle /sys%p/enable /sys%p/period /sys%p/polarity /sys%p/uevent '"
 ```
