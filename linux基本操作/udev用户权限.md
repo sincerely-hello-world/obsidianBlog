@@ -207,6 +207,9 @@ monitor will print the received events for:
 UDEV - the event which udev sends out after rule processing
 KERNEL - the kernel uevent
 
+UDEV  [9786.070546] remove   /devices/platform/pinctrl/fec20000.gpio/gpiochip1/gpio/gpio35 (gpio)
+KERNEL[9794.054738] add      /devices/platform/pinctrl/fec20000.gpio/gpiochip1/gpio/gpio35 (gpio)
+
 KERNEL[10394.252728] change   /devices/platform/fd8b0030.pwm/pwm/pwmchip1 (pwm)
 UDEV  [10394.273277] change   /devices/platform/fd8b0030.pwm/pwm/pwmchip1 (pwm)
 ---
