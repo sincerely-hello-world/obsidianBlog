@@ -33,7 +33,7 @@ SUBSYSTEM=="gpio", KERNEL=="gpiochip*", MODE="0660", GROUP="gpio"
 # 修改 /sys/class/gpio 下的gpio 权限和所属
 SUBSYSTEM=="gpio", KERNEL=="gpiochip*", PROGRAM="/bin/sh -c '\  
 	chown root:gpio /sys/class/gpio/export /sys/class/gpio/unexport && \
-	chmod ug+w      /sys/class/gpio/export /sys/class/gpio/unexport '"  
+	chmod ug+rw     /sys/class/gpio/export /sys/class/gpio/unexport '"  
 	
 SUBSYSTEM=="gpio", KERNEL=="gpio*", PROGRAM="/bin/sh -c '\
 	chown root:gpio /sys%p/ /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value /sys%p/uevent && \
@@ -54,7 +54,7 @@ capture  duty_cycle  enable  period  polarity  power  uevent
 
 SUBSYSTEMS=="pwm", KERNEL=="pwmchip*", PROGRAM="/bin/sh -c '\
 	chown root:pwm /sys%p/ /sys%p/export  /sys%p/unexport && \
-	chmod ug+w     /sys%p/ /sys%p/export  /sys%p/unexport '" 
+	chmod ug+rw    /sys%p/ /sys%p/export  /sys%p/unexport '" 
 SUBSYSTEMS=="pwm", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
 	chown root:pwm /sys%p/ /sys%p/capture /sys%p/duty_cycle /sys%p/enable /sys%p/period /sys%p/polarity /sys%p/uevent && \
 	chmod ug+rw    /sys%p/ /sys%p/capture /sys%p/duty_cycle /sys%p/enable /sys%p/period /sys%p/polarity /sys%p/uevent '"
