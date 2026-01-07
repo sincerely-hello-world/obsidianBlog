@@ -58,7 +58,7 @@ SUBSYSTEMS=="pwm", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
 	chmod ug+rw    /sys%p/ /sys%p/capture /sys%p/duty_cycle /sys%p/enable /sys%p/period /sys%p/polarity /sys%p/uevent '"
 ```
 ---
-## udevadm info 
+## udevadm info --path or --name -a
 
 ### PWM  udevadm info
 ```bash
