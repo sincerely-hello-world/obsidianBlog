@@ -18,7 +18,6 @@ udevinfo查看设备信息： udevinfo -a  --path=/sys/class/gpio/gpio35  # 查�
 
   
 ```bash
-
 pwm的%p 定位有些许不同！
 
 ---
@@ -225,7 +224,6 @@ udevadm info --attribute-walk --path=/sys/class/pwm/pwmchip1
     
 ```
   
-
 ### PWM rules
 ```bash
 # SUBSYSTEM=="pwm", KERNEL=="pwmchip*", MODE="0660", GROUP="pwm" 
