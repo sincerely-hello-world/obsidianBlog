@@ -19,7 +19,7 @@ sudo usermod -aG gpio,pwm $USER
 groups $USER 
 ```
 ### GPIO rules
-```
+```bash
 
 ```
 
@@ -36,6 +36,10 @@ SUBSYSTEM=="gpio", KERNEL=="gpio*", PROGRAM="/bin/sh -c '\
 pwm3-m0    pwm14-m1
  fd8b 0030   febf 0020
 pwmchip1	pwmchip3
+```bash
+ls  /sys/class/pwm/pwmchip1/pwm0
+capture  duty_cycle  enable  period  polarity  power  uevent
+```
 
 ```bash
 SUBSYSTEMS=="pwm", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
