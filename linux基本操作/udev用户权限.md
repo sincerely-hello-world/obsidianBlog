@@ -17,7 +17,7 @@ udevinfo查看设备信息： udevinfo -a  --path=/sys/class/gpio/gpio35  # 查�
 | PWM  | `/sys/class/pwm/pwmchipN/export`（每个 chip 独立） | 每个 pwmchipN 控制器有自己的 export 文件 |
 
 ---
-# s
+# 实现开机后，普通用户无需sudo即可访问pwm和gpio
 ### 添加并修改用户组
 ```bash
 sudo groupadd gpio
@@ -125,6 +125,8 @@ SUBSYSTEM=="gpio", KERNEL=="gpiochip*", PROGRAM="/bin/sh -c '\
 SUBSYSTEMS=="gpio", KERNELS=="gpiochip*", SUBSYSTEM=="gpio", KERNEL=="gpio*", PROGRAM="/bin/sh -c '\
 	chown root:gpio /sys%p /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value /sys%p/uevent && \
 	chmod ug+rw     /sys%p /sys%p/active_low /sys%p/direction /sys%p/edge /sys%p/value /sys%p/uevent '"
+
+# 如果认为写的粗糙，可以编写shell脚本实现。
 ```
  
 ### PWM files
