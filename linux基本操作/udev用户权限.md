@@ -6,10 +6,13 @@ udev监视：sudo udevadm monitor
 udevinfo查看设备信息： udevinfo -a -p /sys/block/sda 或 udevadm info --path=/sys/class/pwm/pwmchip1 --attribute-walk
 
 echo 35 > /sys/class/gpio/unexport
+ 
+| 子系统 | sysfs 中的 `export` 位置 | 原因 |
+|--------|--------------------------|------|
+| GPIO | `/sys/class/gpio/export`（全局） | 所有 gpiochip 共享一个 export 接口 |
+| PWM | `/sys/class/pwm/pwmchipN/export`（每个 chip 独立） | 每个 PWM 控制器有自己的 export 文件 |
 
-```
-SUBSYSTEM=="gpio", KERNEL=="gpio*", MODE="0660", GROUP="gpio" # 修改 /dev下的gpio设备？
-```
+
 
 ### 添加并修改用户组
 ```bash
