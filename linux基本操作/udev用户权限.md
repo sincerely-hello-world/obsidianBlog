@@ -3,9 +3,9 @@ udev规则目录：cd /etc/udev/rules.d/
 udev重载规则： sudo udevadm control --reload-rules && sudo udevadm trigger
 udev监视：sudo udevadm monitor  
 
-udevinfo查看设备信息： udevinfo -a  --name=/dev/tty1  # 查看符号链接
+udevinfo查看设备信息： udevinfo -a  --name=/dev/tty1  # 查看 /dev/下的
 
-udevinfo查看设备信息： udevinfo -a  --path=/sys/class/gpio/gpio
+udevinfo查看设备信息： udevinfo -a  --path=/sys/class/gpio/gpio35  # 查看sys 或则 /sys/device/ 下的设备
 
 echo 35 > /sys/class/gpio/unexport
  
@@ -107,7 +107,7 @@ and the attributes from one single parent device.
 ```
 
 https://bbs.elecfans.com/jishu_2347873_1_1.html
-
+https://www.kernel.org/pub/linux/utils/kernel/hotplug/udev/udev.html
 ### GPIO rules
 ```bash
 # 修改 /dev 下的gpio 权限和所属
