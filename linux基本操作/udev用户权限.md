@@ -20,6 +20,9 @@ groups $USER
 ```
 ### GPIO rules
 ```bash
+ls   /sys/class/gpio/
+export  gpio54     gpiochip128  gpiochip509  gpiochip96
+gpio35  gpiochip0  gpiochip32   gpiochip64   unexport
 
 ls   /sys/class/gpio/gpio35
 active_low  device  direction  edge  power  subsystem  uevent  value
