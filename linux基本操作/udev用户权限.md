@@ -1,5 +1,5 @@
 
-udev规则目录：/etc/udev/rules.d/
+udev规则目录：cd /etc/udev/rules.d/
 udev重载规则： sudo udevadm control --reload-rules
 udev监视：sudo udevadm monitor  
 
