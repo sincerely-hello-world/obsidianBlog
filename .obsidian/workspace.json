@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/图像与多级.md",
+                "file": "无人机项目/舵机.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "图像与多级"
+              "title": "舵机"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/图像与多级.md",
+                "file": "无人机项目/舵机.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 图像与多级"
+              "title": "Outline of 舵机"
             }
           },
           {
@@ -198,13 +198,14 @@
   },
   "active": "bee90792e46b604f",
   "lastOpenFiles": [
+    "无人机项目/调试舵机.md",
+    "无人机项目/图像与多级.md",
     "无人机项目/assets/图像与多级/file-20260109223507044.png",
     "无人机项目/assets/图像与多级/file-20260109223502497.png",
     "无人机项目/assets/图像与多级/file-20260109222720768.png",
     "无人机项目/assets/图像与多级/file-20260109221743909.png",
     "无人机项目/assets/图像与多级",
     "无人机项目/舵机.md",
-    "无人机项目/图像与多级.md",
     "无人机项目/0.硬件接线.md",
     "无人机项目/1.起飞操作.md",
     "无人机项目/2. 串口对接-全局逻辑.md",
@@ -239,7 +240,6 @@
     "无人机项目/assets/0.硬件接线/file-20251230215915930.png",
     "无人机项目/assets/0.硬件接线/file-20251230202616559.png",
     "无人机项目/assets/0.硬件接线/file-20251230195815033.png",
-    "无人机项目/assets/0.硬件接线/file-20251230194028057.png",
     "无人机项目/assets/4. 添加服务",
     "无人机项目/assets/添加服务",
     "assets/添加服务",
