@@ -137,6 +137,8 @@ and the attributes from one single parent device.
 
 ls -l /sys/class/gpio
 sudo vi  /etc/udev/rules.d/99-m
+
+udev重载规则： sudo udevadm control --reload-rules && sudo udevadm trigger
 ### GPIO rules
 ```bash
 SUBSYSTEM=="gpio", KERNEL=="gpiochip*", MODE="0660", GROUP="gpio" 
