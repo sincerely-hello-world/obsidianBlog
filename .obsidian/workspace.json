@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux基本操作/udev用户权限.md",
+                "file": "无人机项目/0.硬件接线.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "udev用户权限"
+              "title": "0.硬件接线"
             }
           }
         ]
@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 308.5
   },
   "right": {
     "id": "3cad077738c9ddd4",
@@ -95,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux基本操作/udev用户权限.md",
+                "file": "无人机项目/0.硬件接线.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of udev用户权限"
+              "title": "Outline of 0.硬件接线"
             }
           },
           {
@@ -199,33 +198,33 @@
   },
   "active": "bee90792e46b604f",
   "lastOpenFiles": [
-    "linux基本操作/systemd 服务管理.md",
-    "linux基本操作/udev用户权限.md",
+    "无人机项目/1.起飞操作.md",
+    "无人机项目/2. 串口对接-全局逻辑.md",
+    "无人机项目/3.飞行站-迁移调试.md",
+    "无人机项目/3.飞行端orangepi-外设使能.md",
     "无人机项目/3.飞行端orangepi-开机自启设置.md",
+    "无人机项目/3. 飞行端orangepi-安装t265驱动.md",
+    "linux基本操作/udev用户权限.md",
+    "linux基本操作/systemd 服务管理.md",
     "linux基本操作/整盘拷贝dd.md",
     "无人机项目/0.硬件接线.md",
     "py偏函数partial-函数复用助手.md",
     "linux rootfs定制.md",
     "无人机项目/5. orangepi 飞行站节点示意图.md",
     "无人机项目/4. 添加服务.md",
-    "无人机项目/3.飞行站-迁移调试.md",
     "无人机项目/assets/5. orangepi 飞行站节点示意图/file-20260107203733835.png",
     "无人机项目/assets/5. orangepi 飞行站节点示意图",
     "x11 server转发.md",
     "linux基本操作/免密ssh连接.md",
     "linux基本操作/镜像源修改.md",
-    "无人机项目/3.飞行端orangepi-外设使能.md",
     "linux基本操作/权限管理.md",
     "linux基本操作/整盘拷贝.md",
     "linux基本操作/编写 udev 规则 --- Writing udev rules.html",
-    "无人机项目/3. 飞行端orangepi-安装t265驱动.md",
     "linux基本操作/snap.md",
     "my/openclash 软路由.md",
     "linux基本操作/nmcli.md",
     "QT绘图报错.md",
     "无人机项目/2. 话题节点梳理.pdf",
-    "无人机项目/2. 串口对接-全局逻辑.md",
-    "无人机项目/1.起飞操作.md",
     "无人机项目/调试舵机.md",
     "无人机项目/0.话题概览.md",
     "无人机项目/Foxy ROS2安装.md",
