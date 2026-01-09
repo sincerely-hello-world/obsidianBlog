@@ -152,10 +152,6 @@ SUBSYSTEM=="gpio", PROGRAM="/bin/sh -c 'chown -R root:gpio /sys/class/gpio && ch
 SUBSYSTEM=="gpio", KERNEL=="gpiochip*", PROGRAM="/bin/sh -c '\
 	 chown root:gpio /sys/class/gpio/export /sys/class/gpio/unexport && \
 	 chmod ug+rw     /sys/class/gpio/export /sys/class/gpio/unexport'"
-
-SUBSYSTEM=="gpio", KERNEL=="gpiochip*", PROGRAM="/bin/sh -c '\  
-	chown root:gpio /sys/class/gpio/export /sys/class/gpio/unexport && \
-	chmod ug+rw     /sys/class/gpio/export /sys/class/gpio/unexport '"  
 	
 # gpio操作 归属和权限:  匹配的是 gpioN
 SUBSYSTEMS=="gpio", KERNELS=="gpiochip*", SUBSYSTEM=="gpio", KERNEL=="gpio*", PROGRAM="/bin/sh -c '\
