@@ -135,7 +135,7 @@ and the attributes from one single parent device.
     DRIVERS==""
 ```
 
-
+ls -l /sys/class/gpio
 ### GPIO rules
 ```bash
 # 修改 /dev 下的gpio 权限和所属
