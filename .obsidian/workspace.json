@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/舵机.md",
+                "file": "无人机项目/图像与多级.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "舵机"
+              "title": "图像与多级"
             }
           }
         ],
@@ -109,13 +109,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/舵机.md",
+                "file": "无人机项目/图像与多级.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 舵机"
+              "title": "Outline of 图像与多级"
             }
           },
           {
@@ -213,9 +213,10 @@
   },
   "active": "0eae73b834d7813f",
   "lastOpenFiles": [
-    "无人机项目/图像与多级.md",
+    "无人机项目/Foxy ROS2安装.md",
     "无人机项目/舵机.md",
     "无人机项目/调试舵机.md",
+    "无人机项目/图像与多级.md",
     "无人机项目/assets/图像与多级/file-20260109223507044.png",
     "无人机项目/assets/图像与多级/file-20260109223502497.png",
     "无人机项目/assets/图像与多级/file-20260109222720768.png",
@@ -246,7 +247,6 @@
     "linux基本操作/snap.md",
     "my/openclash 软路由.md",
     "linux基本操作/nmcli.md",
-    "QT绘图报错.md",
     "无人机项目/2. 话题节点梳理.pdf",
     "无人机项目/assets/3. 飞行端orangepi-安装t265驱动",
     "无人机项目/assets/3. 飞行端orangepi-安装t265驱动/file-20260104134836667.png",
