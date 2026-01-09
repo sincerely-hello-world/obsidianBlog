@@ -138,8 +138,8 @@ and the attributes from one single parent device.
 ls -l /sys/class/gpio
 ### GPIO rules
 ```bash
+SUBSYSTEM=="gpio", KERNEL=="gpiochip*", MODE="0660", GROUP="gpio" 
 # 修改 /dev 下的gpio 权限和所属
-SUBSYSTEMS=="platform", SUBSYSTEM=="gpio", KERNEL=="gpiochip*", MODE="0660", GROUP="gpio" 
 # https://docs.linuxkernel.org.cn/userspace-api/gpio/sysfs.html
 
 # export 归属和权限： 匹配的是 gpiochipN
