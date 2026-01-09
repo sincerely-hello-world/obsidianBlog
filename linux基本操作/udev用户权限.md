@@ -149,6 +149,8 @@ SUBSYSTEM=="gpio", KERNEL=="gpiochip*", MODE="0660", GROUP="gpio"
 SUBSYSTEM=="gpio", PROGRAM="/bin/sh -c 'chown -R root:gpio /sys/class/gpio && chmod -R ug+rw /sys/class/gpio'"
 
 #不可行  无效的一条： 貌似
+SUBSYSTEM=="gpio", KERNEL=="gpiochip*", PROGRAM="/bin/sh -c '\ chown root:gpio /sys/class/gpio/export /sys/class/gpio/unexport && \ chmod ug+rw /sys/class/gpio/export /sys/class/gpio/unexport'"
+
 SUBSYSTEM=="gpio", KERNEL=="gpiochip*", PROGRAM="/bin/sh -c '\  
 	chown root:gpio /sys/class/gpio/export /sys/class/gpio/unexport && \
 	chmod ug+rw     /sys/class/gpio/export /sys/class/gpio/unexport '"  
