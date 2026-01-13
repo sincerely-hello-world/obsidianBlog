@@ -89,8 +89,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -212,7 +211,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0eae73b834d7813f",
+  "active": "ff956bd88238d377",
   "lastOpenFiles": [
     "linux基本操作/整盘拷贝dd.md",
     "无人机项目/2. 串口对接-全局逻辑.md",
