@@ -35,8 +35,7 @@
               "title": "0. wifi优先级  飞控端"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -211,8 +210,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0eae73b834d7813f",
+  "active": "bee90792e46b604f",
   "lastOpenFiles": [
+    "无人机项目/0. wifi优先级  飞控端.md",
     "2025.12.30飞控.md",
     "无人机项目/3.飞行站-迁移调试.md",
     "linux基本操作/整盘拷贝dd.md",
@@ -246,7 +246,6 @@
     "linux基本操作/整盘拷贝.md",
     "linux基本操作/编写 udev 规则 --- Writing udev rules.html",
     "linux基本操作/snap.md",
-    "my/openclash 软路由.md",
     "无人机项目/2. 话题节点梳理.pdf",
     "无人机项目/assets/3. 飞行端orangepi-安装t265驱动",
     "无人机项目/assets/3. 飞行端orangepi-安装t265驱动/file-20260104134836667.png",
