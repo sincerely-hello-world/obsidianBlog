@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "nomachine卸载.md",
+                "file": "nomachine安装-卸载.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "nomachine卸载"
+              "title": "nomachine安装-卸载"
             }
           },
           {
@@ -210,7 +210,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bee90792e46b604f",
+  "active": "ff956bd88238d377",
   "lastOpenFiles": [
     "2025.12.30飞控.md",
     "无人机项目/舵机.md",
