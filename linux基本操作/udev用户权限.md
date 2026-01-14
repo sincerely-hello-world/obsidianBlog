@@ -252,6 +252,9 @@ SUBSYSTEMS=="pwm", KERNELS=="pwmchip*", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
 
 ---
 
+udev规则目录：cd /etc/udev/rules.d/
+udev重载规则： sudo udevadm control --reload-rules && sudo udevadm trigger
+udev监视：sudo udevadm monitor  
 
 sudo vi  /etc/udev/rules.d/99-my.rules
 ```bash
