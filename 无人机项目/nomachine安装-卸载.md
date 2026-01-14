@@ -1,0 +1,45 @@
+
+
+nomachine 安装 
+```
+wget https://web9001.nomachine.com/download/9.3/Arm/nomachine_9.3.7_1_arm64.deb
+ 
+sudo dpkg -i nomachine_9.3.7_1_arm64.deb
+```
+
+systemctl list-units --type=service | grep nx
+```
+● nxserver.service - NoMachine Server daemon
+     Loaded: loaded (/lib/systemd/system/nxserver.service; enabled; vendor preset: enabled)
+     Active: active (running) since Wed 2026-01-14 19:55:42 CST; 23min ago
+   Main PID: 1577 (nxserver.bin)
+      Tasks: 75 (limit: 9343)
+     Memory: 252.7M
+     CGroup: /system.slice/nxserver.service
+             ├─1577 /usr/NX/bin/nxserver.bin --daemon
+             ├─2091 /usr/NX/bin/nxd
+             ├─3092 /usr/NX/bin/nxexec --node /usr/NX/bin/nxexec --nopam --user orangepi --priority realtime --mode 0 --pid 62
+             ├─3093 /usr/NX/bin/nxnode.bin
+             └─3113 /usr/NX/bin/nxrunner.bin --monitor --pid 2031
+
+Jan 14 19:55:42 orangepi5b systemd[1]: Started NoMachine Server daemon.
+Jan 14 19:56:24 orangepi5b sudo[3378]:     root : TTY=pts/0 ; PWD=/usr/NX/var/db ; USER=root ; COMMAND=/bin/pwd
+Jan 14 19:56:25 orangepi5b nxexec[3380]: pam_unix(nx:session): session opened for user orangepi by (uid=120)
+
+```
+
+nomachine 卸载
+```
+sudo systemctl stop nxserver.service
+ 
+sudo apt-get remove nomachine
+ 
+sudo rm -rf /etc/nomachine
+sudo rm -rf /var/lib/nomachine
+sudo rm -rf /var/log/nomachine
+ 
+sudo apt purge nomachine
+
+dpkg -l | grep nomachine
+ 
+```
