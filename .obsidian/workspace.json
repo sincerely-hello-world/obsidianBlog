@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux基本操作/udev用户权限.md",
+                "file": "无人机项目/3.飞行端orangepi-外设使能.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "udev用户权限"
+              "title": "3.飞行端orangepi-外设使能"
             }
           },
           {
@@ -212,6 +212,7 @@
   },
   "active": "bee90792e46b604f",
   "lastOpenFiles": [
+    "linux基本操作/udev用户权限.md",
     "无人机项目/3.飞行端orangepi-外设使能.md",
     "无人机项目/3.飞行站-迁移调试.md",
     "无人机项目/3. 飞行端orangepi-安装t265驱动.md",
@@ -234,7 +235,6 @@
     "无人机项目/assets/图像与多级/file-20260109222720768.png",
     "无人机项目/assets/图像与多级/file-20260109221743909.png",
     "无人机项目/assets/图像与多级",
-    "linux基本操作/udev用户权限.md",
     "linux基本操作/systemd 服务管理.md",
     "py偏函数partial-函数复用助手.md",
     "linux rootfs定制.md",
