@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/0.orangepi-wifi-nmcli设置.md",
+                "file": "无人机项目/0.话题概览.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0.orangepi-wifi-nmcli设置"
+              "title": "0.话题概览"
             }
           },
           {
@@ -212,8 +212,11 @@
   },
   "active": "bee90792e46b604f",
   "lastOpenFiles": [
-    "无人机项目/1.飞行站-迁移调试.md",
+    "无人机项目/2. 话题节点梳理.pdf",
+    "无人机项目/0.话题概览.md",
+    "无人机项目/3.飞行端orangepi-开机自启设置.md",
     "无人机项目/0.orangepi-wifi-nmcli设置.md",
+    "无人机项目/1.飞行站-迁移调试.md",
     "无人机项目/0.硬件接线.md",
     "无人机项目/0.Foxy ROS2安装.md",
     "无人机项目/0.飞行端orangepi-外设使能.md",
@@ -222,15 +225,12 @@
     "无人机项目/assets/1.飞行站-迁移调试",
     "linux基本操作/nmcli.md",
     "无人机项目/assets/0. 飞行端orangepi-安装t265驱动",
-    "无人机项目/3.飞行端orangepi-开机自启设置.md",
     "无人机项目/4. 添加服务.md",
     "无人机项目/5. orangepi 飞行站节点示意图.md",
     "无人机项目/1.起飞操作.md",
     "无人机项目/2. 串口对接-全局逻辑.md",
-    "无人机项目/2. 话题节点梳理.pdf",
     "nomachine安装-卸载.md",
     "linux基本操作/udev用户权限.md",
-    "无人机项目/0.话题概览.md",
     "2025.12.30飞控.md",
     "无人机项目/舵机.md",
     "linux基本操作/整盘拷贝dd.md",
