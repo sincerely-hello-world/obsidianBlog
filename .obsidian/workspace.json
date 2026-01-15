@@ -63,8 +63,7 @@
               "title": "0.1wifi优先级  飞控端"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -239,10 +238,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7a9a43904bfea9aa",
+  "active": "2bc17830b039bc1a",
   "lastOpenFiles": [
-    "无人机项目/rknn模型不兼容解决：.md",
     "无人机项目/1.飞行站-迁移调试-python环境.md",
+    "无人机项目/rknn模型不兼容解决：.md",
     "无人机项目/3.查看摄像头设置.md",
     "无人机项目/1.话题概览.md",
     "无人机项目/4. 添加服务.md",
