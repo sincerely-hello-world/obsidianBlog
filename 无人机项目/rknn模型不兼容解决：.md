@@ -5,8 +5,6 @@
 wget -P ~/my https://raw.githubusercontent.com/airockchip/rknn-toolkit2/master/rknn-toolkit-lite2/packages/rknn_toolkit_lite2-2.3.2-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
 pip3 install  ~/my/rknn_toolkit_lite2-2.3.2-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
 
-sudo cp -r /usr/lib/librk* ~/librk-back/
-sudo cp  ./my/so/*  /usr/lib/librk*
 ```
 
 
@@ -27,3 +25,10 @@ echo 'export LD_PRELOAD=/home/orangepi/.local/lib/python3.8/site-packages/torch/
 ```
 
 
+
+3. 模型不兼容改法：
+
+```
+sudo cp -r /usr/lib/librk* ~/librk-back/
+sudo cp  ./my/so/*  /usr/lib/librk*
+```
