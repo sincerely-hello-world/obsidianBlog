@@ -19,8 +19,7 @@ echo 'export LD_PRELOAD=/home/orangepi/.local/lib/python3.8/site-packages/torch/
 ```
 
 ```
-如果运行xiang'mu'shi
-错误：
+如果运行项目时报动态库加载错误：
 OSError: /home/orangepi/.local/lib/python3.8/site-packages/torch/lib/../../torch.libs/libgomp-d22c30c5.so.1.0.0: cannot allocate memory in static TLS block
 
 解决方案：
