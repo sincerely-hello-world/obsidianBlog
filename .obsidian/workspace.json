@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/3.飞行端orangepi-外设使能.md",
+                "file": "无人机项目/0. 飞行端orangepi-安装t265驱动.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.飞行端orangepi-外设使能"
+              "title": "0. 飞行端orangepi-安装t265驱动"
             }
           },
           {
@@ -212,9 +212,10 @@
   },
   "active": "bee90792e46b604f",
   "lastOpenFiles": [
-    "无人机项目/3. 飞行端orangepi-安装t265驱动.md",
+    "无人机项目/assets/0. 飞行端orangepi-安装t265驱动",
+    "无人机项目/0.飞行端orangepi-外设使能.md",
+    "无人机项目/0. 飞行端orangepi-安装t265驱动.md",
     "无人机项目/3.飞行端orangepi-开机自启设置.md",
-    "无人机项目/3.飞行端orangepi-外设使能.md",
     "无人机项目/3.飞行站-迁移调试.md",
     "无人机项目/Foxy ROS2安装.md",
     "无人机项目/4. 添加服务.md",
@@ -247,8 +248,8 @@
     "linux基本操作/免密ssh连接.md",
     "linux基本操作/编写 udev 规则 --- Writing udev rules.html",
     "无人机项目/assets/3. 飞行端orangepi-安装t265驱动",
-    "无人机项目/assets/3. 飞行端orangepi-安装t265驱动/file-20260104134836667.png",
-    "无人机项目/assets/3. 飞行端orangepi-安装t265驱动/file-20260104134836670.png",
+    "无人机项目/assets/0. 飞行端orangepi-安装t265驱动/file-20260115191406172.png",
+    "无人机项目/assets/0. 飞行端orangepi-安装t265驱动/file-20260115191406178.png",
     "无人机项目/assets/3. 安装t265驱动",
     "无人机项目/assets/0.硬件接线/file-20251230215915930.png",
     "无人机项目/assets/0.硬件接线/file-20251230202616559.png",
