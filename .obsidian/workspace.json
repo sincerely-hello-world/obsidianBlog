@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/0.飞行端nomachine安装-卸载.md",
+                "file": "无人机项目/0.orangepi-wifi-nmcli设置.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0.飞行端nomachine安装-卸载"
+              "title": "0.orangepi-wifi-nmcli设置"
             }
           },
           {
@@ -212,8 +212,9 @@
   },
   "active": "ff956bd88238d377",
   "lastOpenFiles": [
-    "无人机项目/0.orangepi-wifi设置.md",
+    "linux基本操作/nmcli.md",
     "无人机项目/0.飞行端nomachine安装-卸载.md",
+    "无人机项目/0.orangepi-wifi-nmcli设置.md",
     "无人机项目/0. 飞行端orangepi-安装t265驱动.md",
     "无人机项目/assets/0. 飞行端orangepi-安装t265驱动",
     "无人机项目/0.飞行端orangepi-外设使能.md",
