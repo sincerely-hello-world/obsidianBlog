@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/0.飞行端librknn.md",
+                "file": "无人机项目/0.飞行端librknn_api.so不兼容问题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0.飞行端librknn"
+              "title": "0.飞行端librknn_api.so不兼容问题"
             }
           },
           {
@@ -242,7 +242,7 @@
   "active": "7a9a43904bfea9aa",
   "lastOpenFiles": [
     "无人机项目/3.飞行端orangepi-开机自启设置.md",
-    "无人机项目/0.飞行端librknn.md",
+    "无人机项目/0.飞行端librknn_api.so不兼容问题.md",
     "无人机项目/4. 添加服务.md",
     "无人机项目/2.话题概览.md",
     "无人机项目/1.飞行站-迁移调试-python环境.md",
