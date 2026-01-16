@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/3.飞行端orangepi-开机自启设置.md",
+                "file": "无人机项目/0.飞行端librknn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "3.飞行端orangepi-开机自启设置"
+              "title": "0.飞行端librknn"
             }
           },
           {
@@ -241,6 +241,8 @@
   },
   "active": "7a9a43904bfea9aa",
   "lastOpenFiles": [
+    "无人机项目/3.飞行端orangepi-开机自启设置.md",
+    "无人机项目/0.飞行端librknn.md",
     "无人机项目/4. 添加服务.md",
     "无人机项目/2.话题概览.md",
     "无人机项目/1.飞行站-迁移调试-python环境.md",
@@ -249,7 +251,6 @@
     "无人机项目/1.起飞操作.md",
     "无人机项目/2. 串口对接-全局逻辑.md",
     "无人机项目/assets/2.话题概览",
-    "无人机项目/3.飞行端orangepi-开机自启设置.md",
     "无人机项目/5. orangepi 飞行站节点示意图.md",
     "无人机项目/舵机.md",
     "无人机项目/锂电池.md",
