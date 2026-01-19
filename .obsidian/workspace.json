@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/2. 拷贝镜像.md",
+                "file": "x11 server转发.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2. 拷贝镜像"
+              "title": "x11 server转发"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/舵机.md",
+                "file": "x11 server转发.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 舵机"
+              "title": "Outline of x11 server转发"
             }
           },
           {
@@ -196,17 +196,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ff956bd88238d377",
+  "active": "2bc17830b039bc1a",
   "lastOpenFiles": [
+    "无人机项目/4. 添加服务.md",
+    "无人机项目/5. orangepi 飞行站节点示意图.md",
+    "无人机项目/查看摄像头-检查摄像头链接.md",
+    "无人机项目/3.话题概览.md",
+    "无人机项目/2. 拷贝镜像.md",
     "无人机项目/assets/3.话题概览",
     "linux基本操作/整盘拷贝dd.md",
-    "无人机项目/2. 拷贝镜像.md",
-    "无人机项目/查看摄像头-检查摄像头链接.md",
     "无人机项目/2. 串口对接-全局逻辑.md",
     "无人机项目/1.起飞操作.md",
     "无人机项目/1.飞行站-迁移调试-python环境.md",
     "无人机项目/1.飞行端orangepi-开机自启设置.md",
-    "无人机项目/4. 添加服务.md",
     "无人机项目/0.rknn模型不兼容解决：.md",
     "无人机项目/0.orangepi-wifi-nmcli设置.md",
     "无人机项目/0.飞行端orangepi-外设使能.md",
@@ -214,9 +216,7 @@
     "无人机项目/0.飞行端nomachine安装-卸载.md",
     "无人机项目/0.飞行端librknn_api.so不兼容 rknn模型的问题.md",
     "无人机项目/0.Foxy ROS2安装.md",
-    "无人机项目/3.话题概览.md",
     "无人机项目/assets/2.话题概览",
-    "无人机项目/5. orangepi 飞行站节点示意图.md",
     "无人机项目/舵机.md",
     "无人机项目/锂电池.md",
     "无人机项目/图像与多级.md",
@@ -238,7 +238,6 @@
     "无人机项目/assets/5. orangepi 飞行站节点示意图/file-20260107203733835.png",
     "无人机项目/assets/5. orangepi 飞行站节点示意图",
     "linux基本操作/编写 udev 规则 --- Writing udev rules.html",
-    "无人机项目/assets/3. 飞行端orangepi-安装t265驱动",
     "无人机项目/assets/0. 飞行端orangepi-安装t265驱动/file-20260115191406172.png",
     "无人机项目/assets/0. 飞行端orangepi-安装t265驱动/file-20260115191406178.png",
     "无人机项目/assets/0.硬件接线/file-20251230215915930.png",
