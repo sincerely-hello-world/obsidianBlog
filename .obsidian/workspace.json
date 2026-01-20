@@ -34,20 +34,6 @@
               "icon": "lucide-file",
               "title": "2. 开机自启动"
             }
-          },
-          {
-            "id": "dc63518ce0525d48",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "linux基本操作/1.飞行端orangepi-开机自启设置.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "1.飞行端orangepi-开机自启设置"
-            }
           }
         ],
         "currentTab": 1
