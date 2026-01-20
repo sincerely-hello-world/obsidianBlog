@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/1.飞行端orangepi-开机自启设置.md",
+                "file": "linux基本操作/1.飞行端orangepi-开机自启设置.md",
                 "mode": "source",
                 "source": false
               },
@@ -109,7 +109,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/1.飞行端orangepi-开机自启设置.md",
+                "file": "linux基本操作/1.飞行端orangepi-开机自启设置.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -212,14 +212,14 @@
   },
   "active": "b7932e2bd6c750af",
   "lastOpenFiles": [
+    "无人机项目/1.飞行站-迁移调试-python环境.md",
+    "linux基本操作/1.飞行端orangepi-开机自启设置.md",
     "无人机项目/1.0 拷贝镜像-烧录系统.md",
     "无人机项目/飞控板/激活的飞控-板卡信息.md",
     "无人机项目/3.话题概览.md",
     "无人机项目/2. 串口对接-全局逻辑.md",
     "无人机项目/1.起飞操作.md",
     "无人机项目/0.rknn模型不兼容解决：.md",
-    "无人机项目/1.飞行端orangepi-开机自启设置.md",
-    "无人机项目/1.飞行站-迁移调试-python环境.md",
     "无人机项目/飞控板/Untitled.md",
     "无人机项目/飞控板/飞控板主函数.md",
     "x11 server转发.md",
