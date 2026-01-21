@@ -1,4 +1,5 @@
 {
   "baseFontSize": 14,
-  "baseFontSizeAction": true
+  "baseFontSizeAction": true,
+  "theme": "moonstone"
 }
