@@ -42,4 +42,4 @@ rm  ~/.config/autostart/myui.desktop
 ```
 
 ## 桌面快捷启动：
-`.desktop`文件类似于windows的桌面快捷方式，只需要放入~/.config/autostart/ linux
+`.desktop`文件类似于windows的桌面快捷方式，只需要放入~/Desktop 就是快捷方式，双击即可launch启动。
