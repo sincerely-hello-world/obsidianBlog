@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/1.起飞操作.md",
+                "file": "无人机项目/2. 串口对接-全局逻辑.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.起飞操作"
+              "title": "2. 串口对接-全局逻辑"
             }
           }
         ],
@@ -109,13 +109,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/1.起飞操作.md",
+                "file": "无人机项目/2. 串口对接-全局逻辑.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 1.起飞操作"
+              "title": "Outline of 2. 串口对接-全局逻辑"
             }
           },
           {
@@ -213,6 +213,7 @@
   },
   "active": "b7932e2bd6c750af",
   "lastOpenFiles": [
+    "无人机项目/1.起飞操作.md",
     "无人机项目/1.飞行站-迁移调试-python环境.md",
     "无人机项目/1.0 拷贝镜像-烧录系统.md",
     "无人机项目/0.rknn模型不兼容解决：.md",
@@ -223,7 +224,6 @@
     "无人机项目/0.orangepi-wifi-nmcli设置.md",
     "无人机项目/0.Foxy ROS2安装.md",
     "无人机项目/0.硬件接线.md",
-    "无人机项目/1.起飞操作.md",
     "无人机项目/2. 串口对接-全局逻辑.md",
     "ROS基本操作/ros使用/话题topic.md",
     "无人机项目/飞控板/激活的飞控-板卡信息.md",
