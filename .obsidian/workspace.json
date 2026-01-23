@@ -34,9 +34,21 @@
               "icon": "lucide-file",
               "title": "udev用户权限"
             }
+          },
+          {
+            "id": "178812b750dac630",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -211,7 +223,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b7932e2bd6c750af",
+  "active": "178812b750dac630",
   "lastOpenFiles": [
     "linux基本操作/udev用户权限.md",
     "无人机项目/udev用户权限.md",
