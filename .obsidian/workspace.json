@@ -39,12 +39,14 @@
             "id": "178812b750dac630",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.5"
+                "file": "无人机项目/0.Foxy ROS2安装.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.5"
+              "icon": "lucide-file",
+              "title": "0.Foxy ROS2安装"
             }
           }
         ],
