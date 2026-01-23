@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "back/Untitled 1.md",
+                "file": "back/环场地 T265点云图.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled 1"
+              "title": "环场地 T265点云图"
             }
           }
         ],
@@ -227,11 +227,12 @@
   },
   "active": "178812b750dac630",
   "lastOpenFiles": [
-    "back/assets/Untitled 1/file-20260123190557967.png",
+    "back/assets/环场地 T265点云图",
+    "back/assets/环场地 T265点云图/file-20260123190634112.png",
     "back/assets/Untitled 1",
     "back/assets",
     "back/Untitled.md",
-    "back/Untitled 1.md",
+    "back/环场地 T265点云图.md",
     "无人机项目/0.Foxy ROS2安装.md",
     "back",
     "linux基本操作/udev用户权限.md",
@@ -272,7 +273,6 @@
     "无人机项目/assets/0. 飞行端orangepi-安装t265驱动/file-20260115191406178.png",
     "无人机项目/assets/0.硬件接线/file-20251230215915930.png",
     "无人机项目/assets/0.硬件接线/file-20251230202616559.png",
-    "无人机项目/assets/0.硬件接线/file-20251230195815033.png",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
