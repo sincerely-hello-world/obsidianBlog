@@ -91,7 +91,6 @@ static bool Move_to_XYLine_original(float x, float y, float v)  //original
 			l_step = 0;
 			Lock_position_same();
 			Lock_h_same();
-			//Mode_Inf->zt++;
 			return true;
 		}
 		Position_Control_set_TargetVelocityXY(now_volx, now_voly);
