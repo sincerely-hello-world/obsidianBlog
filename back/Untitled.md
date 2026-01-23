@@ -398,7 +398,7 @@ static void M37_Liu_MainFunc()
 						now_volx = delta_x;
 						now_voly = delta_y;
 						if (fabsf(now_volx) < 10)	now_volx = delta_x * 1.5;
-						if (fabsf(now_voly) < 10) now_voly = delta_y * 1.5;
+						if (fabsf(now_voly) < 10)   now_voly = delta_y * 1.5;
 
             Position_Control_set_TargetVelocityXY(now_volx, now_voly); // 速度值： -25~-10  10~25 合适区间
         }
