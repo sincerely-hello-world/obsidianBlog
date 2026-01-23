@@ -225,8 +225,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "178812b750dac630",
+  "active": "ff956bd88238d377",
   "lastOpenFiles": [
+    "back",
     "linux基本操作/udev用户权限.md",
     "无人机项目/udev用户权限.md",
     "无人机项目/0. 飞行端orangepi-安装t265驱动.md",
@@ -253,7 +254,6 @@
     "无人机项目/0.硬件接线.md",
     "ROS基本操作/ros使用/话题topic.md",
     "无人机项目/飞控板/激活的飞控-板卡信息.md",
-    "无人机项目/3.话题概览.md",
     "无人机项目/assets/3.话题概览",
     "无人机项目/assets/2.话题概览",
     "无人机项目/assets/1.飞行站-迁移调试-python环境",
