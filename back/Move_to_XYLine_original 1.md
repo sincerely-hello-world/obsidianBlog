@@ -41,10 +41,10 @@ static bool Move_to_XYLine_original_v1(float x, float y, float v)  //original
 
 		else if (distance > 7)
 		{
-			if (fabsf(now_volx) > 15){ now_volx = 0.5 * ( 12*sign_f(delta_x) - now_volx);}
+			if (fabsf(now_volx) > 15){ now_volx = 0.7 * (delta_x) ;}
 			else{now_volx = 12 * delta_x / distance;}
  
-			if (fabsf(now_voly) > 15){ now_voly = 0.5 * ( 12*sign_f(delta_y) - now_voly);}
+			if (fabsf(now_voly) > 15){ now_voly = 0.7 * (delta_y) ;}
 			else{now_voly = 12 * delta_y / distance;}
 			
 			if (fabsf(delta_x) < 10)	 now_volx = delta_x * 1.5;
