@@ -48,7 +48,7 @@ static bool Move_to_XYLine_original_v1(float x, float y, float v)  //original
 			else{now_voly = 12 * delta_y / distance;}
 		}
 		
-		else 
+		else if (distance < 7) 
 		{
 			Mode_Inf->target_x = x;
 			Mode_Inf->target_y = y;
