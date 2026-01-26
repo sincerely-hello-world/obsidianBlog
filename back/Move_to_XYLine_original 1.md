@@ -58,8 +58,8 @@ static bool Move_to_XYLine_original_v1(float x, float y, float v)  //original
 			return true;
 		}
 		
-		if (fabsf(delta_x) < 10)	 now_volx = delta_x * 1.5;
-		if (fabsf(delta_y) < 10)     now_voly = delta_y * 1.5;
+		if (fabsf(delta_x) < 6)	 now_volx =0;
+		if (fabsf(delta_y) < 6)   now_voly = 0;
 		Position_Control_set_TargetVelocityXY(now_volx, now_voly);
 	}
 
