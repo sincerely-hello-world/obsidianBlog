@@ -41,11 +41,9 @@ static bool Move_to_XYLine_original_v1(float x, float y, float v)  //original
 
 		else if (distance > 7)
 		{
-			if (fabsf(delta_x) > 15){ now_volx = 0.8 * (delta_x) ;}
-			else{now_volx = 12 * delta_x / distance;}
  
-			if (fabsf(delta_y) > 15){ now_voly = 0.8 * (delta_y) ;}
-			else{now_voly = 12 * delta_y / distance;}
+			 {now_volx = 15 * delta_x / distance;}
+			 {now_voly = 15 * delta_y / distance;}
 		}
 		
 		else if (distance < 7) 
@@ -58,8 +56,8 @@ static bool Move_to_XYLine_original_v1(float x, float y, float v)  //original
 			return true;
 		}
 		
-		if (fabsf(delta_x) < 6)	 now_volx =0;
-		if (fabsf(delta_y) < 6)   now_voly = 0;
+		if (fabsf(delta_x) < 6)	 now_volx = 0;
+		if (fabsf(delta_y) < 6)  now_voly = 0;
 		Position_Control_set_TargetVelocityXY(now_volx, now_voly);
 	}
 
