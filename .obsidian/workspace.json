@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "back/Move_to_XYLine_original 1.md",
+                "file": "back/Move_to_XYLine_original.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Move_to_XYLine_original 1"
+              "title": "Move_to_XYLine_original"
             }
           },
           {
@@ -212,6 +212,7 @@
   },
   "active": "b7932e2bd6c750af",
   "lastOpenFiles": [
+    "back/Move_to_XYLine_original 1.md",
     "back/Move_to_XYLine_original.md",
     "back/环场地 T265点云图.md",
     "无人机项目/udev用户权限.md",
@@ -219,7 +220,6 @@
     "飞控协议/车辆控制通信协议.md",
     "back/Untitled.md",
     "飞控协议",
-    "back/Move_to_XYLine_original 1.md",
     "back/assets/环场地 T265点云图",
     "back/assets/环场地 T265点云图/file-20260123190634112.png",
     "back/assets/Untitled 1",
