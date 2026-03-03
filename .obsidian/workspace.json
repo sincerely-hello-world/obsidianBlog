@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "开机",
+                "query": "carmera",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -88,7 +88,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -210,7 +211,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b7932e2bd6c750af",
+  "active": "88205e601b2ed97a",
   "lastOpenFiles": [
     "code/低通滤波加减速.md",
     "无人机项目/0.硬件接线.md",
