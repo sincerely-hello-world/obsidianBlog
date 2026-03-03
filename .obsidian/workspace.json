@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2025.12.30飞控.md",
+                "file": "无人机项目/查看摄像头-检查摄像头链接.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025.12.30飞控"
+              "title": "查看摄像头-检查摄像头链接"
             }
           },
           {
@@ -67,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "carmera",
+                "query": "摄像头",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -211,8 +211,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "88205e601b2ed97a",
+  "active": "b7932e2bd6c750af",
   "lastOpenFiles": [
+    "2025.12.30飞控.md",
     "code/低通滤波加减速.md",
     "无人机项目/0.硬件接线.md",
     "无人机项目/1.0 拷贝镜像-烧录系统.md",
@@ -244,7 +245,6 @@
     "无人机项目/ubuntu简易开机自启动.md",
     "无人机项目/0.rknn模型不兼容解决：.md",
     "无人机项目/1.飞行站-迁移调试-python环境.md",
-    "无人机项目/2. 串口对接-全局逻辑.md",
     "无人机项目/assets/图像与舵机",
     "无人机项目/assets/3.话题概览",
     "无人机项目/assets/2.话题概览",
