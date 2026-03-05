@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机-新/MCU/MCU基础函数.md",
+                "file": "无人机-新/t265坐标数据说明：.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MCU基础函数"
+              "title": "t265坐标数据说明："
             }
           }
         ],
@@ -225,14 +225,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ff956bd88238d377",
+  "active": "178812b750dac630",
   "lastOpenFiles": [
-    "无人机-新/未命名",
+    "无人机-新/Linux飞行站/无人机.md",
+    "无人机-新/t265坐标数据说明：.md",
+    "无人机-新/MCU/MCU基础函数.md",
+    "无人机-新/Linux飞行站",
     "back/环场地 T265点云图.md",
     "无人机-新/MCU/drv_PWMOut.h.md",
     "无人机-新/MCU/drv_PWMOut.c.md",
     "无人机-新/MCU",
-    "无人机-新/MCU/MCU基础函数.md",
     "无人机-新",
     "无人机项目/udev用户权限.md",
     "back/代码备份.md",
@@ -260,10 +262,8 @@
     "back/assets",
     "无人机项目/0.Foxy ROS2安装.md",
     "back",
-    "linux基本操作/udev用户权限.md",
     "无人机项目/assets/图像与舵机",
     "无人机项目/assets/3.话题概览",
-    "无人机项目/assets/2.话题概览",
     "无人机项目/assets/图像与舵机/file-20260122201549747.png",
     "无人机项目/assets/图像与舵机/file-20260122201549744.png",
     "无人机项目/assets/图像与舵机/file-20260122201549765.png",
