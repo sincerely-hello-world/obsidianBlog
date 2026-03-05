@@ -36,6 +36,20 @@
             }
           },
           {
+            "id": "ee06fd75eb4095b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "无人机-新/未命名 1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "未命名 1"
+            }
+          },
+          {
             "id": "178812b750dac630",
             "type": "leaf",
             "state": {
@@ -50,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -225,11 +239,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8e8b6d5a6dfe9bf3",
+  "active": "ee06fd75eb4095b6",
   "lastOpenFiles": [
+    "无人机-新/未命名.md",
+    "无人机-新/未命名 1.md",
+    "无人机-新/MCU基础函数.md",
     "无人机-新",
     "无人机项目/udev用户权限.md",
-    "无人机-新/MCU基础函数.md",
     "back/代码备份.md",
     "back/Move_to_XYLine_original.md",
     "back/Move_to_XYLine_original 1.md",
@@ -258,12 +274,10 @@
     "back",
     "linux基本操作/udev用户权限.md",
     "无人机项目/0.orangepi-wifi-nmcli设置.md",
-    "无人机项目/1.起飞操作.md",
     "无人机项目/assets/图像与舵机",
     "无人机项目/assets/3.话题概览",
     "无人机项目/assets/2.话题概览",
     "无人机项目/assets/1.飞行站-迁移调试-python环境",
-    "无人机项目/assets/1.话题概览",
     "无人机项目/assets/图像与舵机/file-20260122201549747.png",
     "无人机项目/assets/图像与舵机/file-20260122201549744.png",
     "无人机项目/assets/图像与舵机/file-20260122201549765.png",
