@@ -1,4 +1,5 @@
-```
+
+```c
 #include "drv_PWMOut.h"
 
 #include <string.h>
