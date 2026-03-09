@@ -20,6 +20,9 @@ Host 备注
 ##  nmcli
 > [linux nmcli](https://www.xyan666.com/posts/1165531937/)
 
+ sudo nmcli dev wifi connect station  password 408408408
+ sudo nmcli connection modify 408_luyouqi connection.autoconnect-priority 5
+
 ```bash
  nmcli --help
 用法：nmcli [选项] 对象 { 命令 | help }
