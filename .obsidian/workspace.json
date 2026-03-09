@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux基本操作/nmcli.md",
+                "file": "无人机项目/查看摄像头-检查摄像头链接.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "nmcli"
+              "title": "查看摄像头-检查摄像头链接"
             }
           }
         ],
@@ -227,6 +227,7 @@
   },
   "active": "178812b750dac630",
   "lastOpenFiles": [
+    "linux基本操作/nmcli.md",
     "nomachine安装-卸载.md",
     "linux rootfs定制.md",
     "linux基本操作/镜像源修改.md",
@@ -255,7 +256,6 @@
     "无人机项目/0.飞行端nomachine安装-卸载.md",
     "无人机项目/0.飞行端librknn_api.so不兼容 rknn模型的问题.md",
     "无人机项目/0. 飞行端orangepi-安装t265驱动.md",
-    "无人机项目/飞控板/激活的飞控-板卡信息.md",
     "飞控协议",
     "back/assets/环场地 T265点云图",
     "back/assets/环场地 T265点云图/file-20260123190634112.png",
