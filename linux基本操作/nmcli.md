@@ -61,6 +61,7 @@ sudo nmcli dev wifi connect wifiname password xxx
 sudo nmcli dev wifi connect tplink408 password 1234678
  sudo nmcli dev wifi connect H3C  password
  sudo nmcli dev wifi connect 408_luyouqi  password 408408408
+ nmcli connection modify 408_luyouqi connection.autoconnect-priority 5
 
 查看网络
 ```
