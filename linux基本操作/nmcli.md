@@ -20,8 +20,8 @@ Host 备注
 ##  nmcli
 > [linux nmcli](https://www.xyan666.com/posts/1165531937/)
 
- sudo nmcli dev wifi connect station  password 408408408
- sudo nmcli connection modify 408_luyouqi connection.autoconnect-priority 5
+ sudo nmcli dev wifi connect station  password orangepi
+ sudo nmcli connection modify station connection.autoconnect-priority 9
 
 ```bash
  nmcli --help
