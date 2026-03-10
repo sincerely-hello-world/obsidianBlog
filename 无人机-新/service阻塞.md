@@ -6,8 +6,10 @@ def send_command(self, cmd:String):
         # 1️⃣ 先创建 future
         request = ControlService.Request()
         request.req = cmd
-        # 非zu
+        
+        # 非阻塞式！！！！ 推荐！
         future = self.client_command.call_async(request).add_done_callback(lambda fut: self._on_command_future_done(fut, cmd))
+        
         # 2️⃣ 阻塞等待完成（注意：这个函数返回 None！）
         # ⚠️ 关键：使用 node 的 context 来等待，而不是全局 spin
         rclpy.spin_until_future_complete(self, future, timeout_sec=0.5)
