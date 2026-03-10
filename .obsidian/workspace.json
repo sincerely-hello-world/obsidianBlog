@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机-新/service阻塞.md",
+                "file": "无人机项目/1.0 拷贝镜像-烧录系统.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "service阻塞"
+              "title": "1.0 拷贝镜像-烧录系统"
             }
           }
         ],
@@ -225,10 +225,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "178812b750dac630",
+  "active": "ff956bd88238d377",
   "lastOpenFiles": [
-    "无人机项目/0.硬件接线.md",
     "无人机-新/service阻塞.md",
+    "无人机项目/0.硬件接线.md",
     "2025.12.30飞控.md",
     "无人机-新/t265坐标数据说明：.md",
     "无人机-新/MCU/串口通信调试完成！.md",
