@@ -17,8 +17,8 @@ launch如何写？
 
 先修改位于
 ```
-GroundStation/
-├── GroundStation
+GroundStation/ 包的顶层目录
+├── GroundStation 包的节点源码目录
 │   ├── __init__.py
 │   ├── logical.py
 │   ├── main.ui
@@ -44,8 +44,8 @@ GroundStation/
 setup.py     # < 这里需要修改
 ```python
 from setuptools import setup
-import os
-from glob import glob
+import os  # < 添加
+from glob import glob # < 添加
 
 package_name = 'GroundStation'
 
@@ -74,5 +74,4 @@ setup(
         ],
     },
 )
-
 ```
