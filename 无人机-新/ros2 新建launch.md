@@ -16,23 +16,32 @@ cd my_launch_pkg
 launch如何写？
 
 先修改位于
-GroundStation 包目录
-└── ── GroundStation 包名
-	 |   ├── __init__.py
-	 |   ├── logical.py
-	 |   ├── main.ui
-	 |   ├── nodes.launch.py
-	 |   ├── __pycache__
-	 |   ├── qrcode.py
-	 |   ├── ros2_node_Ground.py
-	 |   ├── subDialog1.ui
-	 |   ├── Ui_main.py
-	 |   └── Ui_subDialog1.py
-	├── launch
-	├── package.xml
-	├── resource
-	│   └── GroundStation
-	├── setup.cfg
-	├── setup.py
-	└── test
- 
+```
+GroundStation/
+├── GroundStation
+│   ├── __init__.py
+│   ├── logical.py
+│   ├── main.ui
+│   ├── __pycache__
+│   ├── qrcode.py
+│   ├── ros2_node_Ground.py
+│   ├── subDialog1.ui
+│   ├── Ui_main.py
+│   └── Ui_subDialog1.py
+├── launch
+│   └── nodes.launch.py
+├── package.xml
+├── resource
+│   └── GroundStation
+├── setup.cfg
+├── setup.py     # < 这里需要修改
+├── test
+│   ├── test_copyright.py
+│   ├── test_flake8.py
+│   └── test_pep257.py
+```
+
+setup.py     # < 这里需要修改
+```
+
+```
