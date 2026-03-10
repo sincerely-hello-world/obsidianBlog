@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/1.0 拷贝镜像-烧录系统.md",
+                "file": "x11 server转发.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.0 拷贝镜像-烧录系统"
+              "title": "x11 server转发"
             }
           }
         ],
@@ -227,6 +227,14 @@
   },
   "active": "178812b750dac630",
   "lastOpenFiles": [
+    "linux基本操作/nomachine安装-卸载.md",
+    "ROS2 串口接收.md",
+    "README.md",
+    "QT绘图报错.md",
+    "linux基本操作/linux rootfs定制.md",
+    "back/code/矩形飞行.md",
+    "back/code/低通滤波加减速.md",
+    "无人机项目/1.0 拷贝镜像-烧录系统.md",
     "无人机-新/service阻塞.md",
     "无人机项目/0.硬件接线.md",
     "2025.12.30飞控.md",
@@ -236,10 +244,7 @@
     "无人机-新/ros2 新建launch.md",
     "无人机-新/QR码识别.md",
     "无人机项目/查看摄像头-检查摄像头链接.md",
-    "无人机项目/1.0 拷贝镜像-烧录系统.md",
     "linux基本操作/nmcli.md",
-    "nomachine安装-卸载.md",
-    "linux rootfs定制.md",
     "linux基本操作/镜像源修改.md",
     "linux基本操作/免密ssh连接.md",
     "linux基本操作/udev用户权限.md",
@@ -251,11 +256,6 @@
     "back/环场地 T265点云图.md",
     "无人机-新/MCU",
     "无人机-新",
-    "无人机项目/udev用户权限.md",
-    "back/代码备份.md",
-    "back/Move_to_XYLine_original.md",
-    "back/Move_to_XYLine_original 1.md",
-    "飞控协议/车辆控制通信协议.md",
     "飞控协议",
     "back/assets/环场地 T265点云图",
     "back/assets/环场地 T265点云图/file-20260123190634112.png",
