@@ -11,3 +11,28 @@ cd src
 ros2 pkg create my_launch_pkg --build-type ament_python 
 cd my_launch_pkg
 ```
+
+
+launch如何写？
+
+先修改位于
+Gorund
+ GroundStation 包
+│   ├── __init__.py
+│   ├── logical.py
+│   ├── main.ui
+│   ├── nodes.launch.py
+│   ├── __pycache__
+│   ├── qrcode.py
+│   ├── ros2_node_Ground.py
+│   ├── subDialog1.ui
+│   ├── Ui_main.py
+│   └── Ui_subDialog1.py
+├── launch
+├── package.xml
+├── resource
+│   └── GroundStation
+├── setup.cfg
+├── setup.py
+└── test
+ 
