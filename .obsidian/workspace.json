@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机-新/QR码识别.md",
+                "file": "无人机-新/ros2 新建launch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "QR码识别"
+              "title": "ros2 新建launch"
             }
           }
         ],
@@ -227,8 +227,9 @@
   },
   "active": "178812b750dac630",
   "lastOpenFiles": [
-    "无人机项目/查看摄像头-检查摄像头链接.md",
     "无人机-新/QR码识别.md",
+    "无人机-新/ros2 新建launch.md",
+    "无人机项目/查看摄像头-检查摄像头链接.md",
     "无人机项目/1.0 拷贝镜像-烧录系统.md",
     "linux基本操作/nmcli.md",
     "nomachine安装-卸载.md",
@@ -255,7 +256,6 @@
     "无人机项目/0.硬件接线.md",
     "2025.12.30飞控.md",
     "无人机项目/飞控板/飞控板主函数.md",
-    "无人机项目/0.飞行端orangepi-外设使能.md",
     "飞控协议",
     "back/assets/环场地 T265点云图",
     "back/assets/环场地 T265点云图/file-20260123190634112.png",
