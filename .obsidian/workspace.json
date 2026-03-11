@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux基本操作/整盘拷贝dd.md",
+                "file": "无人机项目/1.0 拷贝镜像-烧录系统.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "整盘拷贝dd"
+              "title": "1.0 拷贝镜像-烧录系统"
             }
           }
         ]
@@ -199,6 +199,7 @@
   },
   "active": "d748573df4ad45c2",
   "lastOpenFiles": [
+    "linux基本操作/整盘拷贝dd.md",
     "back/code/矩形飞行.md",
     "back/环场地 T265点云图.md",
     "back/代码备份.md",
@@ -224,7 +225,6 @@
     "README.md",
     "QT绘图报错.md",
     "linux基本操作/linux rootfs定制.md",
-    "back/code/低通滤波加减速.md",
     "无人机-新/Linux飞行站",
     "无人机-新/MCU",
     "无人机-新",
