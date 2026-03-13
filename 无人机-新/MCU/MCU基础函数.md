@@ -279,3 +279,8 @@ static uint8_t Move_xyz(float x, float y, float z, float v)
 		Position_Control_set_TargetVelocityZ(now_volz);
 	}
 ```
+
+
+```
+帮我写一份串口通信的解码函数，可以做到在串口中断内被调用，依次按照char接收并解码这个字符串：开头固定为"@L" ， 然后是一个二位数类型的字符串 “23” 或者 “00”，或者“52”， 这个数被解析出后存储到一个叫my_path_length的变量；然后会有一个 “:” 冒号；接着是 和path_length数量相同的 xyz三轴坐标组，每组的形式为：“+12345-77745+86513|”, 符号有正有负，然后五个数字比如 +12345被解析为 float x = +1234.5 -77745被解析为float y=-7774.5,+86513被解析为float z = +8651.3 。每组坐标解析完成后，依次存入一个叫 int my_path = [64][3]的变量， 比如第一组坐标 x存入 [0][1],y存入
+```
