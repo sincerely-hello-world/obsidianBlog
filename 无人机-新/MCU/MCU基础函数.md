@@ -1,7 +1,57 @@
 
-## 降落 Land_g
+
+## 起飞 Takeoff_h
+
+```c
+static bool Takeoff_h(float height, int v)
+{
+	float position_base = 10;                                 //初始响应高度（加速高度的判决，由飞机底盘决定）
+	int vol_limit_takeoff = v;                                  //起飞加速度限制，由飞机重量决定
+	 
+	Mode_Inf->target_x = 0;
+	Mode_Inf->target_y = 0;
+		Lock_position(0.0f, 0.0f);
+
+	now_volx = (Mode_Inf->target_x - t265_x) * 1.5;
+	now_voly = (Mode_Inf->target_y - t265_y) * 1.5;
+
+	if(t265_z <= position_base){
+		now_volz = 60; // 60
+		Position_Control_set_TargetVelocityZ(now_volz);
+		Position_Control_set_TargetVelocityXY(now_volx, now_voly);
+		
+	}
+	else if(t265_z < height - 4 * position_base){
+		Position_Control_set_TargetVelocityXY(now_volx, now_voly);
+		Position_Control_set_TargetVelocityZ( now_volz + 2);
+		if(now_volz < vol_limit_takeoff){
+			now_volz = now_volz + 2;
+		}
+		else{
+			now_volz = now_volz - 2;
+		}
+	}
+	else if(t265_z < height - 5){
+		float now_hd = height - t265_z;
+			now_volz = 4.0 * now_hd / 3.0;
+		Position_Control_set_TargetVelocityXY(now_volx, now_voly);
+			Position_Control_set_TargetVelocityZ(now_volz);
+	}	
+	else{
+		Lock_h(height);
+		Lock_position(0.0f, 0.0f);
+		//Mode_Inf->zt++;
+		return true;
+	}
+	return false;
+}
 
 ```
+
+## 降落 Land_g
+
+
+```c
 static bool Land_g(float v)
 {
     static unsigned char soft_land_phase = 0;  // 0: 正常降落, 1: 软停止阶段
