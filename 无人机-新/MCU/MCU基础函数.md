@@ -137,3 +137,145 @@ static bool Land_g(float v)
     return false;
 }
 ```
+
+## 移动 Move_xyz()
+```c
+static uint8_t Move_xyz(float x, float y, float z, float v)
+{
+	uint8_t fanhui = 0;
+	static uint8_t l_step = 0;
+	float delta_x = x - t265_x;
+	float delta_y = y - t265_y;
+	float delta_z = z - t265_z;
+	float distance = sqrt(delta_x * delta_x + delta_y * delta_y + delta_z * delta_z);
+	
+	if (distance < 10)
+	{
+		fanhui = 1;
+	}
+	else if (distance < 20)
+	{
+		fanhui = -1;
+	}
+
+	if (l_step == 0)
+	{
+		UnLock_position();
+		UnLock_h();
+		Mode_Inf->target_x = x;
+		Mode_Inf->target_y = y;
+		Mode_Inf->target_z = z;
+		l_step++;
+	}
+	else if (l_step == 1)
+	{
+		UnLock_position();
+		UnLock_h();
+		Mode_Inf->target_x = x;
+		Mode_Inf->target_y = y;
+		Mode_Inf->target_z = z;
+		
+		if (distance > 55)
+		{
+			// 远距离移动，使用方向向量乘以速度
+			float delta_vx = now_volx - v * delta_x / distance;
+			float delta_vy = now_voly - v * delta_y / distance;
+			float delta_vz = now_volz - v * delta_z / distance;
+
+			// X方向速度控制
+			if (fabs(delta_vx) > 22)
+			{
+				now_volx = now_volx - 20 * sign_f(delta_vx) * fabs(delta_x / distance);
+			}
+			else
+			{
+				now_volx = v * delta_x / distance;
+			}
+
+			// Y方向速度控制
+			if (fabs(delta_vy) > 22)
+			{
+				now_voly = now_voly - 20 * sign_f(delta_vy) * fabs(delta_y / distance);
+			}
+			else
+			{
+				now_voly = v * delta_y / distance;
+			}
+			
+			// Z方向速度控制
+			if (fabs(delta_vz) > 20)
+			{
+				now_volz = now_volz - 8 * sign_f(delta_vz) * fabs(delta_z / distance);
+			}
+			else
+			{
+				now_volz = v * delta_z / distance;
+			}
+		}
+		else if (distance > 7)
+		{
+			// 中距离移动，使用比例控制
+			float delta_vx = now_volx - delta_x;
+			float delta_vy = now_voly - delta_y;
+			float delta_vz = now_volz - delta_z;
+			
+			// X方向速度控制
+			if (fabs(delta_vx) > 22)
+			{
+				now_volx = now_volx - 20 * sign_f(delta_vx) * fabs(delta_x / distance);
+			}
+			else
+			{
+				now_volx = delta_x;
+			}
+			if (fabsf(now_volx) < 20)
+			{
+				now_volx = delta_x * 2;
+			}
+			
+			// Y方向速度控制
+			if (fabs(delta_vy) > 22)
+			{
+				now_voly = now_voly - 20 * sign_f(delta_vy) * fabs(delta_y / distance);
+			}
+			else
+			{
+				now_voly = delta_y;
+			}
+			if (fabsf(now_voly) < 20)
+			{
+				now_voly = delta_y * 2;
+			}
+			
+			// Z方向速度控制
+			if (fabs(delta_vz) > 10)
+			{
+				now_volz = now_volz - 8 * sign_f(delta_vz) * fabs(delta_z / distance);
+			}
+			else
+			{
+				now_volz = delta_z;
+			}
+			if (fabsf(now_volz) < 10)
+			{
+				now_volz = delta_z * 2;
+			}
+
+		}
+		else
+		{
+			// 到达目标位置
+			Mode_Inf->target_x = x;
+			Mode_Inf->target_y = y;
+			Mode_Inf->target_z = z;
+			l_step = 0;
+			Lock_position_same();
+			Lock_h_same();
+			fanhui = 2;
+		}
+		
+		// 设置速度
+		Position_Control_set_TargetVelocityXY(now_volx, now_voly);
+		Position_Control_set_TargetVelocityZ(now_volz);
+	}
+```

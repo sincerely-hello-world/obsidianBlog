@@ -6,6 +6,7 @@
       {
         "id": "ac09a905a61dab8c",
         "type": "tabs",
+        "dimension": 76.58102766798419,
         "children": [
           {
             "id": "d748573df4ad45c2",
@@ -19,6 +20,28 @@
               },
               "icon": "lucide-file",
               "title": "MCU基础函数"
+            }
+          }
+        ]
+      },
+      {
+        "id": "02f5c742911ce01c",
+        "type": "tabs",
+        "dimension": 23.418972332015812,
+        "children": [
+          {
+            "id": "ecc53e11cfaad19d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "无人机-新/MCU/MCU基础函数.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "MCU基础函数 的大纲"
             }
           }
         ]
@@ -88,21 +111,6 @@
         "id": "7a2de948961bbe66",
         "type": "tabs",
         "children": [
-          {
-            "id": "5b4f0c8649ed1d33",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "无人机项目/udev用户权限.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of udev用户权限"
-            }
-          },
           {
             "id": "86a5f2241b419306",
             "type": "leaf",
@@ -176,9 +184,23 @@
               "icon": "lucide-tags",
               "title": "Tags"
             }
+          },
+          {
+            "id": "2507de9e3164ed9a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "无人机-新/MCU/MCU基础函数.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "MCU基础函数 的大纲"
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -197,7 +219,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "d748573df4ad45c2",
+  "active": "ecc53e11cfaad19d",
   "lastOpenFiles": [
     "无人机-新/Linux飞行站/kill.md",
     "无人机-新/未命名.md",
