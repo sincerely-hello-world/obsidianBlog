@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机-新/MCU/MCU基础函数.md",
+                "file": "无人机项目/0.硬件接线.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "MCU基础函数"
+              "title": "0.硬件接线"
             }
           }
         ]
@@ -27,7 +27,7 @@
       {
         "id": "02f5c742911ce01c",
         "type": "tabs",
-        "dimension": 23.418972332015812,
+        "dimension": 23.41897233201581,
         "children": [
           {
             "id": "ecc53e11cfaad19d",
@@ -35,13 +35,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机-新/MCU/MCU基础函数.md",
+                "file": "无人机项目/0.硬件接线.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "MCU基础函数 的大纲"
+              "title": "0.硬件接线 的大纲"
             }
           }
         ]
@@ -191,13 +191,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机-新/MCU/MCU基础函数.md",
+                "file": "无人机项目/0.硬件接线.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "MCU基础函数 的大纲"
+              "title": "0.硬件接线 的大纲"
             }
           }
         ]
@@ -219,8 +219,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ecc53e11cfaad19d",
+  "active": "d748573df4ad45c2",
   "lastOpenFiles": [
+    "无人机-新/MCU/MCU基础函数.md",
     "无人机-新/Linux飞行站/kill.md",
     "无人机-新/未命名.md",
     "无人机项目/0.硬件接线.md",
@@ -246,7 +247,6 @@
     "无人机项目/5. orangepi 飞行站节点示意图.md",
     "无人机项目/查看摄像头-检查摄像头链接.md",
     "无人机项目/舵机.md",
-    "无人机项目/锂电池.md",
     "无人机-新/Linux飞行站",
     "无人机-新/MCU",
     "无人机-新",
