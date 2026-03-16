@@ -128,7 +128,6 @@ static bool Land_g(float v)
         // 设置所有电机到目标油门（同步，保持平衡）
         // 假设有函数直接设电机PWM，或通过mixer
         // 这里用简化版：直接设相同值，但实际应叠加姿态控制输出
-			
 		now_volx = (Mode_Inf->target_x - t265_x) ;
         now_voly = (Mode_Inf->target_y - t265_y) ;
 		Position_Control_set_TargetVelocityXY(now_volx, now_voly);
