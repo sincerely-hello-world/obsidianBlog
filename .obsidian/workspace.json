@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/0.飞行端nomachine安装-卸载.md",
+                "file": "linux基本操作/整盘拷贝dd.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0.飞行端nomachine安装-卸载"
+              "title": "整盘拷贝dd"
             }
           }
         ],
@@ -212,8 +212,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ff956bd88238d377",
+  "active": "35fce7532c66dc2a",
   "lastOpenFiles": [
+    "linux基本操作/镜像源修改.md",
+    "无人机-新/镜像烧录.md",
+    "无人机项目/0.飞行端nomachine安装-卸载.md",
     "back/code/m37.c 2025.12.22.-2200.md",
     "back/code/低通滤波加减速.md",
     "back/code/之前的控制.md",
@@ -228,7 +231,6 @@
     "无人机项目/飞控板/激活的飞控-板卡信息.md",
     "无人机-新/QR码识别.md",
     "无人机-新/MCU/MCU基础函数.md",
-    "无人机-新/镜像烧录.md",
     "无人机-新/未命名.md",
     "无人机项目/图像与舵机.md",
     "无人机项目/udev用户权限.md",
@@ -238,8 +240,6 @@
     "无人机项目/ubuntu简易开机自启动.md",
     "无人机-新/MCU/drv_PWMOut.c.md",
     "无人机-新/MCU/串口通信调试完成！.md",
-    "无人机-新/ros2 新建launch.md",
-    "无人机-新/service阻塞.md",
     "无人机-新/Linux飞行站",
     "无人机-新/MCU",
     "无人机-新",
