@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机-新/Linux飞行站/1.0 拷贝镜像-烧录系统 1.md",
+                "file": "无人机-新/QR码识别.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.0 拷贝镜像-烧录系统 1"
+              "title": "QR码识别"
             }
           }
         ],
@@ -214,8 +214,8 @@
   },
   "active": "35fce7532c66dc2a",
   "lastOpenFiles": [
-    "无人机-新/镜像烧录.md",
     "无人机-新/Linux飞行站/1.0 拷贝镜像-烧录系统 1.md",
+    "无人机-新/镜像烧录.md",
     "无人机项目/1.0 拷贝镜像-烧录系统.md",
     "linux基本操作/整盘拷贝dd.md",
     "linux基本操作/镜像源修改.md",
