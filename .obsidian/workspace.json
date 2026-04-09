@@ -13,17 +13,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/0.硬件接线.md",
+                "file": "ros2-bridge/安装？.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "0.硬件接线 的大纲"
+              "title": "安装？ 的大纲"
             }
           },
           {
-            "id": "35fce7532c66dc2a",
+            "id": "0122f6c9d9e02f42",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,20 +34,6 @@
               },
               "icon": "lucide-file",
               "title": "安装？"
-            }
-          },
-          {
-            "id": "f2905442586b0ae3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "无人机-新/测试：.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "测试："
             }
           }
         ],
@@ -211,8 +197,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,13 +208,20 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "remotely-save:Remotely Save": false
     }
   },
-  "active": "35fce7532c66dc2a",
+  "active": "0122f6c9d9e02f42",
   "lastOpenFiles": [
-    "linux基本操作/git push 443.md",
     "PDF2zh.md",
+    "ros2-bridge/未命名 1.md",
+    "未命名.md",
+    "未命名.base",
+    "无人机-新/测试：.md",
+    "无人机项目/1.起飞操作.md",
+    "ros2-bridge/安装？.md",
+    "linux基本操作/git push 443.md",
     "ROS基本操作/ros使用/功能包pkg.md",
     "ROS基本操作/ros使用/话题topic.md",
     "ROS基本操作/ros使用/节点node.md",
@@ -237,13 +229,10 @@
     "ROS基本操作/1.workplace.md",
     "ROS基本操作/2.pkg.md",
     "ROS基本操作/多线程 回调实例.md",
-    "ros2-bridge/未命名 1.md",
-    "ros2-bridge/安装？.md",
     "2025.12.30飞控.md",
     "py偏函数partial-函数复用助手.md",
     "无人机-新/pyTree-Ros2.md",
     "ros2-bridge",
-    "无人机-新/测试：.md",
     "无人机-新/2024年摄像头.md",
     "无人机项目/0.硬件接线.md",
     "无人机项目/0.orangepi-wifi-nmcli设置.md",
@@ -252,9 +241,6 @@
     "无人机项目/1.0 拷贝镜像-烧录系统.md",
     "无人机项目/1.飞行站-迁移调试-python环境.md",
     "无人机-新/查看摄像头-检查摄像头链接 1.md",
-    "无人机项目/查看摄像头-检查摄像头链接.md",
-    "pytree/pytreeRosViewer.md",
-    "无人机-新/LD06 Lidar ROS2 driver.md",
     "pytree",
     "无人机-新/Linux飞行站",
     "无人机-新/MCU",
@@ -264,7 +250,6 @@
     "back/assets/环场地 T265点云图/file-20260123190634112.png",
     "back/assets/Untitled 1",
     "back/assets",
-    "back",
     "无人机项目/assets/图像与舵机/file-20260122201549747.png",
     "无人机项目/assets/图像与舵机/file-20260122201549744.png",
     "无人机项目/assets/图像与舵机/file-20260122201549765.png",
