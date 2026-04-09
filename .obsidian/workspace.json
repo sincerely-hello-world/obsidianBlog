@@ -112,7 +112,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ros2-bridge/安装？.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +121,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "安装？ 的反向链接列表"
+              "title": "反向链接"
             }
           },
           {
