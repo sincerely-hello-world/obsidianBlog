@@ -4,40 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "02f5c742911ce01c",
+        "id": "5f5e452407be147e",
         "type": "tabs",
         "children": [
           {
-            "id": "ecc53e11cfaad19d",
+            "id": "07e2abf213da3045",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "file": "back/Move_to_XYLine_original 1.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Move_to_XYLine_original 1 的大纲"
-            }
-          },
-          {
-            "id": "0122f6c9d9e02f42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "back/Move_to_XYLine_original 1.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Move_to_XYLine_original 1"
+              "title": "新标签页"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -69,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sk",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +70,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -209,12 +188,12 @@
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "bases:新建数据库": false,
-      "obsidian-git:Open Git source control": false,
-      "remotely-save:Remotely Save": false
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0122f6c9d9e02f42",
+  "active": "ff956bd88238d377",
   "lastOpenFiles": [
+    "back/Move_to_XYLine_original 1.md",
     "back/Move_to_XYLine_original.md",
     "back/环场地 T265点云图.md",
     "back/代码备份.md",
@@ -242,7 +221,6 @@
     "无人机项目/0.orangepi-wifi-nmcli设置.md",
     "无人机项目/0.Foxy ROS2安装.md",
     "无人机项目/0.rknn模型不兼容解决：.md",
-    "无人机项目/1.0 拷贝镜像-烧录系统.md",
     "pytree",
     "无人机-新/Linux飞行站",
     "无人机-新/MCU",
