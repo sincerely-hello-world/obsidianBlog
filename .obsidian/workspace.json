@@ -51,7 +51,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -226,10 +226,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f2905442586b0ae3",
+  "active": "35fce7532c66dc2a",
   "lastOpenFiles": [
-    "无人机-新/2024年摄像头.md",
     "无人机-新/测试：.md",
+    "无人机-新/2024年摄像头.md",
     "无人机项目/0.硬件接线.md",
     "无人机项目/0.orangepi-wifi-nmcli设置.md",
     "无人机项目/0.Foxy ROS2安装.md",
