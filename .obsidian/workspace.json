@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ros2-bridge/安装？.md",
+                "file": "PDF2zh.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "安装？"
+              "title": "PDF2zh"
             }
           },
           {
@@ -228,8 +228,18 @@
   },
   "active": "35fce7532c66dc2a",
   "lastOpenFiles": [
+    "ROS基本操作/ros使用/功能包pkg.md",
+    "PDF2zh.md",
+    "ROS基本操作/ros使用/话题topic.md",
+    "ROS基本操作/ros使用/节点node.md",
+    "ROS基本操作/0. 标准化输出.md",
+    "ROS基本操作/1.workplace.md",
+    "ROS基本操作/2.pkg.md",
+    "ROS基本操作/多线程 回调实例.md",
     "ros2-bridge/未命名 1.md",
     "ros2-bridge/安装？.md",
+    "2025.12.30飞控.md",
+    "py偏函数partial-函数复用助手.md",
     "无人机-新/pyTree-Ros2.md",
     "ros2-bridge",
     "无人机-新/测试：.md",
@@ -246,16 +256,6 @@
     "无人机-新/LD06 Lidar ROS2 driver.md",
     "pytree",
     "无人机-新/ekf融合.md",
-    "无人机项目/0.飞行端nomachine安装-卸载.md",
-    "无人机-新/Linux飞行站/kill.md",
-    "无人机-新/Linux飞行站/无人机.md",
-    "无人机-新/Linux飞行站/1.0 拷贝镜像-烧录系统 1.md",
-    "无人机-新/QR码识别.md",
-    "无人机-新/镜像烧录.md",
-    "linux基本操作/整盘拷贝dd.md",
-    "linux基本操作/镜像源修改.md",
-    "back/code/m37.c 2025.12.22.-2200.md",
-    "back/code/低通滤波加减速.md",
     "无人机-新/Linux飞行站",
     "无人机-新/MCU",
     "无人机-新",
