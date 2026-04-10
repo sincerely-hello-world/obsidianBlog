@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "git.md",
+                "file": "无人机-新/Linux飞行站/1.0 拷贝镜像-烧录系统 1.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "git"
+              "title": "1.0 拷贝镜像-烧录系统 1"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "git.md",
+                "file": "无人机-新/Linux飞行站/1.0 拷贝镜像-烧录系统 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "git 的反向链接列表"
+              "title": "1.0 拷贝镜像-烧录系统 1 的反向链接列表"
             }
           },
           {
@@ -127,12 +127,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "git.md",
+                "file": "无人机-新/Linux飞行站/1.0 拷贝镜像-烧录系统 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "git 的出链列表"
+              "title": "1.0 拷贝镜像-烧录系统 1 的出链列表"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "git.md",
+                "file": "无人机-新/Linux飞行站/1.0 拷贝镜像-烧录系统 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "git 的大纲"
+              "title": "1.0 拷贝镜像-烧录系统 1 的大纲"
             }
           },
           {
@@ -196,8 +196,12 @@
   },
   "active": "07e2abf213da3045",
   "lastOpenFiles": [
-    "ros2-bridge/安装？.md",
+    "无人机-新/2024年摄像头.md",
+    "无人机-新/测试：.md",
+    "无人机-新/查看摄像头-检查摄像头链接 1.md",
+    "无人机-新/镜像烧录.md",
     "git.md",
+    "ros2-bridge/安装？.md",
     "back/Move_to_XYLine_original 1.md",
     "back/Move_to_XYLine_original.md",
     "back/环场地 T265点云图.md",
@@ -205,7 +209,6 @@
     "PDF2zh.md",
     "ros2-bridge/未命名 1.md",
     "未命名.base",
-    "无人机-新/测试：.md",
     "无人机项目/1.起飞操作.md",
     "linux基本操作/git push 443.md",
     "ROS基本操作/ros使用/功能包pkg.md",
@@ -219,11 +222,8 @@
     "py偏函数partial-函数复用助手.md",
     "无人机-新/pyTree-Ros2.md",
     "ros2-bridge",
-    "无人机-新/2024年摄像头.md",
     "无人机项目/0.硬件接线.md",
     "无人机项目/0.orangepi-wifi-nmcli设置.md",
-    "无人机项目/0.Foxy ROS2安装.md",
-    "无人机项目/0.rknn模型不兼容解决：.md",
     "pytree",
     "无人机-新/Linux飞行站",
     "无人机-新/MCU",
