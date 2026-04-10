@@ -6,7 +6,6 @@
       {
         "id": "5f5e452407be147e",
         "type": "tabs",
-        "dimension": 41.87192118226601,
         "children": [
           {
             "id": "07e2abf213da3045",
@@ -20,25 +19,6 @@
               },
               "icon": "lucide-file",
               "title": "安装？"
-            }
-          }
-        ]
-      },
-      {
-        "id": "6c191a26cb736912",
-        "type": "tabs",
-        "dimension": 58.128078817733986,
-        "children": [
-          {
-            "id": "86a5f2241b419306",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "pinned": true,
-              "icon": "git-pull-request",
-              "title": "Source Control"
             }
           }
         ]
@@ -91,10 +71,11 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -167,7 +148,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "标签"
             }
           },
           {
@@ -176,16 +157,27 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/0.硬件接线.md",
+                "file": "ros2-bridge/安装？.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "0.硬件接线 的大纲"
+              "title": "安装？ 的大纲"
+            }
+          },
+          {
+            "id": "ca7c8b3f1d18a5e4",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -203,7 +195,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "86a5f2241b419306",
+  "active": "b73f7740e49be2ba",
   "lastOpenFiles": [
     "back/Move_to_XYLine_original 1.md",
     "back/Move_to_XYLine_original.md",
