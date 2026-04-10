@@ -75,7 +75,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -119,7 +119,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-archive",
-              "title": "All properties"
+              "title": "添加笔记属性"
             }
           },
           {
@@ -128,12 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "无人机项目/ROS基本操作/多线程 回调实例.md",
+                "file": "ros2-bridge/安装？.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 多线程 回调实例"
+              "title": "安装？ 的出链列表"
             }
           },
           {
@@ -144,7 +144,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true,
-                "showSearch": false,
+                "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
@@ -167,7 +167,7 @@
             }
           },
           {
-            "id": "ca7c8b3f1d18a5e4",
+            "id": "b7c5b571ff6c6f84",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -181,7 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 571.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,7 +195,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b73f7740e49be2ba",
+  "active": "88205e601b2ed97a",
   "lastOpenFiles": [
     "back/Move_to_XYLine_original 1.md",
     "back/Move_to_XYLine_original.md",
