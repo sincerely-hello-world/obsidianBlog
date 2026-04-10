@@ -181,7 +181,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 571.5
+    "width": 258.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,7 +195,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "88205e601b2ed97a",
+  "active": "b7c5b571ff6c6f84",
   "lastOpenFiles": [
     "back/Move_to_XYLine_original 1.md",
     "back/Move_to_XYLine_original.md",
