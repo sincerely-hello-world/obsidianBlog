@@ -74,12 +74,11 @@
               "title": "书签"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 341.5
+    "width": 215.5
   },
   "right": {
     "id": "3cad077738c9ddd4",
