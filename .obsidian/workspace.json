@@ -11,14 +11,14 @@
             "id": "a360700ec9c9fd85",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
+              "type": "markdown",
               "state": {
-                "aFile": ".obsidian/workspace.json",
-                "bFile": ".obsidian/workspace.json",
-                "aRef": ""
+                "file": "linux基本操作/虚拟机共享文件夹.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "diff",
-              "title": "Diff: workspace.json  (Working Tree)"
+              "icon": "lucide-file",
+              "title": "虚拟机共享文件夹"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "虚拟",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -193,8 +193,19 @@
   },
   "active": "a360700ec9c9fd85",
   "lastOpenFiles": [
-    "git.md",
     "无人机-新/Linux飞行站/1.0 拷贝镜像-烧录系统 1.md",
+    "linux基本操作/虚拟机共享文件夹.md",
+    "无人机项目/1.0 拷贝镜像-烧录系统.md",
+    "linux基本操作/镜像源修改.md",
+    "linux基本操作/整盘拷贝dd.md",
+    "linux基本操作/免密ssh连接.md",
+    "linux基本操作/git push 443.md",
+    "linux基本操作/linux rootfs定制.md",
+    "linux基本操作/nmcli.md",
+    "linux基本操作/nomachine安装-卸载.md",
+    "linux基本操作/systemd 服务管理.md",
+    "linux基本操作/udev用户权限.md",
+    "git.md",
     "无人机-新/2024年摄像头.md",
     "无人机-新/测试：.md",
     "无人机-新/查看摄像头-检查摄像头链接 1.md",
@@ -208,19 +219,8 @@
     "ros2-bridge/未命名 1.md",
     "未命名.base",
     "无人机项目/1.起飞操作.md",
-    "linux基本操作/git push 443.md",
     "ROS基本操作/ros使用/功能包pkg.md",
-    "ROS基本操作/ros使用/话题topic.md",
-    "ROS基本操作/ros使用/节点node.md",
-    "ROS基本操作/0. 标准化输出.md",
-    "ROS基本操作/1.workplace.md",
-    "ROS基本操作/2.pkg.md",
-    "ROS基本操作/多线程 回调实例.md",
-    "2025.12.30飞控.md",
-    "py偏函数partial-函数复用助手.md",
-    "无人机-新/pyTree-Ros2.md",
     "ros2-bridge",
-    "无人机项目/0.硬件接线.md",
     "pytree",
     "无人机-新/Linux飞行站",
     "无人机-新/MCU",
