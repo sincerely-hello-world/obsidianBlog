@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PX4/ros-gz-bridge.md",
+                "file": "PX4/warning.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ros-gz-bridge"
+              "title": "warning"
             }
           }
         ]
@@ -193,8 +193,9 @@
   },
   "active": "c6021d8f2b0e60d9",
   "lastOpenFiles": [
-    "PX4/里程计.md",
     "PX4/ros-gz-bridge.md",
+    "PX4/warning.md",
+    "PX4/里程计.md",
     "ros2-bridge/安装？.md",
     "PX4",
     "无人机-新/ros2 新建launch.md",
@@ -219,7 +220,6 @@
     "无人机-新/镜像烧录.md",
     "back/Move_to_XYLine_original 1.md",
     "back/Move_to_XYLine_original.md",
-    "back/环场地 T265点云图.md",
     "未命名.base",
     "ros2-bridge",
     "pytree",
