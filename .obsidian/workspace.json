@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux基本操作/wsl-attach-usb-dev.md",
+                "file": "PX4/px4-ros2-xrec_dds-sitl仿真位置控制.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "wsl-attach-usb-dev"
+              "title": "px4-ros2-xrec_dds-sitl仿真位置控制"
             }
           }
         ]
@@ -194,8 +194,9 @@
   },
   "active": "c6021d8f2b0e60d9",
   "lastOpenFiles": [
-    "无人机-新/QR码识别.md",
     "linux基本操作/wsl-attach-usb-dev.md",
+    "PX4/px4-ros2-xrec_dds-sitl仿真位置控制.md",
+    "无人机-新/QR码识别.md",
     "linux基本操作/1.飞行端orangepi-开机自启设置.md",
     "PX4/warning.md",
     "PX4/ros-gz-bridge.md",
@@ -220,7 +221,6 @@
     "linux基本操作/nomachine安装-卸载.md",
     "linux基本操作/systemd 服务管理.md",
     "linux基本操作/udev用户权限.md",
-    "git.md",
     "未命名.base",
     "ros2-bridge",
     "pytree",
