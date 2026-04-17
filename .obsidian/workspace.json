@@ -11,14 +11,17 @@
             "id": "c6021d8f2b0e60d9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "无人机项目/0.硬件接线.md",
-                "mode": "source",
-                "source": false
+                "file": "流程图.canvas",
+                "viewState": {
+                  "x": -30.72729492187497,
+                  "y": -231.394180721154,
+                  "zoom": -0.5
+                }
               },
-              "icon": "lucide-file",
-              "title": "0.硬件接线"
+              "icon": "lucide-layout-dashboard",
+              "title": "流程图"
             }
           }
         ]
@@ -53,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "虚拟",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -80,17 +83,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/0.硬件接线.md",
+                "file": "流程图.canvas",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "0.硬件接线 的大纲"
+              "title": "流程图 的大纲"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -110,6 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "流程图.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +122,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "流程图 的反向链接列表"
             }
           },
           {
@@ -142,11 +145,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "流程图.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "流程图 的出链列表"
             }
           },
           {
@@ -175,7 +179,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -193,8 +197,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b7c5b571ff6c6f84",
+  "active": "ff956bd88238d377",
   "lastOpenFiles": [
+    "无人机项目/0.硬件接线.md",
+    "流程图.canvas",
     "无人机项目/2. 串口对接-全局逻辑.md",
     "无人机项目/1.起飞操作.md",
     "无人机-新/2024年摄像头.md",
@@ -221,7 +227,6 @@
     "linux基本操作/git push 443.md",
     "linux基本操作/linux rootfs定制.md",
     "linux基本操作/nmcli.md",
-    "linux基本操作/nomachine安装-卸载.md",
     "未命名.base",
     "ros2-bridge",
     "pytree",
