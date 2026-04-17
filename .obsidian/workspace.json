@@ -154,13 +154,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux基本操作/wsl-attach-usb-dev.md",
+                "file": "无人机项目/0.硬件接线.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "wsl-attach-usb-dev 的大纲"
+              "title": "0.硬件接线 的大纲"
             }
           },
           {
@@ -174,7 +174,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -192,7 +192,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c6021d8f2b0e60d9",
+  "active": "2507de9e3164ed9a",
   "lastOpenFiles": [
     "无人机项目/2. 串口对接-全局逻辑.md",
     "无人机项目/1.起飞操作.md",
