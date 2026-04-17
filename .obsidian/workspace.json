@@ -86,12 +86,23 @@
               "icon": "lucide-list",
               "title": "Untitled Diagram 的大纲"
             }
+          },
+          {
+            "id": "b7c5b571ff6c6f84",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 375.5
   },
   "right": {
     "id": "3cad077738c9ddd4",
@@ -162,23 +173,13 @@
               "icon": "lucide-tags",
               "title": "标签"
             }
-          },
-          {
-            "id": "b7c5b571ff6c6f84",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 376.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,7 +193,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c6021d8f2b0e60d9",
+  "active": "b73f7740e49be2ba",
   "lastOpenFiles": [
     "流程图.canvas",
     "Untitled Diagram.svg",
