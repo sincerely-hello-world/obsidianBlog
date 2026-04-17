@@ -11,17 +11,12 @@
             "id": "c6021d8f2b0e60d9",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "diagram-edit",
               "state": {
-                "file": "流程图.canvas",
-                "viewState": {
-                  "x": -30.72729492187497,
-                  "y": -231.394180721154,
-                  "zoom": -0.5
-                }
+                "file": "Untitled Diagram.svg"
               },
-              "icon": "lucide-layout-dashboard",
-              "title": "流程图"
+              "icon": "lucide-file",
+              "title": "Untitled Diagram.svg"
             }
           }
         ]
@@ -83,20 +78,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "流程图.canvas",
+                "file": "Untitled Diagram.svg",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "流程图 的大纲"
+              "title": "Untitled Diagram 的大纲"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 295.5
+    "width": 200
   },
   "right": {
     "id": "3cad077738c9ddd4",
@@ -112,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "流程图.canvas",
+                "file": "Untitled Diagram.svg",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +117,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "流程图 的反向链接列表"
+              "title": "Untitled Diagram 的反向链接列表"
             }
           },
           {
@@ -145,12 +140,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "流程图.canvas",
+                "file": "Untitled Diagram.svg",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "流程图 的出链列表"
+              "title": "Untitled Diagram 的出链列表"
             }
           },
           {
@@ -183,7 +178,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 400.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -197,10 +192,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ff956bd88238d377",
+  "active": "c6021d8f2b0e60d9",
   "lastOpenFiles": [
-    "无人机项目/0.硬件接线.md",
     "流程图.canvas",
+    "Untitled Diagram.svg",
+    "无人机项目/0.硬件接线.md",
     "无人机项目/2. 串口对接-全局逻辑.md",
     "无人机项目/1.起飞操作.md",
     "无人机-新/2024年摄像头.md",
@@ -226,7 +222,6 @@
     "linux基本操作/免密ssh连接.md",
     "linux基本操作/git push 443.md",
     "linux基本操作/linux rootfs定制.md",
-    "linux基本操作/nmcli.md",
     "未命名.base",
     "ros2-bridge",
     "pytree",
@@ -245,7 +240,6 @@
     "无人机项目/assets/0. 飞行端orangepi-安装t265驱动/file-20260115191406172.png",
     "无人机项目/assets/0. 飞行端orangepi-安装t265驱动/file-20260115191406178.png",
     "无人机项目/assets/0.硬件接线/file-20251230215915930.png",
-    "无人机项目/assets/0.硬件接线/file-20251230202616559.png",
     "Untitled.canvas",
     "Untitled 1.canvas"
   ]
