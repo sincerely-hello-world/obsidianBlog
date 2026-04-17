@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机-新/2024年摄像头.md",
+                "file": "无人机项目/0.硬件接线.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024年摄像头"
+              "title": "0.硬件接线"
             }
           }
         ]
@@ -194,6 +194,9 @@
   },
   "active": "c6021d8f2b0e60d9",
   "lastOpenFiles": [
+    "无人机项目/2. 串口对接-全局逻辑.md",
+    "无人机项目/1.起飞操作.md",
+    "无人机-新/2024年摄像头.md",
     "PX4/px4-ros2-xrec_dds-sitl仿真位置控制.md",
     "linux基本操作/wsl-attach-usb-dev.md",
     "无人机-新/QR码识别.md",
@@ -204,7 +207,6 @@
     "ros2-bridge/安装？.md",
     "PX4",
     "无人机-新/ros2 新建launch.md",
-    "无人机-新/2024年摄像头.md",
     "无人机-新/测试：.md",
     "无人机-新/查看摄像头-检查摄像头链接 1.md",
     "无人机-新/LD06 Lidar ROS2 driver.md",
@@ -219,8 +221,6 @@
     "linux基本操作/linux rootfs定制.md",
     "linux基本操作/nmcli.md",
     "linux基本操作/nomachine安装-卸载.md",
-    "linux基本操作/systemd 服务管理.md",
-    "linux基本操作/udev用户权限.md",
     "未命名.base",
     "ros2-bridge",
     "pytree",
