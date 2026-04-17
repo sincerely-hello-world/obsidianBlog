@@ -73,8 +73,24 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
+          },
+          {
+            "id": "2507de9e3164ed9a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "无人机项目/0.硬件接线.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "0.硬件接线 的大纲"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -149,21 +165,6 @@
             }
           },
           {
-            "id": "2507de9e3164ed9a",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "无人机项目/0.硬件接线.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "0.硬件接线 的大纲"
-            }
-          },
-          {
             "id": "b7c5b571ff6c6f84",
             "type": "leaf",
             "state": {
@@ -192,7 +193,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2507de9e3164ed9a",
+  "active": "b7c5b571ff6c6f84",
   "lastOpenFiles": [
     "无人机项目/2. 串口对接-全局逻辑.md",
     "无人机项目/1.起飞操作.md",
