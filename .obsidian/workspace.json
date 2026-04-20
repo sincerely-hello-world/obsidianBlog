@@ -11,12 +11,14 @@
             "id": "c59cf49dcdfee039",
             "type": "leaf",
             "state": {
-              "type": "diagram",
+              "type": "markdown",
               "state": {
-                "file": "Untitled Diagram.svg"
+                "file": "PX4/ros2 新建py包.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled Diagram"
+              "title": "ros2 新建py包"
             }
           }
         ]
@@ -131,13 +133,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled Diagram.svg",
+                "file": "PX4/ros2 新建py包.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Untitled Diagram 的大纲"
+              "title": "ros2 新建py包 的大纲"
             }
           },
           {
@@ -146,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled Diagram.svg",
+                "file": "PX4/ros2 新建py包.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +158,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Untitled Diagram 的反向链接列表"
+              "title": "ros2 新建py包 的反向链接列表"
             }
           },
           {
@@ -165,19 +167,19 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled Diagram.svg",
+                "file": "PX4/ros2 新建py包.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Untitled Diagram 的出链列表"
+              "title": "ros2 新建py包 的出链列表"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 398.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,11 +195,12 @@
   },
   "active": "c59cf49dcdfee039",
   "lastOpenFiles": [
+    "Untitled Diagram.svg",
+    "PX4/ros2 新建py包.md",
     "PDF2zh.md",
     "流程图.canvas",
     "git.md",
     "linux基本操作/1.飞行端orangepi-开机自启设置.md",
-    "Untitled Diagram.svg",
     "无人机项目/0.硬件接线.md",
     "无人机项目/2. 串口对接-全局逻辑.md",
     "无人机项目/1.起飞操作.md",
@@ -220,8 +223,6 @@
     "无人机项目/1.0 拷贝镜像-烧录系统.md",
     "linux基本操作/镜像源修改.md",
     "linux基本操作/整盘拷贝dd.md",
-    "linux基本操作/免密ssh连接.md",
-    "linux基本操作/git push 443.md",
     "未命名.base",
     "ros2-bridge",
     "pytree",
