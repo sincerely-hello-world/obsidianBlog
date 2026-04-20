@@ -79,3 +79,10 @@ setup(
   </export>
 </package>
 ```
+
+4. 构建项目测试
+```bash
+colcon build
+colcon build --symlink-install
+colcon build --packages-select <your_packagename> --symlink-install
+```
