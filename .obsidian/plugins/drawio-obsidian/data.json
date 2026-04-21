@@ -1,10 +1,11 @@
 {
   "welcomeComplete": true,
   "theme": {
-    "layout": "full"
+    "layout": "sketch",
+    "dark": false
   },
   "drawing": {
-    "sketch": false
+    "sketch": true
   },
   "cssSnippets": []
 }
