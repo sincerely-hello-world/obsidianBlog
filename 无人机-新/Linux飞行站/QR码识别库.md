@@ -1,6 +1,6 @@
 ```
 apt-get update
-sudo apt install -y libzbar-dev
+sudo apt-get install -y libzbar-dev
 pip3 install pyzbar
 ```
 
