@@ -39,11 +39,29 @@ SUBSYSTEMS=="pwm", KERNELS=="pwmchip*", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
         chown root:pwm -R /sys%p/  && \
         chmod ug+rw    -R /sys%p/  '"
         
-# i2c操作 归属和权限
-SUBSYSTEMS=="i2c-dev", KERNELS=="i2c-0*", KERNEL=="pwm*", PROGRAM="/bin/sh -c '\
+# i2c操作 归属和权限  # i2c-5 对应 uart1 的引脚，所以要关闭uart1!
+SUBSYSTEMS=="i2c", KERNELS=="i2c-5", SUBSYSTEM=="i2c-dev", KERNEL=="i2c-5", PROGRAM="/bin/sh -c '\
         chown root:pwm -R /sys%p/  && \
         chmod ug+rw    -R /sys%p/  '"
 ```
+
+---
+
+
+  looking at device '/devices/platform/fd880000.i2c/i2c-0/i2c-dev/i2c-0':
+    KERNEL=="i2c-0"
+    SUBSYSTEM=="i2c-dev"
+    DRIVER==""
+    ATTR{name}=="rk3x-i2c"
+
+  looking at parent device '/devices/platform/fd880000.i2c/i2c-0':
+    KERNELS=="i2c-0"
+    SUBSYSTEMS=="i2c"
+    DRIVERS==""
+    ATTRS{name}=="rk3x-i2c"
+    ATTRS{waiting_for_supplier}=="0"
+    
+---
 
 orangepi i2c设备：
 ```bash
