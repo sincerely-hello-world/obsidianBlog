@@ -47,4 +47,18 @@ lrwxrwxrwx 1 root root    0 Apr 24 21:10 device -> ../../../i2c-0
 drwxr-xr-x 2 root root    0 Apr 24 16:16 power
 lrwxrwxrwx 1 root root    0 Apr 24 16:15 subsystem -> ../../../../../../class/i2c-dev
 -rw-r--r-- 1 root root 4096 Apr 24 16:15 uevent
+
+
+ls /sys/class/pwm/pwmchip2/ -l
+total 0
+lrwxrwxrwx 1 root pwm    0 Apr 24 16:16 device -> ../../../febd0020.pwm
+-rw-rw---- 1 root pwm 4096 Apr 24 16:16 export
+-rw-rw-r-- 1 root pwm 4096 Apr 24 16:16 npwm
+drwxrwxr-x 2 root pwm    0 Apr 24 16:16 power
+lrwxrwxrwx 1 root pwm    0 Apr 24 16:16 subsystem -> ../../../../../class/pwm
+-rw-rw-r-- 1 root pwm 4096 Apr 24 16:16 uevent
+-rw-rw---- 1 root pwm 4096 Apr 24 16:16 unexport
+
+
+
 ```
