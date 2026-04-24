@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机-新/Linux飞行站/1.0 拷贝镜像-烧录系统 1.md",
+                "file": "无人机-新/Linux飞行站/kill.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.0 拷贝镜像-烧录系统 1"
+              "title": "kill"
             }
           },
           {
@@ -147,13 +147,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机-新/Linux飞行站/1.0 拷贝镜像-烧录系统 1.md",
+                "file": "无人机-新/Linux飞行站/kill.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "1.0 拷贝镜像-烧录系统 1 的大纲"
+              "title": "kill 的大纲"
             }
           },
           {
@@ -207,8 +207,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "35ce1f983879e699",
+  "active": "ff956bd88238d377",
   "lastOpenFiles": [
+    "无人机-新/Linux飞行站/1.0 拷贝镜像-烧录系统 1.md",
     "无人机项目/飞控板/激活的飞控-板卡信息.md",
     "无人机-新/镜像烧录.md",
     "无人机-新/测试：.md",
@@ -236,7 +237,6 @@
     "无人机项目/1.起飞操作.md",
     "无人机项目/2. 串口对接-全局逻辑.md",
     "无人机项目/3.话题概览.md",
-    "无人机项目/5. orangepi 飞行站节点示意图.md",
     "无人机项目/assets/锂电池/file-20251214220210503.jpg",
     "无人机项目/assets/锂电池/file-20251214220210500.png",
     "无人机项目/assets/锂电池/file-20251214220210483.png",
