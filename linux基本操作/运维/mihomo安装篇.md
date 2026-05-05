@@ -643,5 +643,4 @@ UI路径: $UI_DIR/metacubexd\n\
 使用 sudo systemctl start mihomo启动服务后, 访问 http://localhost:9090/ui 即可打开控制面板，默认密码为 !mihomo@.dashboard.local \n\
 ------------------------\n\
 "
-
 ```
