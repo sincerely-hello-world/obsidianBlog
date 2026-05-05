@@ -22,7 +22,7 @@ if [ "$EUID" -ne 0 ]; then
 
 fi
 
-  
+mkdir -p "$mihomo_dir" "$UI_DIR"  && touch "$mihomo_dir/config.yaml" && cd "$mihomo_dir" && chmod 600 config.yaml
 
 # install mihomo
 
@@ -30,11 +30,7 @@ wget  -O mihomo.deb https://github.com/MetaCubeX/mihomo/releases/download/v1.19
 
 dpkg -i mihomo.deb && rm mihomo.deb
 
-  
-  
-
-mkdir -p "$mihomo_dir" "$UI_DIR"  && touch "$mihomo_dir/config.yaml" && cd "$mihomo_dir" && chmod 600 config.yaml
-
+   
   
 
 # download metacubexd ui
@@ -52,17 +48,18 @@ tar -xzf "$UI_DIR/metacubexd.tgz" -C "$UI_DIR/metacubexd/" && rm "$UI_DIR/metacu
 
 # download zashboard ui
 
-wget -O "$UI_DIR/zashboard.zip" https://github.com/Zephyruso/zashboard/releases/latest/download/dist.zip
+# wget -O "$UI_DIR/zashboard.zip" https://github.com/Zephyruso/zashboard/releases/latest/download/dist.zip
 
-unzip "$UI_DIR/zashboard.zip" -d "$UI_DIR/zashboard/" && rm "$UI_DIR/zashboard.zip"
+# unzip "$UI_DIR/zashboard.zip" -d "$UI_DIR/zashboard/" && rm "$UI_DIR/zashboard.zip"
 
   
 
 # download Yacd-meta ui
 
-wget -O "$UI_DIR/Yacd-meta.zip" https://github.com/MetaCubeX/yacd/archive/gh-pages.zip
+# wget -O "$UI_DIR/Yacd-meta.zip" https://github.com/MetaCubeX/yacd/archive/gh-pages.zip
 
-unzip "$UI_DIR/Yacd-meta.zip" -d "$UI_DIR/Yacd-meta/" && rm "$UI_DIR/Yacd-meta.zip"
+# unzip "$UI_DIR/Yacd-meta.zip" -d "$UI_DIR/Yacd-meta/" && rm "$UI_DIR/Yacd-meta.zip"
+
 
 cat > /etc/mihomo/config.yaml << 'EOF'
 
