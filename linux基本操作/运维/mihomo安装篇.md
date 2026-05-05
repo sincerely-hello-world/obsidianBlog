@@ -124,7 +124,7 @@ log-level: info
 
 # 外部控制设置 ##  metacubexd    Yacd-meta  zashboard 都可以，推荐 metacubexd
 
-external-controller: 0.0.0.0:9090        # 外部控制器监听地址
+external-controller: 127.0.0.1:9090        # 外部控制器监听地址
 
 external-ui: "/etc/mihomo/ui/metacubexd"   # 外部控制器UI目录
 
@@ -1262,6 +1262,5 @@ UI路径: $UI_DIR/metacubexd\n\
 使用 sudo systemctl start mihomo启动服务后, 访问 http://localhost:9090/ui 即可打开控制面板，默认密码为 !mihomo@.dashboard.local \n\
 
 ------------------------\n\
-
 "
 ```
