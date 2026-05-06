@@ -11,10 +11,14 @@
             "id": "330e03ac7b6bd716",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "无人机-新/Linux飞行站/1.0 拷贝镜像-烧录系统 1.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "1.0 拷贝镜像-烧录系统 1"
             }
           }
         ]
@@ -129,12 +133,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "无人机-新/Linux飞行站/1.0 拷贝镜像-烧录系统 1.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "大纲"
+              "title": "1.0 拷贝镜像-烧录系统 1 的大纲"
             }
           },
           {
@@ -190,21 +195,26 @@
   },
   "active": "330e03ac7b6bd716",
   "lastOpenFiles": [
+    "无人机-新/Linux飞行站/kill.md",
+    "无人机-新/Linux飞行站/1.0 拷贝镜像-烧录系统 1.md",
+    "无人机-新/Linux飞行站/QR码识别库.md",
+    "无人机-新/查看摄像头-检查摄像头链接 1.md",
+    "无人机-新/ekf融合.md",
+    "无人机-新/2024年摄像头.md",
+    "无人机-新/测试：.md",
+    "无人机-新/LD06 Lidar ROS2 driver.md",
+    "无人机-新/pyTree-Ros2.md",
+    "无人机-新/ros2 新建launch.md",
+    "无人机-新/service阻塞.md",
     "无人机-新/Linux飞行站/udev规则.md",
     "linux基本操作/运维/mihomo规则优化.md",
     "linux基本操作/运维/mihomo安装篇.md",
     "linux基本操作/udev用户权限.md",
     "未命名.md",
     "linux基本操作/运维",
-    "无人机-新/Linux飞行站/QR码识别库.md",
-    "无人机-新/Linux飞行站/kill.md",
-    "无人机-新/Linux飞行站/1.0 拷贝镜像-烧录系统 1.md",
     "无人机项目/飞控板/激活的飞控-板卡信息.md",
     "无人机-新/镜像烧录.md",
-    "无人机-新/测试：.md",
     "linux基本操作/多用户.md",
-    "无人机-新/ros2 新建launch.md",
-    "无人机-新/service阻塞.md",
     "无人机-新/t265坐标数据说明：.md",
     "linux基本操作/0.飞行端nomachine安装-卸载 1.md",
     "无人机项目/0.飞行端nomachine安装-卸载.md",
@@ -212,13 +222,8 @@
     "无人机项目/0.飞行端orangepi-外设使能.md",
     "无人机项目/0.硬件接线.md",
     "无人机项目/0.Foxy ROS2安装.md",
-    "无人机项目/udev用户权限.md",
-    "无人机项目/图像与舵机.md",
-    "无人机项目/锂电池.md",
-    "PX4/灵智实验室px4.md",
     "Untitled Diagram.svg",
     "无人机项目/assets/锂电池/file-20251214220210504.pdf",
-    "linux基本操作/开机启动-service方式.md",
     "无人机项目/assets/锂电池/file-20251214220210503.jpg",
     "无人机项目/assets/锂电池/file-20251214220210500.png",
     "无人机项目/assets/锂电池/file-20251214220210483.png",
