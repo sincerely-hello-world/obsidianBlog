@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机-新/Linux飞行站/1.0 拷贝镜像-烧录系统 1.md",
+                "file": "无人机-新/LD06 Lidar ROS2 driver.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1.0 拷贝镜像-烧录系统 1"
+              "title": "LD06 Lidar ROS2 driver"
             }
           }
         ]
@@ -133,13 +133,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机-新/Linux飞行站/1.0 拷贝镜像-烧录系统 1.md",
+                "file": "无人机-新/LD06 Lidar ROS2 driver.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "1.0 拷贝镜像-烧录系统 1 的大纲"
+              "title": "LD06 Lidar ROS2 driver 的大纲"
             }
           },
           {
@@ -195,22 +195,27 @@
   },
   "active": "330e03ac7b6bd716",
   "lastOpenFiles": [
-    "无人机-新/Linux飞行站/kill.md",
-    "无人机-新/Linux飞行站/1.0 拷贝镜像-烧录系统 1.md",
-    "无人机-新/Linux飞行站/QR码识别库.md",
-    "无人机-新/查看摄像头-检查摄像头链接 1.md",
-    "无人机-新/ekf融合.md",
-    "无人机-新/2024年摄像头.md",
-    "无人机-新/测试：.md",
-    "无人机-新/LD06 Lidar ROS2 driver.md",
     "无人机-新/pyTree-Ros2.md",
+    "无人机-新/LD06 Lidar ROS2 driver.md",
+    "无人机-新/ekf融合.md",
+    "无人机-新/查看摄像头-检查摄像头链接 1.md",
+    "无人机-新/2024年摄像头.md",
+    "无人机-新/Linux飞行站/1.0 拷贝镜像-烧录系统 1.md",
+    "无人机-新/Linux飞行站/udev规则.md",
+    "无人机-新/Linux飞行站/QR码识别库.md",
+    "PDF2zh.md",
+    "流程图.canvas",
+    "未命名.md",
+    "linux基本操作/git.md",
+    "飞控协议/车辆控制通信协议.md",
+    "Untitled Diagram.svg",
+    "无人机-新/Linux飞行站/kill.md",
+    "无人机-新/测试：.md",
     "无人机-新/ros2 新建launch.md",
     "无人机-新/service阻塞.md",
-    "无人机-新/Linux飞行站/udev规则.md",
     "linux基本操作/运维/mihomo规则优化.md",
     "linux基本操作/运维/mihomo安装篇.md",
     "linux基本操作/udev用户权限.md",
-    "未命名.md",
     "linux基本操作/运维",
     "无人机项目/飞控板/激活的飞控-板卡信息.md",
     "无人机-新/镜像烧录.md",
@@ -218,11 +223,6 @@
     "无人机-新/t265坐标数据说明：.md",
     "linux基本操作/0.飞行端nomachine安装-卸载 1.md",
     "无人机项目/0.飞行端nomachine安装-卸载.md",
-    "无人机项目/0.飞行端librknn_api.so不兼容 rknn模型的问题.md",
-    "无人机项目/0.飞行端orangepi-外设使能.md",
-    "无人机项目/0.硬件接线.md",
-    "无人机项目/0.Foxy ROS2安装.md",
-    "Untitled Diagram.svg",
     "无人机项目/assets/锂电池/file-20251214220210504.pdf",
     "无人机项目/assets/锂电池/file-20251214220210503.jpg",
     "无人机项目/assets/锂电池/file-20251214220210500.png",
@@ -238,7 +238,6 @@
     "无人机项目/assets/锂电池/file-20251214220210508.jpg",
     "无人机项目/assets/锂电池/file-20251214220210507.jpg",
     "PX4/Untitled Diagram.svg",
-    "流程图.canvas",
     "PX4",
     "未命名.base",
     "ros2-bridge",
