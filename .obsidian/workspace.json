@@ -113,8 +113,7 @@
               "title": "添加笔记属性"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -194,7 +193,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "330e03ac7b6bd716",
+  "active": "ff956bd88238d377",
   "lastOpenFiles": [
     "无人机项目/udev用户权限.md",
     "linux基本操作/ubuntu简易开机自启动.md",
