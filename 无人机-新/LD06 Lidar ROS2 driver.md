@@ -22,6 +22,5 @@ Optional Parameters:
 * `topic_name` used to override the default `scan` topic name.
 
 For example:
-
-    ros2 launch ldlidar ldlidar.launch.py serial_port:=/dev/ttyUSB0
+colcon build  &&  source ./install/setup.sh &&   ros2 launch ldlidar ldlidar.launch.py serial_port:=/dev/ttyUSB0
 
