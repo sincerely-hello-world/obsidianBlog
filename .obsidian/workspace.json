@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "未命名.md",
+                "file": "carapace-sh.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "未命名"
+              "title": "carapace-sh"
             }
           }
         ]
@@ -133,13 +133,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "未命名.md",
+                "file": "carapace-sh.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "未命名 的大纲"
+              "title": "carapace-sh 的大纲"
             }
           },
           {
@@ -196,7 +196,7 @@
   "active": "330e03ac7b6bd716",
   "lastOpenFiles": [
     "无人机-新/LD06 Lidar ROS2 driver.md",
-    "未命名.md",
+    "carapace-sh.md",
     "无人机-新/海蓝科技.md",
     "linux基本操作/udev用户权限.md",
     "无人机项目/udev用户权限.md",
