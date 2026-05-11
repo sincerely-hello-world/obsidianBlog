@@ -11,6 +11,7 @@ sudo apt-get install ros-$ROS_DISTRO-joint-state-publisher
 # xacro宏 转 urdf模型
 ```
 sudo apt-get install ros-$ROS_DISTRO-xacro
+xacro 《你的sxacro模型》
 ```
 
 
