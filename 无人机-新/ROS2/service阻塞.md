@@ -1,5 +1,5 @@
 阻塞式回调
-```
+```python
 def send_command(self, cmd:String):
         if rclpy.ok() and self.client_command.wait_for_service(timeout_sec = 0.5)==False:
             self.get_logger().info(f"发送{cmd}失败: 服务未就绪")
