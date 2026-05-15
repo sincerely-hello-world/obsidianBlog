@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/0. 飞行端orangepi-安装t265驱动.md",
+                "file": "back/code/低通滤波加减速.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0. 飞行端orangepi-安装t265驱动"
+              "title": "低通滤波加减速"
             }
           }
         ]
@@ -53,10 +53,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "t265",
+                "query": "param set",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -134,13 +134,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/0. 飞行端orangepi-安装t265驱动.md",
+                "file": "back/code/低通滤波加减速.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "0. 飞行端orangepi-安装t265驱动 的大纲"
+              "title": "低通滤波加减速 的大纲"
             }
           },
           {
@@ -196,11 +196,11 @@
   },
   "active": "330e03ac7b6bd716",
   "lastOpenFiles": [
+    "无人机项目/0. 飞行端orangepi-安装t265驱动.md",
     "无人机项目/4. 添加服务.md",
     "无人机项目/3.话题概览.md",
     "无人机项目/1.起飞操作.md",
     "无人机项目/0.硬件接线.md",
-    "无人机项目/0. 飞行端orangepi-安装t265驱动.md",
     "无人机-新/查看摄像头-检查摄像头链接 1.md",
     "无人机-新/海蓝科技.md",
     "无人机-新/ekf融合.md",
