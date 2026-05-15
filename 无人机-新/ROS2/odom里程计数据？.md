@@ -2,7 +2,7 @@
 nav_msgs/msg/Odometry
 
 + ros2 topic echo /camera/pose/sample
-
+sudo apt install ros-$ROS_DISTRO-tf-transformations
 ```
 ---
 header:
