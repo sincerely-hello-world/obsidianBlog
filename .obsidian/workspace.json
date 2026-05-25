@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机-新/ROS2/读取t265并发布里程计.md",
+                "file": "linux基本操作/python引用指针？.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "读取t265并发布里程计"
+              "title": "python引用指针？"
             }
           }
         ]
@@ -133,13 +133,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机-新/ROS2/读取t265并发布里程计.md",
+                "file": "linux基本操作/python引用指针？.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "读取t265并发布里程计 的大纲"
+              "title": "python引用指针？ 的大纲"
             }
           },
           {
@@ -195,6 +195,8 @@
   },
   "active": "91d94da8fc6923ce",
   "lastOpenFiles": [
+    "无人机-新/ROS2/读取t265并发布里程计.md",
+    "linux基本操作/python引用指针？.md",
     "无人机-新/ROS2/pyTree-Ros2.md",
     "无人机-新/ROS2/odom里程计数据？.md",
     "无人机-新/ROS2/LD06 Lidar ROS2 driver.md",
@@ -207,7 +209,6 @@
     "无人机-新/查看摄像头-检查摄像头链接 1.md",
     "无人机-新/海蓝科技.md",
     "无人机-新/ekf融合.md",
-    "无人机-新/ROS2/读取t265并发布里程计.md",
     "无人机-新/ROS2/ros2 新建launch.md",
     "无人机-新/ROS2/ros2-control.md",
     "无人机项目/0. 飞行端orangepi-安装t265驱动.md",
@@ -221,7 +222,6 @@
     "无人机项目/5. orangepi 飞行站节点示意图.md",
     "无人机项目/查看摄像头-检查摄像头链接.md",
     "无人机-新/ROS2",
-    "carapace-sh.md",
     "流程图.canvas",
     "Untitled Diagram.svg",
     "linux基本操作/运维",
