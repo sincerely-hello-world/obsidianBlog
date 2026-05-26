@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "linux基本操作/python引用指针？.md",
+                "file": "linux基本操作/systemd 服务管理.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "python引用指针？"
+              "title": "systemd 服务管理"
             }
           }
         ]
@@ -113,7 +113,8 @@
               "title": "添加笔记属性"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -133,13 +134,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "linux基本操作/python引用指针？.md",
+                "file": "linux基本操作/systemd 服务管理.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "python引用指针？ 的大纲"
+              "title": "systemd 服务管理 的大纲"
             }
           },
           {
@@ -193,10 +194,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "91d94da8fc6923ce",
+  "active": "88205e601b2ed97a",
   "lastOpenFiles": [
-    "无人机-新/ROS2/读取t265并发布里程计.md",
+    "linux基本操作/snap.md",
     "linux基本操作/python引用指针？.md",
+    "无人机-新/ROS2/读取t265并发布里程计.md",
     "无人机-新/ROS2/pyTree-Ros2.md",
     "无人机-新/ROS2/odom里程计数据？.md",
     "无人机-新/ROS2/LD06 Lidar ROS2 driver.md",
@@ -220,7 +222,6 @@
     "无人机项目/1.飞行站-迁移调试-python环境.md",
     "无人机项目/2. 串口对接-全局逻辑.md",
     "无人机项目/5. orangepi 飞行站节点示意图.md",
-    "无人机项目/查看摄像头-检查摄像头链接.md",
     "无人机-新/ROS2",
     "流程图.canvas",
     "Untitled Diagram.svg",
