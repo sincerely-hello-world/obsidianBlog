@@ -8,7 +8,7 @@ source install/setup.bash
 
 ```
 cd src 
-ros2 pkg create car --build-type ament_python 
+ros2 pkg create my_launch_pkg --build-type ament_python 
 cd my_launch_pkg
 ```
 
