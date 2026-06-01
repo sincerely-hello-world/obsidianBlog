@@ -113,8 +113,7 @@
               "title": "添加笔记属性"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -194,7 +193,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "91d94da8fc6923ce",
+  "active": "ff956bd88238d377",
   "lastOpenFiles": [
     "无人机项目/0.硬件接线.md",
     "无人机项目/0.orangepi-wifi-nmcli设置.md",
