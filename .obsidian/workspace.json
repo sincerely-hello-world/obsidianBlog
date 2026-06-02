@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "无人机项目/0.硬件接线.md",
+                "file": "无人机-新/激活板子.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0.硬件接线"
+              "title": "激活板子"
             }
           }
         ]
@@ -133,13 +133,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "无人机项目/0.硬件接线.md",
+                "file": "无人机-新/激活板子.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "0.硬件接线 的大纲"
+              "title": "激活板子 的大纲"
             }
           },
           {
@@ -195,9 +195,9 @@
   },
   "active": "91d94da8fc6923ce",
   "lastOpenFiles": [
+    "无人机项目/0.硬件接线.md",
     "无人机-新/激活板子.md",
     "无人机项目/0. 飞行端orangepi-安装t265驱动.md",
-    "无人机项目/0.硬件接线.md",
     "无人机项目/0.orangepi-wifi-nmcli设置.md",
     "无人机项目/0.rknn模型不兼容解决：.md",
     "无人机项目/1.0 拷贝镜像-烧录系统.md",
